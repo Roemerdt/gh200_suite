@@ -1,0 +1,1 @@
+cell=route/f-den=1,f-num=1,footprint-mib=256,kernel=k1,placement=hbm,sequence=ABAB rounds=110 warmups=10 discards=0 k=2 floor_ns=0 nA=200 medA=131238 loA=131224 hiA=131244 targetA=1 nB=200 medB=787392 loB=787296 hiB=787484 targetB=1 cap_hit=0 stopped_on_target=0 ahp_kb_end_A=0 ahp_kb_end_B=0

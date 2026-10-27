@@ -1,0 +1,42 @@
+job=237480 attempt=0 node=j21n14 campaign=shake1 start=2026-10-05T12:20:53+02:00
+PLACEMENT GATE: node0=353.8 GB/s node1=3697.5 GB/s factor=2
+prologue done 2026-10-05T12:21:25+02:00
+[2026-10-05 12:21:25] phase=checks cells=12 jobid=237480 attempt=0 campaign=shake1 warmup=10
+[2026-10-05 12:21:25] RUN checks/fr4_verify_node0  (FR-4 construction evidence (untimed))
+[2026-10-05 12:21:25]     bin/atomics verify --node 0 --ops 200000 --out results/shake1/raw/checks/fr4_verify_node0.a0.csv
+[2026-10-05 12:21:25] OK  checks/fr4_verify_node0 in 0 s (est 10)
+[2026-10-05 12:21:25] RUN checks/fr4_verify_node1  (FR-4 construction evidence (untimed))
+[2026-10-05 12:21:25]     bin/atomics verify --node 1 --ops 200000 --out results/shake1/raw/checks/fr4_verify_node1.a0.csv
+[2026-10-05 12:21:26] OK  checks/fr4_verify_node1 in 0 s (est 10)
+[2026-10-05 12:21:26] RUN checks/coh_verify_c2g_write_node0  (untimed per-segment checksum pass)
+[2026-10-05 12:21:26]     bin/coherence verify --dir c2g --mode write --node 0 --size-mib 16 --out results/shake1/raw/checks/coh_verify_c2g_write_node0.a0.csv
+[2026-10-05 12:21:30] OK  checks/coh_verify_c2g_write_node0 in 4 s (est 20)
+[2026-10-05 12:21:30] RUN checks/coh_verify_c2g_write_node1  (untimed per-segment checksum pass)
+[2026-10-05 12:21:30]     bin/coherence verify --dir c2g --mode write --node 1 --size-mib 16 --out results/shake1/raw/checks/coh_verify_c2g_write_node1.a0.csv
+[2026-10-05 12:21:34] OK  checks/coh_verify_c2g_write_node1 in 4 s (est 20)
+[2026-10-05 12:21:34] RUN checks/coh_verify_c2g_untouched_node0  (untimed per-segment checksum pass)
+[2026-10-05 12:21:34]     bin/coherence verify --dir c2g --mode untouched --node 0 --size-mib 16 --out results/shake1/raw/checks/coh_verify_c2g_untouched_node0.a0.csv
+[2026-10-05 12:21:39] OK  checks/coh_verify_c2g_untouched_node0 in 4 s (est 20)
+[2026-10-05 12:21:39] RUN checks/coh_verify_c2g_untouched_node1  (untimed per-segment checksum pass)
+[2026-10-05 12:21:39]     bin/coherence verify --dir c2g --mode untouched --node 1 --size-mib 16 --out results/shake1/raw/checks/coh_verify_c2g_untouched_node1.a0.csv
+[2026-10-05 12:21:43] OK  checks/coh_verify_c2g_untouched_node1 in 4 s (est 20)
+[2026-10-05 12:21:43] RUN checks/coh_verify_g2c_write_node0  (untimed per-segment checksum pass)
+[2026-10-05 12:21:43]     bin/coherence verify --dir g2c --mode write --node 0 --size-mib 16 --out results/shake1/raw/checks/coh_verify_g2c_write_node0.a0.csv
+[2026-10-05 12:21:44] OK  checks/coh_verify_g2c_write_node0 in 0 s (est 20)
+[2026-10-05 12:21:44] RUN checks/coh_verify_g2c_write_node1  (untimed per-segment checksum pass)
+[2026-10-05 12:21:44]     bin/coherence verify --dir g2c --mode write --node 1 --size-mib 16 --out results/shake1/raw/checks/coh_verify_g2c_write_node1.a0.csv
+[2026-10-05 12:21:44] OK  checks/coh_verify_g2c_write_node1 in 0 s (est 20)
+[2026-10-05 12:21:44] RUN checks/coh_verify_g2c_untouched_node0  (untimed per-segment checksum pass)
+[2026-10-05 12:21:44]     bin/coherence verify --dir g2c --mode untouched --node 0 --size-mib 16 --out results/shake1/raw/checks/coh_verify_g2c_untouched_node0.a0.csv
+[2026-10-05 12:21:44] OK  checks/coh_verify_g2c_untouched_node0 in 0 s (est 20)
+[2026-10-05 12:21:44] RUN checks/coh_verify_g2c_untouched_node1  (untimed per-segment checksum pass)
+[2026-10-05 12:21:44]     bin/coherence verify --dir g2c --mode untouched --node 1 --size-mib 16 --out results/shake1/raw/checks/coh_verify_g2c_untouched_node1.a0.csv
+[2026-10-05 12:21:44] OK  checks/coh_verify_g2c_untouched_node1 in 0 s (est 20)
+[2026-10-05 12:21:44] RUN checks/construct_node0  (state-construction check)
+[2026-10-05 12:21:44]     bin/coherence construct --node 0 --out results/shake1/raw/checks/construct_node0.a0.csv
+[2026-10-05 12:21:45] OK  checks/construct_node0 in 0 s (est 10)
+[2026-10-05 12:21:45] RUN checks/construct_node1  (state-construction check)
+[2026-10-05 12:21:45]     bin/coherence construct --node 1 --out results/shake1/raw/checks/construct_node1.a0.csv
+[2026-10-05 12:21:45] OK  checks/construct_node1 in 0 s (est 10)
+[2026-10-05 12:21:45] phase checks finished: done=12 skipped=0 failed=0
+phase job done 2026-10-05T12:21:45+02:00

@@ -1,0 +1,4 @@
+calib variant=A route=direct one repetition=2.746 ms -> passes=8
+calib variant=B route=copy one repetition=5.412 ms -> passes=4
+calib variant=B fastest repetition in warm-up=3.309 ms -> passes=7
+cell=probe/f-num=9,f-den=10,round=2 attempts=30 warmups=10 discards=0 nA=20 medA=2.74205e+06 loA=2.74171e+06 hiA=2.74232e+06 targetA=1 nB=20 medB=4.51619e+06 loB=4.26506e+06 hiB=4.61449e+06 targetB=0 nD=20 medD=-1.77502e+06 loD=-1.87373e+06 hiD=-1.52207e+06 targetD=1 npos=0 nneg=20 sign_p=1.91e-06 cap_hit=1 stopped_on_target=0 paired=1 ahp_kb_end_A=0 ahp_kb_end_B=0

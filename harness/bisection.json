@@ -1,0 +1,80 @@
+[
+ {
+  "axis": "footprint",
+  "kernel": "k1",
+  "placement": "cpu",
+  "level": "23296",
+  "knobs": {
+   "footprint-mib": "23296"
+  },
+  "bracket": [
+   "16384",
+   "32768"
+  ]
+ },
+ {
+  "axis": "footprint",
+  "kernel": "k3",
+  "placement": "cpu",
+  "level": "2048",
+  "knobs": {
+   "footprint-mib": "2048"
+  },
+  "bracket": [
+   "1024",
+   "4096"
+  ]
+ },
+ {
+  "axis": "footprint",
+  "kernel": "k3",
+  "placement": "cpu",
+  "level": "11520",
+  "knobs": {
+   "footprint-mib": "11520"
+  },
+  "bracket": [
+   "8192",
+   "16384"
+  ]
+ },
+ {
+  "axis": "footprint",
+  "kernel": "k1",
+  "placement": "cpu",
+  "level": "19456",
+  "knobs": {
+   "footprint-mib": "19456"
+  },
+  "bracket": [
+   "16384",
+   "23296"
+  ]
+ },
+ {
+  "axis": "footprint",
+  "kernel": "k3",
+  "placement": "cpu",
+  "level": "1536",
+  "knobs": {
+   "footprint-mib": "1536"
+  },
+  "bracket": [
+   "1024",
+   "2048"
+  ]
+ },
+ {
+  "axis": "footprint",
+  "kernel": "k3",
+  "placement": "cpu",
+  "level": "9728",
+  "knobs": {
+   "footprint-mib": "9728"
+  },
+  "bracket": [
+   "8192",
+   "11520"
+  ]
+ }
+]

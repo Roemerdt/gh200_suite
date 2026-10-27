@@ -1,0 +1,4 @@
+calib variant=A route=direct level=home one repetition=0.741 ms -> passes=27
+calib variant=B route=copy level=home one repetition=0.913 ms -> passes=22
+calib variant=A fastest repetition in warm-up=0.736 ms -> passes=28
+cell=route/f-den=1,f-num=1,footprint-mib=256,kernel=k1,placement=cpu attempts=110 warmups=10 discards=0 nA=100 medA=736251 loA=736167 hiA=736313 targetA=1 nB=100 medB=1.04911e+06 loB=1.02215e+06 hiB=1.0526e+06 targetB=0 nD=100 medD=-312993 loD=-316014 hiD=-286096 targetD=1 npos=0 nneg=100 sign_p=1.58e-30 cap_hit=1 stopped_on_target=0 paired=1 ahp_kb_end_A=0 ahp_kb_end_B=0

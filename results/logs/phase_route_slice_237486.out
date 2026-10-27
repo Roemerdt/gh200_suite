@@ -1,0 +1,11 @@
+job=237486 attempt=0 node=j21n14 campaign=shake1i start=2026-10-05T12:37:09+02:00
+PLACEMENT GATE: node0=351.7 GB/s node1=3704.4 GB/s factor=2
+prologue done 2026-10-05T12:37:41+02:00
+[2026-10-05 12:37:41] phase=route_slice cells=2 jobid=237486 attempt=0 campaign=shake1i warmup=10
+[2026-10-05 12:37:41] --no-events: cells run without their hardware counters (shake-down only)
+[2026-10-05 12:37:41] RUN route/f-den=2,f-num=1,footprint-mib=1024,kernel=k1,placement=cpu  (slice: K1 route cell, f = 1/2)
+[2026-10-05 12:37:41]     bin/route run --kernel k1 --placement cpu --footprint-mib 1024 --f-num 1 --f-den 2 --out results/shake1i/raw/route/f-den=2,f-num=1,footprint-mib=1024,kernel=k1,placement=cpu.a0.csv --cell route/f-den=2,f-num=1,footprint-mib=1024,kernel=k1,placement=cpu --campaign shake1i --jobid 237486 --attempt 0 --warmup 10 --n0 1000 --step 10 --cap 1000 --target-ms 20.0 --first B --seed 20261006
+[2026-10-05 12:37:41]     renamed partial file f-den=2,f-num=1,footprint-mib=1024,kernel=k1,placement=cpu.a0.csv
+[2026-10-05 12:38:25] OK  route/f-den=2,f-num=1,footprint-mib=1024,kernel=k1,placement=cpu in 44 s (est 60)
+[2026-10-05 12:38:25] phase route_slice finished: done=1 skipped=1 failed=0
+phase job done 2026-10-05T12:38:25+02:00

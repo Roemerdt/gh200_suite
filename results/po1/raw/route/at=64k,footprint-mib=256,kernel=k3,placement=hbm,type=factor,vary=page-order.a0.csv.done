@@ -1,0 +1,1 @@
+cell=route/at=64k,footprint-mib=256,kernel=k3,placement=hbm,type=factor,vary=page-order attempts=20 warmups=10 discards=0 nA=10 medA=427223 loA=427027 hiA=427400 targetA=1 nB=10 medB=148253 loB=148218 hiB=148273 targetB=1 nD=10 medD=278962 loD=278799 hiD=279155 targetD=1 npos=10 nneg=0 sign_p=0.00195 cap_hit=0 stopped_on_target=1 paired=1 ahp_kb_end_A=0 ahp_kb_end_B=0

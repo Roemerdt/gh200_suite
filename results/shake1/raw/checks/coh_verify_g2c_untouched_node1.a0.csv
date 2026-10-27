@@ -1,0 +1,2 @@
+ts_epoch,check,direction,mode,node,segments,start_slot,bad_segments,verdict
+1791195704.824297,coh_verify,g2c,untouched,1,1024,0,0,PASS

@@ -1,0 +1,17 @@
+job=239838 node=j21n14 start=2026-10-07T19:32:58+02:00 numa_balancing=0 paranoid=0
+Node 0, zone      DMA      1      0      1      2      2      1      2      2      2      1      0      2      1      2 
+Node 0, zone   Normal   8389   4095   2175   1049    685    508    361    197     94      8      3      2     11    906 
+Node 1, zone  Movable     13      6      1     10      7      8     10     10      6      6      5      2      4    184 
+In file included from src/common/common.h:16,
+                 from results/step2/e6_alignment/align.cu:15:
+src/common/counters.h:47:2: error: #error "SUITE_SMMU_PMU is not defined: build with the Makefile, which takes it from harness/site.env"
+   47 | #error \
+      |  ^~~~~
+build rc=1
+process 1 rc=0 rows=54
+process 2 rc=0 rows=54
+process 3 rc=0 rows=54
+Node 0, zone      DMA      1      0      1      2      2      1      2      2      2      1      0      2      1      2 
+Node 0, zone   Normal   9474   7106   4487   2173    933    354    142     86     57     36     28     16     12    909 
+Node 1, zone  Movable     15      7      4      9      8      8     10     10      6      6      5      2      4    184 
+JOB DONE 2026-10-07T19:34:12+02:00

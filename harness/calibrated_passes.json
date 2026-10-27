@@ -1,0 +1,4050 @@
+{
+ "route/alignment=off512m,footprint-mib=8192,kernel=k3,placement=cpu": {
+  "A": 1,
+  "B": 1
+ },
+ "route/at=1,footprint-mib=1024,k=1,kernel=k2,placement=cpu,type=four,vary=rotated,working-set-mib=8": {
+  "A": 662,
+  "B": 377,
+  "C": 664,
+  "D": 383
+ },
+ "route/at=1,footprint-mib=1024,k=1,kernel=k2,placement=hbm,type=four,vary=rotated,working-set-mib=8": {
+  "A": 2274,
+  "B": 402,
+  "C": 2243,
+  "D": 403
+ },
+ "route/at=1,footprint-mib=1024,k=16,kernel=k2,placement=cpu,type=factor,vary=k,working-set-mib=32": {
+  "A": 14,
+  "B": 199
+ },
+ "route/at=1,footprint-mib=1024,k=16,kernel=k2,placement=cpu,type=factor,vary=rotated,working-set-mib=8": {
+  "A": 528,
+  "B": 54
+ },
+ "route/at=1,footprint-mib=1024,k=16,kernel=k2,placement=cpu,type=four,vary=k,working-set-mib=32": {
+  "A": 14,
+  "B": 106,
+  "C": 200,
+  "D": 161
+ },
+ "route/at=1,footprint-mib=1024,k=16,kernel=k2,placement=cpu,type=four,vary=rotated,working-set-mib=8": {
+  "A": 532,
+  "B": 328,
+  "C": 54,
+  "D": 265
+ },
+ "route/at=1,footprint-mib=1024,k=16,kernel=k2,placement=hbm,type=factor,vary=k,working-set-mib=32": {
+  "A": 206,
+  "B": 1151
+ },
+ "route/at=1,footprint-mib=1024,k=16,kernel=k2,placement=hbm,type=factor,vary=rotated,working-set-mib=8": {
+  "A": 1253,
+  "B": 666
+ },
+ "route/at=1,footprint-mib=1024,k=16,kernel=k2,placement=hbm,type=four,vary=k,working-set-mib=32": {
+  "A": 208,
+  "B": 111,
+  "C": 1149,
+  "D": 171
+ },
+ "route/at=1,footprint-mib=1024,k=16,kernel=k2,placement=hbm,type=four,vary=rotated,working-set-mib=8": {
+  "A": 1241,
+  "B": 341,
+  "C": 670,
+  "D": 267
+ },
+ "route/at=1,footprint-mib=1024,k=2,kernel=k2,placement=cpu,type=four,vary=rotated,working-set-mib=8": {
+  "A": 648,
+  "B": 372,
+  "C": 376,
+  "D": 372
+ },
+ "route/at=1,footprint-mib=1024,k=2,kernel=k2,placement=hbm,type=four,vary=rotated,working-set-mib=8": {
+  "A": 2148,
+  "B": 402,
+  "C": 1951,
+  "D": 401
+ },
+ "route/at=1,footprint-mib=1024,k=4,kernel=k2,placement=cpu,type=four,vary=rotated,working-set-mib=8": {
+  "A": 626,
+  "B": 364,
+  "C": 202,
+  "D": 347
+ },
+ "route/at=1,footprint-mib=1024,k=4,kernel=k2,placement=hbm,type=four,vary=rotated,working-set-mib=8": {
+  "A": 1920,
+  "B": 399,
+  "C": 1519,
+  "D": 345
+ },
+ "route/at=1,footprint-mib=1024,k=64,kernel=k2,placement=cpu,type=four,vary=rotated,working-set-mib=8": {
+  "A": 329,
+  "B": 235,
+  "C": 14,
+  "D": 148
+ },
+ "route/at=1,footprint-mib=1024,k=64,kernel=k2,placement=hbm,type=four,vary=rotated,working-set-mib=8": {
+  "A": 516,
+  "B": 240,
+  "C": 223,
+  "D": 150
+ },
+ "route/at=1,footprint-mib=512,kernel=k5,placement=cpu,sweeps=8,tiling=tiles,type=factor,vary=sweeps": {
+  "A": 1,
+  "B": 7
+ },
+ "route/at=1,footprint-mib=512,kernel=k5,placement=cpu,sweeps=8,tiling=tiles,type=four,vary=sweeps": {
+  "A": 1,
+  "B": 4,
+  "C": 7,
+  "D": 6
+ },
+ "route/at=1,footprint-mib=512,kernel=k5,placement=hbm,sweeps=8,tiling=tiles,type=factor,vary=sweeps": {
+  "A": 7,
+  "B": 51
+ },
+ "route/at=1,footprint-mib=512,kernel=k5,placement=hbm,sweeps=8,tiling=tiles,type=four,vary=sweeps": {
+  "A": 7,
+  "B": 6,
+  "C": 51,
+  "D": 20
+ },
+ "route/at=1024,f-den=1,f-num=1,footprint-mib=16384,kernel=k1,placement=cpu,type=factor,vary=footprint": {
+  "A": 1,
+  "B": 8
+ },
+ "route/at=1024,f-den=1,f-num=1,footprint-mib=16384,kernel=k1,placement=hbm,type=factor,vary=footprint": {
+  "A": 4,
+  "B": 67
+ },
+ "route/at=1024,f-den=1,f-num=1,footprint-mib=24576,kernel=k1,placement=cpu,type=factor,vary=footprint": {
+  "A": 1,
+  "B": 8
+ },
+ "route/at=1024,f-den=1,f-num=1,footprint-mib=24576,kernel=k1,placement=hbm,type=factor,vary=footprint": {
+  "A": 3,
+  "B": 67
+ },
+ "route/at=1024,f-den=1,f-num=1,footprint-mib=256,kernel=k1,placement=cpu,type=factor,vary=footprint": {
+  "A": 28,
+  "B": 7
+ },
+ "route/at=1024,f-den=1,f-num=1,footprint-mib=256,kernel=k1,placement=hbm,type=factor,vary=footprint": {
+  "A": 255,
+  "B": 68
+ },
+ "route/at=1024,f-den=1,f-num=1,footprint-mib=32768,kernel=k1,placement=cpu,type=factor,vary=footprint": {
+  "A": 1,
+  "B": 8
+ },
+ "route/at=1024,f-den=1,f-num=1,footprint-mib=32768,kernel=k1,placement=hbm,type=factor,vary=footprint": {
+  "A": 2,
+  "B": 67
+ },
+ "route/at=1024,f-den=1,f-num=1,footprint-mib=4096,kernel=k1,placement=cpu,type=factor,vary=footprint": {
+  "A": 2,
+  "B": 8
+ },
+ "route/at=1024,f-den=1,f-num=1,footprint-mib=4096,kernel=k1,placement=hbm,type=factor,vary=footprint": {
+  "A": 18,
+  "B": 68
+ },
+ "route/at=1024,f-den=1,f-num=1,footprint-mib=8192,kernel=k1,placement=cpu,type=factor,vary=footprint": {
+  "A": 1,
+  "B": 8
+ },
+ "route/at=1024,f-den=1,f-num=1,footprint-mib=8192,kernel=k1,placement=hbm,type=factor,vary=footprint": {
+  "A": 9,
+  "B": 67
+ },
+ "route/at=1024,footprint-mib=1024,k=16,kernel=k2,placement=cpu,type=factor,vary=working-set,working-set-mib=32": {
+  "A": 14,
+  "B": 1
+ },
+ "route/at=1024,footprint-mib=1024,k=16,kernel=k2,placement=hbm,type=factor,vary=working-set,working-set-mib=32": {
+  "A": 223,
+  "B": 4
+ },
+ "route/at=1024,footprint-mib=16,kernel=k6,placement=hbm,type=factor,update=atomic,vary=footprint": {
+  "A": 253,
+  "B": 25
+ },
+ "route/at=1024,footprint-mib=16384,generator=uniform,kernel=k4,placement=cpu,type=factor,vary=footprint": {
+  "A": 1,
+  "B": 1
+ },
+ "route/at=1024,footprint-mib=16384,generator=uniform,kernel=k4,placement=hbm,type=factor,vary=footprint": {
+  "A": 1,
+  "B": 16
+ },
+ "route/at=1024,footprint-mib=16384,kernel=k3,placement=cpu,type=factor,vary=footprint": {
+  "A": 1,
+  "B": 4
+ },
+ "route/at=1024,footprint-mib=16384,kernel=k3,placement=hbm,type=factor,vary=footprint": {
+  "A": 1,
+  "B": 44
+ },
+ "route/at=1024,footprint-mib=24576,generator=uniform,kernel=k4,placement=cpu,type=factor,vary=footprint": {
+  "A": 1,
+  "B": 1
+ },
+ "route/at=1024,footprint-mib=24576,kernel=k3,placement=cpu,type=factor,vary=footprint": {
+  "A": 1,
+  "B": 4
+ },
+ "route/at=1024,footprint-mib=24576,kernel=k3,placement=hbm,type=factor,vary=footprint": {
+  "A": 1,
+  "B": 43
+ },
+ "route/at=1024,footprint-mib=256,generator=uniform,kernel=k4,placement=cpu,type=factor,vary=footprint": {
+  "A": 3,
+  "B": 1
+ },
+ "route/at=1024,footprint-mib=256,generator=uniform,kernel=k4,placement=hbm,type=factor,vary=footprint": {
+  "A": 95,
+  "B": 16
+ },
+ "route/at=1024,footprint-mib=256,kernel=k3,placement=cpu,type=factor,vary=footprint": {
+  "A": 4,
+  "B": 4
+ },
+ "route/at=1024,footprint-mib=256,kernel=k3,placement=hbm,type=factor,vary=footprint": {
+  "A": 47,
+  "B": 44
+ },
+ "route/at=1024,footprint-mib=256,kernel=k6,placement=cpu,type=factor,update=atomic,vary=footprint": {
+  "A": 14,
+  "B": 4
+ },
+ "route/at=1024,footprint-mib=256,kernel=k6,placement=hbm,type=factor,update=atomic,vary=footprint": {
+  "A": 98,
+  "B": 25
+ },
+ "route/at=1024,footprint-mib=32768,generator=uniform,kernel=k4,placement=cpu,type=factor,vary=footprint": {
+  "A": 1,
+  "B": 1
+ },
+ "route/at=1024,footprint-mib=32768,kernel=k3,placement=cpu,type=factor,vary=footprint": {
+  "A": 1,
+  "B": 4
+ },
+ "route/at=1024,footprint-mib=32768,kernel=k3,placement=hbm,type=factor,vary=footprint": {
+  "A": 1,
+  "B": 43
+ },
+ "route/at=1024,footprint-mib=4096,generator=uniform,kernel=k4,placement=cpu,type=factor,vary=footprint": {
+  "A": 1,
+  "B": 1
+ },
+ "route/at=1024,footprint-mib=4096,generator=uniform,kernel=k4,placement=hbm,type=factor,vary=footprint": {
+  "A": 3,
+  "B": 16
+ },
+ "route/at=1024,footprint-mib=4096,kernel=k3,placement=cpu,type=factor,vary=footprint": {
+  "A": 4,
+  "B": 4
+ },
+ "route/at=1024,footprint-mib=4096,kernel=k3,placement=hbm,type=factor,vary=footprint": {
+  "A": 4,
+  "B": 44
+ },
+ "route/at=1024,footprint-mib=4096,kernel=k6,placement=cpu,type=factor,update=atomic,vary=footprint": {
+  "A": 1,
+  "B": 4
+ },
+ "route/at=1024,footprint-mib=4096,kernel=k6,placement=hbm,type=factor,update=atomic,vary=footprint": {
+  "A": 7,
+  "B": 25
+ },
+ "route/at=1024,footprint-mib=8,kernel=k6,keys=1,placement=cpu,type=factor,vary=keys": {
+  "A": 1,
+  "B": 2
+ },
+ "route/at=1024,footprint-mib=8,kernel=k6,keys=1,placement=hbm,type=factor,vary=keys": {
+  "A": 2,
+  "B": 27
+ },
+ "route/at=1024,footprint-mib=8,kernel=k6,keys=1048576,placement=cpu,type=factor,vary=keys": {
+  "A": 3,
+  "B": 2
+ },
+ "route/at=1024,footprint-mib=8,kernel=k6,keys=1048576,placement=hbm,type=factor,vary=keys": {
+  "A": 113,
+  "B": 27
+ },
+ "route/at=1024,footprint-mib=8192,generator=uniform,kernel=k4,placement=cpu,type=factor,vary=footprint": {
+  "A": 1,
+  "B": 1
+ },
+ "route/at=1024,footprint-mib=8192,generator=uniform,kernel=k4,placement=hbm,type=factor,vary=footprint": {
+  "A": 2,
+  "B": 16
+ },
+ "route/at=1024,footprint-mib=8192,kernel=k3,placement=cpu,type=factor,vary=footprint": {
+  "A": 3,
+  "B": 4
+ },
+ "route/at=1024,footprint-mib=8192,kernel=k3,placement=hbm,type=factor,vary=footprint": {
+  "A": 3,
+  "B": 43
+ },
+ "route/at=16,footprint-mib=512,kernel=k5,placement=cpu,sweeps=8,tiling=tiles,type=factor,vary=sweeps": {
+  "A": 1,
+  "B": 1
+ },
+ "route/at=16,footprint-mib=512,kernel=k5,placement=hbm,sweeps=8,tiling=tiles,type=factor,vary=sweeps": {
+  "A": 7,
+  "B": 4
+ },
+ "route/at=16384,footprint-mib=1024,kernel=k3,placement=cpu,type=four,vary=footprint": {
+  "A": 4,
+  "B": 6,
+  "C": 1,
+  "D": 1
+ },
+ "route/at=16384,footprint-mib=1024,kernel=k3,placement=hbm,type=four,vary=footprint": {
+  "A": 43,
+  "B": 18,
+  "C": 1,
+  "D": 2
+ },
+ "route/at=1of10,f-den=1,f-num=1,footprint-mib=1024,kernel=k1,placement=cpu,type=factor,vary=f": {
+  "A": 7,
+  "B": 67
+ },
+ "route/at=1of10,f-den=1,f-num=1,footprint-mib=1024,kernel=k1,placement=hbm,type=factor,vary=f": {
+  "A": 68,
+  "B": 530
+ },
+ "route/at=1of100,f-den=1,f-num=1,footprint-mib=1024,kernel=k1,placement=cpu,type=factor,vary=f": {
+  "A": 7,
+  "B": 525
+ },
+ "route/at=1of100,f-den=1,f-num=1,footprint-mib=1024,kernel=k1,placement=cpu,type=four,vary=f": {
+  "A": 7,
+  "B": 7,
+  "C": 522,
+  "D": 383
+ },
+ "route/at=1of100,f-den=1,f-num=1,footprint-mib=1024,kernel=k1,placement=hbm,type=factor,vary=f": {
+  "A": 68,
+  "B": 1990
+ },
+ "route/at=1of100,f-den=1,f-num=1,footprint-mib=1024,kernel=k1,placement=hbm,type=four,vary=f": {
+  "A": 67,
+  "B": 22,
+  "C": 1983,
+  "D": 637
+ },
+ "route/at=1of1000,f-den=1,f-num=1,footprint-mib=1024,kernel=k1,placement=cpu,type=factor,vary=f": {
+  "A": 7,
+  "B": 1264
+ },
+ "route/at=1of1000,f-den=1,f-num=1,footprint-mib=1024,kernel=k1,placement=hbm,type=factor,vary=f": {
+  "A": 68,
+  "B": 2533
+ },
+ "route/at=1of2,f-den=1,f-num=1,footprint-mib=1024,kernel=k1,placement=cpu,type=factor,vary=f": {
+  "A": 7,
+  "B": 14
+ },
+ "route/at=1of2,f-den=1,f-num=1,footprint-mib=1024,kernel=k1,placement=hbm,type=factor,vary=f": {
+  "A": 68,
+  "B": 125
+ },
+ "route/at=2,footprint-mib=1024,k=16,kernel=k2,placement=cpu,type=factor,vary=k,working-set-mib=32": {
+  "A": 14,
+  "B": 104
+ },
+ "route/at=2,footprint-mib=1024,k=16,kernel=k2,placement=hbm,type=factor,vary=k,working-set-mib=32": {
+  "A": 203,
+  "B": 853
+ },
+ "route/at=2,footprint-mib=512,kernel=k5,placement=cpu,sweeps=8,tiling=tiles,type=factor,vary=sweeps": {
+  "A": 1,
+  "B": 4
+ },
+ "route/at=2,footprint-mib=512,kernel=k5,placement=hbm,sweeps=8,tiling=tiles,type=factor,vary=sweeps": {
+  "A": 7,
+  "B": 26
+ },
+ "route/at=2g,footprint-mib=11520,kernel=k3,placement=cpu,type=four,vary=partition": {
+  "A": 1,
+  "B": 1,
+  "C": 4,
+  "D": 1
+ },
+ "route/at=2g,footprint-mib=12288,kernel=k3,placement=cpu,type=four,vary=partition": {
+  "A": 1,
+  "B": 1,
+  "C": 4,
+  "D": 1
+ },
+ "route/at=2g,footprint-mib=12288,kernel=k3,placement=hbm,type=four,vary=partition": {
+  "A": 1,
+  "B": 3,
+  "C": 1,
+  "D": 3
+ },
+ "route/at=2g,footprint-mib=16384,kernel=k3,placement=cpu,type=factor,vary=partition": {
+  "A": 1,
+  "B": 4
+ },
+ "route/at=2g,footprint-mib=16384,kernel=k3,placement=cpu,type=four,vary=partition": {
+  "A": 1,
+  "B": 1,
+  "C": 4,
+  "D": 1
+ },
+ "route/at=2g,footprint-mib=24576,kernel=k3,placement=cpu,type=four,vary=partition": {
+  "A": 1,
+  "B": 1,
+  "C": 4,
+  "D": 1
+ },
+ "route/at=2g,footprint-mib=32768,kernel=k3,placement=cpu,type=four,vary=partition": {
+  "A": 1,
+  "B": 1,
+  "C": 2,
+  "D": 1
+ },
+ "route/at=2g,footprint-mib=4096,kernel=k3,placement=cpu,type=four,vary=partition": {
+  "A": 4,
+  "B": 2,
+  "C": 4,
+  "D": 2
+ },
+ "route/at=2g,footprint-mib=4096,kernel=k3,placement=hbm,type=four,vary=partition": {
+  "A": 4,
+  "B": 7,
+  "C": 6,
+  "D": 7
+ },
+ "route/at=2g,footprint-mib=8192,kernel=k3,placement=cpu,type=four,vary=partition": {
+  "A": 3,
+  "B": 1,
+  "C": 4,
+  "D": 1
+ },
+ "route/at=2g,footprint-mib=8192,kernel=k3,placement=hbm,type=four,vary=partition": {
+  "A": 3,
+  "B": 4,
+  "C": 4,
+  "D": 4
+ },
+ "route/at=2g,footprint-mib=9728,kernel=k3,placement=cpu,type=four,vary=partition": {
+  "A": 1,
+  "B": 1,
+  "C": 4,
+  "D": 1
+ },
+ "route/at=2m,at2=512m,footprint-mib=16384,kernel=k3,placement=cpu,type=cross,vary=page-order,vary2=page-size": {
+  "A": 1,
+  "B": 4,
+  "C": 4,
+  "D": 4
+ },
+ "route/at=2m,footprint-mib=16384,kernel=k3,page-size=512m,placement=cpu,type=factor,vary=page-order": {
+  "A": 4,
+  "B": 4
+ },
+ "route/at=2m,footprint-mib=16384,kernel=k3,placement=cpu,type=factor,vary=page-order": {
+  "A": 1,
+  "B": 4
+ },
+ "route/at=2m,footprint-mib=16384,kernel=k3,placement=cpu,type=four,vary=page-order": {
+  "A": 1,
+  "B": 1,
+  "C": 4,
+  "D": 1
+ },
+ "route/at=2m,footprint-mib=16384,kernel=k3,placement=hbm,type=factor,vary=page-order": {
+  "A": 1,
+  "B": 9
+ },
+ "route/at=2m,footprint-mib=32768,kernel=k3,placement=cpu,type=factor,vary=page-order": {
+  "A": 1,
+  "B": 4
+ },
+ "route/at=2m,footprint-mib=32768,kernel=k3,placement=hbm,type=factor,vary=page-order": {
+  "A": 1,
+  "B": 5
+ },
+ "route/at=2m,footprint-mib=4096,kernel=k3,placement=cpu,type=factor,vary=page-order": {
+  "A": 4,
+  "B": 4
+ },
+ "route/at=2m,footprint-mib=4096,kernel=k3,placement=hbm,type=factor,vary=page-order": {
+  "A": 4,
+  "B": 47
+ },
+ "route/at=2m,footprint-mib=8192,kernel=k3,placement=cpu,type=factor,vary=page-order": {
+  "A": 3,
+  "B": 4
+ },
+ "route/at=2m,footprint-mib=8192,kernel=k3,placement=hbm,type=factor,vary=page-order": {
+  "A": 3,
+  "B": 45
+ },
+ "route/at=3of4,f-den=1,f-num=1,footprint-mib=1024,kernel=k1,placement=cpu,type=factor,vary=f": {
+  "A": 7,
+  "B": 10
+ },
+ "route/at=3of4,f-den=1,f-num=1,footprint-mib=1024,kernel=k1,placement=hbm,type=factor,vary=f": {
+  "A": 68,
+  "B": 86
+ },
+ "route/at=4,footprint-mib=1024,k=16,kernel=k2,placement=cpu,type=factor,vary=k,working-set-mib=32": {
+  "A": 14,
+  "B": 53
+ },
+ "route/at=4,footprint-mib=1024,k=16,kernel=k2,placement=hbm,type=factor,vary=k,working-set-mib=32": {
+  "A": 209,
+  "B": 575
+ },
+ "route/at=4,footprint-mib=1024,kernel=k6,placement=cpu,type=factor,update=atomic,vary=repeat": {
+  "A": 4,
+  "B": 2
+ },
+ "route/at=4,footprint-mib=1024,kernel=k6,placement=hbm,type=factor,update=atomic,vary=repeat": {
+  "A": 25,
+  "B": 13
+ },
+ "route/at=4,footprint-mib=512,kernel=k5,placement=cpu,sweeps=8,tiling=tiles,type=factor,vary=sweeps": {
+  "A": 1,
+  "B": 2
+ },
+ "route/at=4,footprint-mib=512,kernel=k5,placement=hbm,sweeps=8,tiling=tiles,type=factor,vary=sweeps": {
+  "A": 7,
+  "B": 13
+ },
+ "route/at=512m,footprint-mib=1024,kernel=k3,placement=cpu,type=factor,vary=page-size": {
+  "A": 4,
+  "B": 4
+ },
+ "route/at=512m,footprint-mib=1024,kernel=k3,placement=cpu,type=four,vary=page-size": {
+  "A": 4,
+  "B": 6,
+  "C": 4,
+  "D": 7
+ },
+ "route/at=512m,footprint-mib=1024,kernel=k3,placement=hbm,type=factor,vary=page-size": {
+  "A": 44,
+  "B": 44
+ },
+ "route/at=512m,footprint-mib=1024,kernel=k3,placement=hbm,type=four,vary=page-size": {
+  "A": 43,
+  "B": 18,
+  "C": 44,
+  "D": 18
+ },
+ "route/at=512m,footprint-mib=11520,kernel=k3,placement=cpu,type=four,vary=page-size": {
+  "A": 1,
+  "B": 1,
+  "C": 4,
+  "D": 1
+ },
+ "route/at=512m,footprint-mib=12288,kernel=k3,placement=cpu,type=four,vary=page-size": {
+  "A": 1,
+  "B": 1,
+  "C": 4,
+  "D": 1
+ },
+ "route/at=512m,footprint-mib=1536,kernel=k3,placement=cpu,type=four,vary=page-size": {
+  "A": 4,
+  "B": 5,
+  "C": 4,
+  "D": 5
+ },
+ "route/at=512m,footprint-mib=16384,kernel=k3,placement=cpu,type=factor,vary=page-size": {
+  "A": 1,
+  "B": 4
+ },
+ "route/at=512m,footprint-mib=16384,kernel=k3,placement=cpu,type=four,vary=page-size": {
+  "A": 1,
+  "B": 1,
+  "C": 4,
+  "D": 1
+ },
+ "route/at=512m,footprint-mib=16384,kernel=k3,placement=hbm,type=factor,vary=page-size": {
+  "A": 1,
+  "B": 42
+ },
+ "route/at=512m,footprint-mib=16384,kernel=k3p,placement=cpu,type=factor,vary=page-size": {
+  "A": 3,
+  "B": 201
+ },
+ "route/at=512m,footprint-mib=16384,kernel=k3p,placement=cpu,type=four,vary=page-size": {
+  "A": 3,
+  "B": 1,
+  "C": 202,
+  "D": 1
+ },
+ "route/at=512m,footprint-mib=2048,kernel=k3,placement=cpu,type=four,vary=page-size": {
+  "A": 4,
+  "B": 4,
+  "C": 4,
+  "D": 4
+ },
+ "route/at=512m,footprint-mib=24576,kernel=k3,placement=cpu,type=four,vary=page-size": {
+  "A": 1,
+  "B": 1,
+  "C": 4,
+  "D": 1
+ },
+ "route/at=512m,footprint-mib=256,kernel=k3,placement=cpu,type=four,vary=page-size": {
+  "A": 4,
+  "B": 17,
+  "C": 4,
+  "D": 19
+ },
+ "route/at=512m,footprint-mib=256,kernel=k3,placement=hbm,type=four,vary=page-size": {
+  "A": 48,
+  "B": 19,
+  "C": 48,
+  "D": 19
+ },
+ "route/at=512m,footprint-mib=32768,kernel=k3,placement=cpu,type=factor,vary=page-size": {
+  "A": 1,
+  "B": 4
+ },
+ "route/at=512m,footprint-mib=32768,kernel=k3,placement=cpu,type=four,vary=page-size": {
+  "A": 1,
+  "B": 1,
+  "C": 4,
+  "D": 1
+ },
+ "route/at=512m,footprint-mib=4096,kernel=k3,placement=cpu,type=factor,vary=page-size": {
+  "A": 4,
+  "B": 4
+ },
+ "route/at=512m,footprint-mib=4096,kernel=k3,placement=cpu,type=four,vary=page-size": {
+  "A": 4,
+  "B": 2,
+  "C": 4,
+  "D": 2
+ },
+ "route/at=512m,footprint-mib=4096,kernel=k3,placement=hbm,type=factor,vary=page-size": {
+  "A": 4,
+  "B": 43
+ },
+ "route/at=512m,footprint-mib=4096,kernel=k3,placement=hbm,type=four,vary=page-size": {
+  "A": 4,
+  "B": 7,
+  "C": 42,
+  "D": 7
+ },
+ "route/at=512m,footprint-mib=8192,kernel=k3,placement=cpu,type=factor,vary=page-size": {
+  "A": 3,
+  "B": 4
+ },
+ "route/at=512m,footprint-mib=8192,kernel=k3,placement=cpu,type=four,vary=page-size": {
+  "A": 3,
+  "B": 1,
+  "C": 4,
+  "D": 1
+ },
+ "route/at=512m,footprint-mib=8192,kernel=k3,placement=hbm,type=factor,vary=page-size": {
+  "A": 3,
+  "B": 42
+ },
+ "route/at=512m,footprint-mib=8192,kernel=k3,placement=hbm,type=four,vary=page-size": {
+  "A": 3,
+  "B": 4,
+  "C": 42,
+  "D": 4
+ },
+ "route/at=512m,footprint-mib=9728,kernel=k3,placement=cpu,type=four,vary=page-size": {
+  "A": 1,
+  "B": 1,
+  "C": 4,
+  "D": 1
+ },
+ "route/at=64,footprint-mib=1024,k=16,kernel=k2,placement=cpu,type=factor,vary=k,working-set-mib=32": {
+  "A": 14,
+  "B": 4
+ },
+ "route/at=64,footprint-mib=1024,k=16,kernel=k2,placement=hbm,type=factor,vary=k,working-set-mib=32": {
+  "A": 206,
+  "B": 61
+ },
+ "route/at=64,footprint-mib=512,kernel=k5,placement=cpu,sweeps=8,tiling=tiles,type=factor,vary=sweeps": {
+  "A": 1,
+  "B": 1
+ },
+ "route/at=64,footprint-mib=512,kernel=k5,placement=hbm,sweeps=8,tiling=tiles,type=factor,vary=sweeps": {
+  "A": 7,
+  "B": 1
+ },
+ "route/at=64k,footprint-mib=16384,kernel=k3,page-size=512m,placement=cpu,type=factor,vary=page-order": {
+  "A": 4,
+  "B": 4
+ },
+ "route/at=64k,footprint-mib=16384,kernel=k3,placement=cpu,type=factor,vary=page-order": {
+  "A": 1,
+  "B": 4
+ },
+ "route/at=64k,footprint-mib=16384,kernel=k3,placement=hbm,type=factor,vary=page-order": {
+  "A": 1,
+  "B": 13
+ },
+ "route/at=64k,footprint-mib=32768,kernel=k3,placement=cpu,type=factor,vary=page-order": {
+  "A": 1,
+  "B": 4
+ },
+ "route/at=64k,footprint-mib=32768,kernel=k3,placement=hbm,type=factor,vary=page-order": {
+  "A": 1,
+  "B": 7
+ },
+ "route/at=64k,footprint-mib=4096,kernel=k3,placement=cpu,type=factor,vary=page-order": {
+  "A": 4,
+  "B": 4
+ },
+ "route/at=64k,footprint-mib=4096,kernel=k3,placement=hbm,type=factor,vary=page-order": {
+  "A": 4,
+  "B": 49
+ },
+ "route/at=64k,footprint-mib=8192,kernel=k3,placement=cpu,type=factor,vary=page-order": {
+  "A": 3,
+  "B": 4
+ },
+ "route/at=64k,footprint-mib=8192,kernel=k3,placement=hbm,type=factor,vary=page-order": {
+  "A": 3,
+  "B": 46
+ },
+ "route/at=8,footprint-mib=1024,k=1,kernel=k2,placement=cpu,type=four,vary=working-set,working-set-mib=32": {
+  "A": 201,
+  "B": 154,
+  "C": 671,
+  "D": 379
+ },
+ "route/at=8,footprint-mib=1024,k=1,kernel=k2,placement=hbm,type=four,vary=working-set,working-set-mib=32": {
+  "A": 1141,
+  "B": 168,
+  "C": 2231,
+  "D": 401
+ },
+ "route/at=8,footprint-mib=1024,k=16,kernel=k2,placement=cpu,type=factor,vary=working-set,working-set-mib=32": {
+  "A": 14,
+  "B": 531
+ },
+ "route/at=8,footprint-mib=1024,k=16,kernel=k2,placement=cpu,type=four,vary=working-set,working-set-mib=32": {
+  "A": 14,
+  "B": 106,
+  "C": 536,
+  "D": 334
+ },
+ "route/at=8,footprint-mib=1024,k=16,kernel=k2,placement=hbm,type=factor,vary=working-set,working-set-mib=32": {
+  "A": 206,
+  "B": 1239
+ },
+ "route/at=8,footprint-mib=1024,k=16,kernel=k2,placement=hbm,type=four,vary=working-set,working-set-mib=32": {
+  "A": 220,
+  "B": 111,
+  "C": 1256,
+  "D": 350
+ },
+ "route/at=8,footprint-mib=1024,k=2,kernel=k2,placement=cpu,type=four,vary=working-set,working-set-mib=32": {
+  "A": 105,
+  "B": 149,
+  "C": 653,
+  "D": 376
+ },
+ "route/at=8,footprint-mib=1024,k=2,kernel=k2,placement=hbm,type=four,vary=working-set,working-set-mib=32": {
+  "A": 855,
+  "B": 160,
+  "C": 2147,
+  "D": 403
+ },
+ "route/at=8,footprint-mib=1024,k=4,kernel=k2,placement=cpu,type=four,vary=working-set,working-set-mib=32": {
+  "A": 54,
+  "B": 143,
+  "C": 631,
+  "D": 370
+ },
+ "route/at=8,footprint-mib=1024,k=4,kernel=k2,placement=hbm,type=four,vary=working-set,working-set-mib=32": {
+  "A": 573,
+  "B": 156,
+  "C": 1924,
+  "D": 397
+ },
+ "route/at=8,footprint-mib=1024,k=64,kernel=k2,placement=cpu,type=four,vary=working-set,working-set-mib=32": {
+  "A": 4,
+  "B": 53,
+  "C": 331,
+  "D": 239
+ },
+ "route/at=8,footprint-mib=1024,k=64,kernel=k2,placement=hbm,type=four,vary=working-set,working-set-mib=32": {
+  "A": 59,
+  "B": 54,
+  "C": 517,
+  "D": 240
+ },
+ "route/at=9of10,f-den=1,f-num=1,footprint-mib=1024,kernel=k1,placement=cpu,type=factor,vary=f": {
+  "A": 7,
+  "B": 8
+ },
+ "route/at=9of10,f-den=1,f-num=1,footprint-mib=1024,kernel=k1,placement=hbm,type=factor,vary=f": {
+  "A": 68,
+  "B": 73
+ },
+ "route/at=cta+gpu+sys,footprint-mib=1024,k=1,kernel=k2,placement=cpu,type=kvar,vary=scope,working-set-mib=8": {
+  "A": 662,
+  "B": 663,
+  "C": 660,
+  "D": 650
+ },
+ "route/at=cta+gpu+sys,footprint-mib=1024,k=1,kernel=k2,placement=hbm,type=kvar,vary=scope,working-set-mib=8": {
+  "A": 2259,
+  "B": 2259,
+  "C": 2224,
+  "D": 2088
+ },
+ "route/at=cta+gpu+sys,footprint-mib=1024,k=16,kernel=k2,placement=cpu,type=kvar,vary=scope,working-set-mib=8": {
+  "A": 532,
+  "B": 528,
+  "C": 54,
+  "D": 51
+ },
+ "route/at=cta+gpu+sys,footprint-mib=1024,k=16,kernel=k2,placement=hbm,type=kvar,vary=scope,working-set-mib=8": {
+  "A": 1252,
+  "B": 1235,
+  "C": 638,
+  "D": 525
+ },
+ "route/at=cta+gpu+sys,footprint-mib=1024,k=2,kernel=k2,placement=cpu,type=kvar,vary=scope,working-set-mib=8": {
+  "A": 649,
+  "B": 649,
+  "C": 371,
+  "D": 362
+ },
+ "route/at=cta+gpu+sys,footprint-mib=1024,k=2,kernel=k2,placement=hbm,type=kvar,vary=scope,working-set-mib=8": {
+  "A": 2119,
+  "B": 2117,
+  "C": 1903,
+  "D": 1715
+ },
+ "route/at=cta+gpu+sys,footprint-mib=1024,k=4,kernel=k2,placement=cpu,type=kvar,vary=scope,working-set-mib=8": {
+  "A": 628,
+  "B": 628,
+  "C": 201,
+  "D": 190
+ },
+ "route/at=cta+gpu+sys,footprint-mib=1024,k=4,kernel=k2,placement=hbm,type=kvar,vary=scope,working-set-mib=8": {
+  "A": 1922,
+  "B": 1914,
+  "C": 1483,
+  "D": 1292
+ },
+ "route/at=cta+gpu+sys,footprint-mib=1024,k=64,kernel=k2,placement=cpu,type=kvar,vary=scope,working-set-mib=8": {
+  "A": 329,
+  "B": 324,
+  "C": 14,
+  "D": 13
+ },
+ "route/at=cta+gpu+sys,footprint-mib=1024,k=64,kernel=k2,placement=hbm,type=kvar,vary=scope,working-set-mib=8": {
+  "A": 518,
+  "B": 506,
+  "C": 191,
+  "D": 157
+ },
+ "route/at=hbm,f-den=1,f-num=1,footprint-mib=1024,kernel=k1,placement=cpu,type=four,vary=placement": {
+  "A": 7,
+  "B": 7,
+  "C": 68,
+  "D": 22
+ },
+ "route/at=hbm,footprint-mib=0.0625,issuer=cpu,kernel=k6,placement=cpu,type=factor,update=atomic,vary=placement": {
+  "A": 2,
+  "B": 2
+ },
+ "route/at=hbm,footprint-mib=0.0625,issuer=cpu,kernel=k6,placement=cpu,type=factor,update=plain,vary=placement": {
+  "A": 9,
+  "B": 9
+ },
+ "route/at=hbm,footprint-mib=256,issuer=cpu,kernel=k6,placement=cpu,type=factor,update=atomic,vary=placement": {
+  "A": 2,
+  "B": 2
+ },
+ "route/at=hbm,footprint-mib=256,issuer=cpu,kernel=k6,placement=cpu,type=factor,update=plain,vary=placement": {
+  "A": 9,
+  "B": 8
+ },
+ "route/at=line,footprint-mib=1024,kernel=k6,placement=cpu,type=factor,update=atomic,vary=layout": {
+  "A": 4,
+  "B": 6
+ },
+ "route/at=line,footprint-mib=1024,kernel=k6,placement=hbm,type=factor,update=atomic,vary=layout": {
+  "A": 25,
+  "B": 59
+ },
+ "route/at=none,footprint-mib=512,kernel=k5,placement=cpu,sweeps=8,tiling=tiles,type=factor,vary=tiling": {
+  "A": 1,
+  "B": 1
+ },
+ "route/at=none,footprint-mib=512,kernel=k5,placement=cpu,sweeps=8,tiling=tiles,type=four,vary=tiling": {
+  "A": 1,
+  "B": 4,
+  "C": 1,
+  "D": 4
+ },
+ "route/at=none,footprint-mib=512,kernel=k5,placement=hbm,sweeps=8,tiling=tiles,type=factor,vary=tiling": {
+  "A": 7,
+  "B": 8
+ },
+ "route/at=none,footprint-mib=512,kernel=k5,placement=hbm,sweeps=8,tiling=tiles,type=four,vary=tiling": {
+  "A": 7,
+  "B": 6,
+  "C": 8,
+  "D": 6
+ },
+ "route/at=off512m,footprint-mib=1024,kernel=k3,page-size=512m,placement=cpu,type=factor,vary=alignment": {
+  "A": 4,
+  "B": 4
+ },
+ "route/at=off512m,footprint-mib=1024,kernel=k3,page-size=512m,placement=hbm,type=factor,vary=alignment": {
+  "A": 44,
+  "B": 44
+ },
+ "route/at=off512m,footprint-mib=1024,kernel=k3,page-size=64k,placement=cpu,type=factor,vary=alignment": {
+  "A": 4,
+  "B": 4
+ },
+ "route/at=off512m,footprint-mib=1024,kernel=k3,page-size=64k,placement=hbm,type=factor,vary=alignment": {
+  "A": 43,
+  "B": 44
+ },
+ "route/at=off512m,footprint-mib=11520,kernel=k3,page-size=512m,placement=cpu,type=factor,vary=alignment": {
+  "A": 4,
+  "B": 4
+ },
+ "route/at=off512m,footprint-mib=11520,kernel=k3,page-size=64k,placement=cpu,type=factor,vary=alignment": {
+  "A": 1,
+  "B": 1
+ },
+ "route/at=off512m,footprint-mib=12288,kernel=k3,page-size=512m,placement=cpu,type=factor,vary=alignment": {
+  "A": 4,
+  "B": 4
+ },
+ "route/at=off512m,footprint-mib=12288,kernel=k3,page-size=512m,placement=hbm,type=factor,vary=alignment": {
+  "A": 42,
+  "B": 42
+ },
+ "route/at=off512m,footprint-mib=12288,kernel=k3,page-size=64k,placement=cpu,type=factor,vary=alignment": {
+  "A": 1,
+  "B": 1
+ },
+ "route/at=off512m,footprint-mib=12288,kernel=k3,page-size=64k,placement=hbm,type=factor,vary=alignment": {
+  "A": 1,
+  "B": 1
+ },
+ "route/at=off512m,footprint-mib=1536,kernel=k3,page-size=512m,placement=cpu,type=factor,vary=alignment": {
+  "A": 4,
+  "B": 4
+ },
+ "route/at=off512m,footprint-mib=1536,kernel=k3,page-size=64k,placement=cpu,type=factor,vary=alignment": {
+  "A": 4,
+  "B": 4
+ },
+ "route/at=off512m,footprint-mib=16384,kernel=k3,page-size=512m,placement=cpu,type=factor,vary=alignment": {
+  "A": 4,
+  "B": 4
+ },
+ "route/at=off512m,footprint-mib=16384,kernel=k3,page-size=512m,placement=hbm,type=factor,vary=alignment": {
+  "A": 42,
+  "B": 42
+ },
+ "route/at=off512m,footprint-mib=16384,kernel=k3,page-size=64k,placement=cpu,type=factor,vary=alignment": {
+  "A": 1,
+  "B": 1
+ },
+ "route/at=off512m,footprint-mib=16384,kernel=k3,page-size=64k,placement=hbm,type=factor,vary=alignment": {
+  "A": 1,
+  "B": 1
+ },
+ "route/at=off512m,footprint-mib=2048,kernel=k3,page-size=512m,placement=cpu,type=factor,vary=alignment": {
+  "A": 4,
+  "B": 4
+ },
+ "route/at=off512m,footprint-mib=2048,kernel=k3,page-size=64k,placement=cpu,type=factor,vary=alignment": {
+  "A": 4,
+  "B": 4
+ },
+ "route/at=off512m,footprint-mib=24576,kernel=k3,page-size=512m,placement=cpu,type=factor,vary=alignment": {
+  "A": 4,
+  "B": 4
+ },
+ "route/at=off512m,footprint-mib=24576,kernel=k3,page-size=64k,placement=cpu,type=factor,vary=alignment": {
+  "A": 1,
+  "B": 1
+ },
+ "route/at=off512m,footprint-mib=256,kernel=k3,page-size=512m,placement=cpu,type=factor,vary=alignment": {
+  "A": 4,
+  "B": 4
+ },
+ "route/at=off512m,footprint-mib=256,kernel=k3,page-size=512m,placement=hbm,type=factor,vary=alignment": {
+  "A": 48,
+  "B": 48
+ },
+ "route/at=off512m,footprint-mib=256,kernel=k3,page-size=64k,placement=cpu,type=factor,vary=alignment": {
+  "A": 4,
+  "B": 4
+ },
+ "route/at=off512m,footprint-mib=256,kernel=k3,page-size=64k,placement=hbm,type=factor,vary=alignment": {
+  "A": 48,
+  "B": 48
+ },
+ "route/at=off512m,footprint-mib=32768,kernel=k3,page-size=512m,placement=cpu,type=factor,vary=alignment": {
+  "A": 4,
+  "B": 4
+ },
+ "route/at=off512m,footprint-mib=32768,kernel=k3,page-size=64k,placement=cpu,type=factor,vary=alignment": {
+  "A": 1,
+  "B": 1
+ },
+ "route/at=off512m,footprint-mib=4096,kernel=k3,page-size=512m,placement=cpu,type=factor,vary=alignment": {
+  "A": 4,
+  "B": 4
+ },
+ "route/at=off512m,footprint-mib=4096,kernel=k3,page-size=512m,placement=hbm,type=factor,vary=alignment": {
+  "A": 43,
+  "B": 43
+ },
+ "route/at=off512m,footprint-mib=4096,kernel=k3,page-size=64k,placement=cpu,type=factor,vary=alignment": {
+  "A": 4,
+  "B": 4
+ },
+ "route/at=off512m,footprint-mib=4096,kernel=k3,page-size=64k,placement=hbm,type=factor,vary=alignment": {
+  "A": 4,
+  "B": 4
+ },
+ "route/at=off512m,footprint-mib=8192,kernel=k3,page-size=512m,placement=cpu,type=factor,vary=alignment": {
+  "A": 4,
+  "B": 4
+ },
+ "route/at=off512m,footprint-mib=8192,kernel=k3,page-size=512m,placement=hbm,type=factor,vary=alignment": {
+  "A": 42,
+  "B": 42
+ },
+ "route/at=off512m,footprint-mib=8192,kernel=k3,page-size=64k,placement=cpu,type=factor,vary=alignment": {
+  "A": 3,
+  "B": 1
+ },
+ "route/at=off512m,footprint-mib=8192,kernel=k3,page-size=64k,placement=hbm,type=factor,vary=alignment": {
+  "A": 3,
+  "B": 1
+ },
+ "route/at=off512m,footprint-mib=8192,kernel=k3,placement=cpu,type=four,vary=alignment": {
+  "A": 3,
+  "B": 1,
+  "C": 1,
+  "D": 1
+ },
+ "route/at=off512m,footprint-mib=9728,kernel=k3,page-size=512m,placement=cpu,type=factor,vary=alignment": {
+  "A": 4,
+  "B": 4
+ },
+ "route/at=off512m,footprint-mib=9728,kernel=k3,page-size=64k,placement=cpu,type=factor,vary=alignment": {
+  "A": 1,
+  "B": 1
+ },
+ "route/at=plain,footprint-mib=0.0625,issuer=cpu,kernel=k6,placement=cpu,type=factor,update=atomic,vary=update": {
+  "A": 3,
+  "B": 9
+ },
+ "route/at=plain,footprint-mib=0.0625,issuer=cpu,kernel=k6,placement=hbm,type=factor,update=atomic,vary=update": {
+  "A": 3,
+  "B": 9
+ },
+ "route/at=plain,footprint-mib=1,issuer=cpu,kernel=k6,placement=cpu,type=factor,update=atomic,vary=update": {
+  "A": 2,
+  "B": 9
+ },
+ "route/at=plain,footprint-mib=1,issuer=cpu,kernel=k6,placement=hbm,type=factor,update=atomic,vary=update": {
+  "A": 2,
+  "B": 9
+ },
+ "route/at=plain,footprint-mib=1024,kernel=k6,placement=cpu,type=factor,update=atomic,vary=update": {
+  "A": 4,
+  "B": 4
+ },
+ "route/at=plain,footprint-mib=1024,kernel=k6,placement=cpu,type=four,update=atomic,vary=update": {
+  "A": 4,
+  "B": 3,
+  "C": 4,
+  "D": 3
+ },
+ "route/at=plain,footprint-mib=1024,kernel=k6,placement=hbm,type=factor,update=atomic,vary=update": {
+  "A": 25,
+  "B": 27
+ },
+ "route/at=plain,footprint-mib=16,issuer=cpu,kernel=k6,placement=cpu,type=factor,update=atomic,vary=update": {
+  "A": 2,
+  "B": 9
+ },
+ "route/at=plain,footprint-mib=16,issuer=cpu,kernel=k6,placement=hbm,type=factor,update=atomic,vary=update": {
+  "A": 2,
+  "B": 9
+ },
+ "route/at=plain,footprint-mib=16,kernel=k6,placement=hbm,type=factor,update=atomic,vary=update": {
+  "A": 264,
+  "B": 253
+ },
+ "route/at=plain,footprint-mib=256,issuer=cpu,kernel=k6,placement=cpu,type=factor,update=atomic,vary=update": {
+  "A": 2,
+  "B": 9
+ },
+ "route/at=plain,footprint-mib=256,issuer=cpu,kernel=k6,placement=hbm,type=factor,update=atomic,vary=update": {
+  "A": 2,
+  "B": 8
+ },
+ "route/at=returned,footprint-mib=0.0625,issuer=cpu,kernel=k6,placement=cpu,type=factor,update=atomic,vary=update": {
+  "A": 2,
+  "B": 1
+ },
+ "route/at=returned,footprint-mib=0.0625,issuer=cpu,kernel=k6,placement=hbm,type=factor,update=atomic,vary=update": {
+  "A": 2,
+  "B": 1
+ },
+ "route/at=returned,footprint-mib=1,issuer=cpu,kernel=k6,placement=cpu,type=factor,update=atomic,vary=update": {
+  "A": 2,
+  "B": 1
+ },
+ "route/at=returned,footprint-mib=1,issuer=cpu,kernel=k6,placement=hbm,type=factor,update=atomic,vary=update": {
+  "A": 2,
+  "B": 1
+ },
+ "route/at=returned,footprint-mib=1024,kernel=k6,placement=cpu,type=factor,update=atomic,vary=update": {
+  "A": 4,
+  "B": 4
+ },
+ "route/at=returned,footprint-mib=1024,kernel=k6,placement=hbm,type=factor,update=atomic,vary=update": {
+  "A": 25,
+  "B": 23
+ },
+ "route/at=returned,footprint-mib=16,issuer=cpu,kernel=k6,placement=cpu,type=factor,update=atomic,vary=update": {
+  "A": 2,
+  "B": 1
+ },
+ "route/at=returned,footprint-mib=16,issuer=cpu,kernel=k6,placement=hbm,type=factor,update=atomic,vary=update": {
+  "A": 2,
+  "B": 1
+ },
+ "route/at=returned,footprint-mib=16,kernel=k6,placement=hbm,type=factor,update=atomic,vary=update": {
+  "A": 261,
+  "B": 155
+ },
+ "route/at=returned,footprint-mib=256,issuer=cpu,kernel=k6,placement=cpu,type=factor,update=atomic,vary=update": {
+  "A": 2,
+  "B": 1
+ },
+ "route/at=returned,footprint-mib=256,issuer=cpu,kernel=k6,placement=hbm,type=factor,update=atomic,vary=update": {
+  "A": 2,
+  "B": 1
+ },
+ "route/at=rmat,footprint-mib=1024,generator=uniform,kernel=k4,placement=cpu,type=factor,vary=generator": {
+  "A": 1,
+  "B": 1
+ },
+ "route/at=rmat,footprint-mib=1024,generator=uniform,kernel=k4,placement=cpu,type=four,vary=generator": {
+  "A": 1,
+  "B": 5,
+  "C": 1,
+  "D": 1
+ },
+ "route/at=rmat,footprint-mib=1024,generator=uniform,kernel=k4,placement=hbm,type=factor,vary=generator": {
+  "A": 16,
+  "B": 1
+ },
+ "route/at=rmat,footprint-mib=1024,generator=uniform,kernel=k4,placement=hbm,type=four,vary=generator": {
+  "A": 16,
+  "B": 12,
+  "C": 1,
+  "D": 1
+ },
+ "route/at=rmat,footprint-mib=8192,generator=uniform,kernel=k4,placement=cpu,type=factor,vary=generator": {
+  "A": 1,
+  "B": 1
+ },
+ "route/at=rmat,footprint-mib=8192,generator=uniform,kernel=k4,placement=hbm,type=factor,vary=generator": {
+  "A": 2,
+  "B": 1
+ },
+ "route/at=shared,at2=512m,footprint-mib=16384,host=state,kernel=k3p,pattern=word,placement=cpu,state=dirty,type=cross,vary=sharing,vary2=page-size": {
+  "A": 50,
+  "B": 50,
+  "C": 50,
+  "D": 50
+ },
+ "route/at=shared,f-den=1,f-num=1,footprint-mib=0.5,host=state,kernel=k1,pattern=line,placement=cpu,state=clean,type=factor,vary=sharing": {
+  "A": 50,
+  "B": 50
+ },
+ "route/at=shared,f-den=1,f-num=1,footprint-mib=0.5,host=state,kernel=k1,pattern=line,placement=cpu,state=dirty,type=factor,vary=sharing": {
+  "A": 50,
+  "B": 50
+ },
+ "route/at=shared,f-den=1,f-num=1,footprint-mib=0.5,host=state,kernel=k1,pattern=line,placement=cpu,state=evicted,type=factor,vary=sharing": {
+  "A": 50,
+  "B": 50
+ },
+ "route/at=shared,f-den=1,f-num=1,footprint-mib=0.5,host=state,kernel=k1,pattern=word,placement=cpu,state=clean,type=factor,vary=sharing": {
+  "A": 50,
+  "B": 50
+ },
+ "route/at=shared,f-den=1,f-num=1,footprint-mib=0.5,host=state,kernel=k1,pattern=word,placement=cpu,state=clean,type=four,vary=sharing": {
+  "A": 50,
+  "B": 50,
+  "C": 50,
+  "D": 50
+ },
+ "route/at=shared,f-den=1,f-num=1,footprint-mib=0.5,host=state,kernel=k1,pattern=word,placement=cpu,state=dirty,type=factor,vary=sharing": {
+  "A": 50,
+  "B": 50
+ },
+ "route/at=shared,f-den=1,f-num=1,footprint-mib=0.5,host=state,kernel=k1,pattern=word,placement=cpu,state=dirty,type=four,vary=sharing": {
+  "A": 50,
+  "B": 50,
+  "C": 50,
+  "D": 50
+ },
+ "route/at=shared,f-den=1,f-num=1,footprint-mib=0.5,host=state,kernel=k1,pattern=word,placement=cpu,state=evicted,type=factor,vary=sharing": {
+  "A": 50,
+  "B": 50
+ },
+ "route/at=shared,f-den=1,f-num=1,footprint-mib=0.5,host=state,kernel=k1,pattern=word,placement=cpu,state=evicted,type=four,vary=sharing": {
+  "A": 50,
+  "B": 50,
+  "C": 50,
+  "D": 50
+ },
+ "route/at=shared,f-den=1,f-num=1,footprint-mib=0.5,host=state,kernel=k1,pattern=word,placement=hbm,state=clean,type=four,vary=sharing": {
+  "A": 50,
+  "B": 50,
+  "C": 50,
+  "D": 50
+ },
+ "route/at=shared,f-den=1,f-num=1,footprint-mib=0.5,host=state,kernel=k1,pattern=word,placement=hbm,state=dirty,type=four,vary=sharing": {
+  "A": 50,
+  "B": 50,
+  "C": 50,
+  "D": 50
+ },
+ "route/at=shared,f-den=1,f-num=1,footprint-mib=0.5,host=state,kernel=k1,pattern=word,placement=hbm,state=evicted,type=four,vary=sharing": {
+  "A": 50,
+  "B": 50,
+  "C": 50,
+  "D": 50
+ },
+ "route/at=shared,f-den=1,f-num=1,footprint-mib=1024,host=state,kernel=k1,pattern=word,placement=cpu,state=clean,type=four,vary=sharing": {
+  "A": 50,
+  "B": 50,
+  "C": 50,
+  "D": 50
+ },
+ "route/at=shared,f-den=1,f-num=1,footprint-mib=1024,host=state,kernel=k1,pattern=word,placement=cpu,state=dirty,type=four,vary=sharing": {
+  "A": 50,
+  "B": 50,
+  "C": 50,
+  "D": 50
+ },
+ "route/at=shared,f-den=1,f-num=1,footprint-mib=1024,host=state,kernel=k1,pattern=word,placement=cpu,state=evicted,type=four,vary=sharing": {
+  "A": 50,
+  "B": 50,
+  "C": 50,
+  "D": 50
+ },
+ "route/at=shared,f-den=1,f-num=1,footprint-mib=1024,host=state,kernel=k1,pattern=word,placement=hbm,state=clean,type=four,vary=sharing": {
+  "A": 50,
+  "B": 50,
+  "C": 50,
+  "D": 50
+ },
+ "route/at=shared,f-den=1,f-num=1,footprint-mib=1024,host=state,kernel=k1,pattern=word,placement=hbm,state=dirty,type=four,vary=sharing": {
+  "A": 50,
+  "B": 50,
+  "C": 50,
+  "D": 50
+ },
+ "route/at=shared,f-den=1,f-num=1,footprint-mib=1024,host=state,kernel=k1,pattern=word,placement=hbm,state=evicted,type=four,vary=sharing": {
+  "A": 50,
+  "B": 50,
+  "C": 50,
+  "D": 50
+ },
+ "route/at=shared,f-den=1,f-num=1,footprint-mib=128,host=state,kernel=k1,pattern=word,placement=cpu,state=clean,type=four,vary=sharing": {
+  "A": 50,
+  "B": 50,
+  "C": 50,
+  "D": 50
+ },
+ "route/at=shared,f-den=1,f-num=1,footprint-mib=128,host=state,kernel=k1,pattern=word,placement=cpu,state=dirty,type=four,vary=sharing": {
+  "A": 50,
+  "B": 50,
+  "C": 50,
+  "D": 50
+ },
+ "route/at=shared,f-den=1,f-num=1,footprint-mib=128,host=state,kernel=k1,pattern=word,placement=cpu,state=evicted,type=four,vary=sharing": {
+  "A": 50,
+  "B": 50,
+  "C": 50,
+  "D": 50
+ },
+ "route/at=shared,f-den=1,f-num=1,footprint-mib=128,host=state,kernel=k1,pattern=word,placement=hbm,state=clean,type=four,vary=sharing": {
+  "A": 50,
+  "B": 50,
+  "C": 50,
+  "D": 50
+ },
+ "route/at=shared,f-den=1,f-num=1,footprint-mib=128,host=state,kernel=k1,pattern=word,placement=hbm,state=dirty,type=four,vary=sharing": {
+  "A": 50,
+  "B": 50,
+  "C": 50,
+  "D": 50
+ },
+ "route/at=shared,f-den=1,f-num=1,footprint-mib=128,host=state,kernel=k1,pattern=word,placement=hbm,state=evicted,type=four,vary=sharing": {
+  "A": 50,
+  "B": 50,
+  "C": 50,
+  "D": 50
+ },
+ "route/at=shared,f-den=1,f-num=1,footprint-mib=2,host=state,kernel=k1,pattern=word,placement=cpu,state=clean,type=four,vary=sharing": {
+  "A": 50,
+  "B": 50,
+  "C": 50,
+  "D": 50
+ },
+ "route/at=shared,f-den=1,f-num=1,footprint-mib=2,host=state,kernel=k1,pattern=word,placement=cpu,state=dirty,type=four,vary=sharing": {
+  "A": 50,
+  "B": 50,
+  "C": 50,
+  "D": 50
+ },
+ "route/at=shared,f-den=1,f-num=1,footprint-mib=2,host=state,kernel=k1,pattern=word,placement=cpu,state=evicted,type=four,vary=sharing": {
+  "A": 50,
+  "B": 50,
+  "C": 50,
+  "D": 50
+ },
+ "route/at=shared,f-den=1,f-num=1,footprint-mib=2,host=state,kernel=k1,pattern=word,placement=hbm,state=clean,type=four,vary=sharing": {
+  "A": 50,
+  "B": 50,
+  "C": 50,
+  "D": 50
+ },
+ "route/at=shared,f-den=1,f-num=1,footprint-mib=2,host=state,kernel=k1,pattern=word,placement=hbm,state=dirty,type=four,vary=sharing": {
+  "A": 50,
+  "B": 50,
+  "C": 50,
+  "D": 50
+ },
+ "route/at=shared,f-den=1,f-num=1,footprint-mib=2,host=state,kernel=k1,pattern=word,placement=hbm,state=evicted,type=four,vary=sharing": {
+  "A": 50,
+  "B": 50,
+  "C": 50,
+  "D": 50
+ },
+ "route/at=shared,f-den=1,f-num=1,footprint-mib=256,host=state,kernel=k1,pattern=word,placement=cpu,state=clean,type=four,vary=sharing": {
+  "A": 50,
+  "B": 50,
+  "C": 50,
+  "D": 50
+ },
+ "route/at=shared,f-den=1,f-num=1,footprint-mib=256,host=state,kernel=k1,pattern=word,placement=cpu,state=dirty,type=four,vary=sharing": {
+  "A": 50,
+  "B": 50,
+  "C": 50,
+  "D": 50
+ },
+ "route/at=shared,f-den=1,f-num=1,footprint-mib=256,host=state,kernel=k1,pattern=word,placement=cpu,state=evicted,type=four,vary=sharing": {
+  "A": 50,
+  "B": 50,
+  "C": 50,
+  "D": 50
+ },
+ "route/at=shared,f-den=1,f-num=1,footprint-mib=256,host=state,kernel=k1,pattern=word,placement=hbm,state=clean,type=four,vary=sharing": {
+  "A": 50,
+  "B": 50,
+  "C": 50,
+  "D": 50
+ },
+ "route/at=shared,f-den=1,f-num=1,footprint-mib=256,host=state,kernel=k1,pattern=word,placement=hbm,state=dirty,type=four,vary=sharing": {
+  "A": 50,
+  "B": 50,
+  "C": 50,
+  "D": 50
+ },
+ "route/at=shared,f-den=1,f-num=1,footprint-mib=256,host=state,kernel=k1,pattern=word,placement=hbm,state=evicted,type=four,vary=sharing": {
+  "A": 50,
+  "B": 50,
+  "C": 50,
+  "D": 50
+ },
+ "route/at=shared,f-den=1,f-num=1,footprint-mib=32,host=state,kernel=k1,pattern=word,placement=cpu,state=clean,type=four,vary=sharing": {
+  "A": 50,
+  "B": 50,
+  "C": 50,
+  "D": 50
+ },
+ "route/at=shared,f-den=1,f-num=1,footprint-mib=32,host=state,kernel=k1,pattern=word,placement=cpu,state=dirty,type=four,vary=sharing": {
+  "A": 50,
+  "B": 50,
+  "C": 50,
+  "D": 50
+ },
+ "route/at=shared,f-den=1,f-num=1,footprint-mib=32,host=state,kernel=k1,pattern=word,placement=cpu,state=evicted,type=four,vary=sharing": {
+  "A": 50,
+  "B": 50,
+  "C": 50,
+  "D": 50
+ },
+ "route/at=shared,f-den=1,f-num=1,footprint-mib=32,host=state,kernel=k1,pattern=word,placement=hbm,state=clean,type=four,vary=sharing": {
+  "A": 50,
+  "B": 50,
+  "C": 50,
+  "D": 50
+ },
+ "route/at=shared,f-den=1,f-num=1,footprint-mib=32,host=state,kernel=k1,pattern=word,placement=hbm,state=dirty,type=four,vary=sharing": {
+  "A": 50,
+  "B": 50,
+  "C": 50,
+  "D": 50
+ },
+ "route/at=shared,f-den=1,f-num=1,footprint-mib=32,host=state,kernel=k1,pattern=word,placement=hbm,state=evicted,type=four,vary=sharing": {
+  "A": 50,
+  "B": 50,
+  "C": 50,
+  "D": 50
+ },
+ "route/at=shared,f-den=1,f-num=1,footprint-mib=64,host=state,kernel=k1,pattern=line,placement=cpu,state=clean,type=factor,vary=sharing": {
+  "A": 50,
+  "B": 50
+ },
+ "route/at=shared,f-den=1,f-num=1,footprint-mib=64,host=state,kernel=k1,pattern=line,placement=cpu,state=dirty,type=factor,vary=sharing": {
+  "A": 50,
+  "B": 50
+ },
+ "route/at=shared,f-den=1,f-num=1,footprint-mib=64,host=state,kernel=k1,pattern=line,placement=cpu,state=evicted,type=factor,vary=sharing": {
+  "A": 50,
+  "B": 50
+ },
+ "route/at=shared,f-den=1,f-num=1,footprint-mib=64,host=state,kernel=k1,pattern=line,placement=hbm,state=clean,type=factor,vary=sharing": {
+  "A": 50,
+  "B": 50
+ },
+ "route/at=shared,f-den=1,f-num=1,footprint-mib=64,host=state,kernel=k1,pattern=line,placement=hbm,state=dirty,type=factor,vary=sharing": {
+  "A": 50,
+  "B": 50
+ },
+ "route/at=shared,f-den=1,f-num=1,footprint-mib=64,host=state,kernel=k1,pattern=line,placement=hbm,state=evicted,type=factor,vary=sharing": {
+  "A": 50,
+  "B": 50
+ },
+ "route/at=shared,f-den=1,f-num=1,footprint-mib=64,host=state,kernel=k1,pattern=word,placement=cpu,state=clean,type=factor,vary=sharing": {
+  "A": 50,
+  "B": 50
+ },
+ "route/at=shared,f-den=1,f-num=1,footprint-mib=64,host=state,kernel=k1,pattern=word,placement=cpu,state=clean,type=four,vary=sharing": {
+  "A": 50,
+  "B": 50,
+  "C": 50,
+  "D": 50
+ },
+ "route/at=shared,f-den=1,f-num=1,footprint-mib=64,host=state,kernel=k1,pattern=word,placement=cpu,state=dirty,type=factor,vary=sharing": {
+  "A": 50,
+  "B": 50
+ },
+ "route/at=shared,f-den=1,f-num=1,footprint-mib=64,host=state,kernel=k1,pattern=word,placement=cpu,state=dirty,type=four,vary=sharing": {
+  "A": 50,
+  "B": 50,
+  "C": 50,
+  "D": 50
+ },
+ "route/at=shared,f-den=1,f-num=1,footprint-mib=64,host=state,kernel=k1,pattern=word,placement=cpu,state=evicted,type=factor,vary=sharing": {
+  "A": 50,
+  "B": 50
+ },
+ "route/at=shared,f-den=1,f-num=1,footprint-mib=64,host=state,kernel=k1,pattern=word,placement=cpu,state=evicted,type=four,vary=sharing": {
+  "A": 50,
+  "B": 50,
+  "C": 50,
+  "D": 50
+ },
+ "route/at=shared,f-den=1,f-num=1,footprint-mib=64,host=state,kernel=k1,pattern=word,placement=hbm,state=clean,type=factor,vary=sharing": {
+  "A": 50,
+  "B": 50
+ },
+ "route/at=shared,f-den=1,f-num=1,footprint-mib=64,host=state,kernel=k1,pattern=word,placement=hbm,state=clean,type=four,vary=sharing": {
+  "A": 50,
+  "B": 50,
+  "C": 50,
+  "D": 50
+ },
+ "route/at=shared,f-den=1,f-num=1,footprint-mib=64,host=state,kernel=k1,pattern=word,placement=hbm,state=dirty,type=factor,vary=sharing": {
+  "A": 50,
+  "B": 50
+ },
+ "route/at=shared,f-den=1,f-num=1,footprint-mib=64,host=state,kernel=k1,pattern=word,placement=hbm,state=dirty,type=four,vary=sharing": {
+  "A": 50,
+  "B": 50,
+  "C": 50,
+  "D": 50
+ },
+ "route/at=shared,f-den=1,f-num=1,footprint-mib=64,host=state,kernel=k1,pattern=word,placement=hbm,state=evicted,type=factor,vary=sharing": {
+  "A": 50,
+  "B": 50
+ },
+ "route/at=shared,f-den=1,f-num=1,footprint-mib=64,host=state,kernel=k1,pattern=word,placement=hbm,state=evicted,type=four,vary=sharing": {
+  "A": 50,
+  "B": 50,
+  "C": 50,
+  "D": 50
+ },
+ "route/at=shared,f-den=1,f-num=1,footprint-mib=8,host=state,kernel=k1,pattern=line,placement=hbm,state=clean,type=factor,vary=sharing": {
+  "A": 50,
+  "B": 50
+ },
+ "route/at=shared,f-den=1,f-num=1,footprint-mib=8,host=state,kernel=k1,pattern=line,placement=hbm,state=dirty,type=factor,vary=sharing": {
+  "A": 50,
+  "B": 50
+ },
+ "route/at=shared,f-den=1,f-num=1,footprint-mib=8,host=state,kernel=k1,pattern=line,placement=hbm,state=evicted,type=factor,vary=sharing": {
+  "A": 50,
+  "B": 50
+ },
+ "route/at=shared,f-den=1,f-num=1,footprint-mib=8,host=state,kernel=k1,pattern=word,placement=cpu,state=clean,type=four,vary=sharing": {
+  "A": 50,
+  "B": 50,
+  "C": 50,
+  "D": 50
+ },
+ "route/at=shared,f-den=1,f-num=1,footprint-mib=8,host=state,kernel=k1,pattern=word,placement=cpu,state=dirty,type=four,vary=sharing": {
+  "A": 50,
+  "B": 50,
+  "C": 50,
+  "D": 50
+ },
+ "route/at=shared,f-den=1,f-num=1,footprint-mib=8,host=state,kernel=k1,pattern=word,placement=cpu,state=evicted,type=four,vary=sharing": {
+  "A": 50,
+  "B": 50,
+  "C": 50,
+  "D": 50
+ },
+ "route/at=shared,f-den=1,f-num=1,footprint-mib=8,host=state,kernel=k1,pattern=word,placement=hbm,state=clean,type=factor,vary=sharing": {
+  "A": 50,
+  "B": 50
+ },
+ "route/at=shared,f-den=1,f-num=1,footprint-mib=8,host=state,kernel=k1,pattern=word,placement=hbm,state=clean,type=four,vary=sharing": {
+  "A": 50,
+  "B": 50,
+  "C": 50,
+  "D": 50
+ },
+ "route/at=shared,f-den=1,f-num=1,footprint-mib=8,host=state,kernel=k1,pattern=word,placement=hbm,state=dirty,type=factor,vary=sharing": {
+  "A": 50,
+  "B": 50
+ },
+ "route/at=shared,f-den=1,f-num=1,footprint-mib=8,host=state,kernel=k1,pattern=word,placement=hbm,state=dirty,type=four,vary=sharing": {
+  "A": 50,
+  "B": 50,
+  "C": 50,
+  "D": 50
+ },
+ "route/at=shared,f-den=1,f-num=1,footprint-mib=8,host=state,kernel=k1,pattern=word,placement=hbm,state=evicted,type=factor,vary=sharing": {
+  "A": 50,
+  "B": 50
+ },
+ "route/at=shared,f-den=1,f-num=1,footprint-mib=8,host=state,kernel=k1,pattern=word,placement=hbm,state=evicted,type=four,vary=sharing": {
+  "A": 50,
+  "B": 50,
+  "C": 50,
+  "D": 50
+ },
+ "route/at=shared,f-den=1,f-num=1,footprint-mib=96,host=state,kernel=k1,pattern=line,placement=hbm,state=clean,type=factor,vary=sharing": {
+  "A": 50,
+  "B": 50
+ },
+ "route/at=shared,f-den=1,f-num=1,footprint-mib=96,host=state,kernel=k1,pattern=line,placement=hbm,state=dirty,type=factor,vary=sharing": {
+  "A": 50,
+  "B": 50
+ },
+ "route/at=shared,f-den=1,f-num=1,footprint-mib=96,host=state,kernel=k1,pattern=line,placement=hbm,state=evicted,type=factor,vary=sharing": {
+  "A": 50,
+  "B": 50
+ },
+ "route/at=shared,f-den=1,f-num=1,footprint-mib=96,host=state,kernel=k1,pattern=word,placement=cpu,state=clean,type=four,vary=sharing": {
+  "A": 50,
+  "B": 50,
+  "C": 50,
+  "D": 50
+ },
+ "route/at=shared,f-den=1,f-num=1,footprint-mib=96,host=state,kernel=k1,pattern=word,placement=cpu,state=dirty,type=four,vary=sharing": {
+  "A": 50,
+  "B": 50,
+  "C": 50,
+  "D": 50
+ },
+ "route/at=shared,f-den=1,f-num=1,footprint-mib=96,host=state,kernel=k1,pattern=word,placement=cpu,state=evicted,type=four,vary=sharing": {
+  "A": 50,
+  "B": 50,
+  "C": 50,
+  "D": 50
+ },
+ "route/at=shared,f-den=1,f-num=1,footprint-mib=96,host=state,kernel=k1,pattern=word,placement=hbm,state=clean,type=factor,vary=sharing": {
+  "A": 50,
+  "B": 50
+ },
+ "route/at=shared,f-den=1,f-num=1,footprint-mib=96,host=state,kernel=k1,pattern=word,placement=hbm,state=clean,type=four,vary=sharing": {
+  "A": 50,
+  "B": 50,
+  "C": 50,
+  "D": 50
+ },
+ "route/at=shared,f-den=1,f-num=1,footprint-mib=96,host=state,kernel=k1,pattern=word,placement=hbm,state=dirty,type=factor,vary=sharing": {
+  "A": 50,
+  "B": 50
+ },
+ "route/at=shared,f-den=1,f-num=1,footprint-mib=96,host=state,kernel=k1,pattern=word,placement=hbm,state=dirty,type=four,vary=sharing": {
+  "A": 50,
+  "B": 50,
+  "C": 50,
+  "D": 50
+ },
+ "route/at=shared,f-den=1,f-num=1,footprint-mib=96,host=state,kernel=k1,pattern=word,placement=hbm,state=evicted,type=factor,vary=sharing": {
+  "A": 50,
+  "B": 50
+ },
+ "route/at=shared,f-den=1,f-num=1,footprint-mib=96,host=state,kernel=k1,pattern=word,placement=hbm,state=evicted,type=four,vary=sharing": {
+  "A": 50,
+  "B": 50,
+  "C": 50,
+  "D": 50
+ },
+ "route/at=shared,footprint-mib=1024,generator=uniform,host=reads,kernel=k4,placement=cpu,type=factor,vary=sharing": {
+  "A": 1,
+  "B": 1
+ },
+ "route/at=shared,footprint-mib=1024,generator=uniform,host=reads,kernel=k4,placement=cpu,type=four,vary=sharing": {
+  "A": 1,
+  "B": 5,
+  "C": 1,
+  "D": 5
+ },
+ "route/at=shared,footprint-mib=1024,generator=uniform,host=reads,kernel=k4,placement=hbm,type=factor,vary=sharing": {
+  "A": 16,
+  "B": 16
+ },
+ "route/at=shared,footprint-mib=1024,generator=uniform,host=reads,kernel=k4,placement=hbm,type=four,vary=sharing": {
+  "A": 16,
+  "B": 12,
+  "C": 16,
+  "D": 12
+ },
+ "route/at=shared,footprint-mib=1024,host=state,k=1,kernel=k2,pattern=word,placement=cpu,state=clean,type=four,vary=sharing,working-set-mib=8": {
+  "A": 50,
+  "B": 50,
+  "C": 50,
+  "D": 50
+ },
+ "route/at=shared,footprint-mib=1024,host=state,k=1,kernel=k2,pattern=word,placement=cpu,state=dirty,type=four,vary=sharing,working-set-mib=8": {
+  "A": 50,
+  "B": 50,
+  "C": 50,
+  "D": 50
+ },
+ "route/at=shared,footprint-mib=1024,host=state,k=1,kernel=k2,pattern=word,placement=cpu,state=evicted,type=four,vary=sharing,working-set-mib=8": {
+  "A": 50,
+  "B": 50,
+  "C": 50,
+  "D": 50
+ },
+ "route/at=shared,footprint-mib=1024,host=state,k=16,kernel=k2,pattern=line,placement=cpu,state=clean,type=factor,vary=sharing,working-set-mib=8": {
+  "A": 50,
+  "B": 50
+ },
+ "route/at=shared,footprint-mib=1024,host=state,k=16,kernel=k2,pattern=line,placement=cpu,state=dirty,type=factor,vary=sharing,working-set-mib=8": {
+  "A": 50,
+  "B": 50
+ },
+ "route/at=shared,footprint-mib=1024,host=state,k=16,kernel=k2,pattern=line,placement=cpu,state=evicted,type=factor,vary=sharing,working-set-mib=8": {
+  "A": 50,
+  "B": 50
+ },
+ "route/at=shared,footprint-mib=1024,host=state,k=16,kernel=k2,pattern=word,placement=cpu,state=clean,type=factor,vary=sharing,working-set-mib=8": {
+  "A": 50,
+  "B": 50
+ },
+ "route/at=shared,footprint-mib=1024,host=state,k=16,kernel=k2,pattern=word,placement=cpu,state=clean,type=four,vary=sharing,working-set-mib=8": {
+  "A": 50,
+  "B": 50,
+  "C": 50,
+  "D": 50
+ },
+ "route/at=shared,footprint-mib=1024,host=state,k=16,kernel=k2,pattern=word,placement=cpu,state=dirty,type=factor,vary=sharing,working-set-mib=8": {
+  "A": 50,
+  "B": 50
+ },
+ "route/at=shared,footprint-mib=1024,host=state,k=16,kernel=k2,pattern=word,placement=cpu,state=dirty,type=four,vary=sharing,working-set-mib=8": {
+  "A": 50,
+  "B": 50,
+  "C": 50,
+  "D": 50
+ },
+ "route/at=shared,footprint-mib=1024,host=state,k=16,kernel=k2,pattern=word,placement=cpu,state=evicted,type=factor,vary=sharing,working-set-mib=8": {
+  "A": 50,
+  "B": 50
+ },
+ "route/at=shared,footprint-mib=1024,host=state,k=16,kernel=k2,pattern=word,placement=cpu,state=evicted,type=four,vary=sharing,working-set-mib=8": {
+  "A": 50,
+  "B": 50,
+  "C": 50,
+  "D": 50
+ },
+ "route/at=shared,footprint-mib=1024,host=state,k=2,kernel=k2,pattern=word,placement=cpu,state=clean,type=four,vary=sharing,working-set-mib=8": {
+  "A": 50,
+  "B": 50,
+  "C": 50,
+  "D": 50
+ },
+ "route/at=shared,footprint-mib=1024,host=state,k=2,kernel=k2,pattern=word,placement=cpu,state=dirty,type=four,vary=sharing,working-set-mib=8": {
+  "A": 50,
+  "B": 50,
+  "C": 50,
+  "D": 50
+ },
+ "route/at=shared,footprint-mib=1024,host=state,k=2,kernel=k2,pattern=word,placement=cpu,state=evicted,type=four,vary=sharing,working-set-mib=8": {
+  "A": 50,
+  "B": 50,
+  "C": 50,
+  "D": 50
+ },
+ "route/at=shared,footprint-mib=1024,host=state,k=4,kernel=k2,pattern=word,placement=cpu,state=clean,type=four,vary=sharing,working-set-mib=8": {
+  "A": 50,
+  "B": 50,
+  "C": 50,
+  "D": 50
+ },
+ "route/at=shared,footprint-mib=1024,host=state,k=4,kernel=k2,pattern=word,placement=cpu,state=dirty,type=four,vary=sharing,working-set-mib=8": {
+  "A": 50,
+  "B": 50,
+  "C": 50,
+  "D": 50
+ },
+ "route/at=shared,footprint-mib=1024,host=state,k=4,kernel=k2,pattern=word,placement=cpu,state=evicted,type=four,vary=sharing,working-set-mib=8": {
+  "A": 50,
+  "B": 50,
+  "C": 50,
+  "D": 50
+ },
+ "route/at=shared,footprint-mib=1024,host=state,k=64,kernel=k2,pattern=word,placement=cpu,state=clean,type=four,vary=sharing,working-set-mib=8": {
+  "A": 50,
+  "B": 50,
+  "C": 50,
+  "D": 50
+ },
+ "route/at=shared,footprint-mib=1024,host=state,k=64,kernel=k2,pattern=word,placement=cpu,state=dirty,type=four,vary=sharing,working-set-mib=8": {
+  "A": 50,
+  "B": 50,
+  "C": 50,
+  "D": 50
+ },
+ "route/at=shared,footprint-mib=1024,host=state,k=64,kernel=k2,pattern=word,placement=cpu,state=evicted,type=four,vary=sharing,working-set-mib=8": {
+  "A": 50,
+  "B": 50,
+  "C": 50,
+  "D": 50
+ },
+ "route/at=shared,footprint-mib=1024,host=writes,k=1,kernel=k2,pattern=word,placement=cpu,recopy=gather,type=four,vary=sharing,w=0.1,working-set-mib=32": {
+  "A": 50,
+  "B": 50,
+  "C": 50,
+  "D": 40
+ },
+ "route/at=shared,footprint-mib=1024,host=writes,k=1,kernel=k2,pattern=word,placement=cpu,recopy=gather,type=four,vary=sharing,w=0.1,working-set-mib=8": {
+  "A": 50,
+  "B": 50,
+  "C": 50,
+  "D": 38
+ },
+ "route/at=shared,footprint-mib=1024,host=writes,k=1,kernel=k2,pattern=word,placement=cpu,type=four,vary=sharing,w=1,working-set-mib=32": {
+  "A": 50,
+  "B": 50,
+  "C": 50,
+  "D": 50
+ },
+ "route/at=shared,footprint-mib=1024,host=writes,k=1,kernel=k2,pattern=word,placement=cpu,type=four,vary=sharing,w=1,working-set-mib=8": {
+  "A": 50,
+  "B": 50,
+  "C": 50,
+  "D": 50
+ },
+ "route/at=shared,footprint-mib=1024,host=writes,k=1,kernel=k2,pattern=word,placement=hbm,recopy=gather,type=four,vary=sharing,w=0.1,working-set-mib=32": {
+  "A": 50,
+  "B": 50,
+  "C": 50,
+  "D": 50
+ },
+ "route/at=shared,footprint-mib=1024,host=writes,k=1,kernel=k2,pattern=word,placement=hbm,type=four,vary=sharing,w=1,working-set-mib=32": {
+  "A": 50,
+  "B": 50,
+  "C": 50,
+  "D": 50
+ },
+ "route/at=shared,footprint-mib=1024,host=writes,k=16,kernel=k2,pattern=line,placement=cpu,type=factor,vary=sharing,w=0.01,working-set-mib=32": {
+  "A": 14,
+  "B": 14
+ },
+ "route/at=shared,footprint-mib=1024,host=writes,k=16,kernel=k2,pattern=line,placement=cpu,type=factor,vary=sharing,w=0.01,working-set-mib=8": {
+  "A": 50,
+  "B": 50
+ },
+ "route/at=shared,footprint-mib=1024,host=writes,k=16,kernel=k2,pattern=line,placement=cpu,type=factor,vary=sharing,w=0.1,working-set-mib=32": {
+  "A": 14,
+  "B": 14
+ },
+ "route/at=shared,footprint-mib=1024,host=writes,k=16,kernel=k2,pattern=line,placement=cpu,type=factor,vary=sharing,w=0.1,working-set-mib=8": {
+  "A": 50,
+  "B": 50
+ },
+ "route/at=shared,footprint-mib=1024,host=writes,k=16,kernel=k2,pattern=line,placement=cpu,type=factor,vary=sharing,w=1,working-set-mib=32": {
+  "A": 14,
+  "B": 14
+ },
+ "route/at=shared,footprint-mib=1024,host=writes,k=16,kernel=k2,pattern=line,placement=cpu,type=factor,vary=sharing,w=1,working-set-mib=8": {
+  "A": 50,
+  "B": 50
+ },
+ "route/at=shared,footprint-mib=1024,host=writes,k=16,kernel=k2,pattern=line,placement=hbm,type=factor,vary=sharing,w=0.01,working-set-mib=32": {
+  "A": 50,
+  "B": 50
+ },
+ "route/at=shared,footprint-mib=1024,host=writes,k=16,kernel=k2,pattern=line,placement=hbm,type=factor,vary=sharing,w=0.1,working-set-mib=32": {
+  "A": 50,
+  "B": 50
+ },
+ "route/at=shared,footprint-mib=1024,host=writes,k=16,kernel=k2,pattern=line,placement=hbm,type=factor,vary=sharing,w=1,working-set-mib=32": {
+  "A": 50,
+  "B": 50
+ },
+ "route/at=shared,footprint-mib=1024,host=writes,k=16,kernel=k2,pattern=word,placement=cpu,recopy=gather,type=four,vary=sharing,w=0.1,working-set-mib=32": {
+  "A": 14,
+  "B": 50,
+  "C": 14,
+  "D": 32
+ },
+ "route/at=shared,footprint-mib=1024,host=writes,k=16,kernel=k2,pattern=word,placement=cpu,recopy=gather,type=four,vary=sharing,w=0.1,working-set-mib=8": {
+  "A": 50,
+  "B": 50,
+  "C": 50,
+  "D": 36
+ },
+ "route/at=shared,footprint-mib=1024,host=writes,k=16,kernel=k2,pattern=word,placement=cpu,recopy=pitched,type=four,vary=sharing,w=0.1,working-set-mib=32": {
+  "A": 14,
+  "B": 50,
+  "C": 14,
+  "D": 27
+ },
+ "route/at=shared,footprint-mib=1024,host=writes,k=16,kernel=k2,pattern=word,placement=cpu,recopy=pitched,type=four,vary=sharing,w=0.1,working-set-mib=8": {
+  "A": 50,
+  "B": 50,
+  "C": 50,
+  "D": 29
+ },
+ "route/at=shared,footprint-mib=1024,host=writes,k=16,kernel=k2,pattern=word,placement=cpu,type=factor,vary=sharing,w=0.01,working-set-mib=32": {
+  "A": 14,
+  "B": 14
+ },
+ "route/at=shared,footprint-mib=1024,host=writes,k=16,kernel=k2,pattern=word,placement=cpu,type=factor,vary=sharing,w=0.01,working-set-mib=8": {
+  "A": 50,
+  "B": 50
+ },
+ "route/at=shared,footprint-mib=1024,host=writes,k=16,kernel=k2,pattern=word,placement=cpu,type=factor,vary=sharing,w=0.1,working-set-mib=32": {
+  "A": 14,
+  "B": 14
+ },
+ "route/at=shared,footprint-mib=1024,host=writes,k=16,kernel=k2,pattern=word,placement=cpu,type=factor,vary=sharing,w=0.1,working-set-mib=8": {
+  "A": 50,
+  "B": 50
+ },
+ "route/at=shared,footprint-mib=1024,host=writes,k=16,kernel=k2,pattern=word,placement=cpu,type=factor,vary=sharing,w=1,working-set-mib=32": {
+  "A": 14,
+  "B": 14
+ },
+ "route/at=shared,footprint-mib=1024,host=writes,k=16,kernel=k2,pattern=word,placement=cpu,type=factor,vary=sharing,w=1,working-set-mib=8": {
+  "A": 50,
+  "B": 50
+ },
+ "route/at=shared,footprint-mib=1024,host=writes,k=16,kernel=k2,pattern=word,placement=cpu,type=four,vary=sharing,w=1,working-set-mib=32": {
+  "A": 14,
+  "B": 50,
+  "C": 14,
+  "D": 50
+ },
+ "route/at=shared,footprint-mib=1024,host=writes,k=16,kernel=k2,pattern=word,placement=cpu,type=four,vary=sharing,w=1,working-set-mib=8": {
+  "A": 50,
+  "B": 50,
+  "C": 50,
+  "D": 50
+ },
+ "route/at=shared,footprint-mib=1024,host=writes,k=16,kernel=k2,pattern=word,placement=hbm,recopy=gather,type=four,vary=sharing,w=0.1,working-set-mib=32": {
+  "A": 50,
+  "B": 50,
+  "C": 50,
+  "D": 50
+ },
+ "route/at=shared,footprint-mib=1024,host=writes,k=16,kernel=k2,pattern=word,placement=hbm,recopy=pitched,type=four,vary=sharing,w=0.1,working-set-mib=32": {
+  "A": 50,
+  "B": 50,
+  "C": 50,
+  "D": 28
+ },
+ "route/at=shared,footprint-mib=1024,host=writes,k=16,kernel=k2,pattern=word,placement=hbm,type=factor,vary=sharing,w=0.01,working-set-mib=32": {
+  "A": 50,
+  "B": 50
+ },
+ "route/at=shared,footprint-mib=1024,host=writes,k=16,kernel=k2,pattern=word,placement=hbm,type=factor,vary=sharing,w=0.1,working-set-mib=32": {
+  "A": 50,
+  "B": 50
+ },
+ "route/at=shared,footprint-mib=1024,host=writes,k=16,kernel=k2,pattern=word,placement=hbm,type=factor,vary=sharing,w=1,working-set-mib=32": {
+  "A": 50,
+  "B": 50
+ },
+ "route/at=shared,footprint-mib=1024,host=writes,k=16,kernel=k2,pattern=word,placement=hbm,type=four,vary=sharing,w=1,working-set-mib=32": {
+  "A": 50,
+  "B": 50,
+  "C": 50,
+  "D": 50
+ },
+ "route/at=shared,footprint-mib=1024,host=writes,k=2,kernel=k2,pattern=word,placement=cpu,recopy=gather,type=four,vary=sharing,w=0.1,working-set-mib=32": {
+  "A": 50,
+  "B": 50,
+  "C": 50,
+  "D": 35
+ },
+ "route/at=shared,footprint-mib=1024,host=writes,k=2,kernel=k2,pattern=word,placement=cpu,recopy=gather,type=four,vary=sharing,w=0.1,working-set-mib=8": {
+  "A": 50,
+  "B": 50,
+  "C": 50,
+  "D": 36
+ },
+ "route/at=shared,footprint-mib=1024,host=writes,k=2,kernel=k2,pattern=word,placement=cpu,type=four,vary=sharing,w=1,working-set-mib=32": {
+  "A": 50,
+  "B": 50,
+  "C": 50,
+  "D": 50
+ },
+ "route/at=shared,footprint-mib=1024,host=writes,k=2,kernel=k2,pattern=word,placement=cpu,type=four,vary=sharing,w=1,working-set-mib=8": {
+  "A": 50,
+  "B": 50,
+  "C": 50,
+  "D": 50
+ },
+ "route/at=shared,footprint-mib=1024,host=writes,k=2,kernel=k2,pattern=word,placement=hbm,recopy=gather,type=four,vary=sharing,w=0.1,working-set-mib=32": {
+  "A": 50,
+  "B": 50,
+  "C": 50,
+  "D": 50
+ },
+ "route/at=shared,footprint-mib=1024,host=writes,k=2,kernel=k2,pattern=word,placement=hbm,type=four,vary=sharing,w=1,working-set-mib=32": {
+  "A": 50,
+  "B": 50,
+  "C": 50,
+  "D": 50
+ },
+ "route/at=shared,footprint-mib=1024,host=writes,k=4,kernel=k2,pattern=word,placement=cpu,recopy=gather,type=four,vary=sharing,w=0.1,working-set-mib=32": {
+  "A": 50,
+  "B": 50,
+  "C": 50,
+  "D": 35
+ },
+ "route/at=shared,footprint-mib=1024,host=writes,k=4,kernel=k2,pattern=word,placement=cpu,recopy=gather,type=four,vary=sharing,w=0.1,working-set-mib=8": {
+  "A": 50,
+  "B": 50,
+  "C": 50,
+  "D": 36
+ },
+ "route/at=shared,footprint-mib=1024,host=writes,k=4,kernel=k2,pattern=word,placement=cpu,type=four,vary=sharing,w=1,working-set-mib=32": {
+  "A": 50,
+  "B": 50,
+  "C": 50,
+  "D": 50
+ },
+ "route/at=shared,footprint-mib=1024,host=writes,k=4,kernel=k2,pattern=word,placement=cpu,type=four,vary=sharing,w=1,working-set-mib=8": {
+  "A": 50,
+  "B": 50,
+  "C": 50,
+  "D": 50
+ },
+ "route/at=shared,footprint-mib=1024,host=writes,k=4,kernel=k2,pattern=word,placement=hbm,recopy=gather,type=four,vary=sharing,w=0.1,working-set-mib=32": {
+  "A": 50,
+  "B": 50,
+  "C": 50,
+  "D": 50
+ },
+ "route/at=shared,footprint-mib=1024,host=writes,k=4,kernel=k2,pattern=word,placement=hbm,type=four,vary=sharing,w=1,working-set-mib=32": {
+  "A": 50,
+  "B": 50,
+  "C": 50,
+  "D": 50
+ },
+ "route/at=shared,footprint-mib=1024,host=writes,k=64,kernel=k2,pattern=word,placement=cpu,recopy=gather,type=four,vary=sharing,w=0.1,working-set-mib=32": {
+  "A": 4,
+  "B": 50,
+  "C": 4,
+  "D": 26
+ },
+ "route/at=shared,footprint-mib=1024,host=writes,k=64,kernel=k2,pattern=word,placement=cpu,recopy=gather,type=four,vary=sharing,w=0.1,working-set-mib=8": {
+  "A": 50,
+  "B": 50,
+  "C": 50,
+  "D": 34
+ },
+ "route/at=shared,footprint-mib=1024,host=writes,k=64,kernel=k2,pattern=word,placement=cpu,type=four,vary=sharing,w=1,working-set-mib=32": {
+  "A": 4,
+  "B": 50,
+  "C": 4,
+  "D": 50
+ },
+ "route/at=shared,footprint-mib=1024,host=writes,k=64,kernel=k2,pattern=word,placement=cpu,type=four,vary=sharing,w=1,working-set-mib=8": {
+  "A": 50,
+  "B": 50,
+  "C": 50,
+  "D": 50
+ },
+ "route/at=shared,footprint-mib=1024,host=writes,k=64,kernel=k2,pattern=word,placement=hbm,recopy=gather,type=four,vary=sharing,w=0.1,working-set-mib=32": {
+  "A": 50,
+  "B": 50,
+  "C": 50,
+  "D": 46
+ },
+ "route/at=shared,footprint-mib=1024,host=writes,k=64,kernel=k2,pattern=word,placement=hbm,type=four,vary=sharing,w=1,working-set-mib=32": {
+  "A": 50,
+  "B": 48,
+  "C": 50,
+  "D": 48
+ },
+ "route/at=shared,footprint-mib=1024,host=writes,kernel=k3,pattern=line,placement=cpu,type=factor,vary=sharing,w=0.01": {
+  "A": 4,
+  "B": 4
+ },
+ "route/at=shared,footprint-mib=1024,host=writes,kernel=k3,pattern=line,placement=cpu,type=factor,vary=sharing,w=0.1": {
+  "A": 4,
+  "B": 4
+ },
+ "route/at=shared,footprint-mib=1024,host=writes,kernel=k3,pattern=line,placement=cpu,type=factor,vary=sharing,w=1": {
+  "A": 4,
+  "B": 4
+ },
+ "route/at=shared,footprint-mib=1024,host=writes,kernel=k3,pattern=word,placement=cpu,recopy=gather,type=four,vary=sharing,w=0.1": {
+  "A": 4,
+  "B": 41,
+  "C": 4,
+  "D": 21
+ },
+ "route/at=shared,footprint-mib=1024,host=writes,kernel=k3,pattern=word,placement=cpu,type=factor,vary=sharing,w=0.01": {
+  "A": 4,
+  "B": 4
+ },
+ "route/at=shared,footprint-mib=1024,host=writes,kernel=k3,pattern=word,placement=cpu,type=factor,vary=sharing,w=0.1": {
+  "A": 4,
+  "B": 4
+ },
+ "route/at=shared,footprint-mib=1024,host=writes,kernel=k3,pattern=word,placement=cpu,type=factor,vary=sharing,w=1": {
+  "A": 4,
+  "B": 4
+ },
+ "route/at=shared,footprint-mib=1024,host=writes,kernel=k3,pattern=word,placement=cpu,type=four,vary=sharing,w=1": {
+  "A": 4,
+  "B": 6,
+  "C": 4,
+  "D": 6
+ },
+ "route/at=shared,footprint-mib=1024,host=writes,kernel=k3,pattern=word,placement=hbm,recopy=gather,type=four,vary=sharing,w=0.1": {
+  "A": 34,
+  "B": 37,
+  "C": 34,
+  "D": 32
+ },
+ "route/at=shared,footprint-mib=1024,host=writes,kernel=k3,pattern=word,placement=hbm,type=four,vary=sharing,w=1": {
+  "A": 29,
+  "B": 16,
+  "C": 29,
+  "D": 16
+ },
+ "route/at=shared,footprint-mib=11520,host=writes,kernel=k3,pattern=word,placement=cpu,recopy=gather,type=four,vary=sharing,w=0.1": {
+  "A": 1,
+  "B": 40,
+  "C": 1,
+  "D": 6
+ },
+ "route/at=shared,footprint-mib=11520,host=writes,kernel=k3,pattern=word,placement=cpu,type=four,vary=sharing,w=1": {
+  "A": 1,
+  "B": 1,
+  "C": 1,
+  "D": 1
+ },
+ "route/at=shared,footprint-mib=12288,host=writes,kernel=k3,pattern=word,placement=cpu,recopy=gather,type=four,vary=sharing,w=0.1": {
+  "A": 1,
+  "B": 40,
+  "C": 1,
+  "D": 6
+ },
+ "route/at=shared,footprint-mib=12288,host=writes,kernel=k3,pattern=word,placement=cpu,type=four,vary=sharing,w=1": {
+  "A": 1,
+  "B": 1,
+  "C": 1,
+  "D": 1
+ },
+ "route/at=shared,footprint-mib=12288,host=writes,kernel=k3,pattern=word,placement=hbm,recopy=gather,type=four,vary=sharing,w=0.1": {
+  "A": 1,
+  "B": 36,
+  "C": 1,
+  "D": 9
+ },
+ "route/at=shared,footprint-mib=12288,host=writes,kernel=k3,pattern=word,placement=hbm,type=four,vary=sharing,w=1": {
+  "A": 1,
+  "B": 3,
+  "C": 1,
+  "D": 3
+ },
+ "route/at=shared,footprint-mib=1536,host=writes,kernel=k3,pattern=word,placement=cpu,recopy=gather,type=four,vary=sharing,w=0.1": {
+  "A": 4,
+  "B": 41,
+  "C": 4,
+  "D": 19
+ },
+ "route/at=shared,footprint-mib=1536,host=writes,kernel=k3,pattern=word,placement=cpu,type=four,vary=sharing,w=1": {
+  "A": 4,
+  "B": 5,
+  "C": 4,
+  "D": 5
+ },
+ "route/at=shared,footprint-mib=16384,generator=uniform,host=reads,kernel=k4,placement=cpu,type=four,vary=sharing": {
+  "A": 1,
+  "B": 1,
+  "C": 1,
+  "D": 1
+ },
+ "route/at=shared,footprint-mib=16384,host=state,kernel=k3p,pattern=line,placement=cpu,state=dirty,type=factor,vary=sharing": {
+  "A": 50,
+  "B": 50
+ },
+ "route/at=shared,footprint-mib=16384,host=state,kernel=k3p,pattern=word,placement=cpu,state=dirty,type=factor,vary=sharing": {
+  "A": 50,
+  "B": 50
+ },
+ "route/at=shared,footprint-mib=16384,host=state,kernel=k3p,pattern=word,placement=cpu,state=dirty,type=four,vary=sharing": {
+  "A": 50,
+  "B": 50,
+  "C": 50,
+  "D": 50
+ },
+ "route/at=shared,footprint-mib=16384,host=writes,kernel=k3,pattern=line,placement=cpu,type=factor,vary=sharing,w=0.01": {
+  "A": 1,
+  "B": 1
+ },
+ "route/at=shared,footprint-mib=16384,host=writes,kernel=k3,pattern=line,placement=cpu,type=factor,vary=sharing,w=0.1": {
+  "A": 1,
+  "B": 1
+ },
+ "route/at=shared,footprint-mib=16384,host=writes,kernel=k3,pattern=line,placement=cpu,type=factor,vary=sharing,w=1": {
+  "A": 1,
+  "B": 1
+ },
+ "route/at=shared,footprint-mib=16384,host=writes,kernel=k3,pattern=word,placement=cpu,recopy=gather,type=four,vary=sharing,w=0.1": {
+  "A": 1,
+  "B": 40,
+  "C": 1,
+  "D": 4
+ },
+ "route/at=shared,footprint-mib=16384,host=writes,kernel=k3,pattern=word,placement=cpu,recopy=pitched,type=four,vary=sharing,w=0.1": {
+  "A": 1,
+  "B": 39,
+  "C": 1,
+  "D": 2
+ },
+ "route/at=shared,footprint-mib=16384,host=writes,kernel=k3,pattern=word,placement=cpu,type=factor,vary=sharing,w=0.01": {
+  "A": 1,
+  "B": 1
+ },
+ "route/at=shared,footprint-mib=16384,host=writes,kernel=k3,pattern=word,placement=cpu,type=factor,vary=sharing,w=0.1": {
+  "A": 1,
+  "B": 1
+ },
+ "route/at=shared,footprint-mib=16384,host=writes,kernel=k3,pattern=word,placement=cpu,type=factor,vary=sharing,w=1": {
+  "A": 1,
+  "B": 1
+ },
+ "route/at=shared,footprint-mib=16384,host=writes,kernel=k3,pattern=word,placement=cpu,type=four,vary=sharing,w=1": {
+  "A": 1,
+  "B": 1,
+  "C": 1,
+  "D": 1
+ },
+ "route/at=shared,footprint-mib=2048,host=writes,kernel=k3,pattern=word,placement=cpu,recopy=gather,type=four,vary=sharing,w=0.1": {
+  "A": 4,
+  "B": 40,
+  "C": 4,
+  "D": 18
+ },
+ "route/at=shared,footprint-mib=2048,host=writes,kernel=k3,pattern=word,placement=cpu,type=four,vary=sharing,w=1": {
+  "A": 4,
+  "B": 4,
+  "C": 4,
+  "D": 4
+ },
+ "route/at=shared,footprint-mib=24576,generator=uniform,host=reads,kernel=k4,placement=cpu,type=four,vary=sharing": {
+  "A": 1,
+  "B": 1,
+  "C": 1,
+  "D": 1
+ },
+ "route/at=shared,footprint-mib=24576,host=writes,kernel=k3,pattern=word,placement=cpu,recopy=gather,type=four,vary=sharing,w=0.1": {
+  "A": 1,
+  "B": 39,
+  "C": 1,
+  "D": 3
+ },
+ "route/at=shared,footprint-mib=24576,host=writes,kernel=k3,pattern=word,placement=cpu,type=four,vary=sharing,w=1": {
+  "A": 1,
+  "B": 1,
+  "C": 1,
+  "D": 1
+ },
+ "route/at=shared,footprint-mib=256,generator=uniform,host=reads,kernel=k4,placement=cpu,type=four,vary=sharing": {
+  "A": 3,
+  "B": 20,
+  "C": 3,
+  "D": 20
+ },
+ "route/at=shared,footprint-mib=256,generator=uniform,host=reads,kernel=k4,placement=hbm,type=four,vary=sharing": {
+  "A": 50,
+  "B": 23,
+  "C": 50,
+  "D": 23
+ },
+ "route/at=shared,footprint-mib=256,host=writes,kernel=k3,pattern=word,placement=cpu,recopy=gather,type=four,vary=sharing,w=0.1": {
+  "A": 4,
+  "B": 46,
+  "C": 4,
+  "D": 35
+ },
+ "route/at=shared,footprint-mib=256,host=writes,kernel=k3,pattern=word,placement=cpu,type=four,vary=sharing,w=1": {
+  "A": 4,
+  "B": 17,
+  "C": 4,
+  "D": 17
+ },
+ "route/at=shared,footprint-mib=256,host=writes,kernel=k3,pattern=word,placement=hbm,recopy=gather,type=four,vary=sharing,w=0.1": {
+  "A": 40,
+  "B": 41,
+  "C": 41,
+  "D": 37
+ },
+ "route/at=shared,footprint-mib=256,host=writes,kernel=k3,pattern=word,placement=hbm,type=four,vary=sharing,w=1": {
+  "A": 37,
+  "B": 17,
+  "C": 37,
+  "D": 19
+ },
+ "route/at=shared,footprint-mib=32768,generator=uniform,host=reads,kernel=k4,placement=cpu,type=four,vary=sharing": {
+  "A": 1,
+  "B": 1,
+  "C": 1,
+  "D": 1
+ },
+ "route/at=shared,footprint-mib=32768,host=writes,kernel=k3,pattern=word,placement=cpu,recopy=gather,type=four,vary=sharing,w=0.1": {
+  "A": 1,
+  "B": 39,
+  "C": 1,
+  "D": 3
+ },
+ "route/at=shared,footprint-mib=32768,host=writes,kernel=k3,pattern=word,placement=cpu,type=four,vary=sharing,w=1": {
+  "A": 1,
+  "B": 1,
+  "C": 1,
+  "D": 1
+ },
+ "route/at=shared,footprint-mib=4096,generator=uniform,host=reads,kernel=k4,placement=cpu,type=four,vary=sharing": {
+  "A": 1,
+  "B": 2,
+  "C": 1,
+  "D": 2
+ },
+ "route/at=shared,footprint-mib=4096,generator=uniform,host=reads,kernel=k4,placement=hbm,type=four,vary=sharing": {
+  "A": 3,
+  "B": 3,
+  "C": 3,
+  "D": 3
+ },
+ "route/at=shared,footprint-mib=4096,host=writes,kernel=k3,pattern=word,placement=cpu,recopy=gather,type=four,vary=sharing,w=0.1": {
+  "A": 4,
+  "B": 40,
+  "C": 4,
+  "D": 12
+ },
+ "route/at=shared,footprint-mib=4096,host=writes,kernel=k3,pattern=word,placement=cpu,type=four,vary=sharing,w=1": {
+  "A": 4,
+  "B": 2,
+  "C": 4,
+  "D": 2
+ },
+ "route/at=shared,footprint-mib=4096,host=writes,kernel=k3,pattern=word,placement=hbm,recopy=gather,type=four,vary=sharing,w=0.1": {
+  "A": 4,
+  "B": 37,
+  "C": 4,
+  "D": 20
+ },
+ "route/at=shared,footprint-mib=4096,host=writes,kernel=k3,pattern=word,placement=hbm,type=four,vary=sharing,w=1": {
+  "A": 4,
+  "B": 7,
+  "C": 4,
+  "D": 7
+ },
+ "route/at=shared,footprint-mib=512,host=reads,kernel=k5,placement=cpu,sweeps=1,tiling=tiles,type=four,vary=sharing": {
+  "A": 6,
+  "B": 6,
+  "C": 7,
+  "D": 6
+ },
+ "route/at=shared,footprint-mib=512,host=reads,kernel=k5,placement=cpu,sweeps=16,tiling=tiles,type=four,vary=sharing": {
+  "A": 1,
+  "B": 3,
+  "C": 1,
+  "D": 3
+ },
+ "route/at=shared,footprint-mib=512,host=reads,kernel=k5,placement=cpu,sweeps=2,tiling=tiles,type=four,vary=sharing": {
+  "A": 3,
+  "B": 5,
+  "C": 4,
+  "D": 5
+ },
+ "route/at=shared,footprint-mib=512,host=reads,kernel=k5,placement=cpu,sweeps=4,tiling=tiles,type=four,vary=sharing": {
+  "A": 2,
+  "B": 5,
+  "C": 2,
+  "D": 5
+ },
+ "route/at=shared,footprint-mib=512,host=reads,kernel=k5,placement=cpu,sweeps=64,tiling=tiles,type=four,vary=sharing": {
+  "A": 1,
+  "B": 1,
+  "C": 1,
+  "D": 1
+ },
+ "route/at=shared,footprint-mib=512,host=reads,kernel=k5,placement=cpu,sweeps=8,tiling=tiles,type=factor,vary=sharing": {
+  "A": 1,
+  "B": 1
+ },
+ "route/at=shared,footprint-mib=512,host=reads,kernel=k5,placement=cpu,sweeps=8,tiling=tiles,type=four,vary=sharing": {
+  "A": 1,
+  "B": 4,
+  "C": 1,
+  "D": 4
+ },
+ "route/at=shared,footprint-mib=512,host=reads,kernel=k5,placement=hbm,sweeps=1,tiling=tiles,type=four,vary=sharing": {
+  "A": 49,
+  "B": 19,
+  "C": 50,
+  "D": 20
+ },
+ "route/at=shared,footprint-mib=512,host=reads,kernel=k5,placement=hbm,sweeps=16,tiling=tiles,type=four,vary=sharing": {
+  "A": 4,
+  "B": 3,
+  "C": 4,
+  "D": 3
+ },
+ "route/at=shared,footprint-mib=512,host=reads,kernel=k5,placement=hbm,sweeps=2,tiling=tiles,type=four,vary=sharing": {
+  "A": 25,
+  "B": 14,
+  "C": 25,
+  "D": 14
+ },
+ "route/at=shared,footprint-mib=512,host=reads,kernel=k5,placement=hbm,sweeps=4,tiling=tiles,type=four,vary=sharing": {
+  "A": 13,
+  "B": 9,
+  "C": 13,
+  "D": 9
+ },
+ "route/at=shared,footprint-mib=512,host=reads,kernel=k5,placement=hbm,sweeps=64,tiling=tiles,type=four,vary=sharing": {
+  "A": 1,
+  "B": 1,
+  "C": 1,
+  "D": 1
+ },
+ "route/at=shared,footprint-mib=512,host=reads,kernel=k5,placement=hbm,sweeps=8,tiling=tiles,type=factor,vary=sharing": {
+  "A": 7,
+  "B": 7
+ },
+ "route/at=shared,footprint-mib=512,host=reads,kernel=k5,placement=hbm,sweeps=8,tiling=tiles,type=four,vary=sharing": {
+  "A": 7,
+  "B": 6,
+  "C": 7,
+  "D": 6
+ },
+ "route/at=shared,footprint-mib=512,host=writes,kernel=k5,pattern=line,placement=cpu,sweeps=8,tiling=tiles,type=factor,vary=sharing,w=0.01": {
+  "A": 1,
+  "B": 1
+ },
+ "route/at=shared,footprint-mib=512,host=writes,kernel=k5,pattern=line,placement=cpu,sweeps=8,tiling=tiles,type=factor,vary=sharing,w=0.1": {
+  "A": 1,
+  "B": 1
+ },
+ "route/at=shared,footprint-mib=512,host=writes,kernel=k5,pattern=line,placement=cpu,sweeps=8,tiling=tiles,type=factor,vary=sharing,w=1": {
+  "A": 1,
+  "B": 1
+ },
+ "route/at=shared,footprint-mib=512,host=writes,kernel=k5,pattern=line,placement=hbm,sweeps=8,tiling=tiles,type=factor,vary=sharing,w=0.01": {
+  "A": 6,
+  "B": 6
+ },
+ "route/at=shared,footprint-mib=512,host=writes,kernel=k5,pattern=line,placement=hbm,sweeps=8,tiling=tiles,type=factor,vary=sharing,w=0.1": {
+  "A": 6,
+  "B": 6
+ },
+ "route/at=shared,footprint-mib=512,host=writes,kernel=k5,pattern=line,placement=hbm,sweeps=8,tiling=tiles,type=factor,vary=sharing,w=1": {
+  "A": 6,
+  "B": 6
+ },
+ "route/at=shared,footprint-mib=512,host=writes,kernel=k5,pattern=word,placement=cpu,recopy=gather,sweeps=1,tiling=tiles,type=four,vary=sharing,w=0.1": {
+  "A": 6,
+  "B": 9,
+  "C": 7,
+  "D": 8
+ },
+ "route/at=shared,footprint-mib=512,host=writes,kernel=k5,pattern=word,placement=cpu,recopy=gather,sweeps=16,tiling=tiles,type=four,vary=sharing,w=0.1": {
+  "A": 1,
+  "B": 3,
+  "C": 1,
+  "D": 3
+ },
+ "route/at=shared,footprint-mib=512,host=writes,kernel=k5,pattern=word,placement=cpu,recopy=gather,sweeps=2,tiling=tiles,type=four,vary=sharing,w=0.1": {
+  "A": 3,
+  "B": 8,
+  "C": 4,
+  "D": 7
+ },
+ "route/at=shared,footprint-mib=512,host=writes,kernel=k5,pattern=word,placement=cpu,recopy=gather,sweeps=4,tiling=tiles,type=four,vary=sharing,w=0.1": {
+  "A": 2,
+  "B": 6,
+  "C": 2,
+  "D": 6
+ },
+ "route/at=shared,footprint-mib=512,host=writes,kernel=k5,pattern=word,placement=cpu,recopy=gather,sweeps=64,tiling=tiles,type=four,vary=sharing,w=0.1": {
+  "A": 1,
+  "B": 1,
+  "C": 1,
+  "D": 1
+ },
+ "route/at=shared,footprint-mib=512,host=writes,kernel=k5,pattern=word,placement=cpu,recopy=gather,sweeps=8,tiling=tiles,type=four,vary=sharing,w=0.1": {
+  "A": 1,
+  "B": 4,
+  "C": 1,
+  "D": 4
+ },
+ "route/at=shared,footprint-mib=512,host=writes,kernel=k5,pattern=word,placement=cpu,recopy=pitched,sweeps=8,tiling=tiles,type=four,vary=sharing,w=0.1": {
+  "A": 1,
+  "B": 4,
+  "C": 1,
+  "D": 4
+ },
+ "route/at=shared,footprint-mib=512,host=writes,kernel=k5,pattern=word,placement=cpu,sweeps=1,tiling=tiles,type=four,vary=sharing,w=1": {
+  "A": 6,
+  "B": 6,
+  "C": 7,
+  "D": 6
+ },
+ "route/at=shared,footprint-mib=512,host=writes,kernel=k5,pattern=word,placement=cpu,sweeps=16,tiling=tiles,type=four,vary=sharing,w=1": {
+  "A": 1,
+  "B": 3,
+  "C": 1,
+  "D": 3
+ },
+ "route/at=shared,footprint-mib=512,host=writes,kernel=k5,pattern=word,placement=cpu,sweeps=2,tiling=tiles,type=four,vary=sharing,w=1": {
+  "A": 3,
+  "B": 5,
+  "C": 4,
+  "D": 5
+ },
+ "route/at=shared,footprint-mib=512,host=writes,kernel=k5,pattern=word,placement=cpu,sweeps=4,tiling=tiles,type=four,vary=sharing,w=1": {
+  "A": 2,
+  "B": 5,
+  "C": 2,
+  "D": 5
+ },
+ "route/at=shared,footprint-mib=512,host=writes,kernel=k5,pattern=word,placement=cpu,sweeps=64,tiling=tiles,type=four,vary=sharing,w=1": {
+  "A": 1,
+  "B": 1,
+  "C": 1,
+  "D": 1
+ },
+ "route/at=shared,footprint-mib=512,host=writes,kernel=k5,pattern=word,placement=cpu,sweeps=8,tiling=tiles,type=factor,vary=sharing,w=0.01": {
+  "A": 1,
+  "B": 1
+ },
+ "route/at=shared,footprint-mib=512,host=writes,kernel=k5,pattern=word,placement=cpu,sweeps=8,tiling=tiles,type=factor,vary=sharing,w=0.1": {
+  "A": 1,
+  "B": 1
+ },
+ "route/at=shared,footprint-mib=512,host=writes,kernel=k5,pattern=word,placement=cpu,sweeps=8,tiling=tiles,type=factor,vary=sharing,w=1": {
+  "A": 1,
+  "B": 1
+ },
+ "route/at=shared,footprint-mib=512,host=writes,kernel=k5,pattern=word,placement=cpu,sweeps=8,tiling=tiles,type=four,vary=sharing,w=1": {
+  "A": 1,
+  "B": 4,
+  "C": 1,
+  "D": 4
+ },
+ "route/at=shared,footprint-mib=512,host=writes,kernel=k5,pattern=word,placement=hbm,recopy=gather,sweeps=1,tiling=tiles,type=four,vary=sharing,w=0.1": {
+  "A": 36,
+  "B": 27,
+  "C": 35,
+  "D": 24
+ },
+ "route/at=shared,footprint-mib=512,host=writes,kernel=k5,pattern=word,placement=hbm,recopy=gather,sweeps=16,tiling=tiles,type=four,vary=sharing,w=0.1": {
+  "A": 3,
+  "B": 3,
+  "C": 3,
+  "D": 3
+ },
+ "route/at=shared,footprint-mib=512,host=writes,kernel=k5,pattern=word,placement=hbm,recopy=gather,sweeps=2,tiling=tiles,type=four,vary=sharing,w=0.1": {
+  "A": 20,
+  "B": 18,
+  "C": 18,
+  "D": 17
+ },
+ "route/at=shared,footprint-mib=512,host=writes,kernel=k5,pattern=word,placement=hbm,recopy=gather,sweeps=4,tiling=tiles,type=four,vary=sharing,w=0.1": {
+  "A": 11,
+  "B": 11,
+  "C": 11,
+  "D": 10
+ },
+ "route/at=shared,footprint-mib=512,host=writes,kernel=k5,pattern=word,placement=hbm,recopy=gather,sweeps=64,tiling=tiles,type=four,vary=sharing,w=0.1": {
+  "A": 1,
+  "B": 1,
+  "C": 1,
+  "D": 1
+ },
+ "route/at=shared,footprint-mib=512,host=writes,kernel=k5,pattern=word,placement=hbm,recopy=gather,sweeps=8,tiling=tiles,type=four,vary=sharing,w=0.1": {
+  "A": 6,
+  "B": 6,
+  "C": 6,
+  "D": 6
+ },
+ "route/at=shared,footprint-mib=512,host=writes,kernel=k5,pattern=word,placement=hbm,recopy=pitched,sweeps=8,tiling=tiles,type=four,vary=sharing,w=0.1": {
+  "A": 6,
+  "B": 6,
+  "C": 6,
+  "D": 6
+ },
+ "route/at=shared,footprint-mib=512,host=writes,kernel=k5,pattern=word,placement=hbm,sweeps=1,tiling=tiles,type=four,vary=sharing,w=1": {
+  "A": 35,
+  "B": 17,
+  "C": 31,
+  "D": 18
+ },
+ "route/at=shared,footprint-mib=512,host=writes,kernel=k5,pattern=word,placement=hbm,sweeps=16,tiling=tiles,type=four,vary=sharing,w=1": {
+  "A": 3,
+  "B": 3,
+  "C": 3,
+  "D": 3
+ },
+ "route/at=shared,footprint-mib=512,host=writes,kernel=k5,pattern=word,placement=hbm,sweeps=2,tiling=tiles,type=four,vary=sharing,w=1": {
+  "A": 20,
+  "B": 13,
+  "C": 20,
+  "D": 13
+ },
+ "route/at=shared,footprint-mib=512,host=writes,kernel=k5,pattern=word,placement=hbm,sweeps=4,tiling=tiles,type=four,vary=sharing,w=1": {
+  "A": 11,
+  "B": 9,
+  "C": 11,
+  "D": 9
+ },
+ "route/at=shared,footprint-mib=512,host=writes,kernel=k5,pattern=word,placement=hbm,sweeps=64,tiling=tiles,type=four,vary=sharing,w=1": {
+  "A": 1,
+  "B": 1,
+  "C": 1,
+  "D": 1
+ },
+ "route/at=shared,footprint-mib=512,host=writes,kernel=k5,pattern=word,placement=hbm,sweeps=8,tiling=tiles,type=factor,vary=sharing,w=0.01": {
+  "A": 6,
+  "B": 6
+ },
+ "route/at=shared,footprint-mib=512,host=writes,kernel=k5,pattern=word,placement=hbm,sweeps=8,tiling=tiles,type=factor,vary=sharing,w=0.1": {
+  "A": 6,
+  "B": 6
+ },
+ "route/at=shared,footprint-mib=512,host=writes,kernel=k5,pattern=word,placement=hbm,sweeps=8,tiling=tiles,type=factor,vary=sharing,w=1": {
+  "A": 6,
+  "B": 6
+ },
+ "route/at=shared,footprint-mib=512,host=writes,kernel=k5,pattern=word,placement=hbm,sweeps=8,tiling=tiles,type=four,vary=sharing,w=1": {
+  "A": 6,
+  "B": 6,
+  "C": 6,
+  "D": 6
+ },
+ "route/at=shared,footprint-mib=8192,generator=uniform,host=reads,kernel=k4,placement=cpu,type=four,vary=sharing": {
+  "A": 1,
+  "B": 1,
+  "C": 1,
+  "D": 1
+ },
+ "route/at=shared,footprint-mib=8192,generator=uniform,host=reads,kernel=k4,placement=hbm,type=four,vary=sharing": {
+  "A": 2,
+  "B": 1,
+  "C": 2,
+  "D": 1
+ },
+ "route/at=shared,footprint-mib=8192,host=writes,kernel=k3,pattern=line,placement=hbm,type=factor,vary=sharing,w=0.01": {
+  "A": 3,
+  "B": 3
+ },
+ "route/at=shared,footprint-mib=8192,host=writes,kernel=k3,pattern=line,placement=hbm,type=factor,vary=sharing,w=0.1": {
+  "A": 3,
+  "B": 3
+ },
+ "route/at=shared,footprint-mib=8192,host=writes,kernel=k3,pattern=line,placement=hbm,type=factor,vary=sharing,w=1": {
+  "A": 3,
+  "B": 3
+ },
+ "route/at=shared,footprint-mib=8192,host=writes,kernel=k3,pattern=word,placement=cpu,recopy=gather,type=four,vary=sharing,w=0.1": {
+  "A": 3,
+  "B": 40,
+  "C": 3,
+  "D": 8
+ },
+ "route/at=shared,footprint-mib=8192,host=writes,kernel=k3,pattern=word,placement=cpu,type=four,vary=sharing,w=1": {
+  "A": 3,
+  "B": 1,
+  "C": 3,
+  "D": 1
+ },
+ "route/at=shared,footprint-mib=8192,host=writes,kernel=k3,pattern=word,placement=hbm,recopy=gather,type=four,vary=sharing,w=0.1": {
+  "A": 3,
+  "B": 36,
+  "C": 3,
+  "D": 12
+ },
+ "route/at=shared,footprint-mib=8192,host=writes,kernel=k3,pattern=word,placement=hbm,recopy=pitched,type=four,vary=sharing,w=0.1": {
+  "A": 3,
+  "B": 36,
+  "C": 3,
+  "D": 4
+ },
+ "route/at=shared,footprint-mib=8192,host=writes,kernel=k3,pattern=word,placement=hbm,type=factor,vary=sharing,w=0.01": {
+  "A": 3,
+  "B": 3
+ },
+ "route/at=shared,footprint-mib=8192,host=writes,kernel=k3,pattern=word,placement=hbm,type=factor,vary=sharing,w=0.1": {
+  "A": 3,
+  "B": 3
+ },
+ "route/at=shared,footprint-mib=8192,host=writes,kernel=k3,pattern=word,placement=hbm,type=factor,vary=sharing,w=1": {
+  "A": 3,
+  "B": 3
+ },
+ "route/at=shared,footprint-mib=8192,host=writes,kernel=k3,pattern=word,placement=hbm,type=four,vary=sharing,w=1": {
+  "A": 3,
+  "B": 4,
+  "C": 3,
+  "D": 4
+ },
+ "route/at=shared,footprint-mib=9728,host=writes,kernel=k3,pattern=word,placement=cpu,recopy=gather,type=four,vary=sharing,w=0.1": {
+  "A": 1,
+  "B": 40,
+  "C": 1,
+  "D": 7
+ },
+ "route/at=shared,footprint-mib=9728,host=writes,kernel=k3,pattern=word,placement=cpu,type=four,vary=sharing,w=1": {
+  "A": 1,
+  "B": 1,
+  "C": 1,
+  "D": 1
+ },
+ "route/at=sorted,footprint-mib=16384,kernel=k3,placement=cpu,type=factor,vary=index-order": {
+  "A": 1,
+  "B": 4
+ },
+ "route/at=stadd,footprint-mib=0.0625,issuer=cpu,kernel=k6,placement=cpu,type=factor,update=atomic,vary=update": {
+  "A": 2,
+  "B": 3
+ },
+ "route/at=stadd,footprint-mib=0.0625,issuer=cpu,kernel=k6,placement=hbm,type=factor,update=atomic,vary=update": {
+  "A": 2,
+  "B": 3
+ },
+ "route/at=stadd,footprint-mib=1,issuer=cpu,kernel=k6,placement=cpu,type=factor,update=atomic,vary=update": {
+  "A": 2,
+  "B": 3
+ },
+ "route/at=stadd,footprint-mib=1,issuer=cpu,kernel=k6,placement=hbm,type=factor,update=atomic,vary=update": {
+  "A": 2,
+  "B": 3
+ },
+ "route/at=stadd,footprint-mib=16,issuer=cpu,kernel=k6,placement=cpu,type=factor,update=atomic,vary=update": {
+  "A": 2,
+  "B": 3
+ },
+ "route/at=stadd,footprint-mib=16,issuer=cpu,kernel=k6,placement=hbm,type=factor,update=atomic,vary=update": {
+  "A": 2,
+  "B": 3
+ },
+ "route/at=stadd,footprint-mib=256,issuer=cpu,kernel=k6,placement=cpu,type=factor,update=atomic,vary=update": {
+  "A": 2,
+  "B": 3
+ },
+ "route/at=stadd,footprint-mib=256,issuer=cpu,kernel=k6,placement=hbm,type=factor,update=atomic,vary=update": {
+  "A": 2,
+  "B": 2
+ },
+ "route/at=sys,footprint-mib=1024,k=1,kernel=k2,placement=cpu,type=four,vary=scope,working-set-mib=8": {
+  "A": 665,
+  "B": 378,
+  "C": 650,
+  "D": 379
+ },
+ "route/at=sys,footprint-mib=1024,k=1,kernel=k2,placement=hbm,type=four,vary=scope,working-set-mib=8": {
+  "A": 2234,
+  "B": 398,
+  "C": 2059,
+  "D": 399
+ },
+ "route/at=sys,footprint-mib=1024,k=16,kernel=k2,placement=cpu,type=four,vary=scope,working-set-mib=8": {
+  "A": 527,
+  "B": 330,
+  "C": 50,
+  "D": 245
+ },
+ "route/at=sys,footprint-mib=1024,k=16,kernel=k2,placement=hbm,type=four,vary=scope,working-set-mib=8": {
+  "A": 1239,
+  "B": 342,
+  "C": 522,
+  "D": 241
+ },
+ "route/at=sys,footprint-mib=1024,k=2,kernel=k2,placement=cpu,type=four,vary=scope,working-set-mib=8": {
+  "A": 648,
+  "B": 375,
+  "C": 358,
+  "D": 363
+ },
+ "route/at=sys,footprint-mib=1024,k=2,kernel=k2,placement=hbm,type=four,vary=scope,working-set-mib=8": {
+  "A": 2151,
+  "B": 400,
+  "C": 1736,
+  "D": 392
+ },
+ "route/at=sys,footprint-mib=1024,k=4,kernel=k2,placement=cpu,type=four,vary=scope,working-set-mib=8": {
+  "A": 625,
+  "B": 364,
+  "C": 189,
+  "D": 334
+ },
+ "route/at=sys,footprint-mib=1024,k=4,kernel=k2,placement=hbm,type=four,vary=scope,working-set-mib=8": {
+  "A": 1924,
+  "B": 397,
+  "C": 1297,
+  "D": 344
+ },
+ "route/at=sys,footprint-mib=1024,k=64,kernel=k2,placement=cpu,type=four,vary=scope,working-set-mib=8": {
+  "A": 329,
+  "B": 237,
+  "C": 13,
+  "D": 118
+ },
+ "route/at=sys,footprint-mib=1024,k=64,kernel=k2,placement=hbm,type=four,vary=scope,working-set-mib=8": {
+  "A": 518,
+  "B": 241,
+  "C": 157,
+  "D": 118
+ },
+ "route/at=tiles,footprint-mib=1024,k=16,kernel=k2,placement=cpu,type=factor,vary=tiling,working-set-mib=8": {
+  "A": 529,
+  "B": 544
+ },
+ "route/at=tiles,footprint-mib=1024,k=16,kernel=k2,placement=hbm,type=factor,vary=tiling,working-set-mib=8": {
+  "A": 1251,
+  "B": 1305
+ },
+ "route/at=warp+private,footprint-mib=8,kernel=k6,keys=1,placement=cpu,type=kvar,vary=strategy": {
+  "A": 1,
+  "B": 4,
+  "C": 5
+ },
+ "route/at=warp+private,footprint-mib=8,kernel=k6,keys=1,placement=hbm,type=kvar,vary=strategy": {
+  "A": 2,
+  "B": 49,
+  "C": 5
+ },
+ "route/at=warp+private,footprint-mib=8,kernel=k6,keys=1024,placement=cpu,type=kvar,vary=strategy": {
+  "A": 2,
+  "B": 2,
+  "C": 207
+ },
+ "route/at=warp+private,footprint-mib=8,kernel=k6,keys=1024,placement=hbm,type=kvar,vary=strategy": {
+  "A": 27,
+  "B": 27,
+  "C": 218
+ },
+ "route/at=warp+private,footprint-mib=8,kernel=k6,keys=16,placement=cpu,type=kvar,vary=strategy": {
+  "A": 1,
+  "B": 1,
+  "C": 62
+ },
+ "route/at=warp+private,footprint-mib=8,kernel=k6,keys=16,placement=hbm,type=kvar,vary=strategy": {
+  "A": 4,
+  "B": 14,
+  "C": 62
+ },
+ "route/at=warp+private,footprint-mib=8,kernel=k6,keys=256,placement=cpu,type=kvar,vary=strategy": {
+  "A": 1,
+  "B": 1,
+  "C": 183
+ },
+ "route/at=warp+private,footprint-mib=8,kernel=k6,keys=256,placement=hbm,type=kvar,vary=strategy": {
+  "A": 8,
+  "B": 8,
+  "C": 185
+ },
+ "route/at=warp,footprint-mib=8,kernel=k6,keys=1048576,placement=cpu,type=factor,vary=strategy": {
+  "A": 3,
+  "B": 3
+ },
+ "route/at=warp,footprint-mib=8,kernel=k6,keys=1048576,placement=hbm,type=factor,vary=strategy": {
+  "A": 113,
+  "B": 70
+ },
+ "route/at=warp,footprint-mib=8,kernel=k6,keys=4096,placement=cpu,type=factor,vary=strategy": {
+  "A": 4,
+  "B": 4
+ },
+ "route/at=warp,footprint-mib=8,kernel=k6,keys=4096,placement=hbm,type=factor,vary=strategy": {
+  "A": 76,
+  "B": 71
+ },
+ "route/at=warp,footprint-mib=8,kernel=k6,keys=65536,placement=cpu,type=factor,vary=strategy": {
+  "A": 5,
+  "B": 5
+ },
+ "route/at=warp,footprint-mib=8,kernel=k6,keys=65536,placement=hbm,type=factor,vary=strategy": {
+  "A": 104,
+  "B": 70
+ },
+ "route/f-den=1,f-num=1,footprint-mib=1024,kernel=k1,placement=cpu": {
+  "A": 7,
+  "B": 7
+ },
+ "route/f-den=1,f-num=1,footprint-mib=1024,kernel=k1,placement=hbm": {
+  "A": 67,
+  "B": 22
+ },
+ "route/f-den=1,f-num=1,footprint-mib=16384,kernel=k1,placement=cpu": {
+  "A": 1,
+  "B": 1
+ },
+ "route/f-den=1,f-num=1,footprint-mib=16384,kernel=k1,placement=hbm": {
+  "A": 4,
+  "B": 2
+ },
+ "route/f-den=1,f-num=1,footprint-mib=19456,kernel=k1,placement=cpu": {
+  "A": 1,
+  "B": 1
+ },
+ "route/f-den=1,f-num=1,footprint-mib=19456,kernel=k1,placement=cpu,tune=copy,type=tune": {
+  "A": 1,
+  "B": 1,
+  "C": 1,
+  "D": 1,
+  "E": 1,
+  "F": 1,
+  "G": 1,
+  "H": 1,
+  "I": 1,
+  "J": 1,
+  "K": 1,
+  "L": 1,
+  "M": 1,
+  "N": 1,
+  "O": 1,
+  "P": 1,
+  "Q": 1,
+  "R": 1,
+  "S": 1,
+  "T": 1,
+  "U": 1,
+  "V": 1,
+  "W": 1,
+  "X": 1,
+  "Y": 1,
+  "Z": 1
+ },
+ "route/f-den=1,f-num=1,footprint-mib=23296,kernel=k1,placement=cpu": {
+  "A": 1,
+  "B": 1
+ },
+ "route/f-den=1,f-num=1,footprint-mib=23296,kernel=k1,placement=cpu,tune=copy,type=tune": {
+  "A": 1,
+  "B": 1,
+  "C": 1,
+  "D": 1,
+  "E": 1,
+  "F": 1,
+  "G": 1,
+  "H": 1,
+  "I": 1,
+  "J": 1,
+  "K": 1,
+  "L": 1,
+  "M": 1,
+  "N": 1,
+  "O": 1,
+  "P": 1,
+  "Q": 1,
+  "R": 1,
+  "S": 1,
+  "T": 1,
+  "U": 1,
+  "V": 1,
+  "W": 1,
+  "X": 1,
+  "Y": 1,
+  "Z": 1
+ },
+ "route/f-den=1,f-num=1,footprint-mib=24576,kernel=k1,placement=cpu": {
+  "A": 1,
+  "B": 1
+ },
+ "route/f-den=1,f-num=1,footprint-mib=24576,kernel=k1,placement=hbm": {
+  "A": 3,
+  "B": 1
+ },
+ "route/f-den=1,f-num=1,footprint-mib=256,kernel=k1,placement=cpu": {
+  "A": 28,
+  "B": 24
+ },
+ "route/f-den=1,f-num=1,footprint-mib=256,kernel=k1,placement=hbm": {
+  "A": 255,
+  "B": 28
+ },
+ "route/f-den=1,f-num=1,footprint-mib=32768,kernel=k1,placement=cpu": {
+  "A": 1,
+  "B": 1
+ },
+ "route/f-den=1,f-num=1,footprint-mib=4096,kernel=k1,placement=cpu": {
+  "A": 2,
+  "B": 2
+ },
+ "route/f-den=1,f-num=1,footprint-mib=4096,kernel=k1,placement=hbm": {
+  "A": 18,
+  "B": 6
+ },
+ "route/f-den=1,f-num=1,footprint-mib=64,host=state,kernel=k1,pattern=word,placement=cpu,sharing=shared,state=clean": {
+  "A": 50,
+  "B": 50
+ },
+ "route/f-den=1,f-num=1,footprint-mib=64,host=state,kernel=k1,pattern=word,placement=cpu,sharing=shared,state=dirty": {
+  "A": 50,
+  "B": 50
+ },
+ "route/f-den=1,f-num=1,footprint-mib=64,host=state,kernel=k1,pattern=word,placement=cpu,sharing=shared,state=evicted": {
+  "A": 50,
+  "B": 50
+ },
+ "route/f-den=1,f-num=1,footprint-mib=64,host=state,kernel=k1,pattern=word,placement=hbm,sharing=shared,state=clean": {
+  "A": 50,
+  "B": 50
+ },
+ "route/f-den=1,f-num=1,footprint-mib=64,host=state,kernel=k1,pattern=word,placement=hbm,sharing=shared,state=dirty": {
+  "A": 50,
+  "B": 50
+ },
+ "route/f-den=1,f-num=1,footprint-mib=64,host=state,kernel=k1,pattern=word,placement=hbm,sharing=shared,state=evicted": {
+  "A": 50,
+  "B": 50
+ },
+ "route/f-den=1,f-num=1,footprint-mib=8192,kernel=k1,placement=cpu": {
+  "A": 1,
+  "B": 1
+ },
+ "route/f-den=1,f-num=1,footprint-mib=8192,kernel=k1,placement=hbm": {
+  "A": 9,
+  "B": 3
+ },
+ "route/f-den=10,f-num=1,footprint-mib=1024,kernel=k1,placement=cpu": {
+  "A": 67,
+  "B": 56
+ },
+ "route/f-den=10,f-num=1,footprint-mib=1024,kernel=k1,placement=hbm": {
+  "A": 526,
+  "B": 162
+ },
+ "route/f-den=10,f-num=9,footprint-mib=1024,kernel=k1,placement=cpu": {
+  "A": 8,
+  "B": 7
+ },
+ "route/f-den=10,f-num=9,footprint-mib=1024,kernel=k1,placement=hbm": {
+  "A": 73,
+  "B": 23
+ },
+ "route/f-den=100,f-num=1,footprint-mib=1024,kernel=k1,placement=cpu": {
+  "A": 527,
+  "B": 386
+ },
+ "route/f-den=100,f-num=1,footprint-mib=1024,kernel=k1,placement=hbm": {
+  "A": 1974,
+  "B": 622
+ },
+ "route/f-den=1000,f-num=1,footprint-mib=1024,kernel=k1,placement=cpu": {
+  "A": 1266,
+  "B": 1138
+ },
+ "route/f-den=1000,f-num=1,footprint-mib=1024,kernel=k1,placement=hbm": {
+  "A": 2521,
+  "B": 1394
+ },
+ "route/f-den=2,f-num=1,footprint-mib=1024,kernel=k1,placement=cpu": {
+  "A": 14,
+  "B": 13
+ },
+ "route/f-den=2,f-num=1,footprint-mib=1024,kernel=k1,placement=hbm": {
+  "A": 125,
+  "B": 39
+ },
+ "route/f-den=4,f-num=3,footprint-mib=1024,kernel=k1,placement=cpu": {
+  "A": 10,
+  "B": 7
+ },
+ "route/f-den=4,f-num=3,footprint-mib=1024,kernel=k1,placement=hbm": {
+  "A": 86,
+  "B": 27
+ },
+ "route/footprint-mib=1024,generator=rmat,kernel=k4,placement=cpu": {
+  "A": 1,
+  "B": 1
+ },
+ "route/footprint-mib=1024,generator=rmat,kernel=k4,placement=hbm": {
+  "A": 1,
+  "B": 1
+ },
+ "route/footprint-mib=1024,generator=uniform,host=reads,kernel=k4,placement=cpu,sharing=shared": {
+  "A": 1,
+  "B": 5
+ },
+ "route/footprint-mib=1024,generator=uniform,host=reads,kernel=k4,placement=hbm,sharing=shared": {
+  "A": 16,
+  "B": 12
+ },
+ "route/footprint-mib=1024,generator=uniform,kernel=k4,placement=cpu": {
+  "A": 1,
+  "B": 5
+ },
+ "route/footprint-mib=1024,generator=uniform,kernel=k4,placement=hbm": {
+  "A": 16,
+  "B": 12
+ },
+ "route/footprint-mib=1024,host=state,k=16,kernel=k2,pattern=word,placement=cpu,sharing=shared,state=clean,working-set-mib=8": {
+  "A": 50,
+  "B": 50
+ },
+ "route/footprint-mib=1024,host=state,k=16,kernel=k2,pattern=word,placement=cpu,sharing=shared,state=dirty,working-set-mib=8": {
+  "A": 50,
+  "B": 50
+ },
+ "route/footprint-mib=1024,host=state,k=16,kernel=k2,pattern=word,placement=cpu,sharing=shared,state=evicted,working-set-mib=8": {
+  "A": 50,
+  "B": 50
+ },
+ "route/footprint-mib=1024,host=writes,k=16,kernel=k2,pattern=word,placement=cpu,recopy=gather,sharing=shared,w=0.01,working-set-mib=32": {
+  "A": 14,
+  "B": 50
+ },
+ "route/footprint-mib=1024,host=writes,k=16,kernel=k2,pattern=word,placement=cpu,recopy=gather,sharing=shared,w=0.01,working-set-mib=8": {
+  "A": 50,
+  "B": 50
+ },
+ "route/footprint-mib=1024,host=writes,k=16,kernel=k2,pattern=word,placement=cpu,recopy=gather,sharing=shared,w=0.1,working-set-mib=32": {
+  "A": 14,
+  "B": 34
+ },
+ "route/footprint-mib=1024,host=writes,k=16,kernel=k2,pattern=word,placement=cpu,recopy=gather,sharing=shared,w=0.1,working-set-mib=8": {
+  "A": 50,
+  "B": 42
+ },
+ "route/footprint-mib=1024,host=writes,k=16,kernel=k2,pattern=word,placement=cpu,recopy=gather,sharing=shared,w=1,working-set-mib=32": {
+  "A": 14,
+  "B": 7
+ },
+ "route/footprint-mib=1024,host=writes,k=16,kernel=k2,pattern=word,placement=cpu,recopy=gather,sharing=shared,w=1,working-set-mib=8": {
+  "A": 50,
+  "B": 7
+ },
+ "route/footprint-mib=1024,host=writes,k=16,kernel=k2,pattern=word,placement=cpu,recopy=pitched,sharing=shared,w=0.01,working-set-mib=32": {
+  "A": 14,
+  "B": 50
+ },
+ "route/footprint-mib=1024,host=writes,k=16,kernel=k2,pattern=word,placement=cpu,recopy=pitched,sharing=shared,w=0.01,working-set-mib=8": {
+  "A": 50,
+  "B": 50
+ },
+ "route/footprint-mib=1024,host=writes,k=16,kernel=k2,pattern=word,placement=cpu,recopy=pitched,sharing=shared,w=0.1,working-set-mib=32": {
+  "A": 14,
+  "B": 28
+ },
+ "route/footprint-mib=1024,host=writes,k=16,kernel=k2,pattern=word,placement=cpu,recopy=pitched,sharing=shared,w=0.1,working-set-mib=8": {
+  "A": 50,
+  "B": 30
+ },
+ "route/footprint-mib=1024,host=writes,k=16,kernel=k2,pattern=word,placement=cpu,recopy=pitched,sharing=shared,w=1,working-set-mib=32": {
+  "A": 14,
+  "B": 7
+ },
+ "route/footprint-mib=1024,host=writes,k=16,kernel=k2,pattern=word,placement=cpu,recopy=pitched,sharing=shared,w=1,working-set-mib=8": {
+  "A": 50,
+  "B": 7
+ },
+ "route/footprint-mib=1024,host=writes,k=16,kernel=k2,pattern=word,placement=cpu,recopy=runs,sharing=shared,w=1,working-set-mib=32": {
+  "A": 14,
+  "B": 7
+ },
+ "route/footprint-mib=1024,host=writes,k=16,kernel=k2,pattern=word,placement=cpu,recopy=runs,sharing=shared,w=1,working-set-mib=8": {
+  "A": 50,
+  "B": 7
+ },
+ "route/footprint-mib=1024,host=writes,k=16,kernel=k2,pattern=word,placement=cpu,sharing=shared,w=0.01,working-set-mib=32": {
+  "A": 14,
+  "B": 50
+ },
+ "route/footprint-mib=1024,host=writes,k=16,kernel=k2,pattern=word,placement=cpu,sharing=shared,w=0.01,working-set-mib=8": {
+  "A": 50,
+  "B": 50
+ },
+ "route/footprint-mib=1024,host=writes,k=16,kernel=k2,pattern=word,placement=cpu,sharing=shared,w=0.1,working-set-mib=32": {
+  "A": 14,
+  "B": 50
+ },
+ "route/footprint-mib=1024,host=writes,k=16,kernel=k2,pattern=word,placement=cpu,sharing=shared,w=0.1,working-set-mib=8": {
+  "A": 50,
+  "B": 50
+ },
+ "route/footprint-mib=1024,host=writes,k=16,kernel=k2,pattern=word,placement=cpu,sharing=shared,w=1,working-set-mib=32": {
+  "A": 14,
+  "B": 50
+ },
+ "route/footprint-mib=1024,host=writes,k=16,kernel=k2,pattern=word,placement=cpu,sharing=shared,w=1,working-set-mib=8": {
+  "A": 50,
+  "B": 50
+ },
+ "route/footprint-mib=1024,host=writes,k=16,kernel=k2,pattern=word,placement=hbm,recopy=gather,sharing=shared,w=0.01,working-set-mib=32": {
+  "A": 50,
+  "B": 50
+ },
+ "route/footprint-mib=1024,host=writes,k=16,kernel=k2,pattern=word,placement=hbm,recopy=gather,sharing=shared,w=0.1,working-set-mib=32": {
+  "A": 50,
+  "B": 50
+ },
+ "route/footprint-mib=1024,host=writes,k=16,kernel=k2,pattern=word,placement=hbm,recopy=gather,sharing=shared,w=1,working-set-mib=32": {
+  "A": 50,
+  "B": 24
+ },
+ "route/footprint-mib=1024,host=writes,k=16,kernel=k2,pattern=word,placement=hbm,recopy=pitched,sharing=shared,w=0.01,working-set-mib=32": {
+  "A": 50,
+  "B": 49
+ },
+ "route/footprint-mib=1024,host=writes,k=16,kernel=k2,pattern=word,placement=hbm,recopy=pitched,sharing=shared,w=0.1,working-set-mib=32": {
+  "A": 50,
+  "B": 28
+ },
+ "route/footprint-mib=1024,host=writes,k=16,kernel=k2,pattern=word,placement=hbm,recopy=pitched,sharing=shared,w=1,working-set-mib=32": {
+  "A": 50,
+  "B": 7
+ },
+ "route/footprint-mib=1024,host=writes,k=16,kernel=k2,pattern=word,placement=hbm,recopy=runs,sharing=shared,w=1,working-set-mib=32": {
+  "A": 50,
+  "B": 8
+ },
+ "route/footprint-mib=1024,host=writes,k=16,kernel=k2,pattern=word,placement=hbm,sharing=shared,w=0.01,working-set-mib=32": {
+  "A": 50,
+  "B": 50
+ },
+ "route/footprint-mib=1024,host=writes,k=16,kernel=k2,pattern=word,placement=hbm,sharing=shared,w=0.1,working-set-mib=32": {
+  "A": 50,
+  "B": 50
+ },
+ "route/footprint-mib=1024,host=writes,k=16,kernel=k2,pattern=word,placement=hbm,sharing=shared,w=1,working-set-mib=32": {
+  "A": 50,
+  "B": 50
+ },
+ "route/footprint-mib=1024,host=writes,kernel=k3,pattern=word,placement=cpu,recopy=gather,sharing=shared,w=0.01": {
+  "A": 4,
+  "B": 34
+ },
+ "route/footprint-mib=1024,host=writes,kernel=k3,pattern=word,placement=cpu,recopy=gather,sharing=shared,w=0.1": {
+  "A": 4,
+  "B": 21
+ },
+ "route/footprint-mib=1024,host=writes,kernel=k3,pattern=word,placement=cpu,recopy=gather,sharing=shared,w=1": {
+  "A": 4,
+  "B": 6
+ },
+ "route/footprint-mib=1024,host=writes,kernel=k3,pattern=word,placement=cpu,recopy=pitched,sharing=shared,w=0.01": {
+  "A": 4,
+  "B": 26
+ },
+ "route/footprint-mib=1024,host=writes,kernel=k3,pattern=word,placement=cpu,recopy=pitched,sharing=shared,w=0.1": {
+  "A": 4,
+  "B": 18
+ },
+ "route/footprint-mib=1024,host=writes,kernel=k3,pattern=word,placement=cpu,recopy=pitched,sharing=shared,w=1": {
+  "A": 4,
+  "B": 6
+ },
+ "route/footprint-mib=1024,host=writes,kernel=k3,pattern=word,placement=cpu,recopy=runs,sharing=shared,w=1": {
+  "A": 4,
+  "B": 6
+ },
+ "route/footprint-mib=1024,host=writes,kernel=k3,pattern=word,placement=cpu,sharing=shared,w=0.01": {
+  "A": 4,
+  "B": 6
+ },
+ "route/footprint-mib=1024,host=writes,kernel=k3,pattern=word,placement=cpu,sharing=shared,w=0.1": {
+  "A": 4,
+  "B": 6
+ },
+ "route/footprint-mib=1024,host=writes,kernel=k3,pattern=word,placement=cpu,sharing=shared,w=1": {
+  "A": 4,
+  "B": 6
+ },
+ "route/footprint-mib=1024,k=1,kernel=k2,placement=cpu,working-set-mib=1024": {
+  "A": 7,
+  "B": 7
+ },
+ "route/footprint-mib=1024,k=1,kernel=k2,placement=cpu,working-set-mib=32": {
+  "A": 198,
+  "B": 156
+ },
+ "route/footprint-mib=1024,k=1,kernel=k2,placement=hbm,working-set-mib=1024": {
+  "A": 60,
+  "B": 7
+ },
+ "route/footprint-mib=1024,k=1,kernel=k2,placement=hbm,working-set-mib=32": {
+  "A": 1151,
+  "B": 171
+ },
+ "route/footprint-mib=1024,k=16,kernel=k2,placement=cpu,rotated=1,working-set-mib=8": {
+  "A": 54,
+  "B": 267
+ },
+ "route/footprint-mib=1024,k=16,kernel=k2,placement=cpu,scope=sys,working-set-mib=8": {
+  "A": 50,
+  "B": 238
+ },
+ "route/footprint-mib=1024,k=16,kernel=k2,placement=cpu,tiling=tiles,working-set-mib=8": {
+  "A": 544,
+  "B": 328
+ },
+ "route/footprint-mib=1024,k=16,kernel=k2,placement=cpu,working-set-mib=1024": {
+  "A": 1,
+  "B": 3
+ },
+ "route/footprint-mib=1024,k=16,kernel=k2,placement=cpu,working-set-mib=32": {
+  "A": 14,
+  "B": 106
+ },
+ "route/footprint-mib=1024,k=16,kernel=k2,placement=cpu,working-set-mib=8": {
+  "A": 530,
+  "B": 328
+ },
+ "route/footprint-mib=1024,k=16,kernel=k2,placement=hbm,rotated=1,working-set-mib=8": {
+  "A": 660,
+  "B": 268
+ },
+ "route/footprint-mib=1024,k=16,kernel=k2,placement=hbm,scope=sys,working-set-mib=8": {
+  "A": 525,
+  "B": 242
+ },
+ "route/footprint-mib=1024,k=16,kernel=k2,placement=hbm,tiling=tiles,working-set-mib=8": {
+  "A": 1311,
+  "B": 348
+ },
+ "route/footprint-mib=1024,k=16,kernel=k2,placement=hbm,working-set-mib=1024": {
+  "A": 4,
+  "B": 4
+ },
+ "route/footprint-mib=1024,k=16,kernel=k2,placement=hbm,working-set-mib=32": {
+  "A": 201,
+  "B": 112
+ },
+ "route/footprint-mib=1024,k=16,kernel=k2,placement=hbm,working-set-mib=8": {
+  "A": 1242,
+  "B": 341
+ },
+ "route/footprint-mib=1024,k=2,kernel=k2,placement=cpu,working-set-mib=1024": {
+  "A": 4,
+  "B": 6
+ },
+ "route/footprint-mib=1024,k=2,kernel=k2,placement=cpu,working-set-mib=32": {
+  "A": 104,
+  "B": 149
+ },
+ "route/footprint-mib=1024,k=2,kernel=k2,placement=hbm,working-set-mib=1024": {
+  "A": 31,
+  "B": 7
+ },
+ "route/footprint-mib=1024,k=2,kernel=k2,placement=hbm,working-set-mib=32": {
+  "A": 857,
+  "B": 165
+ },
+ "route/footprint-mib=1024,k=4,kernel=k2,placement=cpu,working-set-mib=1024": {
+  "A": 2,
+  "B": 5
+ },
+ "route/footprint-mib=1024,k=4,kernel=k2,placement=cpu,working-set-mib=32": {
+  "A": 53,
+  "B": 143
+ },
+ "route/footprint-mib=1024,k=4,kernel=k2,placement=hbm,working-set-mib=1024": {
+  "A": 16,
+  "B": 6
+ },
+ "route/footprint-mib=1024,k=4,kernel=k2,placement=hbm,working-set-mib=32": {
+  "A": 577,
+  "B": 151
+ },
+ "route/footprint-mib=1024,k=64,kernel=k2,placement=cpu,working-set-mib=1024": {
+  "A": 1,
+  "B": 1
+ },
+ "route/footprint-mib=1024,k=64,kernel=k2,placement=cpu,working-set-mib=32": {
+  "A": 4,
+  "B": 53
+ },
+ "route/footprint-mib=1024,k=64,kernel=k2,placement=hbm,working-set-mib=1024": {
+  "A": 1,
+  "B": 1
+ },
+ "route/footprint-mib=1024,k=64,kernel=k2,placement=hbm,working-set-mib=32": {
+  "A": 63,
+  "B": 54
+ },
+ "route/footprint-mib=1024,kernel=k3,placement=cpu": {
+  "A": 4,
+  "B": 6
+ },
+ "route/footprint-mib=1024,kernel=k3,placement=hbm": {
+  "A": 44,
+  "B": 18
+ },
+ "route/footprint-mib=1024,kernel=k6,layout=line,placement=cpu,update=atomic": {
+  "A": 6,
+  "B": 3
+ },
+ "route/footprint-mib=1024,kernel=k6,layout=line,placement=hbm,update=atomic": {
+  "A": 59,
+  "B": 13
+ },
+ "route/footprint-mib=1024,kernel=k6,placement=cpu,update=atomic": {
+  "A": 4,
+  "B": 3
+ },
+ "route/footprint-mib=1024,kernel=k6,placement=cpu,update=plain": {
+  "A": 4,
+  "B": 3
+ },
+ "route/footprint-mib=1024,kernel=k6,placement=cpu,update=returned": {
+  "A": 4,
+  "B": 3
+ },
+ "route/footprint-mib=1024,kernel=k6,placement=hbm,update=atomic": {
+  "A": 25,
+  "B": 10
+ },
+ "route/footprint-mib=1024,kernel=k6,placement=hbm,update=plain": {
+  "A": 27,
+  "B": 10
+ },
+ "route/footprint-mib=1024,kernel=k6,placement=hbm,update=returned": {
+  "A": 23,
+  "B": 10
+ },
+ "route/footprint-mib=11520,kernel=k3,placement=cpu": {
+  "A": 1,
+  "B": 1
+ },
+ "route/footprint-mib=11520,kernel=k3,placement=cpu,tune=copy,type=tune": {
+  "A": 1,
+  "B": 1,
+  "C": 1,
+  "D": 1,
+  "E": 1,
+  "F": 1,
+  "G": 1,
+  "H": 1,
+  "I": 1,
+  "J": 1,
+  "K": 1,
+  "L": 1,
+  "M": 1,
+  "N": 1,
+  "O": 1,
+  "P": 1,
+  "Q": 1,
+  "R": 1,
+  "S": 1,
+  "T": 1,
+  "U": 1,
+  "V": 1,
+  "W": 1,
+  "X": 1,
+  "Y": 1,
+  "Z": 1
+ },
+ "route/footprint-mib=1536,kernel=k3,placement=cpu": {
+  "A": 4,
+  "B": 5
+ },
+ "route/footprint-mib=1536,kernel=k3,placement=cpu,tune=copy,type=tune": {
+  "A": 4,
+  "B": 3,
+  "C": 4,
+  "D": 4,
+  "E": 4,
+  "F": 5,
+  "G": 4,
+  "H": 4,
+  "I": 5,
+  "J": 5,
+  "K": 5,
+  "L": 4,
+  "M": 4,
+  "N": 5,
+  "O": 5,
+  "P": 5,
+  "Q": 4,
+  "R": 4,
+  "S": 5,
+  "T": 5,
+  "U": 5,
+  "V": 4,
+  "W": 4,
+  "X": 4,
+  "Y": 5,
+  "Z": 5
+ },
+ "route/footprint-mib=16,kernel=k6,placement=cpu,update=atomic": {
+  "A": 14,
+  "B": 98
+ },
+ "route/footprint-mib=16,kernel=k6,placement=hbm,update=atomic": {
+  "A": 260,
+  "B": 105
+ },
+ "route/footprint-mib=16384,generator=uniform,kernel=k4,placement=cpu": {
+  "A": 1,
+  "B": 1
+ },
+ "route/footprint-mib=16384,generator=uniform,kernel=k4,placement=hbm": {
+  "A": 1,
+  "B": 1
+ },
+ "route/footprint-mib=16384,host=state,kernel=k3p,pattern=word,placement=cpu,sharing=shared,state=dirty": {
+  "A": 50,
+  "B": 50
+ },
+ "route/footprint-mib=16384,host=writes,kernel=k3,pattern=word,placement=cpu,recopy=gather,sharing=shared,w=0.01": {
+  "A": 1,
+  "B": 11
+ },
+ "route/footprint-mib=16384,host=writes,kernel=k3,pattern=word,placement=cpu,recopy=gather,sharing=shared,w=0.1": {
+  "A": 1,
+  "B": 4
+ },
+ "route/footprint-mib=16384,host=writes,kernel=k3,pattern=word,placement=cpu,recopy=gather,sharing=shared,w=1": {
+  "A": 1,
+  "B": 1
+ },
+ "route/footprint-mib=16384,host=writes,kernel=k3,pattern=word,placement=cpu,recopy=pitched,sharing=shared,w=0.01": {
+  "A": 1,
+  "B": 4
+ },
+ "route/footprint-mib=16384,host=writes,kernel=k3,pattern=word,placement=cpu,recopy=pitched,sharing=shared,w=0.1": {
+  "A": 1,
+  "B": 2
+ },
+ "route/footprint-mib=16384,host=writes,kernel=k3,pattern=word,placement=cpu,recopy=pitched,sharing=shared,w=1": {
+  "A": 1,
+  "B": 1
+ },
+ "route/footprint-mib=16384,host=writes,kernel=k3,pattern=word,placement=cpu,recopy=runs,sharing=shared,w=1": {
+  "A": 1,
+  "B": 1
+ },
+ "route/footprint-mib=16384,host=writes,kernel=k3,pattern=word,placement=cpu,sharing=shared,w=0.01": {
+  "A": 1,
+  "B": 1
+ },
+ "route/footprint-mib=16384,host=writes,kernel=k3,pattern=word,placement=cpu,sharing=shared,w=0.1": {
+  "A": 1,
+  "B": 1
+ },
+ "route/footprint-mib=16384,host=writes,kernel=k3,pattern=word,placement=cpu,sharing=shared,w=1": {
+  "A": 1,
+  "B": 1
+ },
+ "route/footprint-mib=16384,kernel=k3,page-order=2m,placement=cpu": {
+  "A": 4,
+  "B": 1
+ },
+ "route/footprint-mib=16384,kernel=k3,page-order=2m,placement=hbm": {
+  "A": 8,
+  "B": 2
+ },
+ "route/footprint-mib=16384,kernel=k3,page-order=64k,placement=cpu": {
+  "A": 4,
+  "B": 1
+ },
+ "route/footprint-mib=16384,kernel=k3,page-order=64k,placement=hbm": {
+  "A": 13,
+  "B": 2
+ },
+ "route/footprint-mib=16384,kernel=k3,page-size=512m,placement=cpu": {
+  "A": 4,
+  "B": 1
+ },
+ "route/footprint-mib=16384,kernel=k3,page-size=512m,placement=hbm": {
+  "A": 42,
+  "B": 2
+ },
+ "route/footprint-mib=16384,kernel=k3,partition=2g,placement=cpu": {
+  "A": 4,
+  "B": 1
+ },
+ "route/footprint-mib=16384,kernel=k3,partition=2g,placement=hbm": {
+  "A": 1,
+  "B": 2
+ },
+ "route/footprint-mib=16384,kernel=k3,placement=cpu": {
+  "A": 1,
+  "B": 1
+ },
+ "route/footprint-mib=16384,kernel=k3,placement=cpu,replicate=1,type=aa": {
+  "A": 1,
+  "B": 1
+ },
+ "route/footprint-mib=16384,kernel=k3,placement=cpu,replicate=10,type=aa": {
+  "A": 1,
+  "B": 1
+ },
+ "route/footprint-mib=16384,kernel=k3,placement=cpu,replicate=2,type=aa": {
+  "A": 1,
+  "B": 1
+ },
+ "route/footprint-mib=16384,kernel=k3,placement=cpu,replicate=3,type=aa": {
+  "A": 1,
+  "B": 1
+ },
+ "route/footprint-mib=16384,kernel=k3,placement=cpu,replicate=4,type=aa": {
+  "A": 1,
+  "B": 1
+ },
+ "route/footprint-mib=16384,kernel=k3,placement=cpu,replicate=5,type=aa": {
+  "A": 1,
+  "B": 1
+ },
+ "route/footprint-mib=16384,kernel=k3,placement=cpu,replicate=6,type=aa": {
+  "A": 1,
+  "B": 1
+ },
+ "route/footprint-mib=16384,kernel=k3,placement=cpu,replicate=7,type=aa": {
+  "A": 1,
+  "B": 1
+ },
+ "route/footprint-mib=16384,kernel=k3,placement=cpu,replicate=8,type=aa": {
+  "A": 1,
+  "B": 1
+ },
+ "route/footprint-mib=16384,kernel=k3,placement=cpu,replicate=9,type=aa": {
+  "A": 1,
+  "B": 1
+ },
+ "route/footprint-mib=16384,kernel=k3,placement=hbm": {
+  "A": 1,
+  "B": 2
+ },
+ "route/footprint-mib=16384,kernel=k3p,page-size=512m,placement=cpu": {
+  "A": 215,
+  "B": 1
+ },
+ "route/footprint-mib=16384,kernel=k3p,placement=cpu": {
+  "A": 3,
+  "B": 1
+ },
+ "route/footprint-mib=16384,kernel=k6,placement=cpu,update=atomic": {
+  "A": 1,
+  "B": 1
+ },
+ "route/footprint-mib=16384,kernel=k6,placement=hbm,update=atomic": {
+  "A": 2,
+  "B": 1
+ },
+ "route/footprint-mib=2048,kernel=k3,placement=cpu": {
+  "A": 4,
+  "B": 4
+ },
+ "route/footprint-mib=2048,kernel=k3,placement=cpu,tune=copy,type=tune": {
+  "A": 4,
+  "B": 2,
+  "C": 3,
+  "D": 3,
+  "E": 4,
+  "F": 4,
+  "G": 3,
+  "H": 4,
+  "I": 4,
+  "J": 4,
+  "K": 4,
+  "L": 3,
+  "M": 3,
+  "N": 4,
+  "O": 4,
+  "P": 4,
+  "Q": 3,
+  "R": 3,
+  "S": 4,
+  "T": 4,
+  "U": 4,
+  "V": 3,
+  "W": 3,
+  "X": 4,
+  "Y": 4,
+  "Z": 4
+ },
+ "route/footprint-mib=24576,generator=uniform,kernel=k4,placement=cpu": {
+  "A": 1,
+  "B": 1
+ },
+ "route/footprint-mib=24576,kernel=k3,placement=cpu": {
+  "A": 1,
+  "B": 1
+ },
+ "route/footprint-mib=24576,kernel=k3,placement=hbm": {
+  "A": 1,
+  "B": 2
+ },
+ "route/footprint-mib=256,generator=uniform,kernel=k4,placement=cpu": {
+  "A": 3,
+  "B": 20
+ },
+ "route/footprint-mib=256,generator=uniform,kernel=k4,placement=hbm": {
+  "A": 95,
+  "B": 23
+ },
+ "route/footprint-mib=256,kernel=k3,placement=cpu": {
+  "A": 4,
+  "B": 17
+ },
+ "route/footprint-mib=256,kernel=k3,placement=hbm": {
+  "A": 47,
+  "B": 19
+ },
+ "route/footprint-mib=256,kernel=k6,placement=cpu,update=atomic": {
+  "A": 14,
+  "B": 11
+ },
+ "route/footprint-mib=256,kernel=k6,placement=hbm,update=atomic": {
+  "A": 98,
+  "B": 38
+ },
+ "route/footprint-mib=32768,generator=uniform,kernel=k4,placement=cpu": {
+  "A": 1,
+  "B": 1
+ },
+ "route/footprint-mib=32768,kernel=k3,placement=cpu": {
+  "A": 1,
+  "B": 1
+ },
+ "route/footprint-mib=32768,kernel=k6,placement=cpu,update=atomic": {
+  "A": 1,
+  "B": 1
+ },
+ "route/footprint-mib=4096,generator=uniform,kernel=k4,placement=cpu": {
+  "A": 1,
+  "B": 2
+ },
+ "route/footprint-mib=4096,generator=uniform,kernel=k4,placement=hbm": {
+  "A": 3,
+  "B": 3
+ },
+ "route/footprint-mib=4096,kernel=k3,placement=cpu": {
+  "A": 4,
+  "B": 2
+ },
+ "route/footprint-mib=4096,kernel=k3,placement=hbm": {
+  "A": 4,
+  "B": 7
+ },
+ "route/footprint-mib=4096,kernel=k6,placement=cpu,update=atomic": {
+  "A": 1,
+  "B": 1
+ },
+ "route/footprint-mib=4096,kernel=k6,placement=hbm,update=atomic": {
+  "A": 7,
+  "B": 3
+ },
+ "route/footprint-mib=512,host=reads,kernel=k5,placement=cpu,sharing=shared,sweeps=8,tiling=tiles": {
+  "A": 1,
+  "B": 4
+ },
+ "route/footprint-mib=512,host=reads,kernel=k5,placement=hbm,sharing=shared,sweeps=8,tiling=tiles": {
+  "A": 7,
+  "B": 6
+ },
+ "route/footprint-mib=512,host=writes,kernel=k5,pattern=word,placement=cpu,recopy=gather,sharing=shared,sweeps=8,tiling=tiles,w=0.01": {
+  "A": 1,
+  "B": 4
+ },
+ "route/footprint-mib=512,host=writes,kernel=k5,pattern=word,placement=cpu,recopy=gather,sharing=shared,sweeps=8,tiling=tiles,w=0.1": {
+  "A": 1,
+  "B": 4
+ },
+ "route/footprint-mib=512,host=writes,kernel=k5,pattern=word,placement=cpu,recopy=gather,sharing=shared,sweeps=8,tiling=tiles,w=1": {
+  "A": 1,
+  "B": 3
+ },
+ "route/footprint-mib=512,host=writes,kernel=k5,pattern=word,placement=cpu,recopy=pitched,sharing=shared,sweeps=8,tiling=tiles,w=0.01": {
+  "A": 1,
+  "B": 4
+ },
+ "route/footprint-mib=512,host=writes,kernel=k5,pattern=word,placement=cpu,recopy=pitched,sharing=shared,sweeps=8,tiling=tiles,w=0.1": {
+  "A": 1,
+  "B": 4
+ },
+ "route/footprint-mib=512,host=writes,kernel=k5,pattern=word,placement=cpu,recopy=pitched,sharing=shared,sweeps=8,tiling=tiles,w=1": {
+  "A": 1,
+  "B": 4
+ },
+ "route/footprint-mib=512,host=writes,kernel=k5,pattern=word,placement=cpu,recopy=runs,sharing=shared,sweeps=8,tiling=tiles,w=1": {
+  "A": 1,
+  "B": 3
+ },
+ "route/footprint-mib=512,host=writes,kernel=k5,pattern=word,placement=cpu,sharing=shared,sweeps=8,tiling=tiles,w=0.01": {
+  "A": 1,
+  "B": 4
+ },
+ "route/footprint-mib=512,host=writes,kernel=k5,pattern=word,placement=cpu,sharing=shared,sweeps=8,tiling=tiles,w=0.1": {
+  "A": 1,
+  "B": 4
+ },
+ "route/footprint-mib=512,host=writes,kernel=k5,pattern=word,placement=cpu,sharing=shared,sweeps=8,tiling=tiles,w=1": {
+  "A": 1,
+  "B": 3
+ },
+ "route/footprint-mib=512,host=writes,kernel=k5,pattern=word,placement=hbm,recopy=gather,sharing=shared,sweeps=8,tiling=tiles,w=0.01": {
+  "A": 6,
+  "B": 6
+ },
+ "route/footprint-mib=512,host=writes,kernel=k5,pattern=word,placement=hbm,recopy=gather,sharing=shared,sweeps=8,tiling=tiles,w=0.1": {
+  "A": 6,
+  "B": 6
+ },
+ "route/footprint-mib=512,host=writes,kernel=k5,pattern=word,placement=hbm,recopy=gather,sharing=shared,sweeps=8,tiling=tiles,w=1": {
+  "A": 6,
+  "B": 6
+ },
+ "route/footprint-mib=512,host=writes,kernel=k5,pattern=word,placement=hbm,recopy=pitched,sharing=shared,sweeps=8,tiling=tiles,w=0.01": {
+  "A": 6,
+  "B": 6
+ },
+ "route/footprint-mib=512,host=writes,kernel=k5,pattern=word,placement=hbm,recopy=pitched,sharing=shared,sweeps=8,tiling=tiles,w=0.1": {
+  "A": 6,
+  "B": 6
+ },
+ "route/footprint-mib=512,host=writes,kernel=k5,pattern=word,placement=hbm,recopy=pitched,sharing=shared,sweeps=8,tiling=tiles,w=1": {
+  "A": 6,
+  "B": 4
+ },
+ "route/footprint-mib=512,host=writes,kernel=k5,pattern=word,placement=hbm,recopy=runs,sharing=shared,sweeps=8,tiling=tiles,w=1": {
+  "A": 6,
+  "B": 5
+ },
+ "route/footprint-mib=512,host=writes,kernel=k5,pattern=word,placement=hbm,sharing=shared,sweeps=8,tiling=tiles,w=0.01": {
+  "A": 6,
+  "B": 6
+ },
+ "route/footprint-mib=512,host=writes,kernel=k5,pattern=word,placement=hbm,sharing=shared,sweeps=8,tiling=tiles,w=0.1": {
+  "A": 6,
+  "B": 6
+ },
+ "route/footprint-mib=512,host=writes,kernel=k5,pattern=word,placement=hbm,sharing=shared,sweeps=8,tiling=tiles,w=1": {
+  "A": 6,
+  "B": 6
+ },
+ "route/footprint-mib=512,kernel=k5,placement=cpu,sweeps=1,tiling=tiles": {
+  "A": 6,
+  "B": 6
+ },
+ "route/footprint-mib=512,kernel=k5,placement=cpu,sweeps=16,tiling=tiles": {
+  "A": 1,
+  "B": 3
+ },
+ "route/footprint-mib=512,kernel=k5,placement=cpu,sweeps=2,tiling=tiles": {
+  "A": 3,
+  "B": 5
+ },
+ "route/footprint-mib=512,kernel=k5,placement=cpu,sweeps=4,tiling=tiles": {
+  "A": 2,
+  "B": 5
+ },
+ "route/footprint-mib=512,kernel=k5,placement=cpu,sweeps=64,tiling=tiles": {
+  "A": 1,
+  "B": 1
+ },
+ "route/footprint-mib=512,kernel=k5,placement=cpu,sweeps=8,tiling=none": {
+  "A": 1,
+  "B": 4
+ },
+ "route/footprint-mib=512,kernel=k5,placement=cpu,sweeps=8,tiling=tiles": {
+  "A": 1,
+  "B": 4
+ },
+ "route/footprint-mib=512,kernel=k5,placement=hbm,sweeps=1,tiling=tiles": {
+  "A": 51,
+  "B": 20
+ },
+ "route/footprint-mib=512,kernel=k5,placement=hbm,sweeps=16,tiling=tiles": {
+  "A": 4,
+  "B": 3
+ },
+ "route/footprint-mib=512,kernel=k5,placement=hbm,sweeps=2,tiling=tiles": {
+  "A": 26,
+  "B": 14
+ },
+ "route/footprint-mib=512,kernel=k5,placement=hbm,sweeps=4,tiling=tiles": {
+  "A": 13,
+  "B": 9
+ },
+ "route/footprint-mib=512,kernel=k5,placement=hbm,sweeps=64,tiling=tiles": {
+  "A": 1,
+  "B": 1
+ },
+ "route/footprint-mib=512,kernel=k5,placement=hbm,sweeps=8,tiling=none": {
+  "A": 8,
+  "B": 6
+ },
+ "route/footprint-mib=512,kernel=k5,placement=hbm,sweeps=8,tiling=tiles": {
+  "A": 7,
+  "B": 6
+ },
+ "route/footprint-mib=64,kernel=k6,placement=cpu,update=atomic": {
+  "A": 14,
+  "B": 34
+ },
+ "route/footprint-mib=64,kernel=k6,placement=hbm,update=atomic": {
+  "A": 122,
+  "B": 79
+ },
+ "route/footprint-mib=8,kernel=k6,keys=1,placement=cpu": {
+  "A": 1,
+  "B": 2
+ },
+ "route/footprint-mib=8,kernel=k6,keys=1,placement=hbm": {
+  "A": 2,
+  "B": 2
+ },
+ "route/footprint-mib=8,kernel=k6,keys=1024,placement=cpu": {
+  "A": 2,
+  "B": 24
+ },
+ "route/footprint-mib=8,kernel=k6,keys=1024,placement=hbm": {
+  "A": 27,
+  "B": 25
+ },
+ "route/footprint-mib=8,kernel=k6,keys=1048576,placement=cpu": {
+  "A": 3,
+  "B": 81
+ },
+ "route/footprint-mib=8,kernel=k6,keys=1048576,placement=hbm": {
+  "A": 111,
+  "B": 83
+ },
+ "route/footprint-mib=8,kernel=k6,keys=16,placement=cpu": {
+  "A": 1,
+  "B": 4
+ },
+ "route/footprint-mib=8,kernel=k6,keys=16,placement=hbm": {
+  "A": 4,
+  "B": 4
+ },
+ "route/footprint-mib=8,kernel=k6,keys=256,placement=cpu": {
+  "A": 1,
+  "B": 8
+ },
+ "route/footprint-mib=8,kernel=k6,keys=256,placement=hbm": {
+  "A": 8,
+  "B": 8
+ },
+ "route/footprint-mib=8,kernel=k6,keys=4096,placement=cpu": {
+  "A": 4,
+  "B": 59
+ },
+ "route/footprint-mib=8,kernel=k6,keys=4096,placement=hbm": {
+  "A": 76,
+  "B": 72
+ },
+ "route/footprint-mib=8,kernel=k6,keys=65536,placement=cpu": {
+  "A": 5,
+  "B": 76
+ },
+ "route/footprint-mib=8,kernel=k6,keys=65536,placement=hbm": {
+  "A": 104,
+  "B": 97
+ },
+ "route/footprint-mib=8192,generator=rmat,kernel=k4,placement=cpu": {
+  "A": 1,
+  "B": 1
+ },
+ "route/footprint-mib=8192,generator=rmat,kernel=k4,placement=hbm": {
+  "A": 1,
+  "B": 1
+ },
+ "route/footprint-mib=8192,generator=uniform,kernel=k4,placement=cpu": {
+  "A": 1,
+  "B": 1
+ },
+ "route/footprint-mib=8192,generator=uniform,kernel=k4,placement=hbm": {
+  "A": 2,
+  "B": 1
+ },
+ "route/footprint-mib=8192,host=writes,kernel=k3,pattern=word,placement=hbm,recopy=gather,sharing=shared,w=0.01": {
+  "A": 3,
+  "B": 17
+ },
+ "route/footprint-mib=8192,host=writes,kernel=k3,pattern=word,placement=hbm,recopy=gather,sharing=shared,w=0.1": {
+  "A": 3,
+  "B": 13
+ },
+ "route/footprint-mib=8192,host=writes,kernel=k3,pattern=word,placement=hbm,recopy=gather,sharing=shared,w=1": {
+  "A": 3,
+  "B": 4
+ },
+ "route/footprint-mib=8192,host=writes,kernel=k3,pattern=word,placement=hbm,recopy=pitched,sharing=shared,w=0.01": {
+  "A": 3,
+  "B": 8
+ },
+ "route/footprint-mib=8192,host=writes,kernel=k3,pattern=word,placement=hbm,recopy=pitched,sharing=shared,w=0.1": {
+  "A": 3,
+  "B": 4
+ },
+ "route/footprint-mib=8192,host=writes,kernel=k3,pattern=word,placement=hbm,recopy=pitched,sharing=shared,w=1": {
+  "A": 3,
+  "B": 1
+ },
+ "route/footprint-mib=8192,host=writes,kernel=k3,pattern=word,placement=hbm,recopy=runs,sharing=shared,w=1": {
+  "A": 3,
+  "B": 1
+ },
+ "route/footprint-mib=8192,host=writes,kernel=k3,pattern=word,placement=hbm,sharing=shared,w=0.01": {
+  "A": 3,
+  "B": 4
+ },
+ "route/footprint-mib=8192,host=writes,kernel=k3,pattern=word,placement=hbm,sharing=shared,w=0.1": {
+  "A": 3,
+  "B": 4
+ },
+ "route/footprint-mib=8192,host=writes,kernel=k3,pattern=word,placement=hbm,sharing=shared,w=1": {
+  "A": 3,
+  "B": 4
+ },
+ "route/footprint-mib=8192,kernel=k3,placement=cpu": {
+  "A": 3,
+  "B": 1
+ },
+ "route/footprint-mib=8192,kernel=k3,placement=cpu,replicate=1,type=aa": {
+  "A": 3,
+  "B": 3
+ },
+ "route/footprint-mib=8192,kernel=k3,placement=cpu,replicate=10,type=aa": {
+  "A": 3,
+  "B": 3
+ },
+ "route/footprint-mib=8192,kernel=k3,placement=cpu,replicate=2,type=aa": {
+  "A": 3,
+  "B": 3
+ },
+ "route/footprint-mib=8192,kernel=k3,placement=cpu,replicate=3,type=aa": {
+  "A": 3,
+  "B": 3
+ },
+ "route/footprint-mib=8192,kernel=k3,placement=cpu,replicate=4,type=aa": {
+  "A": 3,
+  "B": 3
+ },
+ "route/footprint-mib=8192,kernel=k3,placement=cpu,replicate=5,type=aa": {
+  "A": 3,
+  "B": 3
+ },
+ "route/footprint-mib=8192,kernel=k3,placement=cpu,replicate=6,type=aa": {
+  "A": 3,
+  "B": 3
+ },
+ "route/footprint-mib=8192,kernel=k3,placement=cpu,replicate=7,type=aa": {
+  "A": 3,
+  "B": 3
+ },
+ "route/footprint-mib=8192,kernel=k3,placement=cpu,replicate=8,type=aa": {
+  "A": 3,
+  "B": 3
+ },
+ "route/footprint-mib=8192,kernel=k3,placement=cpu,replicate=9,type=aa": {
+  "A": 3,
+  "B": 3
+ },
+ "route/footprint-mib=8192,kernel=k3,placement=hbm": {
+  "A": 3,
+  "B": 4
+ },
+ "route/footprint-mib=8192,kernel=k6,placement=cpu,update=atomic": {
+  "A": 1,
+  "B": 1
+ },
+ "route/footprint-mib=8192,kernel=k6,placement=hbm,update=atomic": {
+  "A": 4,
+  "B": 2
+ },
+ "route/footprint-mib=9728,kernel=k3,placement=cpu": {
+  "A": 1,
+  "B": 1
+ },
+ "route/footprint-mib=9728,kernel=k3,placement=cpu,tune=copy,type=tune": {
+  "A": 1,
+  "B": 1,
+  "C": 1,
+  "D": 1,
+  "E": 1,
+  "F": 1,
+  "G": 1,
+  "H": 1,
+  "I": 1,
+  "J": 1,
+  "K": 1,
+  "L": 1,
+  "M": 1,
+  "N": 1,
+  "O": 1,
+  "P": 1,
+  "Q": 1,
+  "R": 1,
+  "S": 1,
+  "T": 1,
+  "U": 1,
+  "V": 1,
+  "W": 1,
+  "X": 1,
+  "Y": 1,
+  "Z": 1
+ }
+}

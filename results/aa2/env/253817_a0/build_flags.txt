@@ -1,0 +1,7 @@
+NVCC=nvcc
+NVCCFLAGS=-O2 -std=c++17 -arch=sm_90 -Isrc -Xcompiler -pthread -Xcompiler -march=armv8.2-a -lineinfo -DSUITE_SMMU_PMU="smmuv3_pmcg_16002" -Xcompiler -Wall -Xcompiler -Wextra
+NVCPP=nvc++
+NVCPPFLAGS=-cuda -gpu=cc90 -O2 -std=c++17 -Isrc -tp=neoverse-v2 --diag_suppress=cuda_compile -DSUITE_SMMU_PMU="smmuv3_pmcg_16002" -Xcompiler -Wall -Xcompiler -Wextra
+Cuda compilation tools, release 13.0, V13.0.88
+Build cuda_13.0.r13.0/compiler.36424714_0
+gcc (Ubuntu 11.4.0-1ubuntu1~22.04.3) 11.4.0

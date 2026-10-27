@@ -1,0 +1,1 @@
+cell=route/footprint-mib=8192,kernel=k3,page-size=512m,placement=cpu,sequence=AAAA rounds=110 warmups=10 discards=0 k=2 floor_ns=0 nA=400 medA=5.37908e+06 loA=5.37898e+06 hiA=5.37918e+06 targetA=1 nB=0 medB=0 loB=0 hiB=0 targetB=0 cap_hit=0 stopped_on_target=0 ahp_kb_end_A=8388608 ahp_kb_end_B=8388608

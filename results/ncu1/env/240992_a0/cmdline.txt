@@ -1,0 +1,1 @@
+BOOT_IMAGE=/boot/vmlinuz-6.6.142-surf root=UUID=06c60865-3e08-4049-b1b9-3d13d5864f65 ro quiet iommu.passthrough=0

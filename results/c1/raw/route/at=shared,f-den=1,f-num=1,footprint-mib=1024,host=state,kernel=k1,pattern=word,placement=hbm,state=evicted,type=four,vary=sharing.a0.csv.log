@@ -1,0 +1,19 @@
+capacity: the cell needs 6144 MiB of GPU-node memory (512 MB-page buffers counted twice), 96723 MiB are free, 2048 MiB must stay free
+calib variant=A route=direct level=home one repetition=0.336 ms -> passes=50
+state check variant=0 state:evicted:word:control: 558.5 ns per sampled load, threshold 250 ns: as prepared
+calib variant=B route=copy level=home one repetition=0.976 ms -> passes=50
+state check variant=1 state:evicted:word:control: 578.4 ns per sampled load, threshold 250 ns: as prepared
+calib variant=C route=direct level=shared one repetition=0.340 ms -> passes=50
+state check variant=2 state:evicted:word:shared: 577.6 ns per sampled load, threshold 250 ns: as prepared
+calib variant=D route=copy level=shared one repetition=0.974 ms -> passes=50
+state check variant=3 state:evicted:word:shared: 582.4 ns per sampled load, threshold 250 ns: as prepared
+capacity: the cell needs 6144 MiB of GPU-node memory (512 MB-page buffers counted twice), 96718 MiB are free, 2048 MiB must stay free
+calib variant=A route=direct level=home one repetition=0.341 ms -> passes=50
+state check variant=0 state:evicted:word:control: 545.9 ns per sampled load, threshold 250 ns: as prepared
+calib variant=B route=copy level=home one repetition=0.983 ms -> passes=50
+state check variant=1 state:evicted:word:control: 557.4 ns per sampled load, threshold 250 ns: as prepared
+calib variant=C route=direct level=shared one repetition=0.339 ms -> passes=50
+state check variant=2 state:evicted:word:shared: 556.9 ns per sampled load, threshold 250 ns: as prepared
+calib variant=D route=copy level=shared one repetition=0.979 ms -> passes=50
+state check variant=3 state:evicted:word:shared: 571.4 ns per sampled load, threshold 250 ns: as prepared
+cell=route/at=shared,f-den=1,f-num=1,footprint-mib=1024,host=state,kernel=k1,pattern=word,placement=hbm,state=evicted,type=four,vary=sharing rounds=20 warmups=10 discards=0 k=4 floor_ns=231647 nA=10 medA=338976 loA=338229 hiA=340133 targetA=1 nB=10 medB=975867 loB=974918 hiB=977177 targetB=1 nC=10 medC=339499 loC=338793 hiC=339893 targetC=1 nD=10 medD=976345 loD=975794 hiD=977132 targetD=1 c1=A-B n1=10 med1=-637024 lo1=-638076 hi1=-635035 target1=1 c2=C-D n2=10 med2=-636953 lo2=-638209 hi2=-636349 target2=1 c3=(C-D)-(A-B) n3=10 med3=49.9171 lo3=-1966.08 hi3=1136.63 target3=1 cap_hit=0 stopped_on_target=1 ahp_kb_end_A=0 ahp_kb_end_B=0 ahp_kb_end_C=0 ahp_kb_end_D=0

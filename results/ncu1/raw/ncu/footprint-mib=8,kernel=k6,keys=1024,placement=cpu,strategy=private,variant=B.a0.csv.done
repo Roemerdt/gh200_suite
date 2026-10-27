@@ -1,0 +1,1 @@
+cell=ncu/footprint-mib=8,kernel=k6,keys=1024,placement=cpu,strategy=private,variant=B attempts=1 warmups=0 discards=0 nA=1 medA=168352 loA=168352 hiA=168352 targetA=0 nB=1 medB=265984 loB=265984 hiB=265984 targetB=0 nD=1 medD=-97632 loD=-97632 hiD=-97632 targetD=0 npos=0 nneg=1 sign_p=1 cap_hit=1 stopped_on_target=0 paired=1 ahp_kb_end_A=0 ahp_kb_end_B=0

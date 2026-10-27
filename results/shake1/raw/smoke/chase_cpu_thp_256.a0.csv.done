@@ -1,0 +1,1 @@
+cell=smoke/chase_cpu_thp_256 attempts=22 warmups=2 discards=0 nA=20 medA=214.863 loA=205.185 hiA=221.478 targetA=0 nB=20 medB=204.017 loB=188.559 hiB=210.667 targetB=0 nD=20 medD=11.8442 loD=10.811 hiD=16.6255 targetD=0 npos=20 nneg=0 sign_p=1.91e-06 cap_hit=1 stopped_on_target=0 paired=1

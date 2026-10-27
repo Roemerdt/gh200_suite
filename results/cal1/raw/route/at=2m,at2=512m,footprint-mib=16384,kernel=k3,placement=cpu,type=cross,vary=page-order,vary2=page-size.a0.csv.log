@@ -1,0 +1,5 @@
+calib variant=A route=direct level=home+home one repetition=433.127 ms -> passes=1
+calib variant=B route=direct level=2m+home one repetition=5.388 ms -> passes=4
+calib variant=C route=direct level=home+512m one repetition=5.399 ms -> passes=4
+calib variant=D route=direct level=2m+512m one repetition=5.306 ms -> passes=4
+cell=route/at=2m,at2=512m,footprint-mib=16384,kernel=k3,placement=cpu,type=cross,vary=page-order,vary2=page-size rounds=20 warmups=10 discards=0 k=4 floor_ns=0 nA=10 medA=4.3338e+08 loA=4.33285e+08 hiA=4.33497e+08 targetA=1 nB=10 medB=5.36754e+06 loB=5.36594e+06 hiB=5.36848e+06 targetB=1 nC=10 medC=5.38804e+06 loC=5.38365e+06 hiC=5.38932e+06 targetC=1 nD=10 medD=5.2772e+06 loD=5.26765e+06 hiD=5.28103e+06 targetD=1 c1=B-A n1=10 med1=-4.28013e+08 lo1=-4.28129e+08 hi1=-4.27917e+08 target1=1 c2=D-C n2=10 med2=-111088 lo2=-118904 hi2=-103448 target2=1 c3=(D-C)-(B-A) n3=10 med3=4.27897e+08 lo3=4.27813e+08 hi3=4.28026e+08 target3=1 c4=C-A n4=10 med4=-4.27991e+08 lo4=-4.28113e+08 hi4=-4.27897e+08 target4=1 cap_hit=0 stopped_on_target=1 ahp_kb_end_A=0 ahp_kb_end_B=0 ahp_kb_end_C=16777216 ahp_kb_end_D=16777216

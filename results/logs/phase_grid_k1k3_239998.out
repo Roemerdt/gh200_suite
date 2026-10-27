@@ -1,0 +1,15 @@
+job=239998 attempt=0 node=j21n14 campaign=cal1 start=2026-10-07T21:53:02+02:00
+PLACEMENT GATE: node0=365 GB/s node1=3655.2 GB/s factor=2
+prologue done 2026-10-07T21:53:34+02:00
+[2026-10-07 21:53:34] phase=grid_k1k3 cells=161 jobid=239998 attempt=0 campaign=cal1 warmup=10 frozen_passes=156 with_floor=0
+[2026-10-07 21:53:34] RUN route/footprint-mib=24576,kernel=k3,placement=hbm  (K3 route cell at 24576 MiB, hbm)
+[2026-10-07 21:53:34]     bin/route run --kernel k3 --placement hbm --footprint-mib 24576 --out results/cal1/raw/route/footprint-mib=24576,kernel=k3,placement=hbm.a0.csv --cell route/footprint-mib=24576,kernel=k3,placement=hbm --campaign cal1 --jobid 239998 --attempt 0 --warmup 10 --n0 10 --step 10 --cap 100 --target-ms 20.0 --events route --first A --seed 31
+[2026-10-07 21:53:52] OK  route/footprint-mib=24576,kernel=k3,placement=hbm in 18 s (est 141)
+[2026-10-07 21:53:52] RUN route/at=512m,footprint-mib=32768,kernel=k3,placement=hbm,type=factor,vary=page-size  (K3 page size, 512 MB against 64 KB, 32768 MiB, hbm)
+[2026-10-07 21:53:52]     bin/route run --kernel k3 --placement hbm --footprint-mib 32768 --type factor --vary page-size --at 512m --out results/cal1/raw/route/at=512m,footprint-mib=32768,kernel=k3,placement=hbm,type=factor,vary=page-size.a0.csv --cell route/at=512m,footprint-mib=32768,kernel=k3,placement=hbm,type=factor,vary=page-size --campaign cal1 --jobid 239998 --attempt 0 --warmup 10 --n0 10 --step 10 --cap 100 --target-ms 20.0 --events route --first A --seed 31
+[2026-10-07 21:53:54] FAIL route/at=512m,footprint-mib=32768,kernel=k3,placement=hbm,type=factor,vary=page-size rc=-9 after 2 s
+[2026-10-07 21:53:54] RUN route/at=512m,footprint-mib=16384,kernel=k3,placement=hbm,type=four,vary=page-size  (K3 four-variant cell, route x page size, 16 GiB, hbm)
+[2026-10-07 21:53:54]     bin/route run --kernel k3 --placement hbm --footprint-mib 16384 --type four --vary page-size --at 512m --out results/cal1/raw/route/at=512m,footprint-mib=16384,kernel=k3,placement=hbm,type=four,vary=page-size.a0.csv --cell route/at=512m,footprint-mib=16384,kernel=k3,placement=hbm,type=four,vary=page-size --campaign cal1 --jobid 239998 --attempt 0 --warmup 10 --n0 10 --step 10 --cap 100 --target-ms 20.0 --events route --first A --seed 31
+[2026-10-07 21:53:55] GAP route/at=512m,footprint-mib=16384,kernel=k3,placement=hbm,type=four,vary=page-size (does not fit in GPU-node memory; declared gap)
+[2026-10-07 21:53:55] phase grid_k1k3 finished: done=1 skipped=158 gaps=1 failed=1
+[2026-10-07T21:53:55.298] error: Detected 1 oom_kill event in StepId=239998.batch. Some of the step tasks have been OOM Killed.

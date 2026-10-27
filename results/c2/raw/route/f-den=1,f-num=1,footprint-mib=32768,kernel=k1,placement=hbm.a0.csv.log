@@ -1,0 +1,2 @@
+capacity: the cell needs 98304 MiB of GPU-node memory (512 MB-page buffers counted twice), 94163 MiB are free, 2048 MiB must stay free
+capacity: declared gap

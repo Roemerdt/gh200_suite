@@ -1,0 +1,68 @@
+job=239837 node=j21n14 start=2026-10-07T19:31:52+02:00 paranoid=0 numa_balancing=0
+=== E-5: what nvidia-smi exposes about clocks ===
+"clocks_event_reasons.supported" or "clocks_throttle_reasons.supported" "clocks_event_reasons.active" or "clocks_throttle_reasons.active" "clocks_event_reasons.gpu_idle" or "clocks_throttle_reasons.gpu_idle" "clocks_event_reasons.applications_clocks_setting" or "clocks_throttle_reasons.applications_clocks_setting" "clocks_event_reasons.sw_power_cap" or "clocks_throttle_reasons.sw_power_cap" "clocks_event_reasons.hw_slowdown" or "clocks_throttle_reasons.hw_slowdown" "clocks_event_reasons.hw_thermal_slowdown" or "clocks_throttle_reasons.hw_thermal_slowdown" "clocks_event_reasons.hw_power_brake_slowdown" or "clocks_throttle_reasons.hw_power_brake_slowdown" "clocks_event_reasons.sw_thermal_slowdown" or "clocks_throttle_reasons.sw_thermal_slowdown" "clocks_event_reasons.sync_boost" or "clocks_throttle_reasons.sync_boost" "clocks_event_reasons_counters.sw_power_cap" "clocks_event_reasons_counters.sync_boost" "clocks_event_reasons_counters.sw_thermal_slowdown" "clocks_event_reasons_counters.hw_thermal_slowdown" "clocks_event_reasons_counters.hw_power_brake_slowdown" "clocks.current.graphics" or "clocks.gr" "clocks.current.sm" or "clocks.sm" "clocks.current.memory" or "clocks.mem" "clocks.current.video" or "clocks.video" "clocks.applications.graphics" or "clocks.applications.gr" "clocks.applications.memory" or "clocks.applications.mem" "clocks.default_applications.graphics" or "clocks.default_applications.gr" "clocks.default_applications.memory" or "clocks.default_applications.mem" "clocks.max.graphics" or "clocks.max.gr" "clocks.max.sm" or "clocks.max.sm" "clocks.max.memory" or "clocks.max.mem" 
+clocks.current.sm [MHz], clocks.current.memory [MHz], clocks.max.sm [MHz], clocks.max.memory [MHz], clocks.applications.graphics [MHz], clocks.default_applications.graphics [MHz], clocks_event_reasons.active, clocks_event_reasons.supported, clocks_event_reasons.applications_clocks_setting, clocks_event_reasons.sw_power_cap, persistence_mode
+1980 MHz, 2619 MHz, 1980 MHz, 2619 MHz, 1980 MHz, 1980 MHz, 0x0000000000000001, 0x00000000000001FF, Not Active, Not Active, Enabled
+    Clocks
+        Graphics                          : 1980 MHz
+        SM                                : 1980 MHz
+        Memory                            : 2619 MHz
+        Video                             : 1545 MHz
+    Applications Clocks
+        Graphics                          : 1980 MHz
+        Memory                            : 2619 MHz
+    Default Applications Clocks
+        Graphics                          : 1980 MHz
+        Memory                            : 2619 MHz
+    Deferred Clocks
+        Memory                            : N/A
+    Max Clocks
+        Graphics                          : 1980 MHz
+        SM                                : 1980 MHz
+        Memory                            : 2619 MHz
+        Video                             : 1545 MHz
+    Max Customer Boost Clocks
+        Graphics                          : 1980 MHz
+    Clock Policy
+    Clock Policy
+        Auto Boost                        : N/A
+        Auto Boost Default                : N/A
+    Fabric
+    Clocks Event Reasons Counters
+        SW Power Capping                  : 14327907 us
+        Sync Boost                        : 0 us
+        SW Thermal Slowdown               : 14327907 us
+        HW Thermal Slowdown               : 0 us
+        HW Power Braking                  : 0 us
+sudo rule for nvidia-smi: 0
+=== E-5: clockstate probe ===
+In file included from src/common/common.h:16,
+                 from results/step2/e5_e7/clockstate.cu:10:
+src/common/counters.h:47:2: error: #error "SUITE_SMMU_PMU is not defined: build with the Makefile, which takes it from harness/site.env"
+   47 | #error \
+      |  ^~~~~
+summary: duration of 2e6 cycles (1.010 ms at 1980 MHz)
+all_sms   gap      0 ms | first kernel after the gap: median 1.0160 ms (min 1.0157, max 1.0164) = 1968 MHz | second: median 1.0158 ms | NVML clock at the end of the gap: median 1980 MHz
+all_sms   gap      1 ms | first kernel after the gap: median 1.0165 ms (min 1.0157, max 1.0178) = 1968 MHz | second: median 1.0162 ms | NVML clock at the end of the gap: median 1980 MHz
+all_sms   gap     10 ms | first kernel after the gap: median 1.0168 ms (min 1.0160, max 1.0180) = 1967 MHz | second: median 1.0159 ms | NVML clock at the end of the gap: median 1980 MHz
+all_sms   gap    0.1 ms | first kernel after the gap: median 1.0165 ms (min 1.0158, max 1.0180) = 1968 MHz | second: median 1.0158 ms | NVML clock at the end of the gap: median 1980 MHz
+all_sms   gap    100 ms | first kernel after the gap: median 1.0166 ms (min 1.0159, max 1.0177) = 1967 MHz | second: median 1.0165 ms | NVML clock at the end of the gap: median 1980 MHz
+all_sms   gap   1000 ms | first kernel after the gap: median 1.0180 ms (min 1.0170, max 1.0188) = 1965 MHz | second: median 1.0164 ms | NVML clock at the end of the gap: median 1980 MHz
+all_sms   gap   3000 ms | first kernel after the gap: median 1.0181 ms (min 1.0176, max 1.0196) = 1965 MHz | second: median 1.0165 ms | NVML clock at the end of the gap: median 1980 MHz
+one_block gap      0 ms | first kernel after the gap: median 1.0138 ms (min 1.0132, max 1.0196) = 1973 MHz | second: median 1.0132 ms | NVML clock at the end of the gap: median 1980 MHz
+one_block gap      1 ms | first kernel after the gap: median 1.0140 ms (min 1.0131, max 1.0147) = 1972 MHz | second: median 1.0135 ms | NVML clock at the end of the gap: median 1980 MHz
+one_block gap     10 ms | first kernel after the gap: median 1.0137 ms (min 1.0131, max 1.0141) = 1973 MHz | second: median 1.0133 ms | NVML clock at the end of the gap: median 1980 MHz
+one_block gap    0.1 ms | first kernel after the gap: median 1.0136 ms (min 1.0132, max 1.0145) = 1973 MHz | second: median 1.0132 ms | NVML clock at the end of the gap: median 1980 MHz
+one_block gap    100 ms | first kernel after the gap: median 1.0142 ms (min 1.0132, max 1.0160) = 1972 MHz | second: median 1.0134 ms | NVML clock at the end of the gap: median 1980 MHz
+one_block gap   1000 ms | first kernel after the gap: median 1.0156 ms (min 1.0150, max 1.0164) = 1969 MHz | second: median 1.0138 ms | NVML clock at the end of the gap: median 1980 MHz
+one_block gap   3000 ms | first kernel after the gap: median 1.0162 ms (min 1.0153, max 1.0173) = 1968 MHz | second: median 1.0138 ms | NVML clock at the end of the gap: median 1980 MHz
+    Clocks Event Reasons Counters
+        SW Power Capping                  : 14327907 us
+        Sync Boost                        : 0 us
+        SW Thermal Slowdown               : 14327907 us
+        HW Thermal Slowdown               : 0 us
+        HW Power Braking                  : 0 us
+=== E-7: K1 at f = 1 with seven SCF events (GPU kernel reads and copy engine reads of CPU memory) ===
+round 1 rc=0 cell=step2/e7,round=1 attempts=30 warmups=10 discards=0 nA=20 medA=2.83824e+06 loA=2.83726e+06 hiA=2.83898e+06 targetA=1 nB=20 medB=3.16811e+06 loB=3.16732e+06 
+round 2 rc=0 cell=step2/e7,round=2 attempts=20 warmups=10 discards=0 nA=10 medA=2.84145e+06 loA=2.84089e+06 hiA=2.84291e+06 targetA=1 nB=10 medB=3.16509e+06 loB=3.16427e+06 
+JOB DONE 2026-10-07T19:32:56+02:00

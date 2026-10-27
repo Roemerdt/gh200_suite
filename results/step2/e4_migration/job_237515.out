@@ -1,0 +1,11 @@
+job=237515 node=j21n14 start=2026-10-05T17:33:49+02:00 numa_balancing=1 migration_param=-1
+build rc=0
+rc=0
+SMs=132, reuse kernel: 1 block per SM
+RESULT kernel=stream series=0 populate_s=0.39 frac_before=0.000 passes_to_50=4 gpu_s_to_50=8.13 passes_to_99=6 gpu_s_to_99=9.72 last_pass_ms=2.26 time_cap=0 numa_pte_updates=+324506 numa_hint_faults=+213 numa_pages_migrated=+0 pgmigrate_success=+0
+RESULT kernel=reuse_k1 series=0 populate_s=0.39 frac_before=0.000 passes_to_50=20 gpu_s_to_50=1.87 passes_to_99=38 gpu_s_to_99=3.29 last_pass_ms=3.50 time_cap=0 numa_pte_updates=+8332 numa_hint_faults=+140 numa_pages_migrated=+0 pgmigrate_success=+0
+RESULT kernel=reuse_k16 series=0 populate_s=0.39 frac_before=0.000 passes_to_50=4 gpu_s_to_50=2.92 passes_to_99=10 gpu_s_to_99=4.86 last_pass_ms=38.21 time_cap=0 numa_pte_updates=+32819 numa_hint_faults=+51 numa_pages_migrated=+0 pgmigrate_success=+0
+RESULT kernel=stream series=1 populate_s=0.39 frac_before=0.000 passes_to_50=13 gpu_s_to_50=3.24 passes_to_99=23 gpu_s_to_99=4.98 last_pass_ms=2.43 time_cap=0 numa_pte_updates=+24625 numa_hint_faults=+49 numa_pages_migrated=+0 pgmigrate_success=+0
+RESULT kernel=reuse_k1 series=1 populate_s=0.39 frac_before=0.000 passes_to_50=17 gpu_s_to_50=1.78 passes_to_99=32 gpu_s_to_99=3.22 last_pass_ms=2.41 time_cap=0 numa_pte_updates=+8241 numa_hint_faults=+49 numa_pages_migrated=+0 pgmigrate_success=+0
+RESULT kernel=reuse_k16 series=1 populate_s=0.39 frac_before=0.000 passes_to_50=5 gpu_s_to_50=3.16 passes_to_99=10 gpu_s_to_99=4.73 last_pass_ms=38.21 time_cap=0 numa_pte_updates=+16433 numa_hint_faults=+49 numa_pages_migrated=+0 pgmigrate_success=+0
+JOB DONE 2026-10-05T17:34:31+02:00

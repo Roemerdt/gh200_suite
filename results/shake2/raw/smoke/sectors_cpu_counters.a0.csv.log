@@ -1,0 +1,3 @@
+calib member=A node=1 one pass=4.629 ms -> passes=4
+calib member=B node=0 one pass=2.469 ms -> passes=8
+cell=smoke/sectors_cpu_counters attempts=22 warmups=2 discards=0 nA=20 medA=1.62838 loA=1.59495 hiA=1.64391 targetA=0 nB=20 medB=0.972416 loB=0.970749 hiB=0.974995 targetB=1 nD=20 medD=0.653934 loD=0.623177 hiD=0.669937 targetD=1 npos=20 nneg=0 sign_p=1.91e-06 cap_hit=1 stopped_on_target=0 paired=1

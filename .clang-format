@@ -1,0 +1,39 @@
+Language: Cpp
+BasedOnStyle: Google
+Standard: c++17
+ColumnLimit: 100
+
+InsertBraces: true
+AllowShortBlocksOnASingleLine: Always
+AllowShortIfStatementsOnASingleLine: WithoutElse
+AllowShortFunctionsOnASingleLine: Inline
+
+ReflowComments: false
+
+DerivePointerAlignment: false
+PointerAlignment: Left
+
+AttributeMacros:
+  - __global__
+  - __device__
+  - __host__
+  - __forceinline__
+  - __noinline__
+  - __shared__
+  - __constant__
+  - __managed__
+
+StatementMacros:
+  - KO
+
+IncludeBlocks: Regroup
+IncludeCategories:
+  - Regex: '^<(cuda|cub|thrust|nv|cooperative_groups)'
+    Priority: 3
+  - Regex: '^<.*\.h>'
+    Priority: 1
+  - Regex: '^<.*'
+    Priority: 2
+  - Regex: '.*'
+    Priority: 4
+...

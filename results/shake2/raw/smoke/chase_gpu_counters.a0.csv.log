@@ -1,0 +1,2 @@
+built system + B W=256.0 MiB lines=4194304 pattern=lines touch=seq in 0.2 s; A: thp=0 anonhuge=0 kB backed=0; B: thp=0 anonhuge=0 kB backed=0
+cell=smoke/chase_gpu_counters attempts=22 warmups=2 discards=0 nA=20 medA=860.977 loA=860.699 hiA=861.547 targetA=1 nB=20 medB=365.611 loB=362.691 hiB=368.976 targetB=1 nD=20 medD=495.21 loD=492.582 hiD=498.286 targetD=1 npos=20 nneg=0 sign_p=1.91e-06 cap_hit=0 stopped_on_target=1 paired=1

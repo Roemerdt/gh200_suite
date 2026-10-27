@@ -1,0 +1,1 @@
+cell=route/footprint-mib=1024,k=4,kernel=k2,placement=cpu,working-set-mib=32 attempts=20 warmups=10 discards=0 nA=10 medA=373758 loA=373678 hiA=373832 targetA=1 nB=10 medB=135755 loB=135591 hiB=135952 targetB=1 nD=10 medD=238014 loD=237664 hiD=238171 targetD=1 npos=10 nneg=0 sign_p=0.00195 cap_hit=0 stopped_on_target=1 paired=1 ahp_kb_end_A=0 ahp_kb_end_B=0

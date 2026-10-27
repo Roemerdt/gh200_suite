@@ -1,0 +1,1 @@
+cell=route/f-den=1,f-num=1,footprint-mib=64,kernel=k1,placement=cpu,replicate=3,type=aa attempts=30 warmups=10 discards=0 nA=20 medA=185526 loA=185503 hiA=185544 targetA=1 nB=20 medB=185959 loB=185932 hiB=186004 targetB=1 nD=20 medD=-441.631 loD=-468.148 hiD=-426.08 targetD=1 npos=0 nneg=20 sign_p=1.91e-06 cap_hit=0 stopped_on_target=1 paired=1 ahp_kb_end_A=0 ahp_kb_end_B=0

@@ -1,0 +1,2 @@
+warmup: calibrated iters=128000000 (303.6 ms/launch), running 30 s
+1791403200.313,warmup_done,launches,99,ms_per_launch,303.6

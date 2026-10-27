@@ -1,0 +1,1 @@
+cell=route/footprint-mib=8,kernel=k6,keys=1048576,placement=cpu attempts=20 warmups=10 discards=0 nA=10 medA=8.60551e+06 loA=8.60179e+06 hiA=8.6107e+06 targetA=1 nB=10 medB=248960 loB=248444 hiB=249126 targetB=1 nD=10 medD=8.35673e+06 loD=8.35248e+06 hiD=8.36203e+06 targetD=1 npos=10 nneg=0 sign_p=0.00195 cap_hit=0 stopped_on_target=1 paired=1 ahp_kb_end_A=0 ahp_kb_end_B=0

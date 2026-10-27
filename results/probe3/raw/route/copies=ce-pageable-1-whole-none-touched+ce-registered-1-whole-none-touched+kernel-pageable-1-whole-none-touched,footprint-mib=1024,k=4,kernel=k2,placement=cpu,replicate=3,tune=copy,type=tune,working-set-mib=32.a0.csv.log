@@ -1,0 +1,8 @@
+capacity: the cell needs 1024 MiB of GPU-node memory (512 MB-page buffers counted twice), 96719 MiB are free, 2048 MiB must stay free
+calib variant=A route=copy level=ce-pageable-1-whole-none-touched one repetition=0.151 ms -> passes=133
+calib variant=B route=copy level=ce-registered-1-whole-none-touched one repetition=0.148 ms -> passes=135
+calib variant=C route=copy level=kernel-pageable-1-whole-none-touched one repetition=0.157 ms -> passes=128
+calib variant=C fastest repetition in warm-up=0.135 ms -> passes=149
+calib variant=B fastest repetition in warm-up=0.142 ms -> passes=141
+calib variant=A fastest repetition in warm-up=0.142 ms -> passes=141
+cell=route/copies=ce-pageable-1-whole-none-touched+ce-registered-1-whole-none-touched+kernel-pageable-1-whole-none-touched,footprint-mib=1024,k=4,kernel=k2,placement=cpu,replicate=3,tune=copy,type=tune,working-set-mib=32 rounds=20 warmups=10 discards=0 k= nA=10 medA=142332 loA=142081 hiA=142400 targetA=1 nB=10 medB=142744 loB=142483 hiB=142905 targetB=1 nC=10 medC=134939 loC=134611 hiC=135196 targetC=1 cap_hit=0 stopped_on_target=1 ahp_kb_end_A=0 ahp_kb_end_B=0 ahp_kb_end_C=0

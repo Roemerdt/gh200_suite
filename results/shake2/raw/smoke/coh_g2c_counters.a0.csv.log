@@ -1,0 +1,2 @@
+calib R=2425600 s_eff=256 segs=9475 empty=0
+cell=smoke/coh_g2c_counters attempts=12 warmups=2 discards=0 nA=10 medA=8.20694 loA=8.20226 hiA=8.20904 targetA=1 nB=10 medB=6.70837 loB=6.6884 hiB=6.72792 targetB=1 nD=10 medD=1.49929 loD=1.48044 hiD=1.51385 targetD=1 npos=10 nneg=0 sign_p=0.00195 cap_hit=0 stopped_on_target=1 paired=1

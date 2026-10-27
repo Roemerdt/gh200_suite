@@ -1,0 +1,1 @@
+cell=smoke/coh_c2g attempts=12 warmups=2 discards=0 nA=10 medA=287.542 loA=287.423 hiA=287.619 targetA=1 nB=10 medB=323.288 loB=322.618 hiB=323.712 targetB=1 nD=10 medD=-35.769 loD=-36.0929 hiD=-34.9901 targetD=1 npos=0 nneg=10 sign_p=0.00195 cap_hit=0 stopped_on_target=1 paired=1

@@ -1,0 +1,1 @@
+cell=step2/e7,round=2 attempts=30 warmups=10 discards=0 nA=20 medA=3.0078e+06 loA=3.00686e+06 hiA=3.00821e+06 targetA=1 nB=20 medB=4.63497e+06 loB=4.4568e+06 hiB=4.82235e+06 targetB=0 nD=20 medD=-1.62808e+06 loD=-1.81396e+06 hiD=-1.44872e+06 targetD=0 npos=0 nneg=20 sign_p=1.91e-06 cap_hit=1 stopped_on_target=0 paired=1 ahp_kb_end_A=0 ahp_kb_end_B=0

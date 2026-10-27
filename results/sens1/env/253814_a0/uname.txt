@@ -1,0 +1,1 @@
+Linux j21n14 6.6.142-surf #4 SMP PREEMPT_DYNAMIC Thu Jun 11 15:59:34 CEST 2026 aarch64 GNU/Linux

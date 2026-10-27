@@ -1,0 +1,5 @@
+job=237512 node=j21n14 start=2026-10-05T17:28:23+02:00 numa_balancing=1 governor=performance
+build rc=0
+process 1 rc=0 rows=291
+process 2 rc=0 rows=291
+JOB DONE 2026-10-05T17:28:35+02:00

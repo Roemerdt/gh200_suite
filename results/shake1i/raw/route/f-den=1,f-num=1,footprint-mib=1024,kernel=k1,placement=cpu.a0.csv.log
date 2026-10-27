@@ -1,0 +1,3 @@
+calib variant=A route=direct one repetition=3.003 ms -> passes=7
+calib variant=B route=copy one repetition=3.329 ms -> passes=7
+cell=route/f-den=1,f-num=1,footprint-mib=1024,kernel=k1,placement=cpu attempts=1010 warmups=10 discards=0 nA=1000 medA=3.00139e+06 loA=3.00132e+06 hiA=3.00146e+06 targetA=1 nB=1000 medB=4.29415e+06 loB=4.28566e+06 hiB=4.30428e+06 targetB=1 nD=1000 medD=-1.29159e+06 loD=-1.3026e+06 hiD=-1.28469e+06 targetD=1 npos=0 nneg=1000 sign_p=1.87e-301 cap_hit=0 stopped_on_target=1 paired=1 ahp_kb_end_A=0 ahp_kb_end_B=0

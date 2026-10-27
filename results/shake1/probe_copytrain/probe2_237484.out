@@ -1,0 +1,134 @@
+probe2 job=237484 node=j21n14 start=2026-10-05T12:34:25+02:00
+=== run 1 ===
+source buffer 0x5cd0c0000000, direct buffer 0x5cd000000000; UVM debug files: 110 lines
+
+== phase 1 copy only, before any direct access
+   copy-in: fastest 2822 us, median 2823 us, slow 0 of 280; minor faults on this thread 43 (0.00 per source page per slow copy); source residency OK
+   /proc/vmstat changes of 500 or more:
+   UVM debug lines that changed:
+
+== phase 2 copy + kernel on the device copy, before any direct access
+   copy-in: fastest 2823 us, median 2825 us, slow 101 of 280; minor faults on this thread 3309620 (2.00 per source page per slow copy); source residency OK
+   /proc/vmstat changes of 500 or more: pgfault +3309621;
+   UVM debug lines that changed:
+
+== phase 3 as the instrument: direct interval, then 7 calls
+   copy-in: fastest 2823 us, median 2825 us, slow 89 of 280; minor faults on this thread 2916536 (2.00 per source page per slow copy); source residency OK
+   /proc/vmstat changes of 500 or more: pgfault +2916546;
+   UVM debug lines that changed:
+     info:26 | interrupts                             0 -> interrupts                             27372
+     info:42 |   access_counters_bh                   0 ->   access_counters_bh                   16224
+     info:44 |   access_counters_buffer_entries       4096 ->     cpu58                              10467
+     info:45 |   access_counters_cached_get           0 ->     cpu64                              5757
+     info:46 |   access_counters_cached_put           0 ->   access_counters_buffer_entries       4096
+     info:47 |   access_counters_get                  0 ->   access_counters_cached_get           32
+     info:48 |   access_counters_put                  0 ->   access_counters_cached_put           32
+     info:49 | migrated_pages_in                      0 (0 MB) ->   access_counters_get                  32
+     info:50 | migrated_pages_out                     0 (0 MB) ->   access_counters_put                  32
+     info:51 | mapped_cpu_pages_dma                   32 (2 MB) -> migrated_pages_in                      0 (0 MB)
+     info:52 | supported_ces: -> migrated_pages_out                     0 (0 MB)
+     info:53 |  ce 0 pce mask 0x00005755 grce 1 shared 1 sysmem read 0 sysmem write 0 sysmem 1 nvlink p2p 0 p2p 1 secure 0 -> mapped_cpu_pages_dma                   32 (2 MB)
+     info:54 |  ce 1 pce mask 0x0000a8aa grce 1 shared 1 sysmem read 0 sysmem write 0 sysmem 1 nvlink p2p 0 p2p 1 secure 0 -> supported_ces:
+     info:55 |  ce 4 pce mask 0x00005755 grce 0 shared 1 sysmem read 0 sysmem write 0 sysmem 1 nvlink p2p 1 p2p 1 secure 0 ->  ce 0 pce mask 0x00005755 grce 1 shared 1 sysmem read 0 sysmem write 0 sysmem 1 nvlink p2p 0 p2p 1 secure 0
+     info:56 |  ce 6 pce mask 0x0000a8aa grce 0 shared 1 sysmem read 0 sysmem write 0 sysmem 1 nvlink p2p 1 p2p 1 secure 0 ->  ce 1 pce mask 0x0000a8aa grce 1 shared 1 sysmem read 0 sysmem write 0 sysmem 1 nvlink p2p 0 p2p 1 secure 0
+     info:57 |  ->  ce 4 pce mask 0x00005755 grce 0 shared 1 sysmem read 0 sysmem write 0 sysmem 1 nvlink p2p 1 p2p 1 secure 0
+     info:58 |  ->  ce 6 pce mask 0x0000a8aa grce 0 shared 1 sysmem read 0 sysmem write 0 sysmem 1 nvlink p2p 1 p2p 1 secure 0
+
+== phase 4 copy + kernel on the device copy, after direct access
+   copy-in: fastest 2823 us, median 2825 us, slow 118 of 280; minor faults on this thread 3866637 (2.00 per source page per slow copy); source residency OK
+   /proc/vmstat changes of 500 or more: pgfault +3866638;
+   UVM debug lines that changed:
+
+== phase 5 copy only, after direct access
+   copy-in: fastest 2821 us, median 2823 us, slow 0 of 280; minor faults on this thread 32 (0.00 per source page per slow copy); source residency OK
+   /proc/vmstat changes of 500 or more:
+   UVM debug lines that changed:
+
+== phase 6 registered source, direct interval, then 7 calls
+   copy-in: fastest 2822 us, median 2824 us, slow 0 of 280; minor faults on this thread 53 (0.00 per source page per slow copy); source residency OK
+   /proc/vmstat changes of 500 or more:
+   UVM debug lines that changed:
+     info:26 | interrupts                             27372 -> interrupts                             53334
+     info:42 |   access_counters_bh                   16224 ->   access_counters_bh                   31127
+     info:44 |     cpu58                              10467 ->     cpu56                              7691
+     info:45 |     cpu64                              5757 ->     cpu58                              10467
+     info:46 |   access_counters_buffer_entries       4096 ->     cpu64                              12969
+     info:47 |   access_counters_cached_get           32 ->   access_counters_buffer_entries       4096
+     info:48 |   access_counters_cached_put           32 ->   access_counters_cached_get           2083
+     info:49 |   access_counters_get                  32 ->   access_counters_cached_put           2083
+     info:50 |   access_counters_put                  32 ->   access_counters_get                  2083
+     info:51 | migrated_pages_in                      0 (0 MB) ->   access_counters_put                  2083
+     info:52 | migrated_pages_out                     0 (0 MB) -> migrated_pages_in                      0 (0 MB)
+     info:53 | mapped_cpu_pages_dma                   32 (2 MB) -> migrated_pages_out                     0 (0 MB)
+     info:54 | supported_ces: -> mapped_cpu_pages_dma                   32 (2 MB)
+     info:55 |  ce 0 pce mask 0x00005755 grce 1 shared 1 sysmem read 0 sysmem write 0 sysmem 1 nvlink p2p 0 p2p 1 secure 0 -> supported_ces:
+     info:56 |  ce 1 pce mask 0x0000a8aa grce 1 shared 1 sysmem read 0 sysmem write 0 sysmem 1 nvlink p2p 0 p2p 1 secure 0 ->  ce 0 pce mask 0x00005755 grce 1 shared 1 sysmem read 0 sysmem write 0 sysmem 1 nvlink p2p 0 p2p 1 secure 0
+     info:57 |  ce 4 pce mask 0x00005755 grce 0 shared 1 sysmem read 0 sysmem write 0 sysmem 1 nvlink p2p 1 p2p 1 secure 0 ->  ce 1 pce mask 0x0000a8aa grce 1 shared 1 sysmem read 0 sysmem write 0 sysmem 1 nvlink p2p 0 p2p 1 secure 0
+     info:58 |  ce 6 pce mask 0x0000a8aa grce 0 shared 1 sysmem read 0 sysmem write 0 sysmem 1 nvlink p2p 1 p2p 1 secure 0 ->  ce 4 pce mask 0x00005755 grce 0 shared 1 sysmem read 0 sysmem write 0 sysmem 1 nvlink p2p 1 p2p 1 secure 0
+     info:59 |  ->  ce 6 pce mask 0x0000a8aa grce 0 shared 1 sysmem read 0 sysmem write 0 sysmem 1 nvlink p2p 1 p2p 1 secure 0
+
+== phase 7 copy only again, pageable, after unregistering
+   copy-in: fastest 2822 us, median 2823 us, slow 0 of 280; minor faults on this thread 40 (0.00 per source page per slow copy); source residency OK
+   /proc/vmstat changes of 500 or more:
+   UVM debug lines that changed:
+=== run 2 (a second process) ===
+source buffer 0x519ec0000000, direct buffer 0x519e00000000; UVM debug files: 110 lines
+
+== phase 1 copy only, before any direct access
+   copy-in: fastest 2826 us, median 2828 us, slow 0 of 280; minor faults on this thread 43 (0.00 per source page per slow copy); source residency OK
+   /proc/vmstat changes of 500 or more:
+   UVM debug lines that changed:
+
+== phase 2 copy + kernel on the device copy, before any direct access
+   copy-in: fastest 2827 us, median 4835 us, slow 169 of 280; minor faults on this thread 5537880 (2.00 per source page per slow copy); source residency OK
+   /proc/vmstat changes of 500 or more: pgfault +5537884;
+   UVM debug lines that changed:
+
+== phase 3 as the instrument: direct interval, then 7 calls
+   copy-in: fastest 2826 us, median 4771 us, slow 145 of 280; minor faults on this thread 4751511 (2.00 per source page per slow copy); source residency OK
+   /proc/vmstat changes of 500 or more: pgfault +4751520;
+   UVM debug lines that changed:
+     info:26 | interrupts                             0 -> interrupts                             36137
+     info:42 |   access_counters_bh                   0 ->   access_counters_bh                   23703
+     info:44 |   access_counters_buffer_entries       4096 ->     cpu58                              23703
+     info:45 |   access_counters_cached_get           0 ->   access_counters_buffer_entries       4096
+     info:46 |   access_counters_cached_put           0 ->   access_counters_cached_get           2594
+     info:47 |   access_counters_get                  0 ->   access_counters_cached_put           2594
+     info:48 |   access_counters_put                  0 ->   access_counters_get                  2594
+     info:49 | migrated_pages_in                      0 (0 MB) ->   access_counters_put                  2594
+     info:50 | migrated_pages_out                     0 (0 MB) -> migrated_pages_in                      0 (0 MB)
+     info:51 | mapped_cpu_pages_dma                   32 (2 MB) -> migrated_pages_out                     0 (0 MB)
+     info:52 | supported_ces: -> mapped_cpu_pages_dma                   32 (2 MB)
+     info:53 |  ce 0 pce mask 0x00005755 grce 1 shared 1 sysmem read 0 sysmem write 0 sysmem 1 nvlink p2p 0 p2p 1 secure 0 -> supported_ces:
+     info:54 |  ce 1 pce mask 0x0000a8aa grce 1 shared 1 sysmem read 0 sysmem write 0 sysmem 1 nvlink p2p 0 p2p 1 secure 0 ->  ce 0 pce mask 0x00005755 grce 1 shared 1 sysmem read 0 sysmem write 0 sysmem 1 nvlink p2p 0 p2p 1 secure 0
+     info:55 |  ce 4 pce mask 0x00005755 grce 0 shared 1 sysmem read 0 sysmem write 0 sysmem 1 nvlink p2p 1 p2p 1 secure 0 ->  ce 1 pce mask 0x0000a8aa grce 1 shared 1 sysmem read 0 sysmem write 0 sysmem 1 nvlink p2p 0 p2p 1 secure 0
+     info:56 |  ce 6 pce mask 0x0000a8aa grce 0 shared 1 sysmem read 0 sysmem write 0 sysmem 1 nvlink p2p 1 p2p 1 secure 0 ->  ce 4 pce mask 0x00005755 grce 0 shared 1 sysmem read 0 sysmem write 0 sysmem 1 nvlink p2p 1 p2p 1 secure 0
+     info:57 |  ->  ce 6 pce mask 0x0000a8aa grce 0 shared 1 sysmem read 0 sysmem write 0 sysmem 1 nvlink p2p 1 p2p 1 secure 0
+
+== phase 4 copy + kernel on the device copy, after direct access
+   copy-in: fastest 2827 us, median 2835 us, slow 132 of 280; minor faults on this thread 4325424 (2.00 per source page per slow copy); source residency OK
+   /proc/vmstat changes of 500 or more: nr_active_anon -504; nr_anon_pages -504; nr_zone_active_anon -504; pgfault +4325661; pgfree +671;
+   UVM debug lines that changed:
+
+== phase 5 copy only, after direct access
+   copy-in: fastest 2826 us, median 2828 us, slow 0 of 280; minor faults on this thread 0 (0.00 per source page per slow copy); source residency OK
+   /proc/vmstat changes of 500 or more:
+   UVM debug lines that changed:
+
+== phase 6 registered source, direct interval, then 7 calls
+   copy-in: fastest 2826 us, median 2829 us, slow 0 of 280; minor faults on this thread 50 (0.00 per source page per slow copy); source residency OK
+   /proc/vmstat changes of 500 or more:
+   UVM debug lines that changed:
+     info:26 | interrupts                             36137 -> interrupts                             72231
+     info:42 |   access_counters_bh                   23703 ->   access_counters_bh                   47407
+     info:44 |     cpu58                              23703 ->     cpu58                              47407
+     info:46 |   access_counters_cached_get           2594 ->   access_counters_cached_get           1603
+     info:47 |   access_counters_cached_put           2594 ->   access_counters_cached_put           1603
+     info:48 |   access_counters_get                  2594 ->   access_counters_get                  1603
+     info:49 |   access_counters_put                  2594 ->   access_counters_put                  1603
+
+== phase 7 copy only again, pageable, after unregistering
+   copy-in: fastest 2826 us, median 2828 us, slow 1 of 280; minor faults on this thread 32810 (2.00 per source page per slow copy); source residency OK
+   /proc/vmstat changes of 500 or more: pgfault +32813; pgpgout +936;
+   UVM debug lines that changed:
+PROBE2 DONE 2026-10-05T12:34:56+02:00

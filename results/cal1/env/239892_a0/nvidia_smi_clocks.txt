@@ -1,0 +1,2 @@
+clocks.current.sm [MHz], clocks.applications.graphics [MHz], clocks.max.sm [MHz], persistence_mode
+375 MHz, 1980 MHz, 1980 MHz, Enabled

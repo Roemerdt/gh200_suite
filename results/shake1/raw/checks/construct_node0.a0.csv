@@ -1,0 +1,3 @@
+ts_epoch,check,direction,node,read1_ns_per,read2_ns_per,read3_ns_per,note
+1791195705.107789,construct,c2g,0,220.05,163.43,166.42,gpu_reads;cpu_rewrote_before_read3
+1791195705.108003,construct,g2c,0,2.76,2.40,2.71,cpu_reads;gpu_rewrote_before_read3

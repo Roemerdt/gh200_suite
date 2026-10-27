@@ -1,0 +1,9 @@
+total 24
+drwxr-xr-x   2 root root   73 May 18 16:45 .
+drwxr-xr-x 118 root root 8192 Sep  8 12:00 ..
+lrwxrwxrwx   1 root root   14 Apr 27 21:48 99-sysctl.conf -> ../sysctl.conf
+-rw-r--r--   1 root root  798 Dec 19  2022 README.sysctl
+-rw-------   1 root root 6644 Sep 29  2025 sara_tweaks.conf
+--- lines that set the two keys ---
+grep: /etc/sysctl.d/sara_tweaks.conf: Permission denied
+grep: /run/sysctl.d/: No such file or directory

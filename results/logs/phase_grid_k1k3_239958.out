@@ -1,0 +1,8 @@
+job=239958 attempt=0 node=j21n14 campaign=cal2 start=2026-10-07T21:47:41+02:00
+PLACEMENT GATE: node0=361.5 GB/s node1=3651.6 GB/s factor=2
+prologue done 2026-10-07T21:48:13+02:00
+[2026-10-07 21:48:13] phase=grid_k1k3 cells=161 jobid=239958 attempt=0 campaign=cal2 warmup=10 frozen_passes=156 with_floor=0
+[2026-10-07 21:48:13] SKIP (previously failed, remove .failed to retry): route/at=512m,footprint-mib=16384,kernel=k3,placement=hbm,type=four,vary=page-size
+[2026-10-07 21:48:13] SKIP (previously failed, remove .failed to retry): route/at=512m,footprint-mib=32768,kernel=k3,placement=hbm,type=factor,vary=page-size
+[2026-10-07 21:48:13] phase grid_k1k3 finished: done=0 skipped=161 gaps=0 failed=0
+phase job done 2026-10-07T21:48:13+02:00

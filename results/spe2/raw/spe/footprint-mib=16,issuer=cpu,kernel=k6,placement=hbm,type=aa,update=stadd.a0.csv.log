@@ -1,0 +1,12 @@
+capacity: the cell needs 32 MiB of GPU-node memory (512 MB-page buffers counted twice), 96720 MiB are free, 2048 MiB must stay free
+calib variant=A route=direct level=home one repetition=11.198 ms -> passes=2
+calib variant=B route=direct level=home one repetition=11.281 ms -> passes=2
+cell=spe/footprint-mib=16,issuer=cpu,kernel=k6,placement=hbm,type=aa,update=stadd attempts=32 warmups=2 discards=0 nA=30 medA=1.10512e+07 loA=1.09799e+07 hiA=1.1077e+07 targetA=1 nB=30 medB=1.10352e+07 loB=1.10107e+07 hiB=1.10572e+07 targetB=1 nD=30 medD=-1600 loD=-62688 hiD=31632 targetD=0 npos=15 nneg=15 sign_p=1 cap_hit=1 stopped_on_target=0 paired=1 ahp_kb_end_A=0 ahp_kb_end_B=0
+[ perf record: Woken up 150 times to write data ]
+[ perf record: Captured and wrote 10.648 MB results/spe2/raw/spe/footprint-mib=16,issuer=cpu,kernel=k6,placement=hbm,type=aa,update=stadd.a0.csv.spe.data ]
+Warning:
+AUX data lost 1 times out of 3314!
+
+Warning:
+AUX data detected collision  1 times out of 3314!
+

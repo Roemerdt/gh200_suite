@@ -1,0 +1,69 @@
+node,thp,method,trial,populate_s,pass1_ms,pass2_ms,pass3_ms,ahp_mb_after_pass1,ahp_mb_after_pass2,ahp_mb_after_pass3,ahp_mb_after_1s,rss_mb,where,vmstat_changes
+0,1,cpu_memset,0,0.489,20.71,20.78,20.78,8192,8192,8192,8192,8192,node0=256 node1=0 other=0,thp_fault_alloc=16 pgfault=21 
+0,1,cpu_memset,1,0.489,20.75,20.68,20.67,8192,8192,8192,8192,8192,node0=256 node1=0 other=0,thp_fault_alloc=16 pgfault=74 numa_pte_updates=272 
+0,1,cuda_register,0,0.302,20.80,20.79,20.79,8192,8192,8192,8192,8192,node0=256 node1=0 other=0,thp_fault_alloc=16 pgfault=262180 
+0,1,cuda_register,1,0.311,20.69,20.67,20.63,8192,8192,8192,8192,8192,node0=256 node1=0 other=0,thp_fault_alloc=16 pgfault=262237 numa_pte_updates=93 
+0,1,gpu_write,0,0.000,2043.46,21.17,21.12,0,0,0,0,8192,node0=256 node1=0 other=0,pgfault=239615 numa_pte_updates=168 
+0,1,gpu_write,1,0.000,1977.57,21.06,21.02,0,0,0,0,8192,node0=256 node1=0 other=0,thp_collapse_alloc=4 thp_split_page=1 pgfault=227065 numa_pte_updates=57 
+0,1,gpu_write,2,0.000,2043.15,21.11,21.06,0,0,0,0,8192,node0=256 node1=0 other=0,pgfault=236607 numa_pte_updates=57 
+0,1,gpu_write,3,0.000,2069.46,21.15,21.16,0,0,0,0,8192,node0=256 node1=0 other=0,pgfault=237636 numa_pte_updates=56 
+0,1,gpu_read,0,0.000,2652.82,20.82,20.83,4096,4096,4096,4096,8192,node0=256 node1=0 other=0,thp_collapse_alloc=8 pgfault=248390 numa_pte_updates=55 
+0,1,gpu_read,1,0.000,2414.24,21.09,21.04,0,0,0,0,8192,node0=256 node1=0 other=0,pgfault=247317 numa_pte_updates=1 
+0,1,gpu_read,2,0.000,2390.70,21.03,21.11,0,0,0,0,8192,node0=256 node1=0 other=0,pgfault=248176 numa_pte_updates=57 
+0,1,gpu_read,3,0.000,2275.76,20.96,20.94,2560,2560,2560,2560,8192,node0=256 node1=0 other=0,thp_collapse_alloc=7 thp_split_page=1 pgfault=215382 numa_pte_updates=56 
+0,1,gpu_read,4,0.000,2324.37,21.11,21.10,0,0,0,0,8192,node0=256 node1=0 other=0,pgfault=249669 numa_pte_updates=1 
+0,1,gpu_read,5,0.000,2307.13,21.08,21.09,0,0,0,0,8192,node0=256 node1=0 other=0,pgfault=249806 
+0,1,gpu_read,6,0.000,2456.32,107.15,20.74,2560,3072,3072,3072,8192,node0=256 node1=0 other=0,thp_collapse_alloc=8 thp_split_page=2 pgfault=255115 numa_pte_updates=1 
+0,1,gpu_read,7,0.000,2348.67,21.06,21.07,0,0,0,0,8192,node0=256 node1=0 other=0,pgfault=246474 
+0,0,cpu_memset,0,0.389,20.92,20.94,20.87,0,0,0,0,8192,node0=256 node1=0 other=0,pgfault=131072 
+0,0,cpu_memset,1,0.389,20.85,20.89,20.85,0,0,0,0,8192,node0=256 node1=0 other=0,pgfault=131073 numa_pte_updates=1 
+0,0,cuda_register,0,0.277,20.87,20.86,20.85,0,0,0,0,8192,node0=256 node1=0 other=0,pgfault=262179 
+0,0,cuda_register,1,0.279,20.91,20.87,20.90,0,0,0,0,8192,node0=256 node1=0 other=0,pgfault=262144 
+0,0,gpu_write,0,0.000,2043.91,21.15,21.15,0,0,0,0,8192,node0=256 node1=0 other=0,pgfault=238810 numa_pte_updates=75 
+0,0,gpu_write,1,0.000,2052.02,21.14,21.08,0,0,0,0,8192,node0=256 node1=0 other=0,pgfault=233278 numa_pte_updates=1 
+0,0,gpu_read,0,0.000,2292.78,21.01,20.97,0,0,0,0,8192,node0=256 node1=0 other=0,pgfault=249167 numa_pte_updates=3 
+0,0,gpu_read,1,0.000,2396.07,21.05,21.08,0,0,0,0,8192,node0=256 node1=0 other=0,pgfault=249585 numa_pte_updates=1 
+1,1,cpu_memset,0,1.778,1.62,1.44,1.44,8192,8192,8192,8192,8192,node0=0 node1=256 other=0,thp_fault_alloc=16 pgfault=16 
+1,1,cpu_memset,1,1.774,1.63,1.42,1.41,8192,8192,8192,8192,8192,node0=0 node1=256 other=0,thp_fault_alloc=16 pgfault=17 numa_pte_updates=1 
+1,1,cuda_register,0,1.168,1.60,1.44,1.44,8192,8192,8192,8192,8192,node0=0 node1=256 other=0,thp_fault_alloc=16 pgfault=262226 numa_pte_updates=47 
+1,1,cuda_register,1,1.169,1.62,1.42,1.41,8192,8192,8192,8192,8192,node0=0 node1=256 other=0,thp_fault_alloc=16 pgfault=262144 
+1,1,gpu_write,0,0.000,811.62,1.68,1.41,0,0,0,0,8192,node0=0 node1=256 other=0,pgfault=4352 
+1,1,gpu_write,1,0.000,807.56,1.75,1.41,0,0,0,0,8192,node0=0 node1=256 other=0,pgfault=3138 numa_pte_updates=1 
+1,1,gpu_write,2,0.000,804.68,1.76,1.42,0,0,0,0,8192,node0=0 node1=256 other=0,pgfault=2304 
+1,1,gpu_write,3,0.000,809.99,1.69,1.41,0,0,0,0,8192,node0=0 node1=256 other=0,pgfault=4352 
+1,1,gpu_read,0,0.000,868.84,1.71,1.42,0,0,0,0,8192,node0=0 node1=256 other=0,pgfault=12879 numa_pte_updates=15 
+1,1,gpu_read,1,0.000,870.27,1.84,1.41,0,0,0,0,8192,node0=0 node1=256 other=0,pgfault=13312 
+1,1,gpu_read,2,0.000,874.55,1.72,1.43,0,0,0,0,8192,node0=0 node1=256 other=0,pgfault=14712 
+1,1,gpu_read,3,0.000,865.27,1.75,1.41,0,0,0,0,8192,node0=0 node1=256 other=0,pgfault=12959 numa_pte_updates=1 
+1,1,gpu_read,4,0.000,868.05,1.71,1.41,0,0,0,0,8192,node0=0 node1=256 other=0,pgfault=12352 
+1,1,gpu_read,5,0.000,861.09,1.76,1.41,0,0,0,3584,8192,node0=0 node1=256 other=0,thp_collapse_alloc=7 pgfault=10944 
+1,1,gpu_read,6,0.000,868.25,1.74,1.47,0,0,0,0,8192,node0=0 node1=256 other=0,thp_collapse_alloc=1 pgfault=12545 numa_pte_updates=1 
+1,1,gpu_read,7,0.000,875.32,1.68,1.42,0,0,0,0,8192,node0=0 node1=256 other=0,pgfault=15928 
+1,0,cpu_memset,0,0.875,1.62,1.46,1.45,0,0,0,0,8192,node0=0 node1=256 other=0,pgfault=131072 
+1,0,cpu_memset,1,0.874,1.59,1.43,1.42,0,0,0,0,8192,node0=0 node1=256 other=0,pgfault=131073 numa_pte_updates=1 
+1,0,cuda_register,0,0.760,1.61,1.45,1.45,0,0,0,0,8192,node0=0 node1=256 other=0,pgfault=262144 
+1,0,cuda_register,1,0.761,1.59,1.43,1.43,0,0,0,0,8192,node0=0 node1=256 other=0,pgfault=262144 numa_pte_updates=4 
+1,0,gpu_write,0,0.000,810.72,1.76,1.42,0,0,0,0,8192,node0=0 node1=256 other=0,pgfault=4100 
+1,0,gpu_write,1,0.000,815.76,1.78,1.41,0,0,0,0,8192,node0=0 node1=256 other=0,pgfault=5376 
+1,0,gpu_read,0,0.000,866.80,1.72,1.41,0,0,0,0,8192,node0=0 node1=256 other=0,pgfault=12480 
+1,0,gpu_read,1,0.000,866.84,1.71,1.41,0,0,0,0,8192,node0=0 node1=256 other=0,pgfault=12992 
+-1,1,cpu_memset,0,0.490,22.71,145.20,178.16,7680,4608,0,2048,8192,node0=253 node1=3 other=0,thp_fault_alloc=16 thp_collapse_alloc=5 thp_split_page=16 pgfault=64 
+-1,1,cpu_memset,1,0.489,22.66,146.00,179.65,7680,4608,0,0,8192,node0=232 node1=24 other=0,thp_fault_alloc=16 thp_split_page=16 pgfault=64 
+-1,1,gpu_write,0,0.000,2224.83,1.73,1.42,0,0,0,0,8192,node0=0 node1=256 other=0,pgfault=256384 
+-1,1,gpu_write,1,0.000,2193.07,1.67,1.42,0,0,0,0,8192,node0=0 node1=256 other=0,pgfault=254181 
+-1,1,gpu_write,2,0.000,3139.31,1.49,1.42,4096,4096,4096,4096,8192,node0=0 node1=256 other=0,thp_collapse_alloc=8 pgfault=256635 
+-1,1,gpu_write,3,0.000,2173.24,1.68,1.42,0,0,0,0,8192,node0=0 node1=256 other=0,pgfault=255318 
+-1,1,gpu_read,0,0.000,2450.56,1.71,1.41,0,0,0,0,8192,node0=0 node1=256 other=0,pgfault=246847 numa_pte_updates=7 
+-1,1,gpu_read,1,0.000,3083.28,1.58,1.48,2560,2560,2560,3584,8192,node0=0 node1=256 other=0,thp_collapse_alloc=7 pgfault=247999 
+-1,1,gpu_read,2,0.000,2550.84,1.71,1.42,0,0,0,0,8192,node0=0 node1=256 other=0,pgfault=252333 
+-1,1,gpu_read,3,0.000,2505.50,1.72,1.41,0,0,0,0,8192,node0=0 node1=256 other=0,pgfault=249685 numa_pte_updates=1 
+-1,1,gpu_read,4,0.000,2956.68,1.56,1.47,2048,2048,2048,4096,8192,node0=0 node1=256 other=0,thp_collapse_alloc=8 pgfault=242137 numa_pte_updates=1 
+-1,1,gpu_read,5,0.000,2454.13,1.69,1.44,0,0,0,0,8192,node0=0 node1=256 other=0,pgfault=249180 numa_pte_updates=75 
+-1,1,gpu_read,6,0.000,2514.50,1.72,1.41,0,0,0,0,8192,node0=0 node1=256 other=0,pgfault=247106 numa_pte_updates=56 
+-1,1,gpu_read,7,0.000,2507.35,1.71,1.41,0,0,0,3584,8192,node0=0 node1=256 other=0,thp_collapse_alloc=7 pgfault=246250 numa_pte_updates=1 
+-1,0,cpu_memset,0,0.391,23.53,133.85,161.95,0,0,0,0,8192,node0=235 node1=21 other=0,thp_collapse_alloc=1 pgfault=132136 
+-1,0,cpu_memset,1,0.391,22.67,135.30,160.78,0,0,0,0,8192,node0=237 node1=19 other=0,pgfault=131080 
+-1,0,gpu_write,0,0.000,2243.57,1.75,1.42,0,0,0,0,8192,node0=0 node1=256 other=0,pgfault=255420 
+-1,0,gpu_write,1,0.000,2213.85,1.82,1.42,0,0,0,0,8192,node0=0 node1=256 other=0,pgfault=254609 numa_pte_updates=1 
+-1,0,gpu_read,0,0.000,2601.26,1.69,1.41,0,0,0,0,8192,node0=0 node1=256 other=0,pgfault=245338 
+-1,0,gpu_read,1,0.000,2574.54,1.72,1.41,0,0,0,0,8192,node0=0 node1=256 other=0,pgfault=246538 numa_pte_updates=1 

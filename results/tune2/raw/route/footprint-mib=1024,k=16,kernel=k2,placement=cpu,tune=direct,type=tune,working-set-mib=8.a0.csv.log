@@ -1,0 +1,24 @@
+capacity: the cell needs 0 MiB of GPU-node memory (512 MB-page buffers counted twice), 96723 MiB are free, 2048 MiB must stay free
+calib variant=A route=direct level=132x32x8 one repetition=0.335 ms -> passes=60
+calib variant=B route=direct level=132x32x16 one repetition=0.188 ms -> passes=107
+calib variant=C route=direct level=132x64x8 one repetition=0.175 ms -> passes=114
+calib variant=D route=direct level=132x64x16 one repetition=0.106 ms -> passes=188
+calib variant=E route=direct level=132x128x8 one repetition=0.100 ms -> passes=200
+calib variant=F route=direct level=132x128x16 one repetition=0.068 ms -> passes=297
+calib variant=G route=direct level=132x256x8 one repetition=0.065 ms -> passes=309
+calib variant=H route=direct level=132x256x16 one repetition=0.048 ms -> passes=420
+calib variant=I route=direct level=132x512x8 one repetition=0.048 ms -> passes=416
+calib variant=J route=direct level=132x512x16 one repetition=0.039 ms -> passes=507
+calib variant=K route=direct level=132x1024x8 one repetition=0.043 ms -> passes=464
+calib variant=L route=direct level=132x1024x16 one repetition=0.040 ms -> passes=498
+calib variant=A fastest repetition in warm-up=0.330 ms -> passes=61
+calib variant=L fastest repetition in warm-up=0.038 ms -> passes=530
+calib variant=C fastest repetition in warm-up=0.172 ms -> passes=117
+calib variant=I fastest repetition in warm-up=0.048 ms -> passes=418
+calib variant=D fastest repetition in warm-up=0.104 ms -> passes=193
+calib variant=H fastest repetition in warm-up=0.047 ms -> passes=428
+calib variant=J fastest repetition in warm-up=0.037 ms -> passes=541
+calib variant=E fastest repetition in warm-up=0.100 ms -> passes=201
+calib variant=B fastest repetition in warm-up=0.184 ms -> passes=109
+calib variant=K fastest repetition in warm-up=0.041 ms -> passes=491
+cell=route/footprint-mib=1024,k=16,kernel=k2,placement=cpu,tune=direct,type=tune,working-set-mib=8 rounds=20 warmups=10 discards=0 k=12 floor_ns=0 nA=10 medA=330815 loA=330569 hiA=331271 targetA=1 nB=10 medB=183862 loB=183532 hiB=184055 targetB=1 nC=10 medC=172702 loC=172427 hiC=172843 targetC=1 nD=10 medD=104367 loD=104275 hiD=104567 targetD=1 nE=10 medE=100078 loE=99952.7 hiE=100179 targetE=1 nF=10 medF=68427.6 loF=68334.1 hiF=68511 targetF=1 nG=10 medG=67726.9 loG=67676.4 hiG=67751.9 targetG=1 nH=10 medH=46850.3 loH=46828.5 hiH=46891.9 targetH=1 nI=10 medI=47939.7 loI=47864.6 hiI=47956.7 targetI=1 nJ=10 medJ=37036.9 loJ=37018.1 hiJ=37052.9 targetJ=1 nK=10 medK=40846.5 loK=40827.6 hiK=40877.4 targetK=1 nL=10 medL=37810.4 loL=37791.9 hiL=37821.6 targetL=1 cap_hit=0 stopped_on_target=1 ahp_kb_end_A=0 ahp_kb_end_B=0 ahp_kb_end_C=0 ahp_kb_end_D=0 ahp_kb_end_E=0 ahp_kb_end_F=0 ahp_kb_end_G=0 ahp_kb_end_H=0 ahp_kb_end_I=0 ahp_kb_end_J=0 ahp_kb_end_K=0 ahp_kb_end_L=0

@@ -1,0 +1,6 @@
+job=239792 attempt=0 node=j21n14 campaign=types1 start=2026-10-07T18:47:41+02:00
+PLACEMENT GATE: node0=394.4 GB/s node1=3653.2 GB/s factor=2
+prologue done 2026-10-07T18:48:13+02:00
+[2026-10-07 18:48:13] phase=cell_types cells=6 jobid=239792 attempt=0 campaign=types1 warmup=10
+[2026-10-07 18:48:13] phase cell_types finished: done=0 skipped=6 gaps=0 failed=0
+phase job done 2026-10-07T18:48:13+02:00

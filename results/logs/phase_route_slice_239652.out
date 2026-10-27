@@ -1,0 +1,12 @@
+job=239652 attempt=0 node=j21n14 campaign=shake4 start=2026-10-07T16:36:37+02:00
+PLACEMENT GATE: node0=398.9 GB/s node1=3639.3 GB/s factor=2
+prologue done 2026-10-07T16:37:09+02:00
+[2026-10-07 16:37:09] phase=route_slice cells=2 jobid=239652 attempt=0 campaign=shake4 warmup=10
+[2026-10-07 16:37:09] RUN route/f-den=1,f-num=1,footprint-mib=1024,kernel=k1,placement=cpu  (K1 route cell, f = 1/1)
+[2026-10-07 16:37:09]     bin/route run --kernel k1 --placement cpu --footprint-mib 1024 --f-num 1 --f-den 1 --out results/shake4/raw/route/f-den=1,f-num=1,footprint-mib=1024,kernel=k1,placement=cpu.a0.csv --cell route/f-den=1,f-num=1,footprint-mib=1024,kernel=k1,placement=cpu --campaign shake4 --jobid 239652 --attempt 0 --warmup 10 --n0 10 --step 10 --cap 100 --target-ms 20.0 --events route --first A --seed 11
+[2026-10-07 16:37:11] OK  route/f-den=1,f-num=1,footprint-mib=1024,kernel=k1,placement=cpu in 2 s (est 60)
+[2026-10-07 16:37:11] RUN route/f-den=2,f-num=1,footprint-mib=1024,kernel=k1,placement=cpu  (K1 route cell, f = 1/2)
+[2026-10-07 16:37:11]     bin/route run --kernel k1 --placement cpu --footprint-mib 1024 --f-num 1 --f-den 2 --out results/shake4/raw/route/f-den=2,f-num=1,footprint-mib=1024,kernel=k1,placement=cpu.a0.csv --cell route/f-den=2,f-num=1,footprint-mib=1024,kernel=k1,placement=cpu --campaign shake4 --jobid 239652 --attempt 0 --warmup 10 --n0 10 --step 10 --cap 100 --target-ms 20.0 --events route --first B --seed 11
+[2026-10-07 16:37:17] OK  route/f-den=2,f-num=1,footprint-mib=1024,kernel=k1,placement=cpu in 6 s (est 60)
+[2026-10-07 16:37:17] phase route_slice finished: done=2 skipped=0 failed=0
+phase job done 2026-10-07T16:37:17+02:00

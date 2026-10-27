@@ -1,0 +1,119 @@
+{
+ "aa": {
+  "route_axes": {
+   "floor_ns": 55685.0,
+   "n": 20,
+   "rule": "90th percentile of 20 contrasts"
+  }
+ },
+ "cross": {
+  "coherence": {
+   "floor_ns": 743609.9499999881,
+   "n": 4,
+   "rule": "fewer than 20 contrasts (4): the larger of the family floor over 8 and the group's largest change"
+  },
+  "translation": {
+   "floor_ns": 743609.9499999881,
+   "n": 4,
+   "rule": "fewer than 20 contrasts (4): the larger of the family floor over 8 and the group's largest change"
+  }
+ },
+ "factor": {
+  "atomics": {
+   "floor_ns": 916096.0,
+   "n": 37,
+   "rule": "90th percentile of 37 contrasts"
+  },
+  "caching": {
+   "floor_ns": 461981.0,
+   "n": 10,
+   "rule": "fewer than 20 contrasts (10): the larger of the family floor over 251 and the group's largest change"
+  },
+  "coherence": {
+   "floor_ns": 70405.0,
+   "n": 90,
+   "rule": "90th percentile of 90 contrasts"
+  },
+  "route_axes": {
+   "floor_ns": 420992.40000000596,
+   "n": 64,
+   "rule": "90th percentile of 64 contrasts"
+  },
+  "translation": {
+   "floor_ns": 610064.1500000358,
+   "n": 46,
+   "rule": "90th percentile of 46 contrasts"
+  },
+  "workload": {
+   "floor_ns": 5625940.0,
+   "n": 4,
+   "rule": "fewer than 20 contrasts (4): the larger of the family floor over 251 and the group's largest change"
+  }
+ },
+ "four": {
+  "atomics": {
+   "floor_ns": 503772.86950000003,
+   "n": 3,
+   "rule": "fewer than 20 contrasts (3): the larger of the family floor over 162 and the group's largest change"
+  },
+  "caching": {
+   "floor_ns": 508763.57500000007,
+   "n": 15,
+   "rule": "fewer than 20 contrasts (15): the larger of the family floor over 162 and the group's largest change"
+  },
+  "coherence": {
+   "floor_ns": 199938.6499999985,
+   "n": 93,
+   "rule": "90th percentile of 93 contrasts"
+  },
+  "route_axes": {
+   "floor_ns": 605242.2600000001,
+   "n": 27,
+   "rule": "90th percentile of 27 contrasts"
+  },
+  "scope": {
+   "floor_ns": 503772.86950000003,
+   "n": 3,
+   "rule": "fewer than 20 contrasts (3): the larger of the family floor over 162 and the group's largest change"
+  },
+  "translation": {
+   "floor_ns": 1234521.2499999404,
+   "n": 15,
+   "rule": "fewer than 20 contrasts (15): the larger of the family floor over 162 and the group's largest change"
+  },
+  "workload": {
+   "floor_ns": 503772.86950000003,
+   "n": 6,
+   "rule": "fewer than 20 contrasts (6): the larger of the family floor over 162 and the group's largest change"
+  }
+ },
+ "kvar": {
+  "atomics": {
+   "floor_ns": 24867.25,
+   "n": 8,
+   "rule": "fewer than 20 contrasts (8): the larger of the family floor over 14 and the group's largest change"
+  },
+  "scope": {
+   "floor_ns": 24284.889999998733,
+   "n": 6,
+   "rule": "fewer than 20 contrasts (6): the larger of the family floor over 14 and the group's largest change"
+  }
+ },
+ "route": {
+  "atomics": {
+   "floor_ns": 717408.2349999994,
+   "n": 19,
+   "rule": "fewer than 20 contrasts (19): the larger of the family floor over 216 and the group's largest change"
+  },
+  "coherence": {
+   "floor_ns": 597761.3600000003,
+   "n": 94,
+   "rule": "90th percentile of 94 contrasts"
+  },
+  "route_axes": {
+   "floor_ns": 1022385.0,
+   "n": 103,
+   "rule": "90th percentile of 103 contrasts"
+  }
+ }
+}

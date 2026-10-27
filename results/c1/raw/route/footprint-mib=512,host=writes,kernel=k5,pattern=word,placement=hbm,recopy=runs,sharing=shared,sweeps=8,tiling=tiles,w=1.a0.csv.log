@@ -1,0 +1,12 @@
+capacity: the cell needs 4608 MiB of GPU-node memory (512 MB-page buffers counted twice), 96721 MiB are free, 2048 MiB must stay free
+variant B: the per-run re-copy would issue 4194304 copy calls per pass (at most 4096): cell refused
+capacity: the cell needs 4608 MiB of GPU-node memory (512 MB-page buffers counted twice), 96717 MiB are free, 2048 MiB must stay free
+variant B: the per-run re-copy would issue 4194304 copy calls per pass (at most 4096): cell refused
+capacity: the cell needs 4608 MiB of GPU-node memory (512 MB-page buffers counted twice), 96718 MiB are free, 2048 MiB must stay free
+variant B: the per-run re-copy would issue 4194304 copy calls per pass (at most 4096): cell refused
+capacity: the cell needs 4608 MiB of GPU-node memory (512 MB-page buffers counted twice), 96723 MiB are free, 2048 MiB must stay free
+calib variant=A route=direct level=home one repetition=3.515 ms -> passes=6
+state check variant=0 writes:w=1.000000:word:shared: 520.0 ns per sampled load (recorded)
+calib variant=B route=copy level=home one repetition=4.818 ms -> passes=5
+state check variant=1 writes:w=1.000000:word:shared: 540.6 ns per sampled load (recorded)
+cell=route/footprint-mib=512,host=writes,kernel=k5,pattern=word,placement=hbm,recopy=runs,sharing=shared,sweeps=8,tiling=tiles,w=1 attempts=20 warmups=10 discards=0 nA=10 medA=3.54251e+06 loA=3.53911e+06 hiA=3.54899e+06 targetA=1 nB=10 medB=4.8141e+06 loB=4.80634e+06 hiB=4.81806e+06 targetB=1 nD=10 medD=-1.27064e+06 loD=-1.27781e+06 hiD=-1.26079e+06 targetD=1 npos=0 nneg=10 sign_p=0.00195 cap_hit=0 stopped_on_target=1 paired=1 ahp_kb_end_A=0 ahp_kb_end_B=0

@@ -1,0 +1,3 @@
+calib variant=A route=direct level=home one repetition=5.501 ms -> passes=4
+calib variant=B route=copy level=home one repetition=11.060 ms -> passes=2
+cell=route/footprint-mib=4096,kernel=k3,placement=cpu,sequence=AAAA rounds=110 warmups=10 discards=0 k=2 floor_ns=0 nA=400 medA=5.48689e+06 loA=5.48352e+06 hiA=5.49142e+06 targetA=1 nB=0 medB=0 loB=0 hiB=0 targetB=0 cap_hit=0 stopped_on_target=0 ahp_kb_end_A=0 ahp_kb_end_B=0

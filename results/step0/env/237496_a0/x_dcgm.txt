@@ -1,0 +1,11 @@
+is-active: active
+is-enabled: enabled
+nv-hostengine pids: 1203 
+● nvidia-dcgm.service - NVIDIA DCGM service
+     Loaded: loaded (/etc/systemd/system/nvidia-dcgm.service; enabled; preset: enabled)
+     Active: active (running) since Thu 2026-10-01 12:17:03 CEST; 4 days ago
+   Main PID: 1203 (nv-hostengine)
+      Tasks: 9 (limit: 146896)
+     Memory: 44.2M
+        CPU: 2min 9.118s
+     CGroup: /system.slice/nvidia-dcgm.service

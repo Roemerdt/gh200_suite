@@ -1,0 +1,18 @@
+capacity: the cell needs 1024 MiB of GPU-node memory (512 MB-page buffers counted twice), 96585 MiB are free, 2048 MiB must stay free
+variant 0: checksum 0x3d4f5bd420b8bb48, expected 0x3d4f5bd41c38bb42: cell refused
+capacity: the cell needs 1024 MiB of GPU-node memory (512 MB-page buffers counted twice), 96585 MiB are free, 2048 MiB must stay free
+calib variant=A route=direct level=home one repetition=463.700 ms -> passes=1 (frozen)
+calib variant=B route=copy level=home one repetition=6.966 ms -> passes=1 (frozen)
+cell=ncu/footprint-mib=1024,kernel=k6,layout=line,placement=cpu,update=atomic,variant=A attempts=1 warmups=0 discards=0 nA=1 medA=3.60883e+06 loA=3.60883e+06 hiA=3.60883e+06 targetA=0 nB=1 medB=6.97312e+06 loB=6.97312e+06 hiB=6.97312e+06 targetB=0 nD=1 medD=-3.36429e+06 loD=-3.36429e+06 hiD=-3.36429e+06 targetD=0 npos=0 nneg=1 sign_p=1 cap_hit=1 stopped_on_target=0 paired=1 ahp_kb_end_A=0 ahp_kb_end_B=0
+capacity: the cell needs 1024 MiB of GPU-node memory (512 MB-page buffers counted twice), 96585 MiB are free, 2048 MiB must stay free
+calib variant=A route=direct level=home one repetition=234.181 ms -> passes=1 (frozen)
+calib variant=B route=copy level=home one repetition=6.958 ms -> passes=1 (frozen)
+cell=ncu/footprint-mib=1024,kernel=k6,layout=line,placement=cpu,update=atomic,variant=A attempts=1 warmups=0 discards=0 nA=1 medA=3.54906e+06 loA=3.54906e+06 hiA=3.54906e+06 targetA=0 nB=1 medB=6.98016e+06 loB=6.98016e+06 hiB=6.98016e+06 targetB=0 nD=1 medD=-3.4311e+06 loD=-3.4311e+06 hiD=-3.4311e+06 targetD=0 npos=0 nneg=1 sign_p=1 cap_hit=1 stopped_on_target=0 paired=1 ahp_kb_end_A=0 ahp_kb_end_B=0
+capacity: the cell needs 1024 MiB of GPU-node memory (512 MB-page buffers counted twice), 96585 MiB are free, 2048 MiB must stay free
+calib variant=A route=direct level=home one repetition=197.342 ms -> passes=1 (frozen)
+calib variant=B route=copy level=home one repetition=7.977 ms -> passes=1 (frozen)
+cell=ncu/footprint-mib=1024,kernel=k6,layout=line,placement=cpu,update=atomic,variant=A attempts=1 warmups=0 discards=0 nA=1 medA=3.58605e+06 loA=3.58605e+06 hiA=3.58605e+06 targetA=0 nB=1 medB=6.96064e+06 loB=6.96064e+06 hiB=6.96064e+06 targetB=0 nD=1 medD=-3.37459e+06 loD=-3.37459e+06 hiD=-3.37459e+06 targetD=0 npos=0 nneg=1 sign_p=1 cap_hit=1 stopped_on_target=0 paired=1 ahp_kb_end_A=0 ahp_kb_end_B=0
+capacity: the cell needs 1024 MiB of GPU-node memory (512 MB-page buffers counted twice), 96585 MiB are free, 2048 MiB must stay free
+calib variant=A route=direct level=home one repetition=191.270 ms -> passes=1 (frozen)
+calib variant=B route=copy level=home one repetition=6.959 ms -> passes=1 (frozen)
+cell=ncu/footprint-mib=1024,kernel=k6,layout=line,placement=cpu,update=atomic,variant=A attempts=1 warmups=0 discards=0 nA=1 medA=3.54989e+06 loA=3.54989e+06 hiA=3.54989e+06 targetA=0 nB=1 medB=6.97414e+06 loB=6.97414e+06 hiB=6.97414e+06 targetB=0 nD=1 medD=-3.42426e+06 loD=-3.42426e+06 hiD=-3.42426e+06 targetD=0 npos=0 nneg=1 sign_p=1 cap_hit=1 stopped_on_target=0 paired=1 ahp_kb_end_A=0 ahp_kb_end_B=0

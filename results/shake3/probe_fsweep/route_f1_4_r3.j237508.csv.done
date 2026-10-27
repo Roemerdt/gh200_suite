@@ -1,0 +1,1 @@
+cell=probe/f-num=1,f-den=4,round=3 attempts=30 warmups=10 discards=0 nA=20 medA=766530 loA=766408 hiA=766677 targetA=1 nB=20 medB=2.98316e+06 loB=2.98251e+06 hiB=2.9845e+06 targetB=1 nD=20 medD=-2.21649e+06 loD=-2.21825e+06 hiD=-2.21583e+06 targetD=1 npos=0 nneg=20 sign_p=1.91e-06 cap_hit=0 stopped_on_target=1 paired=1 ahp_kb_end_A=0 ahp_kb_end_B=0

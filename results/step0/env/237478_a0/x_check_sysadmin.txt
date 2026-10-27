@@ -1,0 +1,22 @@
+Controle van j21n14 op 2026-10-05 11:45, kernel 6.6.142-surf, driver 580.105.08
+
+[NIET OK] 1. Systeembrede perf-tellingen
+          perf_event_paranoid=2 (gewenst 0 of lager, of cap_perfmon op perf)
+          c2c0='<not supported>', scf='<not supported>', smmu='<not supported>'
+[OK     ] 2. GPU-hardwaretellers voor niet-root
+          RmProfilingAdminOnly=0; ncu meet een kernel
+[OK     ] 3. UVM-statistieken
+          uvm_enable_debug_procfs=1; /proc/driver/nvidia-uvm/gpus/GPU-83b1389f-ab41-1911-731b-e0fae16a331f/fault_stats aanwezig
+[NIET OK] 4. Arm SPE-driver
+          geen arm_spe_0 in /sys/bus/event_source/devices (module geladen: 1)
+[ONZEKER] 5. DCGM
+          nvidia-dcgm actief (pid 1203); dmon geeft N/A, dus geen profiling-watch zichtbaar; bevestiging van beheerder nodig
+[NIET OK] 6. NUMA-balancing uit (aanbevolen)
+          kernel.numa_balancing=1 (gewenst 0)
+[OK     ] 7. GPU-klokken vastgezet (aanbevolen)
+          onder belasting 5 s stabiel op 1980 MHz zonder throttle-redenen
+          monsters (MHz,redenen): 1980,0x0000000000000000 1980,0x0000000000000000 1980,0x0000000000000000 1980,0x0000000000000000 1980,0x0000000000000000
+[NIET OK] 8. perf-tool past bij de kernel (optioneel)
+          perf 6.1.187 ouder dan kernel 6.6.142, benoemde V2-events: 0
+
+Samenvatting: 3 OK, 4 NIET OK, 1 ONZEKER

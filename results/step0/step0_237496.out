@@ -1,0 +1,68 @@
+step0 recheck job=237496 node=j21n14 start=2026-10-05T15:25:42+02:00
+Controle van j21n14 op 2026-10-05 15:25, kernel 6.6.142-surf, driver 580.105.08
+
+[OK     ] 1. Systeembrede perf-tellingen
+          perf_event_paranoid=0
+          c2c0 cycles=420249127, scf cycles=466030456, smmu pmcg_16002 cycles=16
+[OK     ] 2. GPU-hardwaretellers voor niet-root
+          RmProfilingAdminOnly=0; ncu meet een kernel
+[OK     ] 3. UVM-statistieken
+          uvm_enable_debug_procfs=1; /proc/driver/nvidia-uvm/gpus/GPU-83b1389f-ab41-1911-731b-e0fae16a331f/fault_stats aanwezig
+[NIET OK] 4. Arm SPE-driver
+          geen arm_spe_0 in /sys/bus/event_source/devices (module geladen: 1)
+[ONZEKER] 5. DCGM
+          nvidia-dcgm actief (pid 1203); dmon geeft N/A, dus geen profiling-watch zichtbaar; bevestiging van beheerder nodig
+[NIET OK] 6. NUMA-balancing uit (aanbevolen)
+          kernel.numa_balancing=1 (gewenst 0)
+[OK     ] 7. GPU-klokken vastgezet (aanbevolen)
+          onder belasting 5 s stabiel op 1980 MHz zonder throttle-redenen
+          monsters (MHz,redenen): 1980,0x0000000000000000 1980,0x0000000000000000 1980,0x0000000000000000 1980,0x0000000000000000 1980,0x0000000000000000
+[NIET OK] 8. perf-tool past bij de kernel (optioneel)
+          perf 6.1.187 ouder dan kernel 6.6.142, benoemde V2-events: 0
+
+Samenvatting: 4 OK, 3 NIET OK, 1 ONZEKER
+=== x_persist_sysctl ===
+total 24
+drwxr-xr-x   2 root root   73 May 18 16:45 .
+drwxr-xr-x 118 root root 8192 Sep  8 12:00 ..
+lrwxrwxrwx   1 root root   14 Apr 27 21:48 99-sysctl.conf -> ../sysctl.conf
+-rw-r--r--   1 root root  798 Dec 19  2022 README.sysctl
+-rw-------   1 root root 6644 Sep 29  2025 sara_tweaks.conf
+--- lines that set the two keys ---
+grep: /etc/sysctl.d/sara_tweaks.conf: Permission denied
+grep: /run/sysctl.d/: No such file or directory
+=== x_persist_modprobe ===
+grep: /etc/modprobe.d/scl-nfs.conf: Permission denied
+grep: /etc/modprobe.d/cve_2026_31431.conf: Permission denied
+grep: /etc/modprobe.d/cve_2026_43284_and_43500.conf: Permission denied
+grep: /etc/modprobe.d/cve_2026_pintheft.conf: Permission denied
+grep: /etc/modprobe.d/cve_2026_46331.conf: Permission denied
+/etc/modprobe.d/nvidia-graphics-drivers-kms.conf:options nvidia NVreg_RestrictProfilingToAdminUsers=0
+/etc/modprobe.d/nvidia-graphics-drivers-kms.conf:options nvidia_uvm uvm_enable_debug_procfs=1
+=== x_dcgm ===
+is-active: active
+is-enabled: enabled
+nv-hostengine pids: 1203 
+● nvidia-dcgm.service - NVIDIA DCGM service
+     Loaded: loaded (/etc/systemd/system/nvidia-dcgm.service; enabled; preset: enabled)
+     Active: active (running) since Thu 2026-10-01 12:17:03 CEST; 4 days ago
+   Main PID: 1203 (nv-hostengine)
+      Tasks: 9 (limit: 146896)
+     Memory: 44.2M
+        CPU: 2min 9.118s
+     CGroup: /system.slice/nvidia-dcgm.service
+=== x_power ===
+power.limit [W], power.default_limit [W], power.min_limit [W], power.max_limit [W], power.draw [W]
+900.00 W, 900.00 W, 100.00 W, 900.00 W, 183.99 W
+    GPU Power Readings
+        Average Power Draw                : 178.26 W
+        Instantaneous Power Draw          : 126.62 W
+        Current Power Limit               : 700.00 W
+        Requested Power Limit             : 700.00 W
+        Default Power Limit               : 900.00 W
+        Min Power Limit                   : 100.00 W
+=== x_boot ===
+ 15:25:42 up 4 days,  3:08,  1 user,  load average: 0.11, 0.04, 0.01
+         system boot  Oct  1 12:17
+356925.18 25689327.06
+STEP0 RECHECK DONE 2026-10-05T15:25:56+02:00 files=52

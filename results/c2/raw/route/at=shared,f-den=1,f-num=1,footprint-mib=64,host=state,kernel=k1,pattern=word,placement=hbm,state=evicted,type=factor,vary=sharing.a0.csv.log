@@ -1,0 +1,8 @@
+capacity: the cell needs 192 MiB of GPU-node memory (512 MB-page buffers counted twice), 96723 MiB are free, 2048 MiB must stay free
+calib variant=A route=direct level=home one repetition=0.038 ms -> passes=50 (frozen)
+note: variant A: the frozen count gives an interval of 1.9 ms, below 20.0 ms
+state check variant=0 state:evicted:word:control: 455.2 ns per sampled load, threshold 250 ns: as prepared
+calib variant=B route=direct level=shared one repetition=0.037 ms -> passes=50 (frozen)
+note: variant B: the frozen count gives an interval of 1.9 ms, below 20.0 ms
+state check variant=1 state:evicted:word:shared: 402.2 ns per sampled load, threshold 250 ns: as prepared
+cell=route/at=shared,f-den=1,f-num=1,footprint-mib=64,host=state,kernel=k1,pattern=word,placement=hbm,state=evicted,type=factor,vary=sharing attempts=40 warmups=10 discards=0 nA=30 medA=36718.4 loA=36645.1 hiA=36812.8 targetA=1 nB=30 medB=35386.9 loB=35184.6 hiB=35434.2 targetB=1 nD=30 medD=1431.36 loD=1283.2 hiD=1491.84 targetD=1 npos=30 nneg=0 sign_p=1.86e-09 cap_hit=0 stopped_on_target=1 paired=1 ahp_kb_end_A=0 ahp_kb_end_B=0

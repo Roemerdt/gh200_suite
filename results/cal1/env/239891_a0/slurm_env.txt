@@ -1,0 +1,135 @@
+SHELL=/bin/bash
+SLURM_JOB_USER=rblom
+SLURM_TASKS_PER_NODE=72
+SLURM_JOB_UID=75669
+SLURM_EXPORT_ENV=ALL
+SLURM_TASK_PID=73130
+SLURM_JOB_GPUS=0
+SLURM_LOCALID=0
+SLURM_SUBMIT_DIR=/home/rblom/gh200_route
+HOSTNAME=j21n14
+LANGUAGE=en_US:en
+SLURMD_NODENAME=j21n14
+SLURM_JOB_START_TIME=1791396914
+HYDRA_LAUNCHER_EXTRA_ARGS=--external-launcher
+_ModuleTable002_=dmlkaWEvaHBjX3Nkay9tb2R1bGVmaWxlcyIsCn0sCnN5c3RlbUJhc2VNUEFUSCA9ICIvY3ZtZnMvc29mdHdhcmUuZWVzc2kuaW8vaW5pdC9tb2R1bGVzOi9vcHQvbnZpZGlhL2hwY19zZGsvbW9kdWxlZmlsZXMiLAp9Cg==
+__LMOD_REF_COUNT_MODULEPATH=/cvmfs/software.eessi.io/init/modules:1;/opt/nvidia/hpc_sdk/modulefiles:1
+__LMOD_REF_COUNT_CPLUS_INCLUDE_PATH=/opt/nvidia/hpc_sdk/Linux_aarch64/25.9/compilers/extras/qd/include/qd:1;/opt/nvidia/hpc_sdk/Linux_aarch64/25.9/comm_libs/nvshmem/include:1;/opt/nvidia/hpc_sdk/Linux_aarch64/25.9/comm_libs/nccl/include:1;/opt/nvidia/hpc_sdk/Linux_aarch64/25.9/math_libs/include:1
+SUITE_DIR=/home/rblom/gh200_route
+CPP=cpp
+PHASE=carry_over
+TAR=/bin/tar
+SLURM_CLUSTER_NAME=liza
+SLURM_JOB_END_TIME=1791411014
+SLURM_CPUS_ON_NODE=72
+SLURM_JOB_CPUS_PER_NODE=72
+LMOD_DIR=/opt/lmod/8.7.37/libexec
+SLURM_GPUS_ON_NODE=1
+PWD=/home/rblom/gh200_route
+PRTE_MCA_plm_slurm_args=--external-launcher
+SLURM_GTIDS=0
+LOGNAME=rblom
+SLURM_JOB_PARTITION=tutti
+MODULESHOME=/opt/lmod/8.7.37
+SLURM_SPANK_SLURM_SURF_EXCLUSIVE=1
+MANPATH=/opt/nvidia/hpc_sdk/Linux_aarch64/25.9/compilers/man:/opt/lmod/8.7.37/share/man:/opt/slurm/sw/current/share/man
+ROCR_VISIBLE_DEVICES=0
+SLURM_OOM_KILL_STEP=0
+LMOD_CASE_INDEPENDENT_SORTING=yes
+SLURM_JOB_NUM_NODES=1
+CAMPAIGN=cal1
+CXX=/opt/nvidia/hpc_sdk/Linux_aarch64/25.9/compilers/bin/nvc++
+SLURM_JOBID=239891
+I_MPI_HYDRA_BOOTSTRAP_EXEC_EXTRA_ARGS=--external-launcher
+SLURM_JOB_QOS=normal
+LMOD_SHORT_TIME=10000
+__LMOD_REF_COUNT_PATH=/opt/nvidia/hpc_sdk/Linux_aarch64/25.9/compilers/extras/qd/bin:1;/opt/nvidia/hpc_sdk/Linux_aarch64/25.9/comm_libs/mpi/bin:1;/opt/nvidia/hpc_sdk/Linux_aarch64/25.9/compilers/bin:1;/opt/nvidia/hpc_sdk/Linux_aarch64/25.9/cuda/bin:1;/usr/bin:1;/bin:1;/usr/bin/X11:1;/usr/games:1;/opt/dacommands/bin:1;/opt/slurm/bin:1;/opt/slurm/sbin:1
+HOME=/home/rblom
+_ModuleTable_Sz_=2
+LANG=en_US.UTF-8
+SLURM_PROCID=0
+__LMOD_REF_COUNT_CPATH=/opt/nvidia/hpc_sdk/Linux_aarch64/25.9/compilers/extras/qd/include/qd:1;/opt/nvidia/hpc_sdk/Linux_aarch64/25.9/comm_libs/nvshmem/include:1;/opt/nvidia/hpc_sdk/Linux_aarch64/25.9/comm_libs/nccl/include:1;/opt/nvidia/hpc_sdk/Linux_aarch64/25.9/math_libs/include:1
+LMOD_SETTARG_FULL_SUPPORT=no
+TMPDIR=/tmp
+NVHPC_ROOT=/opt/nvidia/hpc_sdk/Linux_aarch64/25.9
+SLURM_TOPOLOGY_ADDR=j21n14
+LMOD_VERSION=8.7.37
+SSH_CONNECTION=86.104.22.78 35111 145.101.32.61 22
+ZE_AFFINITY_MASK=0
+HYDRA_BOOTSTRAP=slurm
+MODULEPATH_ROOT=/opt/modulefiles
+CUDA_VISIBLE_DEVICES=0
+SLURM_TOPOLOGY_ADDR_PATTERN=node
+LMOD_PKG=/opt/lmod/8.7.37
+CPLUS_INCLUDE_PATH=/opt/nvidia/hpc_sdk/Linux_aarch64/25.9/compilers/extras/qd/include/qd:/opt/nvidia/hpc_sdk/Linux_aarch64/25.9/comm_libs/nvshmem/include:/opt/nvidia/hpc_sdk/Linux_aarch64/25.9/comm_libs/nccl/include:/opt/nvidia/hpc_sdk/Linux_aarch64/25.9/math_libs/include
+F77=/opt/nvidia/hpc_sdk/Linux_aarch64/25.9/compilers/bin/nvfortran
+USER=rblom
+SLURM_SURF_EXCLUSIVE=1
+SLURM_NODELIST=j21n14
+ENVIRONMENT=BATCH
+GPU_DEVICE_ORDINAL=0
+LOADEDMODULES=nvhpc/25.9
+SLURM_JOB_ACCOUNT=root
+F90=/opt/nvidia/hpc_sdk/Linux_aarch64/25.9/compilers/bin/nvfortran
+SLURM_PRIO_PROCESS=0
+LMOD_ROOT=/opt/lmod
+SHLVL=2
+SLURM_NNODES=1
+BASH_ENV=/opt/lmod/8.7.37/init/bash
+LMOD_sys=Linux
+__LMOD_REF_COUNT_MANPATH=/opt/nvidia/hpc_sdk/Linux_aarch64/25.9/compilers/man:1;/opt/lmod/8.7.37/share/man:1;/opt/slurm/sw/current/share/man:1
+SLURM_SUBMIT_HOST=login-gpu1.liza.surf.nl
+_ModuleTable001_=X01vZHVsZVRhYmxlXyA9IHsKTVR2ZXJzaW9uID0gMywKY19yZWJ1aWxkVGltZSA9IGZhbHNlLApjX3Nob3J0VGltZSA9IGZhbHNlLApkZXB0aFQgPSB7fSwKZmFtaWx5ID0ge30sCm1UID0gewpudmhwYyA9IHsKZm4gPSAiL29wdC9udmlkaWEvaHBjX3Nkay9tb2R1bGVmaWxlcy9udmhwYy8yNS45IiwKZnVsbE5hbWUgPSAibnZocGMvMjUuOSIsCmxvYWRPcmRlciA9IDEsCnByb3BUID0ge30sCnN0YWNrRGVwdGggPSAwLApzdGF0dXMgPSAiYWN0aXZlIiwKdXNlck5hbWUgPSAibnZocGMvMjUuOSIsCndWID0gIjAwMDAwMDAyNS4wMDAwMDAwMDkuKnpmaW5hbCIsCn0sCn0sCm1wYXRoQSA9IHsKIi9jdm1mcy9zb2Z0d2FyZS5lZXNzaS5pby9pbml0L21vZHVsZXMiLCAiL29wdC9u
+LD_LIBRARY_PATH=/opt/nvidia/hpc_sdk/Linux_aarch64/25.9/comm_libs/nvshmem/lib:/opt/nvidia/hpc_sdk/Linux_aarch64/25.9/comm_libs/nccl/lib:/opt/nvidia/hpc_sdk/Linux_aarch64/25.9/math_libs/lib64:/opt/nvidia/hpc_sdk/Linux_aarch64/25.9/compilers/lib:/opt/nvidia/hpc_sdk/Linux_aarch64/25.9/compilers/extras/qd/lib:/opt/nvidia/hpc_sdk/Linux_aarch64/25.9/cuda/lib64
+SLURM_JOB_ID=239891
+SLURM_NODEID=0
+SSH_CLIENT=86.104.22.78 35111 22
+FC=/opt/nvidia/hpc_sdk/Linux_aarch64/25.9/compilers/bin/nvfortran
+__LMOD_REF_COUNT_C_INCLUDE_PATH=/opt/nvidia/hpc_sdk/Linux_aarch64/25.9/compilers/extras/qd/include/qd:1;/opt/nvidia/hpc_sdk/Linux_aarch64/25.9/comm_libs/nvshmem/include:1;/opt/nvidia/hpc_sdk/Linux_aarch64/25.9/comm_libs/nccl/include:1;/opt/nvidia/hpc_sdk/Linux_aarch64/25.9/math_libs/include:1
+SLURM_CONF=/opt/slurm/etc/slurm.conf
+PATH=/opt/nvidia/hpc_sdk/Linux_aarch64/25.9/compilers/extras/qd/bin:/opt/nvidia/hpc_sdk/Linux_aarch64/25.9/comm_libs/mpi/bin:/opt/nvidia/hpc_sdk/Linux_aarch64/25.9/compilers/bin:/opt/nvidia/hpc_sdk/Linux_aarch64/25.9/cuda/bin:/usr/bin:/bin:/usr/bin/X11:/usr/games:/opt/dacommands/bin:/opt/slurm/bin:/opt/slurm/sbin:/usr/bin:/bin:/opt/slurm/bin
+SLURM_JOB_NAME=carry_over
+NVHPC=/opt/nvidia/hpc_sdk
+MODULEPATH=/cvmfs/software.eessi.io/init/modules:/opt/nvidia/hpc_sdk/modulefiles
+CC=/opt/nvidia/hpc_sdk/Linux_aarch64/25.9/compilers/bin/nvc
+_LMFILES_=/opt/nvidia/hpc_sdk/modulefiles/nvhpc/25.9
+LMOD_CMD=/opt/lmod/8.7.37/libexec/lmod
+C_INCLUDE_PATH=/opt/nvidia/hpc_sdk/Linux_aarch64/25.9/compilers/extras/qd/include/qd:/opt/nvidia/hpc_sdk/Linux_aarch64/25.9/comm_libs/nvshmem/include:/opt/nvidia/hpc_sdk/Linux_aarch64/25.9/comm_libs/nccl/include:/opt/nvidia/hpc_sdk/Linux_aarch64/25.9/math_libs/include
+CAMPAIGN_ARGS=--seed 31
+__LMOD_REF_COUNT_LD_LIBRARY_PATH=/opt/nvidia/hpc_sdk/Linux_aarch64/25.9/comm_libs/nvshmem/lib:1;/opt/nvidia/hpc_sdk/Linux_aarch64/25.9/comm_libs/nccl/lib:1;/opt/nvidia/hpc_sdk/Linux_aarch64/25.9/math_libs/lib64:1;/opt/nvidia/hpc_sdk/Linux_aarch64/25.9/compilers/lib:1;/opt/nvidia/hpc_sdk/Linux_aarch64/25.9/compilers/extras/qd/lib:1;/opt/nvidia/hpc_sdk/Linux_aarch64/25.9/cuda/lib64:1
+OMPI_MCA_plm_slurm_args=--external-launcher
+SLURM_GET_USER_ENV=1
+SLURM_JOB_GID=75129
+CPATH=/opt/nvidia/hpc_sdk/Linux_aarch64/25.9/compilers/extras/qd/include/qd:/opt/nvidia/hpc_sdk/Linux_aarch64/25.9/comm_libs/nvshmem/include:/opt/nvidia/hpc_sdk/Linux_aarch64/25.9/comm_libs/nccl/include:/opt/nvidia/hpc_sdk/Linux_aarch64/25.9/math_libs/include
+OLDPWD=/home/rblom/gh200_route
+SLURM_JOB_NODELIST=j21n14
+I_MPI_HYDRA_BOOTSTRAP=slurm
+BASH_FUNC_ml%%=() {  eval "$($LMOD_DIR/ml_cmd "$@")"
+}
+BASH_FUNC_module%%=() {  if [ -z "${LMOD_SH_DBG_ON+x}" ]; then
+ case "$-" in 
+ *v*x*)
+ __lmod_sh_dbg='vx'
+ ;;
+ *v*)
+ __lmod_sh_dbg='v'
+ ;;
+ *x*)
+ __lmod_sh_dbg='x'
+ ;;
+ esac;
+ fi;
+ if [ -n "${__lmod_sh_dbg:-}" ]; then
+ set +$__lmod_sh_dbg;
+ echo "Shell debugging temporarily silenced: export LMOD_SH_DBG_ON=1 for Lmod's output" 1>&2;
+ fi;
+ eval "$($LMOD_CMD shell "$@")" && eval "$(${LMOD_SETTARG_CMD:-:} -s sh)";
+ __lmod_my_status=$?;
+ if [ -n "${__lmod_sh_dbg:-}" ]; then
+ echo "Shell debugging restarted" 1>&2;
+ set -$__lmod_sh_dbg;
+ fi;
+ unset __lmod_sh_dbg;
+ return $__lmod_my_status
+}
+_=/usr/bin/env

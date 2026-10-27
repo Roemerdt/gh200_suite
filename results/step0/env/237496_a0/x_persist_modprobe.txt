@@ -1,0 +1,7 @@
+grep: /etc/modprobe.d/scl-nfs.conf: Permission denied
+grep: /etc/modprobe.d/cve_2026_31431.conf: Permission denied
+grep: /etc/modprobe.d/cve_2026_43284_and_43500.conf: Permission denied
+grep: /etc/modprobe.d/cve_2026_pintheft.conf: Permission denied
+grep: /etc/modprobe.d/cve_2026_46331.conf: Permission denied
+/etc/modprobe.d/nvidia-graphics-drivers-kms.conf:options nvidia NVreg_RestrictProfilingToAdminUsers=0
+/etc/modprobe.d/nvidia-graphics-drivers-kms.conf:options nvidia_uvm uvm_enable_debug_procfs=1

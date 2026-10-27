@@ -1,0 +1,1 @@
+cell=smoke/copy_h2d attempts=12 warmups=2 discards=0 nA=10 medA=9500.16 loA=9485.39 hiA=9518.5 targetA=1 nB=10 medB=4609.89 loB=4608.08 hiB=4617.59 targetB=1 nD=10 medD=4889.77 loD=4866.52 hiD=4910.16 targetD=1 npos=10 nneg=0 sign_p=0.00195 cap_hit=0 stopped_on_target=1 paired=1

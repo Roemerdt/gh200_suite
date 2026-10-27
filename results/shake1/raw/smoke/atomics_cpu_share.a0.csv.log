@@ -1,0 +1,3 @@
+calib member=A node=1 probe=0.028ms -> k=1428571
+calib member=B node=0 probe=0.025ms -> k=1600512
+cell=smoke/atomics_cpu_share attempts=12 warmups=2 discards=0 nA=10 medA=6.66496 loA=6.66453 hiA=6.66519 targetA=1 nB=10 medB=6.02814 loB=6.0267 hiB=6.02893 targetB=1 nD=10 medD=0.637049 loD=0.634728 hiD=0.63831 targetD=1 npos=10 nneg=0 sign_p=0.00195 cap_hit=0 stopped_on_target=1 paired=1

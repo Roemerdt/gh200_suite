@@ -1,0 +1,2 @@
+built system + B W=256.0 MiB lines=4194304 pattern=lines touch=seq in 0.1 s; A: thp=0 anonhuge=0 kB backed=0; B: thp=1 anonhuge=524288 kB backed=1
+cell=smoke/chase_cpu_thp_256 attempts=22 warmups=2 discards=0 nA=20 medA=214.863 loA=205.185 hiA=221.478 targetA=0 nB=20 medB=204.017 loB=188.559 hiB=210.667 targetB=0 nD=20 medD=11.8442 loD=10.811 hiD=16.6255 targetD=0 npos=20 nneg=0 sign_p=1.91e-06 cap_hit=1 stopped_on_target=0 paired=1

@@ -1,0 +1,12 @@
+capacity: the cell needs 1024 MiB of GPU-node memory (512 MB-page buffers counted twice), 96723 MiB are free, 2048 MiB must stay free
+calib variant=A route=direct level=home one repetition=0.396 ms -> passes=50 (frozen)
+state check variant=0 writes:w=1.000000:word:control: 205.6 ns per sampled load (recorded)
+calib variant=B route=copy level=home one repetition=0.162 ms -> passes=50 (frozen)
+note: variant B: the frozen count gives an interval of 8.1 ms, below 20.0 ms
+state check variant=1 writes:w=1.000000:word:control: 287.6 ns per sampled load (recorded)
+calib variant=C route=direct level=shared one repetition=0.402 ms -> passes=50 (frozen)
+state check variant=2 writes:w=1.000000:word:shared: 321.9 ns per sampled load (recorded)
+calib variant=D route=copy level=shared one repetition=0.172 ms -> passes=50 (frozen)
+note: variant D: the frozen count gives an interval of 8.6 ms, below 20.0 ms
+state check variant=3 writes:w=1.000000:word:shared: 318.9 ns per sampled load (recorded)
+cell=route/at=shared,footprint-mib=1024,host=writes,k=4,kernel=k2,pattern=word,placement=cpu,type=four,vary=sharing,w=1,working-set-mib=32 rounds=20 warmups=10 discards=0 k=4 floor_ns=231647 nA=10 medA=391319 loA=390316 hiA=391757 targetA=1 nB=10 medB=150203 loB=149169 hiB=151110 targetB=1 nC=10 medC=396549 loC=396158 hiC=397263 targetC=1 nD=10 medD=152819 loD=151505 hiD=153586 targetD=1 c1=A-B n1=10 med1=240917 lo1=240648 hi1=242086 target1=1 c2=C-D n2=10 med2=243714 lo2=243158 hi2=245261 target2=1 c3=(C-D)-(A-B) n3=10 med3=2725.44 lo3=1509.76 hi3=4353.92 target3=1 cap_hit=0 stopped_on_target=1 ahp_kb_end_A=0 ahp_kb_end_B=0 ahp_kb_end_C=0 ahp_kb_end_D=0

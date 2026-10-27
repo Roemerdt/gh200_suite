@@ -1,0 +1,6 @@
+capacity: the cell needs 0 MiB of GPU-node memory (512 MB-page buffers counted twice), 96722 MiB are free, 2048 MiB must stay free
+calib variant=A route=direct level=home one repetition=0.061 ms -> passes=50
+state check variant=0 writes:w=1.000000:line:control: 254.1 ns per sampled load (recorded)
+calib variant=B route=direct level=shared one repetition=0.060 ms -> passes=50
+state check variant=1 writes:w=1.000000:line:shared: 263.8 ns per sampled load (recorded)
+cell=route/at=shared,footprint-mib=1024,host=writes,k=16,kernel=k2,pattern=line,placement=cpu,type=factor,vary=sharing,w=1,working-set-mib=8 attempts=110 warmups=10 discards=0 nA=100 medA=53158.4 loA=53060.5 hiA=53235.8 targetA=1 nB=100 medB=53928.6 loB=53770.9 hiB=54120.3 targetB=1 nD=100 medD=-810.56 loD=-1041.92 hiD=-672 targetD=0 npos=12 nneg=88 sign_p=1.91e-15 cap_hit=1 stopped_on_target=0 paired=1 ahp_kb_end_A=0 ahp_kb_end_B=0

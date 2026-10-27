@@ -1,0 +1,66 @@
+job=239956 node=j21n14 start=2026-10-07T21:13:55+02:00
+slurm mem: SLURM_MEM_PER_NODE=
+build rc=0
+===== 64 KB pages, 8 GiB steps to 96 GiB
+cgroup /sys/fs/cgroup/system.slice/slurmstepd.scope/job_239956/step_batch/user/task_0; node1 total 97280 MiB
+start                        node1 MemFree  96723 MiB | cuda free  96723 MiB | cgroup current 143261696 max max | VmRSS 137 MiB
+bound+touched   8 GiB (0.06 s) node1 MemFree  88584 MiB | cuda free  88530 MiB | cgroup current 8804630528 max max | VmRSS 8331 MiB
+bound+touched  16 GiB (0.06 s) node1 MemFree  80378 MiB | cuda free  80337 MiB | cgroup current 17461673984 max max | VmRSS 16523 MiB
+bound+touched  24 GiB (0.06 s) node1 MemFree  72167 MiB | cuda free  72144 MiB | cgroup current 26055802880 max max | VmRSS 24715 MiB
+bound+touched  32 GiB (0.06 s) node1 MemFree  63956 MiB | cuda free  63951 MiB | cgroup current 34654126080 max max | VmRSS 32907 MiB
+bound+touched  40 GiB (0.06 s) node1 MemFree  55764 MiB | cuda free  55760 MiB | cgroup current 43244060672 max max | VmRSS 41099 MiB
+bound+touched  48 GiB (0.06 s) node1 MemFree  47574 MiB | cuda free  47570 MiB | cgroup current 51833995264 max max | VmRSS 49291 MiB
+bound+touched  56 GiB (0.06 s) node1 MemFree  39384 MiB | cuda free  39377 MiB | cgroup current 60428124160 max max | VmRSS 57483 MiB
+bound+touched  64 GiB (0.06 s) node1 MemFree  31192 MiB | cuda free  31185 MiB | cgroup current 69022253056 max max | VmRSS 65675 MiB
+bound+touched  72 GiB (0.06 s) node1 MemFree  23000 MiB | cuda free  22992 MiB | cgroup current 77612187648 max max | VmRSS 73867 MiB
+bound+touched  80 GiB (0.06 s) node1 MemFree  14808 MiB | cuda free  14799 MiB | cgroup current 86202122240 max max | VmRSS 82059 MiB
+bound+touched  88 GiB (0.06 s) node1 MemFree   6617 MiB | cuda free   6608 MiB | cgroup current 94792056832 max max | VmRSS 90251 MiB
+/var/spool/slurm/slurmd/job239956/slurm_script: line 24: 105880 Killed                  $D/capacity 8 96 0
+rc=137
+===== 512 MB pages, 8 GiB steps to 96 GiB
+cgroup /sys/fs/cgroup/system.slice/slurmstepd.scope/job_239956/step_batch/user/task_0; node1 total 97280 MiB
+start                        node1 MemFree  96723 MiB | cuda free  96723 MiB | cgroup current 250413056 max max | VmRSS 137 MiB
+bound+touched   8 GiB (0.19 s) node1 MemFree  80339 MiB | cuda free  80339 MiB | cgroup current 8848211968 max max | VmRSS 8330 MiB
+bound+touched  16 GiB (0.12 s) node1 MemFree  64979 MiB | cuda free  64979 MiB | cgroup current 17442340864 max max | VmRSS 16522 MiB
+bound+touched  24 GiB (0.12 s) node1 MemFree  63955 MiB | cuda free  63955 MiB | cgroup current 26032275456 max max | VmRSS 24714 MiB
+bound+touched  32 GiB (0.12 s) node1 MemFree  62931 MiB | cuda free  62931 MiB | cgroup current 34626404352 max max | VmRSS 32906 MiB
+bound+touched  40 GiB (0.12 s) node1 MemFree  48595 MiB | cuda free  48595 MiB | cgroup current 43207950336 max max | VmRSS 41098 MiB
+bound+touched  48 GiB (0.12 s) node1 MemFree  45523 MiB | cuda free  45523 MiB | cgroup current 51797884928 max max | VmRSS 49290 MiB
+bound+touched  56 GiB (0.12 s) node1 MemFree  30163 MiB | cuda free  30163 MiB | cgroup current 60396208128 max max | VmRSS 57482 MiB
+bound+touched  64 GiB (0.12 s) node1 MemFree  16851 MiB | cuda free  16851 MiB | cgroup current 68998725632 max max | VmRSS 65674 MiB
+bound+touched  72 GiB (0.12 s) node1 MemFree  13779 MiB | cuda free  13779 MiB | cgroup current 77588660224 max max | VmRSS 73866 MiB
+bound+touched  80 GiB (0.12 s) node1 MemFree   9683 MiB | cuda free   9683 MiB | cgroup current 86178594816 max max | VmRSS 82058 MiB
+/var/spool/slurm/slurmd/job239956/slurm_script: line 27: 106078 Killed                  $D/capacity 8 96 1
+rc=137
+===== 512 MB pages again, right after (release lag)
+cgroup /sys/fs/cgroup/system.slice/slurmstepd.scope/job_239956/step_batch/user/task_0; node1 total 97280 MiB
+start                        node1 MemFree  88531 MiB | cuda free  88531 MiB | cgroup current 256442368 max max | VmRSS 137 MiB
+bound+touched  16 GiB (0.31 s) node1 MemFree  72147 MiB | cuda free  72147 MiB | cgroup current 17436180480 max max | VmRSS 16522 MiB
+bound+touched  32 GiB (0.24 s) node1 MemFree  55763 MiB | cuda free  55763 MiB | cgroup current 34620178432 max max | VmRSS 32906 MiB
+bound+touched  48 GiB (0.24 s) node1 MemFree  39379 MiB | cuda free  39379 MiB | cgroup current 51800047616 max max | VmRSS 49290 MiB
+bound+touched  64 GiB (0.24 s) node1 MemFree  23507 MiB | cuda free  23507 MiB | cgroup current 68979785728 max max | VmRSS 65674 MiB
+bound+touched  80 GiB (0.24 s) node1 MemFree   7635 MiB | cuda free   7635 MiB | cgroup current 86163849216 max max | VmRSS 82058 MiB
+plus cudaMalloc 8 GiB        node1 MemFree    979 MiB | cuda free    979 MiB | cgroup current 86150807552 max max | VmRSS 82058 MiB
+freed, +0 ms                 node1 MemFree  91091 MiB | cuda free  91091 MiB | cgroup current 238682112 max max | VmRSS 138 MiB
+freed, +100 ms               node1 MemFree  91091 MiB | cuda free  91091 MiB | cgroup current 238682112 max max | VmRSS 138 MiB
+freed, +200 ms               node1 MemFree  91091 MiB | cuda free  91091 MiB | cgroup current 238682112 max max | VmRSS 138 MiB
+freed, +300 ms               node1 MemFree  91091 MiB | cuda free  91091 MiB | cgroup current 238682112 max max | VmRSS 138 MiB
+freed, +400 ms               node1 MemFree  91091 MiB | cuda free  91091 MiB | cgroup current 238682112 max max | VmRSS 138 MiB
+freed, +500 ms               node1 MemFree  91091 MiB | cuda free  91091 MiB | cgroup current 238682112 max max | VmRSS 138 MiB
+freed, +600 ms               node1 MemFree  91091 MiB | cuda free  91091 MiB | cgroup current 238682112 max max | VmRSS 138 MiB
+freed, +700 ms               node1 MemFree  91091 MiB | cuda free  91091 MiB | cgroup current 238682112 max max | VmRSS 138 MiB
+freed, +800 ms               node1 MemFree  91091 MiB | cuda free  91091 MiB | cgroup current 238682112 max max | VmRSS 138 MiB
+freed, +900 ms               node1 MemFree  91091 MiB | cuda free  91091 MiB | cgroup current 238682112 max max | VmRSS 138 MiB
+freed, +1000 ms              node1 MemFree  91091 MiB | cuda free  91091 MiB | cgroup current 238682112 max max | VmRSS 138 MiB
+freed, +1100 ms              node1 MemFree  91091 MiB | cuda free  91091 MiB | cgroup current 238682112 max max | VmRSS 138 MiB
+freed, +1200 ms              node1 MemFree  91091 MiB | cuda free  91091 MiB | cgroup current 238682112 max max | VmRSS 138 MiB
+freed, +1300 ms              node1 MemFree  91091 MiB | cuda free  91091 MiB | cgroup current 238682112 max max | VmRSS 138 MiB
+freed, +1400 ms              node1 MemFree  91091 MiB | cuda free  91091 MiB | cgroup current 238682112 max max | VmRSS 138 MiB
+freed, +1500 ms              node1 MemFree  91091 MiB | cuda free  91091 MiB | cgroup current 238682112 max max | VmRSS 138 MiB
+freed, +1600 ms              node1 MemFree  91091 MiB | cuda free  91091 MiB | cgroup current 238682112 max max | VmRSS 138 MiB
+freed, +1700 ms              node1 MemFree  91091 MiB | cuda free  91091 MiB | cgroup current 238682112 max max | VmRSS 138 MiB
+freed, +1800 ms              node1 MemFree  91091 MiB | cuda free  91091 MiB | cgroup current 238682112 max max | VmRSS 138 MiB
+freed, +1900 ms              node1 MemFree  91091 MiB | cuda free  91091 MiB | cgroup current 238682112 max max | VmRSS 138 MiB
+rc=0
+JOB DONE 2026-10-07T21:14:04+02:00
+[2026-10-07T21:14:04.478] error: Detected 2 oom_kill events in StepId=239956.batch. Some of the step tasks have been OOM Killed.

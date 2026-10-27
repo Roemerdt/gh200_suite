@@ -1,0 +1,6 @@
+capacity: the cell needs 4864 MiB of GPU-node memory (512 MB-page buffers counted twice), 96723 MiB are free, 2048 MiB must stay free
+calib variant=A route=direct level=home one repetition=5.527 ms -> passes=4 (frozen)
+calib variant=B route=copy level=home one repetition=11.994 ms -> passes=2 (frozen)
+calib variant=C route=direct level=512m one repetition=5.370 ms -> passes=4 (frozen)
+calib variant=D route=copy level=512m one repetition=11.037 ms -> passes=2 (frozen)
+cell=route/at=512m,footprint-mib=4096,kernel=k3,placement=cpu,type=four,vary=page-size rounds=20 warmups=10 discards=0 k=4 floor_ns=376510 nA=10 medA=5.50395e+06 loA=5.47669e+06 hiA=5.54182e+06 targetA=1 nB=10 medB=1.19964e+07 loB=1.19914e+07 hiB=1.20005e+07 targetB=1 nC=10 medC=5.37066e+06 loC=5.37041e+06 hiC=5.37169e+06 targetC=1 nD=10 medD=1.10356e+07 loD=1.10323e+07 hiD=1.1037e+07 targetD=1 c1=A-B n1=10 med1=-6.49124e+06 lo1=-6.52043e+06 hi1=-6.4587e+06 target1=1 c2=C-D n2=10 med2=-5.66449e+06 lo2=-5.66663e+06 hi2=-5.66037e+06 target2=1 c3=(C-D)-(A-B) n3=10 med3=821068 lo3=788633 hi3=855904 target3=1 cap_hit=0 stopped_on_target=1 ahp_kb_end_A=0 ahp_kb_end_B=0 ahp_kb_end_C=4194304 ahp_kb_end_D=4194304

@@ -1,0 +1,1 @@
+cell=ncu/footprint-mib=1024,k=16,kernel=k2,placement=hbm,scope=gpu,variant=A,working-set-mib=8 attempts=1 warmups=0 discards=0 nA=1 medA=117408 loA=117408 hiA=117408 targetA=0 nB=1 medB=178400 loB=178400 hiB=178400 targetB=0 nD=1 medD=-60992 loD=-60992 hiD=-60992 targetD=0 npos=0 nneg=1 sign_p=1 cap_hit=1 stopped_on_target=0 paired=1 ahp_kb_end_A=0 ahp_kb_end_B=0

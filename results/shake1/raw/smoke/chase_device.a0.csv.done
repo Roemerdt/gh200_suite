@@ -1,0 +1,1 @@
+cell=smoke/chase_device attempts=12 warmups=2 discards=0 nA=10 medA=350.655 loA=350.456 hiA=350.84 targetA=1 nB=10 medB=360.39 loB=359.969 hiB=360.667 targetB=1 nD=10 medD=-9.63696 loD=-10.1304 hiD=-9.32592 targetD=1 npos=0 nneg=10 sign_p=0.00195 cap_hit=0 stopped_on_target=1 paired=1

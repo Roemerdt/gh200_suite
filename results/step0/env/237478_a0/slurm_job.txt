@@ -1,0 +1,1 @@
+scontrol is not installed on the compute node; see env/submit_237478.txt (captured on the login node by harness/submit.sh)

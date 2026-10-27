@@ -1,0 +1,8 @@
+bin/
+*.o
+__pycache__/
+.venv/
+core.*
+.DS_Store
+docs/
+analysis/tex/

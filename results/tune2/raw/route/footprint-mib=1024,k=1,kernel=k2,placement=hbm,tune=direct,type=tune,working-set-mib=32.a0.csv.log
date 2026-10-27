@@ -1,0 +1,26 @@
+capacity: the cell needs 1024 MiB of GPU-node memory (512 MB-page buffers counted twice), 96723 MiB are free, 2048 MiB must stay free
+calib variant=A route=direct level=132x32x8 one repetition=0.403 ms -> passes=50
+calib variant=B route=direct level=132x32x16 one repetition=0.212 ms -> passes=95
+calib variant=C route=direct level=132x64x8 one repetition=0.204 ms -> passes=99
+calib variant=D route=direct level=132x64x16 one repetition=0.111 ms -> passes=181
+calib variant=E route=direct level=132x128x8 one repetition=0.106 ms -> passes=188
+calib variant=F route=direct level=132x128x16 one repetition=0.058 ms -> passes=346
+calib variant=G route=direct level=132x256x8 one repetition=0.058 ms -> passes=347
+calib variant=H route=direct level=132x256x16 one repetition=0.034 ms -> passes=589
+calib variant=I route=direct level=132x512x8 one repetition=0.033 ms -> passes=606
+calib variant=J route=direct level=132x512x16 one repetition=0.023 ms -> passes=882
+calib variant=K route=direct level=132x1024x8 one repetition=0.023 ms -> passes=855
+calib variant=L route=direct level=132x1024x16 one repetition=0.019 ms -> passes=1071
+calib variant=G fastest repetition in warm-up=0.055 ms -> passes=367
+calib variant=F fastest repetition in warm-up=0.056 ms -> passes=358
+calib variant=D fastest repetition in warm-up=0.108 ms -> passes=186
+calib variant=L fastest repetition in warm-up=0.017 ms -> passes=1149
+calib variant=A fastest repetition in warm-up=0.399 ms -> passes=51
+calib variant=I fastest repetition in warm-up=0.031 ms -> passes=638
+calib variant=E fastest repetition in warm-up=0.104 ms -> passes=193
+calib variant=B fastest repetition in warm-up=0.210 ms -> passes=96
+calib variant=K fastest repetition in warm-up=0.021 ms -> passes=937
+calib variant=C fastest repetition in warm-up=0.202 ms -> passes=100
+calib variant=J fastest repetition in warm-up=0.020 ms -> passes=991
+calib variant=H fastest repetition in warm-up=0.032 ms -> passes=634
+cell=route/footprint-mib=1024,k=1,kernel=k2,placement=hbm,tune=direct,type=tune,working-set-mib=32 rounds=20 warmups=10 discards=0 k=12 floor_ns=0 nA=10 medA=398597 loA=398254 hiA=398670 targetA=1 nB=10 medB=209668 loB=209622 hiB=209748 targetB=1 nC=10 medC=202103 loC=202024 hiC=202164 targetC=1 nD=10 medD=107768 loD=107723 hiD=107798 targetD=1 nE=10 medE=104183 loE=104151 hiE=104193 targetE=1 nF=10 medF=55985.6 loF=55977.7 hiF=56017.1 targetF=1 nG=10 medG=54604.4 loG=54584.3 hiG=54617.5 targetG=1 nH=10 medH=31592.9 loH=31585.3 hiH=31602.9 targetH=1 nI=10 medI=31401 loI=31394.8 hiI=31410.6 targetI=1 nJ=10 medJ=20207.8 loJ=20197 hiJ=20229.2 targetJ=1 nK=10 medK=21360.1 loK=21350.8 hiK=21366.9 targetK=1 nL=10 medL=17427.1 loL=17423.8 hiL=17436.7 targetL=1 cap_hit=0 stopped_on_target=1 ahp_kb_end_A=0 ahp_kb_end_B=0 ahp_kb_end_C=0 ahp_kb_end_D=0 ahp_kb_end_E=0 ahp_kb_end_F=0 ahp_kb_end_G=0 ahp_kb_end_H=0 ahp_kb_end_I=0 ahp_kb_end_J=0 ahp_kb_end_K=0 ahp_kb_end_L=0

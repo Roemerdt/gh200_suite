@@ -1,0 +1,8 @@
+/sys/devices/system/node/node0/meminfo:Node 0 MemTotal:       502070784 kB
+/sys/devices/system/node/node0/meminfo:Node 0 MemFree:        487688256 kB
+/sys/devices/system/node/node0/meminfo:Node 0 AnonHugePages:         0 kB
+/sys/devices/system/node/node0/meminfo:Node 0 HugePages_Total:     0
+/sys/devices/system/node/node1/meminfo:Node 1 MemTotal:       99614720 kB
+/sys/devices/system/node/node1/meminfo:Node 1 MemFree:        99614720 kB
+/sys/devices/system/node/node1/meminfo:Node 1 AnonHugePages:         0 kB
+/sys/devices/system/node/node1/meminfo:Node 1 HugePages_Total:     0

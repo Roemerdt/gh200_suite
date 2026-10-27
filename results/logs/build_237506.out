@@ -1,0 +1,110 @@
+build on j21n14 2026-10-05T17:16:50+02:00
+rm -rf bin build_flags.txt
+nvcc -O2 -std=c++17 -arch=sm_90 -Isrc -Xcompiler -pthread -Xcompiler -march=armv9-a -lineinfo  -o bin/atomics src/atomics/atomics.cu -ldl
+nvcc -O2 -std=c++17 -arch=sm_90 -Isrc -Xcompiler -pthread -Xcompiler -march=armv9-a -lineinfo  -o bin/coherence src/coherence/coherence.cu -ldl
+nvcc -O2 -std=c++17 -arch=sm_90 -Isrc -Xcompiler -pthread -Xcompiler -march=armv9-a -lineinfo  -o bin/chase src/address_space/chase.cu -ldl
+nvcc -O2 -std=c++17 -arch=sm_90 -Isrc -Xcompiler -pthread -Xcompiler -march=armv9-a -lineinfo  -o bin/sectors src/address_space/sectors.cu -ldl
+nvcc -O2 -std=c++17 -arch=sm_90 -Isrc -Xcompiler -pthread -Xcompiler -march=armv9-a -lineinfo  -o bin/copycost src/copy/copycost.cu -ldl
+nvcc -O2 -std=c++17 -arch=sm_90 -Isrc -Xcompiler -pthread -Xcompiler -march=armv9-a -lineinfo  -o bin/shakedown src/tools/shakedown.cu -ldl
+src/coherence/coherence.cu(225): warning #550-D: variable "v1" was set but never used
+          u64 v0, v1;
+                  ^
+
+Remark: The warnings can be suppressed with "-diag-suppress <warning-number>"
+
+nvcc -O2 -std=c++17 -arch=sm_90 -Isrc -Xcompiler -pthread -Xcompiler -march=armv9-a -lineinfo  -o bin/runnable src/tools/runnable.cu -ldl
+nvcc -O2 -std=c++17 -arch=sm_90 -Isrc -Xcompiler -pthread -Xcompiler -march=armv9-a -lineinfo  -o bin/route src/route/route.cu -ldl
+NVCC BUILD OK
+lse: ldadd/stadd inline=9 outline_calls=0
+nvc++ -cuda -gpu=cc90 -O2 -std=c++17 -Isrc -tp=neoverse-v2 --diag_suppress=cuda_compile  -o bin/atomics_nvcpp src/atomics/atomics.cu -ldl
+nvc++ -cuda -gpu=cc90 -O2 -std=c++17 -Isrc -tp=neoverse-v2 --diag_suppress=cuda_compile  -o bin/coherence_nvcpp src/coherence/coherence.cu -ldl
+nvc++ -cuda -gpu=cc90 -O2 -std=c++17 -Isrc -tp=neoverse-v2 --diag_suppress=cuda_compile  -o bin/chase_nvcpp src/address_space/chase.cu -ldl
+nvc++ -cuda -gpu=cc90 -O2 -std=c++17 -Isrc -tp=neoverse-v2 --diag_suppress=cuda_compile  -o bin/sectors_nvcpp src/address_space/sectors.cu -ldl
+nvc++ -cuda -gpu=cc90 -O2 -std=c++17 -Isrc -tp=neoverse-v2 --diag_suppress=cuda_compile  -o bin/copycost_nvcpp src/copy/copycost.cu -ldl
+nvc++ -cuda -gpu=cc90 -O2 -std=c++17 -Isrc -tp=neoverse-v2 --diag_suppress=cuda_compile  -o bin/shakedown_nvcpp src/tools/shakedown.cu -ldl
+nvc++ -cuda -gpu=cc90 -O2 -std=c++17 -Isrc -tp=neoverse-v2 --diag_suppress=cuda_compile  -o bin/runnable_nvcpp src/tools/runnable.cu -ldl
+"src/coherence/coherence.cu", line 225: warning: variable "v1" was set but never used [set_but_not_used]
+          u64 v0, v1;
+                  ^
+
+Remark: individual warnings can be suppressed with "--diag_suppress <warning-name>"
+
+"src/atomics/atomics.cu", line 98: warning: statement is unreachable [code_is_unreachable]
+      if (SC == SC_SYS) { return sys_add(x, v); }
+      ^
+          detected during:
+            instantiation of "u64 atomic_op<OP,SC>(u64 *, u64, u64 &) [with OP=3, SC=0]" at line 147
+            instantiation of "u64 issue_loop<OP,SC,REGIME>(u64 *, long) [with OP=3, SC=0, REGIME=0]" at line 168
+            instantiation of "void k_issue<OP,SC,REGIME>(u64 *, long, u64 *, int, int, bool) [with OP=3, SC=0, REGIME=0]" at line 186
+
+Remark: individual warnings can be suppressed with "--diag_suppress <warning-name>"
+
+"src/atomics/atomics.cu", line 107: warning: statement is unreachable [code_is_unreachable]
+      if (SC == SC_SYS) { return sys_xchg(x, v); }
+      ^
+          detected during:
+            instantiation of "u64 atomic_op<OP,SC>(u64 *, u64, u64 &) [with OP=3, SC=0]" at line 147
+            instantiation of "u64 issue_loop<OP,SC,REGIME>(u64 *, long) [with OP=3, SC=0, REGIME=0]" at line 168
+            instantiation of "void k_issue<OP,SC,REGIME>(u64 *, long, u64 *, int, int, bool) [with OP=3, SC=0, REGIME=0]" at line 186
+
+"src/atomics/atomics.cu", line 99: warning: statement is unreachable [code_is_unreachable]
+      if (SC == SC_REF_SYS) {
+      ^
+          detected during:
+            instantiation of "u64 atomic_op<OP,SC>(u64 *, u64, u64 &) [with OP=3, SC=1]" at line 147
+            instantiation of "u64 issue_loop<OP,SC,REGIME>(u64 *, long) [with OP=3, SC=1, REGIME=0]" at line 168
+            instantiation of "void k_issue<OP,SC,REGIME>(u64 *, long, u64 *, int, int, bool) [with OP=3, SC=1, REGIME=0]" at line 186
+
+"src/atomics/atomics.cu", line 108: warning: statement is unreachable [code_is_unreachable]
+      if (SC == SC_REF_SYS) {
+      ^
+          detected during:
+            instantiation of "u64 atomic_op<OP,SC>(u64 *, u64, u64 &) [with OP=3, SC=1]" at line 147
+            instantiation of "u64 issue_loop<OP,SC,REGIME>(u64 *, long) [with OP=3, SC=1, REGIME=0]" at line 168
+            instantiation of "void k_issue<OP,SC,REGIME>(u64 *, long, u64 *, int, int, bool) [with OP=3, SC=1, REGIME=0]" at line 186
+
+"src/atomics/atomics.cu", line 103: warning: dynamic initialization in unreachable code [initialization_not_reachable]
+      cuda::atomic_ref<u64, cuda::thread_scope_device> r(*x);
+                                                       ^
+          detected during:
+            instantiation of "u64 atomic_op<OP,SC>(u64 *, u64, u64 &) [with OP=3, SC=2]" at line 147
+            instantiation of "u64 issue_loop<OP,SC,REGIME>(u64 *, long) [with OP=3, SC=2, REGIME=0]" at line 168
+            instantiation of "void k_issue<OP,SC,REGIME>(u64 *, long, u64 *, int, int, bool) [with OP=3, SC=2, REGIME=0]" at line 186
+
+"src/atomics/atomics.cu", line 112: warning: dynamic initialization in unreachable code [initialization_not_reachable]
+      cuda::atomic_ref<u64, cuda::thread_scope_device> r(*x);
+                                                       ^
+          detected during:
+            instantiation of "u64 atomic_op<OP,SC>(u64 *, u64, u64 &) [with OP=3, SC=2]" at line 147
+            instantiation of "u64 issue_loop<OP,SC,REGIME>(u64 *, long) [with OP=3, SC=2, REGIME=0]" at line 168
+            instantiation of "void k_issue<OP,SC,REGIME>(u64 *, long, u64 *, int, int, bool) [with OP=3, SC=2, REGIME=0]" at line 186
+
+NVCPP BUILD rc=0
+total 11484
+drwx------ 2 rblom rblom    4096 Oct  5 17:17 .
+drwxr-xr-x 8 rblom rblom    4096 Oct  5 17:16 ..
+-rwx------ 1 rblom rblom 1668928 Oct  5 17:16 atomics
+-rwx------ 1 rblom rblom 1335512 Oct  5 17:17 atomics_nvcpp
+-rwx------ 1 rblom rblom 1058080 Oct  5 17:16 chase
+-rwx------ 1 rblom rblom  247816 Oct  5 17:17 chase_nvcpp
+-rwx------ 1 rblom rblom 1127128 Oct  5 17:16 coherence
+-rwx------ 1 rblom rblom  331728 Oct  5 17:17 coherence_nvcpp
+-rwx------ 1 rblom rblom 1056896 Oct  5 17:16 copycost
+-rwx------ 1 rblom rblom  239192 Oct  5 17:17 copycost_nvcpp
+-rwx------ 1 rblom rblom 1057152 Oct  5 17:16 route
+-rwx------ 1 rblom rblom 1044656 Oct  5 17:16 runnable
+-rwx------ 1 rblom rblom  160392 Oct  5 17:16 runnable_nvcpp
+-rwx------ 1 rblom rblom 1057112 Oct  5 17:16 sectors
+-rwx------ 1 rblom rblom  239112 Oct  5 17:17 sectors_nvcpp
+-rwx------ 1 rblom rblom  981408 Oct  5 17:16 shakedown
+-rwx------ 1 rblom rblom  104728 Oct  5 17:16 shakedown_nvcpp
+NVCC=nvcc
+NVCCFLAGS=-O2 -std=c++17 -arch=sm_90 -Isrc -Xcompiler -pthread -Xcompiler -march=armv9-a -lineinfo 
+NVCPP=nvc++
+NVCPPFLAGS=-cuda -gpu=cc90 -O2 -std=c++17 -Isrc -tp=neoverse-v2 --diag_suppress=cuda_compile 
+Cuda compilation tools, release 13.0, V13.0.48
+Build cuda_13.0.r13.0/compiler.36260728_0
+
+nvc++ 25.9-0 linuxarm64 target on aarch64 Linux -tp neoverse-v2 
+gcc (Debian 12.2.0-14+deb12u1) 12.2.0
+BUILD DONE

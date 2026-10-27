@@ -1,0 +1,6 @@
+calib variant=A route=direct level=home one repetition=0.510 ms -> passes=40
+calib variant=B route=copy level=home one repetition=3.061 ms -> passes=7
+calib variant=C route=direct level=1of100 one repetition=0.011 ms -> passes=1844
+calib variant=D route=copy level=1of100 one repetition=2.560 ms -> passes=8
+calib variant=C fastest repetition in warm-up=0.010 ms -> passes=2088
+cell=route/at=1of100,f-den=1,f-num=1,footprint-mib=1024,kernel=k1,placement=hbm,type=four,vary=f rounds=110 warmups=10 discards=0 k=4 floor_ns=0 nA=100 medA=509651 loA=509600 hiA=509742 targetA=1 nB=100 medB=3.05805e+06 loB=3.0578e+06 hiB=3.05827e+06 targetB=1 nC=100 medC=9601.11 loC=9598.61 hiC=9602.99 targetC=1 nD=100 medD=2.55971e+06 loD=2.55945e+06 hiD=2.56002e+06 targetD=1 c1=A-B n1=100 med1=-2.54831e+06 lo1=-2.5486e+06 hi1=-2.54809e+06 target1=1 c2=C-D n2=100 med2=-2.55011e+06 lo2=-2.55042e+06 hi2=-2.54985e+06 target2=1 c3=(C-D)-(A-B) n3=100 med3=-1841.54 lo3=-2191.3 hi3=-1551.43 target3=0 cap_hit=1 stopped_on_target=0 ahp_kb_end_A=0 ahp_kb_end_B=0 ahp_kb_end_C=0 ahp_kb_end_D=0

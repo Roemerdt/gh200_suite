@@ -1,0 +1,1 @@
+cell=ncu/footprint-mib=1024,k=2,kernel=k2,placement=cpu,variant=A,working-set-mib=32 attempts=1 warmups=0 discards=0 nA=1 medA=262720 loA=262720 hiA=262720 targetA=0 nB=1 medB=148544 loB=148544 hiB=148544 targetB=0 nD=1 medD=114176 loD=114176 hiD=114176 targetD=0 npos=1 nneg=0 sign_p=1 cap_hit=1 stopped_on_target=0 paired=1 ahp_kb_end_A=0 ahp_kb_end_B=0

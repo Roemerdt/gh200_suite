@@ -1,0 +1,10 @@
+job=239835 node=j21n14 start=2026-10-07T19:31:07+02:00 numa_balancing=0 governor=performance
+In file included from src/common/common.h:16,
+                 from results/step2/e3_latency/latency.cu:12:
+src/common/counters.h:47:2: error: #error "SUITE_SMMU_PMU is not defined: build with the Makefile, which takes it from harness/site.env"
+   47 | #error \
+      |  ^~~~~
+build rc=1
+process 1 rc=0 rows=291
+process 2 rc=0 rows=291
+JOB DONE 2026-10-07T19:31:17+02:00

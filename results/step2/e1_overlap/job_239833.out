@@ -1,0 +1,110 @@
+job=239833 node=j21n14 start=2026-10-07T19:27:29+02:00 numa_balancing=0
+In file included from src/common/common.h:16,
+                 from results/step2/e1_overlap/overlap.cu:16:
+src/common/counters.h:47:2: error: #error "SUITE_SMMU_PMU is not defined: build with the Makefile, which takes it from harness/site.env"
+   47 | #error \
+      |  ^~~~~
+build rc=1
+##### process 1
+rc=0
+spin on 1 blocks occupies 1 distinct SMs
+spin on 4224 blocks occupies 132 distinct SMs
+spin: 0.5056 ms per 1e6 cycles; reader: 1.738 ms per pass over 4 GiB of device memory (2472 GB/s)
+medians of 5 runs: hidden = overlap / copy time alone; span = time of both together / sum of both alone;
+copy stretch = copy time beside the kernel / copy time alone
+pageable   chunk    4 MiB  one_sm  kernel_first | copy alone  222 GB/s | hidden 1.00 | span 0.50 | copy stretch 1.00 | host issue   19.442 ms | minor faults 128
+pageable   chunk    4 MiB  one_sm  copy_first   | copy alone  222 GB/s | hidden 0.00 | span 1.00 | copy stretch 1.01 | host issue   19.437 ms | minor faults 128
+pageable   chunk    4 MiB  all_sms kernel_first | copy alone  221 GB/s | hidden 1.00 | span 0.50 | copy stretch 1.00 | host issue   19.366 ms | minor faults 128
+pageable   chunk    4 MiB  all_sms copy_first   | copy alone  222 GB/s | hidden 0.00 | span 1.00 | copy stretch 1.01 | host issue   19.440 ms | minor faults 128
+pageable   chunk    4 MiB  reader  kernel_first | copy alone  221 GB/s | hidden 1.02 | span 0.54 | copy stretch 1.02 | host issue   19.690 ms | minor faults 128
+pageable   chunk    4 MiB  reader  copy_first   | copy alone  221 GB/s | hidden 0.00 | span 1.00 | copy stretch 1.00 | host issue   19.388 ms | minor faults 128
+pageable   chunk   64 MiB  one_sm  kernel_first | copy alone  386 GB/s | hidden 1.00 | span 0.50 | copy stretch 1.00 | host issue   11.126 ms | minor faults 0
+pageable   chunk   64 MiB  one_sm  copy_first   | copy alone  386 GB/s | hidden 0.00 | span 1.01 | copy stretch 1.01 | host issue   11.290 ms | minor faults 2048
+pageable   chunk   64 MiB  all_sms kernel_first | copy alone  386 GB/s | hidden 1.00 | span 0.50 | copy stretch 1.00 | host issue   11.278 ms | minor faults 2048
+pageable   chunk   64 MiB  all_sms copy_first   | copy alone  381 GB/s | hidden 0.00 | span 1.00 | copy stretch 1.00 | host issue   11.123 ms | minor faults 0
+pageable   chunk   64 MiB  reader  kernel_first | copy alone  381 GB/s | hidden 0.99 | span 0.55 | copy stretch 0.99 | host issue   11.146 ms | minor faults 0
+pageable   chunk   64 MiB  reader  copy_first   | copy alone  386 GB/s | hidden 0.00 | span 1.01 | copy stretch 1.01 | host issue   11.284 ms | minor faults 2048
+pageable   chunk 4096 MiB  one_sm  kernel_first | copy alone  407 GB/s | hidden 1.00 | span 0.50 | copy stretch 1.00 | host issue   10.552 ms | minor faults 0
+pageable   chunk 4096 MiB  one_sm  copy_first   | copy alone  407 GB/s | hidden 0.00 | span 1.46 | copy stretch 1.91 | host issue   20.187 ms | minor faults 131072
+pageable   chunk 4096 MiB  all_sms kernel_first | copy alone  407 GB/s | hidden 1.00 | span 0.50 | copy stretch 1.00 | host issue   10.553 ms | minor faults 0
+pageable   chunk 4096 MiB  all_sms copy_first   | copy alone  407 GB/s | hidden 0.00 | span 1.45 | copy stretch 1.90 | host issue   20.067 ms | minor faults 131072
+pageable   chunk 4096 MiB  reader  kernel_first | copy alone  214 GB/s | hidden 1.00 | span 0.55 | copy stretch 1.00 | host issue   10.552 ms | minor faults 0
+pageable   chunk 4096 MiB  reader  copy_first   | copy alone  407 GB/s | hidden 0.00 | span 1.46 | copy stretch 1.91 | host issue   20.138 ms | minor faults 131072
+registered chunk    4 MiB  one_sm  kernel_first | copy alone  306 GB/s | hidden 1.00 | span 0.50 | copy stretch 1.00 | host issue    0.809 ms | minor faults 0
+registered chunk    4 MiB  one_sm  copy_first   | copy alone  307 GB/s | hidden 0.94 | span 0.53 | copy stretch 1.00 | host issue    0.807 ms | minor faults 0
+registered chunk    4 MiB  all_sms kernel_first | copy alone  306 GB/s | hidden 1.00 | span 0.50 | copy stretch 1.00 | host issue    0.816 ms | minor faults 0
+registered chunk    4 MiB  all_sms copy_first   | copy alone  307 GB/s | hidden 0.94 | span 0.53 | copy stretch 1.00 | host issue    0.804 ms | minor faults 0
+registered chunk    4 MiB  reader  kernel_first | copy alone  308 GB/s | hidden 1.01 | span 0.56 | copy stretch 1.01 | host issue    0.810 ms | minor faults 0
+registered chunk    4 MiB  reader  copy_first   | copy alone  307 GB/s | hidden 0.94 | span 0.58 | copy stretch 1.00 | host issue    0.804 ms | minor faults 0
+registered chunk   64 MiB  one_sm  kernel_first | copy alone  399 GB/s | hidden 1.00 | span 0.50 | copy stretch 1.00 | host issue    0.068 ms | minor faults 0
+registered chunk   64 MiB  one_sm  copy_first   | copy alone  399 GB/s | hidden 0.99 | span 0.50 | copy stretch 1.00 | host issue    0.061 ms | minor faults 0
+registered chunk   64 MiB  all_sms kernel_first | copy alone  399 GB/s | hidden 1.00 | span 0.50 | copy stretch 1.00 | host issue    0.061 ms | minor faults 0
+registered chunk   64 MiB  all_sms copy_first   | copy alone  399 GB/s | hidden 0.99 | span 0.50 | copy stretch 1.00 | host issue    0.062 ms | minor faults 0
+registered chunk   64 MiB  reader  kernel_first | copy alone  399 GB/s | hidden 1.00 | span 0.56 | copy stretch 1.00 | host issue    0.066 ms | minor faults 0
+registered chunk   64 MiB  reader  copy_first   | copy alone  399 GB/s | hidden 0.99 | span 0.57 | copy stretch 1.00 | host issue    0.064 ms | minor faults 0
+registered chunk 4096 MiB  one_sm  kernel_first | copy alone  407 GB/s | hidden 1.00 | span 0.50 | copy stretch 1.00 | host issue    0.001 ms | minor faults 0
+registered chunk 4096 MiB  one_sm  copy_first   | copy alone  407 GB/s | hidden 1.00 | span 0.50 | copy stretch 1.00 | host issue    0.001 ms | minor faults 0
+registered chunk 4096 MiB  all_sms kernel_first | copy alone  407 GB/s | hidden 1.00 | span 0.50 | copy stretch 1.00 | host issue    0.001 ms | minor faults 0
+registered chunk 4096 MiB  all_sms copy_first   | copy alone  407 GB/s | hidden 1.00 | span 0.50 | copy stretch 1.00 | host issue    0.001 ms | minor faults 0
+registered chunk 4096 MiB  reader  kernel_first | copy alone  407 GB/s | hidden 1.00 | span 0.57 | copy stretch 1.00 | host issue    0.001 ms | minor faults 0
+registered chunk 4096 MiB  reader  copy_first   | copy alone  407 GB/s | hidden 1.00 | span 0.57 | copy stretch 1.00 | host issue    0.001 ms | minor faults 0
+
+=== part 2: 4 GiB H2D split over 1, 2 and 4 streams
+pageable   streams=1 wall median 10.553 ms (407 GB/s), min 10.552 max 10.556; host issue median 10.553 ms
+pageable   streams=2 wall median 10.563 ms (407 GB/s), min 10.563 max 10.564; host issue median 10.563 ms
+pageable   streams=4 wall median 10.585 ms (406 GB/s), min 10.583 max 10.587; host issue median 10.584 ms
+registered streams=1 wall median 10.552 ms (407 GB/s), min 10.551 max 10.554; host issue median 0.001 ms
+registered streams=2 wall median 10.558 ms (407 GB/s), min 10.557 max 10.558; host issue median 0.002 ms
+registered streams=4 wall median 10.566 ms (406 GB/s), min 10.566 max 10.567; host issue median 0.005 ms
+##### process 2
+rc=0
+spin on 1 blocks occupies 1 distinct SMs
+spin on 4224 blocks occupies 132 distinct SMs
+spin: 0.5055 ms per 1e6 cycles; reader: 1.737 ms per pass over 4 GiB of device memory (2473 GB/s)
+medians of 5 runs: hidden = overlap / copy time alone; span = time of both together / sum of both alone;
+copy stretch = copy time beside the kernel / copy time alone
+pageable   chunk    4 MiB  one_sm  kernel_first | copy alone  219 GB/s | hidden 1.00 | span 0.50 | copy stretch 1.00 | host issue   19.589 ms | minor faults 0
+pageable   chunk    4 MiB  one_sm  copy_first   | copy alone  219 GB/s | hidden 0.00 | span 1.00 | copy stretch 1.00 | host issue   19.606 ms | minor faults 0
+pageable   chunk    4 MiB  all_sms kernel_first | copy alone  219 GB/s | hidden 1.00 | span 0.50 | copy stretch 1.00 | host issue   19.620 ms | minor faults 0
+pageable   chunk    4 MiB  all_sms copy_first   | copy alone  219 GB/s | hidden 0.00 | span 1.00 | copy stretch 1.00 | host issue   19.612 ms | minor faults 0
+pageable   chunk    4 MiB  reader  kernel_first | copy alone  219 GB/s | hidden 1.01 | span 0.54 | copy stretch 1.01 | host issue   19.837 ms | minor faults 0
+pageable   chunk    4 MiB  reader  copy_first   | copy alone  218 GB/s | hidden 0.00 | span 1.00 | copy stretch 1.00 | host issue   19.625 ms | minor faults 128
+pageable   chunk   64 MiB  one_sm  kernel_first | copy alone  385 GB/s | hidden 1.00 | span 0.50 | copy stretch 1.00 | host issue   11.156 ms | minor faults 0
+pageable   chunk   64 MiB  one_sm  copy_first   | copy alone  385 GB/s | hidden 0.00 | span 1.01 | copy stretch 1.01 | host issue   11.312 ms | minor faults 2048
+pageable   chunk   64 MiB  all_sms kernel_first | copy alone  385 GB/s | hidden 1.00 | span 0.51 | copy stretch 1.01 | host issue   11.312 ms | minor faults 2048
+pageable   chunk   64 MiB  all_sms copy_first   | copy alone  380 GB/s | hidden 0.00 | span 1.00 | copy stretch 1.00 | host issue   11.312 ms | minor faults 2048
+pageable   chunk   64 MiB  reader  kernel_first | copy alone  385 GB/s | hidden 1.00 | span 0.55 | copy stretch 1.00 | host issue   11.168 ms | minor faults 0
+pageable   chunk   64 MiB  reader  copy_first   | copy alone  385 GB/s | hidden 0.00 | span 1.01 | copy stretch 1.01 | host issue   11.313 ms | minor faults 2048
+pageable   chunk 4096 MiB  one_sm  kernel_first | copy alone  406 GB/s | hidden 1.00 | span 0.50 | copy stretch 1.00 | host issue   10.573 ms | minor faults 0
+pageable   chunk 4096 MiB  one_sm  copy_first   | copy alone  406 GB/s | hidden 0.00 | span 1.00 | copy stretch 1.00 | host issue   20.686 ms | minor faults 131072
+pageable   chunk 4096 MiB  all_sms kernel_first | copy alone  406 GB/s | hidden 1.00 | span 0.50 | copy stretch 1.00 | host issue   10.572 ms | minor faults 0
+pageable   chunk 4096 MiB  all_sms copy_first   | copy alone  406 GB/s | hidden 0.00 | span 1.46 | copy stretch 1.91 | host issue   20.227 ms | minor faults 131072
+pageable   chunk 4096 MiB  reader  kernel_first | copy alone  406 GB/s | hidden 1.00 | span 0.57 | copy stretch 1.00 | host issue   10.574 ms | minor faults 0
+pageable   chunk 4096 MiB  reader  copy_first   | copy alone  406 GB/s | hidden 0.00 | span 1.00 | copy stretch 1.00 | host issue   10.572 ms | minor faults 0
+registered chunk    4 MiB  one_sm  kernel_first | copy alone  305 GB/s | hidden 1.00 | span 0.50 | copy stretch 1.00 | host issue    0.815 ms | minor faults 0
+registered chunk    4 MiB  one_sm  copy_first   | copy alone  305 GB/s | hidden 0.94 | span 0.53 | copy stretch 1.00 | host issue    0.811 ms | minor faults 0
+registered chunk    4 MiB  all_sms kernel_first | copy alone  305 GB/s | hidden 1.00 | span 0.50 | copy stretch 1.00 | host issue    0.821 ms | minor faults 0
+registered chunk    4 MiB  all_sms copy_first   | copy alone  305 GB/s | hidden 0.94 | span 0.53 | copy stretch 1.00 | host issue    0.815 ms | minor faults 0
+registered chunk    4 MiB  reader  kernel_first | copy alone  305 GB/s | hidden 1.00 | span 0.56 | copy stretch 1.00 | host issue    0.807 ms | minor faults 0
+registered chunk    4 MiB  reader  copy_first   | copy alone  305 GB/s | hidden 0.95 | span 0.58 | copy stretch 1.01 | host issue    0.810 ms | minor faults 0
+registered chunk   64 MiB  one_sm  kernel_first | copy alone  397 GB/s | hidden 1.00 | span 0.50 | copy stretch 1.00 | host issue    0.068 ms | minor faults 0
+registered chunk   64 MiB  one_sm  copy_first   | copy alone  397 GB/s | hidden 0.99 | span 0.50 | copy stretch 1.00 | host issue    0.066 ms | minor faults 0
+registered chunk   64 MiB  all_sms kernel_first | copy alone  397 GB/s | hidden 1.00 | span 0.50 | copy stretch 1.00 | host issue    0.065 ms | minor faults 0
+registered chunk   64 MiB  all_sms copy_first   | copy alone  398 GB/s | hidden 0.99 | span 0.50 | copy stretch 1.00 | host issue    0.063 ms | minor faults 0
+registered chunk   64 MiB  reader  kernel_first | copy alone  397 GB/s | hidden 1.00 | span 0.56 | copy stretch 1.00 | host issue    0.065 ms | minor faults 0
+registered chunk   64 MiB  reader  copy_first   | copy alone  397 GB/s | hidden 0.99 | span 0.57 | copy stretch 1.00 | host issue    0.065 ms | minor faults 0
+registered chunk 4096 MiB  one_sm  kernel_first | copy alone  406 GB/s | hidden 1.00 | span 0.50 | copy stretch 1.00 | host issue    0.001 ms | minor faults 0
+registered chunk 4096 MiB  one_sm  copy_first   | copy alone  406 GB/s | hidden 1.00 | span 0.50 | copy stretch 1.00 | host issue    0.001 ms | minor faults 0
+registered chunk 4096 MiB  all_sms kernel_first | copy alone  406 GB/s | hidden 1.00 | span 0.50 | copy stretch 1.00 | host issue    0.002 ms | minor faults 0
+registered chunk 4096 MiB  all_sms copy_first   | copy alone  406 GB/s | hidden 1.00 | span 0.50 | copy stretch 1.00 | host issue    0.001 ms | minor faults 0
+registered chunk 4096 MiB  reader  kernel_first | copy alone  406 GB/s | hidden 1.00 | span 0.57 | copy stretch 1.00 | host issue    0.001 ms | minor faults 0
+registered chunk 4096 MiB  reader  copy_first   | copy alone  406 GB/s | hidden 1.00 | span 0.57 | copy stretch 1.00 | host issue    0.001 ms | minor faults 0
+
+=== part 2: 4 GiB H2D split over 1, 2 and 4 streams
+pageable   streams=1 wall median 10.574 ms (406 GB/s), min 10.572 max 10.576; host issue median 10.574 ms
+pageable   streams=2 wall median 10.584 ms (406 GB/s), min 10.582 max 10.585; host issue median 10.583 ms
+pageable   streams=4 wall median 10.605 ms (405 GB/s), min 10.604 max 10.607; host issue median 10.604 ms
+registered streams=1 wall median 10.571 ms (406 GB/s), min 10.570 max 10.574; host issue median 0.001 ms
+registered streams=2 wall median 10.577 ms (406 GB/s), min 10.574 max 10.578; host issue median 0.002 ms
+registered streams=4 wall median 10.586 ms (406 GB/s), min 10.584 max 10.588; host issue median 0.005 ms
+JOB DONE 2026-10-07T19:28:00+02:00

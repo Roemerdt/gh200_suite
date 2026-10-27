@@ -1,0 +1,1 @@
+cell=route/at=1of2,f-den=1,f-num=1,footprint-mib=1024,kernel=k1,placement=hbm,type=factor,vary=f attempts=20 warmups=10 discards=0 nA=10 medA=510577 loA=510243 hiA=510814 targetA=1 nB=10 medB=259795 loB=259612 hiB=259987 targetB=1 nD=10 medD=250785 loD=250599 hiD=250956 targetD=1 npos=10 nneg=0 sign_p=0.00195 cap_hit=0 stopped_on_target=1 paired=1 ahp_kb_end_A=0 ahp_kb_end_B=0

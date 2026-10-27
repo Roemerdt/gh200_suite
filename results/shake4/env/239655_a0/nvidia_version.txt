@@ -1,0 +1,2 @@
+NVRM version: NVIDIA UNIX Open Kernel Module for aarch64  580.105.08  Release Build  (dvs-builder@U22-I3-G07-01-1)  Wed Oct 29 22:23:50 UTC 2025
+GCC version:  gcc version 12.2.0 (Debian 12.2.0-14+deb12u1) 

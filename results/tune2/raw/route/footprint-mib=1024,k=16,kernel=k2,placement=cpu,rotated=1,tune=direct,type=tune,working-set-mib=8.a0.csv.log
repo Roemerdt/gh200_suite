@@ -1,0 +1,16 @@
+capacity: the cell needs 0 MiB of GPU-node memory (512 MB-page buffers counted twice), 96723 MiB are free, 2048 MiB must stay free
+calib variant=A route=direct level=132x32x8 one repetition=3.049 ms -> passes=7
+calib variant=B route=direct level=132x32x16 one repetition=1.674 ms -> passes=12
+calib variant=C route=direct level=132x64x8 one repetition=1.590 ms -> passes=13
+calib variant=D route=direct level=132x64x16 one repetition=0.967 ms -> passes=21
+calib variant=E route=direct level=132x128x8 one repetition=0.946 ms -> passes=22
+calib variant=F route=direct level=132x128x16 one repetition=0.676 ms -> passes=30
+calib variant=G route=direct level=132x256x8 one repetition=0.676 ms -> passes=30
+calib variant=H route=direct level=132x256x16 one repetition=0.484 ms -> passes=42
+calib variant=I route=direct level=132x512x8 one repetition=0.483 ms -> passes=42
+calib variant=J route=direct level=132x512x16 one repetition=0.382 ms -> passes=53
+calib variant=K route=direct level=132x1024x8 one repetition=0.384 ms -> passes=53
+calib variant=L route=direct level=132x1024x16 one repetition=0.378 ms -> passes=53
+calib variant=L fastest repetition in warm-up=0.376 ms -> passes=54
+calib variant=B fastest repetition in warm-up=1.653 ms -> passes=13
+cell=route/footprint-mib=1024,k=16,kernel=k2,placement=cpu,rotated=1,tune=direct,type=tune,working-set-mib=8 rounds=20 warmups=10 discards=0 k=12 floor_ns=0 nA=10 medA=3.03235e+06 loA=3.02994e+06 hiA=3.0345e+06 targetA=1 nB=10 medB=1.65674e+06 loB=1.65326e+06 hiB=1.65996e+06 targetB=1 nC=10 medC=1.57602e+06 loC=1.57376e+06 hiC=1.57885e+06 targetC=1 nD=10 medD=962642 loD=961542 hiD=965376 targetD=1 nE=10 medE=943265 loE=941423 hiE=944925 targetE=1 nF=10 medF=692431 loF=691223 hiF=694398 targetF=1 nG=10 medG=694988 loG=693046 hiG=697076 targetG=1 nH=10 medH=491847 loH=491232 hiH=492965 targetH=1 nI=10 medI=492057 loI=491583 hiI=492627 targetI=1 nJ=10 medJ=379208 loJ=378990 hiJ=379411 targetJ=1 nK=10 medK=381765 loK=381663 hiK=382050 targetK=1 nL=10 medL=376316 loL=376165 hiL=376520 targetL=1 cap_hit=0 stopped_on_target=1 ahp_kb_end_A=0 ahp_kb_end_B=0 ahp_kb_end_C=0 ahp_kb_end_D=0 ahp_kb_end_E=0 ahp_kb_end_F=0 ahp_kb_end_G=0 ahp_kb_end_H=0 ahp_kb_end_I=0 ahp_kb_end_J=0 ahp_kb_end_K=0 ahp_kb_end_L=0

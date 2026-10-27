@@ -1,0 +1,1 @@
+cell=ncu/footprint-mib=8,kernel=k6,keys=1024,placement=hbm,strategy=atomic,variant=A attempts=1 warmups=0 discards=0 nA=1 medA=854624 loA=854624 hiA=854624 targetA=0 nB=1 medB=922880 loB=922880 hiB=922880 targetB=0 nD=1 medD=-68256 loD=-68256 hiD=-68256 targetD=0 npos=0 nneg=1 sign_p=1 cap_hit=1 stopped_on_target=0 paired=1 ahp_kb_end_A=0 ahp_kb_end_B=0

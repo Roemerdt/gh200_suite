@@ -1,0 +1,14 @@
+Driver Version                            : 580.105.08
+CUDA Version                              : 13.0
+    Product Name                          : NVIDIA GH200 480GB
+    Persistence Mode                      : Enabled
+    Addressing Mode                       : ATS
+    VBIOS Version                         : 96.00.84.00.02
+    Inforom Version
+        Image Version                     : G530.0206.00.02
+        OEM Object                        : 2.1
+        ECC Object                        : 7.16
+    Inforom BBX Object Flush
+    GSP Firmware Version                  : 580.105.08
+            Firmware                      : N/A
+    Compute Mode                          : Default

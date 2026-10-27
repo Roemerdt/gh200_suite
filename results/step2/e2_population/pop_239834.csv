@@ -1,0 +1,69 @@
+node,thp,method,trial,populate_s,pass1_ms,pass2_ms,pass3_ms,ahp_mb_after_pass1,ahp_mb_after_pass2,ahp_mb_after_pass3,ahp_mb_after_1s,rss_mb,where,vmstat_changes
+0,1,cpu_memset,0,0.488,20.85,20.82,20.84,8192,8192,8192,8192,8192,node0=256 node1=0 other=0,thp_fault_alloc=16 pgfault=23 
+0,1,cpu_memset,1,0.487,20.70,20.71,20.68,8192,8192,8192,8192,8192,node0=256 node1=0 other=0,thp_fault_alloc=16 pgfault=16 
+0,1,cuda_register,0,0.302,20.77,20.77,20.76,8192,8192,8192,8192,8192,node0=256 node1=0 other=0,thp_fault_alloc=16 pgfault=262158 
+0,1,cuda_register,1,0.302,20.69,20.72,20.70,8192,8192,8192,8192,8192,node0=256 node1=0 other=0,thp_fault_alloc=16 pgfault=262144 
+0,1,gpu_write,0,0.000,2087.71,21.02,21.05,0,0,0,0,8192,node0=256 node1=0 other=0,pgfault=242438 
+0,1,gpu_write,1,0.000,1930.34,20.92,20.91,0,0,0,0,8192,node0=256 node1=0 other=0,thp_collapse_alloc=4 thp_split_page=3 pgfault=212746 
+0,1,gpu_write,2,0.000,2115.21,21.11,21.13,0,0,0,0,8192,node0=256 node1=0 other=0,pgfault=239476 
+0,1,gpu_write,3,0.000,2093.31,21.18,21.20,0,0,0,0,8192,node0=256 node1=0 other=0,pgfault=240886 
+0,1,gpu_read,0,0.000,2694.18,20.91,20.88,4096,4096,4096,4096,8192,node0=256 node1=0 other=0,thp_collapse_alloc=8 pgfault=247678 
+0,1,gpu_read,1,0.000,2402.48,21.06,21.09,0,0,0,0,8192,node0=256 node1=0 other=0,pgfault=248596 
+0,1,gpu_read,2,0.000,2409.41,21.06,21.04,0,0,0,0,8192,node0=256 node1=0 other=0,pgfault=245719 
+0,1,gpu_read,3,0.000,2253.61,20.90,20.88,2560,2560,2560,2560,8192,node0=256 node1=0 other=0,thp_collapse_alloc=7 thp_split_page=1 pgfault=220974 
+0,1,gpu_read,4,0.000,2394.43,21.07,21.05,0,0,0,0,8192,node0=256 node1=0 other=0,pgfault=247438 
+0,1,gpu_read,5,0.000,2314.25,21.07,21.09,0,0,0,0,8192,node0=256 node1=0 other=0,pgfault=249196 
+0,1,gpu_read,6,0.000,2772.42,20.88,20.91,4096,4096,4096,4096,8192,node0=256 node1=0 other=0,thp_collapse_alloc=8 pgfault=244870 
+0,1,gpu_read,7,0.000,2388.94,21.06,21.06,0,0,0,0,8192,node0=256 node1=0 other=0,pgfault=248298 
+0,0,cpu_memset,0,0.402,20.89,20.98,20.96,0,0,0,0,8192,node0=256 node1=0 other=0,pgfault=131260 
+0,0,cpu_memset,1,0.403,20.88,20.87,20.86,0,0,0,0,8192,node0=256 node1=0 other=0,pgfault=131072 
+0,0,cuda_register,0,0.294,20.89,20.86,20.86,0,0,0,0,8192,node0=256 node1=0 other=0,pgfault=262144 
+0,0,cuda_register,1,0.294,20.89,20.82,20.85,0,0,0,0,8192,node0=256 node1=0 other=0,pgfault=262144 
+0,0,gpu_write,0,0.000,2126.13,21.15,21.12,0,0,0,0,8192,node0=256 node1=0 other=0,pgfault=243665 
+0,0,gpu_write,1,0.000,2129.25,21.15,21.14,0,0,0,0,8192,node0=256 node1=0 other=0,pgfault=239250 
+0,0,gpu_read,0,0.000,2463.28,21.06,21.08,0,0,0,0,8192,node0=256 node1=0 other=0,pgfault=247948 
+0,0,gpu_read,1,0.000,2506.38,21.07,20.98,0,0,0,0,8192,node0=256 node1=0 other=0,pgfault=247556 
+1,1,cpu_memset,0,1.779,1.62,1.41,1.42,8192,8192,8192,8192,8192,node0=0 node1=256 other=0,thp_fault_alloc=16 pgfault=16 
+1,1,cpu_memset,1,1.776,1.63,1.42,1.42,8192,8192,8192,8192,8192,node0=0 node1=256 other=0,thp_fault_alloc=16 pgfault=16 
+1,1,cuda_register,0,1.163,1.62,1.41,1.41,8192,8192,8192,8192,8192,node0=0 node1=256 other=0,thp_fault_alloc=16 pgfault=262145 
+1,1,cuda_register,1,1.163,1.63,1.42,1.43,8192,8192,8192,8192,8192,node0=0 node1=256 other=0,thp_fault_alloc=16 pgfault=262144 
+1,1,gpu_write,0,0.000,857.09,1.72,1.42,0,0,0,0,8192,node0=0 node1=256 other=0,pgfault=3530 
+1,1,gpu_write,1,0.000,858.58,1.66,1.43,0,0,0,0,8192,node0=0 node1=256 other=0,pgfault=3840 
+1,1,gpu_write,2,0.000,857.59,1.79,1.42,0,0,0,0,8192,node0=0 node1=256 other=0,pgfault=3072 
+1,1,gpu_write,3,0.000,863.23,1.81,1.42,0,0,0,3584,8192,node0=0 node1=256 other=0,thp_collapse_alloc=7 pgfault=4800 
+1,1,gpu_read,0,0.000,915.25,1.78,1.45,0,0,0,0,8192,node0=0 node1=256 other=0,thp_collapse_alloc=1 pgfault=9728 
+1,1,gpu_read,1,0.000,916.47,1.78,1.42,0,0,0,0,8192,node0=0 node1=256 other=0,pgfault=10720 
+1,1,gpu_read,2,0.000,919.01,1.76,1.42,0,0,0,0,8192,node0=0 node1=256 other=0,pgfault=9984 
+1,1,gpu_read,3,0.000,917.99,1.82,1.42,0,0,0,0,8192,node0=0 node1=256 other=0,pgfault=10305 
+1,1,gpu_read,4,0.000,924.48,1.71,1.48,0,0,0,0,8192,node0=0 node1=256 other=0,pgfault=12544 
+1,1,gpu_read,5,0.000,1730.82,1.50,1.42,4096,4096,4096,4096,8192,node0=0 node1=256 other=0,thp_collapse_alloc=8 pgfault=11904 
+1,1,gpu_read,6,0.000,909.43,1.74,1.42,0,0,0,0,8192,node0=0 node1=256 other=0,pgfault=12800 
+1,1,gpu_read,7,0.000,903.98,1.73,1.42,0,0,0,0,8192,node0=0 node1=256 other=0,pgfault=13376 
+1,0,cpu_memset,0,0.881,1.63,1.43,1.43,0,0,0,0,8192,node0=0 node1=256 other=0,pgfault=131072 
+1,0,cpu_memset,1,0.881,1.62,1.43,1.43,0,0,0,0,8192,node0=0 node1=256 other=0,pgfault=131072 
+1,0,cuda_register,0,0.771,1.61,1.43,1.42,0,0,0,0,8192,node0=0 node1=256 other=0,pgfault=262144 
+1,0,cuda_register,1,0.771,1.61,1.43,1.43,0,0,0,0,8192,node0=0 node1=256 other=0,pgfault=262456 
+1,0,gpu_write,0,0.000,837.50,1.74,1.42,0,0,0,0,8192,node0=0 node1=256 other=0,pgfault=2816 
+1,0,gpu_write,1,0.000,840.75,1.70,1.42,0,0,0,0,8192,node0=0 node1=256 other=0,pgfault=3712 
+1,0,gpu_read,0,0.000,919.08,1.66,1.42,0,0,0,0,8192,node0=0 node1=256 other=0,pgfault=11520 
+1,0,gpu_read,1,0.000,928.50,1.65,1.42,0,0,0,0,8192,node0=0 node1=256 other=0,pgfault=13312 
+-1,1,cpu_memset,0,0.488,23.09,144.32,174.52,7680,4608,0,0,8192,node0=237 node1=19 other=0,thp_fault_alloc=16 thp_split_page=16 pgfault=154 
+-1,1,cpu_memset,1,0.487,23.10,147.50,181.04,7680,4608,0,0,8192,node0=234 node1=22 other=0,thp_fault_alloc=16 thp_split_page=16 pgfault=68 
+-1,1,gpu_write,0,0.000,2266.69,1.64,1.43,0,0,0,0,8192,node0=0 node1=256 other=0,pgfault=257180 
+-1,1,gpu_write,1,0.000,2290.10,1.68,1.43,0,0,0,512,8192,node0=0 node1=256 other=0,thp_collapse_alloc=2 pgfault=302861 
+-1,1,gpu_write,2,0.000,2260.10,1.70,1.45,0,0,0,0,8192,node0=0 node1=256 other=0,pgfault=255502 
+-1,1,gpu_write,3,0.000,2266.54,1.78,1.42,0,0,0,0,8192,node0=0 node1=256 other=0,pgfault=255410 
+-1,1,gpu_read,0,0.000,2512.06,1.77,1.42,0,0,0,512,8192,node0=0 node1=256 other=0,thp_collapse_alloc=2 pgfault=241310 
+-1,1,gpu_read,1,0.000,2638.95,1.78,1.46,0,0,0,0,8192,node0=0 node1=256 other=0,pgfault=250969 
+-1,1,gpu_read,2,0.000,2524.66,1.73,1.42,0,0,0,0,8192,node0=0 node1=256 other=0,pgfault=252930 
+-1,1,gpu_read,3,0.000,2611.55,1.60,1.43,0,0,0,3072,8192,node0=0 node1=256 other=0,thp_collapse_alloc=6 pgfault=245281 
+-1,1,gpu_read,4,0.000,2694.57,1.71,1.48,0,0,0,0,8192,node0=0 node1=256 other=0,thp_collapse_alloc=1 pgfault=249672 
+-1,1,gpu_read,5,0.000,2571.39,1.71,1.43,0,0,0,0,8192,node0=0 node1=256 other=0,pgfault=243812 
+-1,1,gpu_read,6,0.000,2666.52,1.71,1.42,0,0,0,3584,8192,node0=0 node1=256 other=0,thp_collapse_alloc=7 pgfault=247590 
+-1,1,gpu_read,7,0.000,2577.54,1.77,1.47,0,0,0,0,8192,node0=0 node1=256 other=0,thp_collapse_alloc=1 pgfault=246654 
+-1,0,cpu_memset,0,0.405,23.14,135.43,166.38,0,0,0,0,8192,node0=229 node1=27 other=0,pgfault=131088 
+-1,0,cpu_memset,1,0.403,22.10,137.46,152.11,0,0,0,0,8192,node0=230 node1=26 other=0,pgfault=131106 
+-1,0,gpu_write,0,0.000,2267.75,1.67,1.42,0,0,0,0,8192,node0=0 node1=256 other=0,pgfault=257295 
+-1,0,gpu_write,1,0.000,2249.95,1.72,1.43,0,0,0,0,8192,node0=0 node1=256 other=0,pgfault=256558 
+-1,0,gpu_read,0,0.000,2585.81,1.73,1.42,0,0,0,0,8192,node0=0 node1=256 other=0,pgfault=249863 
+-1,0,gpu_read,1,0.000,2616.29,1.69,1.43,0,0,0,0,8192,node0=0 node1=256 other=0,pgfault=245949 

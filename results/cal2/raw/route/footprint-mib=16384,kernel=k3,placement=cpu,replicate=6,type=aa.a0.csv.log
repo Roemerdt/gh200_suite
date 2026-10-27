@@ -1,0 +1,3 @@
+calib variant=A route=direct level=home one repetition=433.148 ms -> passes=1 (frozen)
+calib variant=B route=direct level=home one repetition=433.074 ms -> passes=1 (frozen)
+cell=route/footprint-mib=16384,kernel=k3,placement=cpu,replicate=6,type=aa attempts=110 warmups=10 discards=0 nA=100 medA=4.33438e+08 loA=4.33395e+08 hiA=4.33463e+08 targetA=1 nB=100 medB=4.33425e+08 loB=4.33401e+08 hiB=4.33445e+08 targetB=1 nD=100 medD=4272.46 loD=-31707.8 hiD=55816.7 targetD=0 npos=52 nneg=48 sign_p=0.764 cap_hit=1 stopped_on_target=0 paired=1 ahp_kb_end_A=0 ahp_kb_end_B=0

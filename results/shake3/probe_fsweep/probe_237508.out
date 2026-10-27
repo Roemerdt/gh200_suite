@@ -1,0 +1,23 @@
+fsweep job=237508 node=j21n14 start=2026-10-05T17:17:47+02:00 paranoid=0 numa_balancing=1
+f=1/100 round=1 rc=0 4 calib lines: A route=direct one repetition=0.039 ms -> passes=519;B route=copy one repetition=5.110 ms -> passes=4;A fastest repetition in warm-up=0.036 ms -> passes=559;B fastest repetition in warm-up=2.863 ms -> passes=7;
+f=1/10 round=1 rc=0 3 calib lines: A route=direct one repetition=0.313 ms -> passes=64;B route=copy one repetition=2.926 ms -> passes=7;A fastest repetition in warm-up=0.310 ms -> passes=65;
+f=1/4 round=1 rc=0 2 calib lines: A route=direct one repetition=0.767 ms -> passes=27;B route=copy one repetition=2.990 ms -> passes=7;
+f=1/2 round=1 rc=0 2 calib lines: A route=direct one repetition=1.520 ms -> passes=14;B route=copy one repetition=3.115 ms -> passes=7;
+f=3/4 round=1 rc=0 2 calib lines: A route=direct one repetition=2.302 ms -> passes=9;B route=copy one repetition=3.232 ms -> passes=7;
+f=9/10 round=1 rc=0 2 calib lines: A route=direct one repetition=2.739 ms -> passes=8;B route=copy one repetition=3.313 ms -> passes=7;
+f=1/1 round=1 rc=0 2 calib lines: A route=direct one repetition=3.009 ms -> passes=7;B route=copy one repetition=3.342 ms -> passes=6;
+f=1/100 round=2 rc=0 3 calib lines: A route=direct one repetition=0.039 ms -> passes=514;B route=copy one repetition=2.872 ms -> passes=7;A fastest repetition in warm-up=0.036 ms -> passes=559;
+f=1/10 round=2 rc=0 3 calib lines: A route=direct one repetition=0.314 ms -> passes=64;B route=copy one repetition=2.922 ms -> passes=7;A fastest repetition in warm-up=0.311 ms -> passes=65;
+f=1/4 round=2 rc=0 2 calib lines: A route=direct one repetition=0.769 ms -> passes=27;B route=copy one repetition=2.993 ms -> passes=7;
+f=1/2 round=2 rc=0 2 calib lines: A route=direct one repetition=1.526 ms -> passes=14;B route=copy one repetition=3.109 ms -> passes=7;
+f=3/4 round=2 rc=0 3 calib lines: A route=direct one repetition=2.305 ms -> passes=9;B route=copy one repetition=5.472 ms -> passes=4;B fastest repetition in warm-up=3.234 ms -> passes=7;
+f=9/10 round=2 rc=0 3 calib lines: A route=direct one repetition=2.746 ms -> passes=8;B route=copy one repetition=5.412 ms -> passes=4;B fastest repetition in warm-up=3.309 ms -> passes=7;
+f=1/1 round=2 rc=0 2 calib lines: A route=direct one repetition=3.005 ms -> passes=7;B route=copy one repetition=3.350 ms -> passes=6;
+f=1/100 round=3 rc=0 3 calib lines: A route=direct one repetition=0.038 ms -> passes=527;B route=copy one repetition=2.869 ms -> passes=7;A fastest repetition in warm-up=0.036 ms -> passes=563;
+f=1/10 round=3 rc=0 2 calib lines: A route=direct one repetition=0.312 ms -> passes=65;B route=copy one repetition=2.924 ms -> passes=7;
+f=1/4 round=3 rc=0 3 calib lines: A route=direct one repetition=0.768 ms -> passes=27;B route=copy one repetition=5.274 ms -> passes=4;B fastest repetition in warm-up=2.982 ms -> passes=7;
+f=1/2 round=3 rc=0 2 calib lines: A route=direct one repetition=1.523 ms -> passes=14;B route=copy one repetition=3.119 ms -> passes=7;
+f=3/4 round=3 rc=0 2 calib lines: A route=direct one repetition=2.297 ms -> passes=9;B route=copy one repetition=3.232 ms -> passes=7;
+f=9/10 round=3 rc=0 2 calib lines: A route=direct one repetition=2.739 ms -> passes=8;B route=copy one repetition=3.316 ms -> passes=7;
+f=1/1 round=3 rc=0 3 calib lines: A route=direct one repetition=3.012 ms -> passes=7;B route=copy one repetition=5.502 ms -> passes=4;B fastest repetition in warm-up=3.351 ms -> passes=6;
+FSWEEP DONE 2026-10-05T17:18:40+02:00

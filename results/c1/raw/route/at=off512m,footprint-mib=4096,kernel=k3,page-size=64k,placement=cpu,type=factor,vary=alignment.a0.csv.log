@@ -1,0 +1,4 @@
+capacity: the cell needs 384 MiB of GPU-node memory (512 MB-page buffers counted twice), 96718 MiB are free, 2048 MiB must stay free
+calib variant=A route=direct level=home one repetition=5.588 ms -> passes=4
+calib variant=B route=direct level=off512m one repetition=5.529 ms -> passes=4
+cell=route/at=off512m,footprint-mib=4096,kernel=k3,page-size=64k,placement=cpu,type=factor,vary=alignment attempts=110 warmups=10 discards=0 nA=100 medA=5.57312e+06 loA=5.56902e+06 hiA=5.57869e+06 targetA=1 nB=100 medB=5.55749e+06 loB=5.55271e+06 hiB=5.56151e+06 targetB=1 nD=100 medD=17096 loD=10608.2 hiD=25536.1 targetD=0 npos=76 nneg=24 sign_p=1.81e-07 cap_hit=1 stopped_on_target=0 paired=1 ahp_kb_end_A=0 ahp_kb_end_B=0

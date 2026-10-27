@@ -1,0 +1,9 @@
+NVCC=nvcc
+NVCCFLAGS=-O2 -std=c++17 -arch=sm_90 -Isrc -Xcompiler -pthread -Xcompiler -march=armv9-a -lineinfo -DSUITE_SMMU_PMU="smmuv3_pmcg_16002" 
+NVCPP=nvc++
+NVCPPFLAGS=-cuda -gpu=cc90 -O2 -std=c++17 -Isrc -tp=neoverse-v2 --diag_suppress=cuda_compile -DSUITE_SMMU_PMU="smmuv3_pmcg_16002" 
+Cuda compilation tools, release 13.0, V13.0.48
+Build cuda_13.0.r13.0/compiler.36260728_0
+
+nvc++ 25.9-0 linuxarm64 target on aarch64 Linux -tp neoverse-v2 
+gcc (Debian 12.2.0-14+deb12u1) 12.2.0

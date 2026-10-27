@@ -1,0 +1,1 @@
+cell=route/footprint-mib=1024,k=16,kernel=k2,placement=hbm,tiling=tiles,working-set-mib=8 attempts=20 warmups=10 discards=0 nA=10 medA=15321.5 loA=15318.3 hiA=15324.4 targetA=1 nB=10 medB=58304 loB=58057.5 hiB=58442 targetB=1 nD=10 medD=-42985.9 loD=-43121.4 hiD=-42735.1 targetD=1 npos=0 nneg=10 sign_p=0.00195 cap_hit=0 stopped_on_target=1 paired=1 ahp_kb_end_A=0 ahp_kb_end_B=0

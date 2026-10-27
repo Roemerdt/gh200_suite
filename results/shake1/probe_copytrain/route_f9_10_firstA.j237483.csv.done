@@ -1,0 +1,1 @@
+cell=probe/f-num=9,f-den=10,first=A attempts=50 warmups=10 discards=0 nA=40 medA=2.73542e+06 loA=2.73505e+06 hiA=2.73589e+06 targetA=1 nB=40 medB=4.09996e+06 loB=4.0929e+06 hiB=4.35652e+06 targetB=0 nD=40 medD=-1.36449e+06 loD=-1.62167e+06 hiD=-1.35656e+06 targetD=1 npos=0 nneg=40 sign_p=1.82e-12 cap_hit=1 stopped_on_target=0 paired=1 ahp_kb_end_A=0 ahp_kb_end_B=0

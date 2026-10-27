@@ -1,0 +1,2 @@
+name, driver_version, vbios_version, memory.total [MiB], memory.used [MiB], clocks.max.sm [MHz], clocks.current.sm [MHz], persistence_mode, compute_mode
+NVIDIA GH200 480GB, 580.105.08, 96.00.84.00.02, 97871 MiB, 0 MiB, 1980 MHz, 345 MHz, Enabled, Default

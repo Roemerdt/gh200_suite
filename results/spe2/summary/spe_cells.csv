@@ -1,0 +1,87 @@
+cell,kernel,placement,footprint_mib,update,host,samples,tlb_miss_share,source,count,share,p50_cycles,p90_cycles,p99_cycles
+"spe/footprint-mib=0.0625,issuer=cpu,kernel=k6,placement=cpu,type=aa,update=atomic",k6,cpu,0.0625,atomic,,8349,0.0,all,8349,1.0,224,228,232
+"spe/footprint-mib=0.0625,issuer=cpu,kernel=k6,placement=cpu,type=aa,update=atomic",k6,cpu,0.0625,atomic,,8349,0.0,input LOAD L1 hit,8349,1.0,224,228,232
+"spe/footprint-mib=0.0625,issuer=cpu,kernel=k6,placement=cpu,type=aa,update=plain",k6,cpu,0.0625,plain,,32675,0.0,all,32675,1.0,15,19,23
+"spe/footprint-mib=0.0625,issuer=cpu,kernel=k6,placement=cpu,type=aa,update=plain",k6,cpu,0.0625,plain,,32675,0.0,input STORE N/A,16435,0.5029839326702372,14,17,20
+"spe/footprint-mib=0.0625,issuer=cpu,kernel=k6,placement=cpu,type=aa,update=plain",k6,cpu,0.0625,plain,,32675,0.0,input LOAD L1 hit,16240,0.49701606732976283,17,20,24
+"spe/footprint-mib=0.0625,issuer=cpu,kernel=k6,placement=cpu,type=aa,update=returned",k6,cpu,0.0625,returned,,4335,0.0,all,4335,1.0,177,181,4095
+"spe/footprint-mib=0.0625,issuer=cpu,kernel=k6,placement=cpu,type=aa,update=returned",k6,cpu,0.0625,returned,,4335,0.0,input LOAD L1 hit,4335,1.0,177,181,4095
+"spe/footprint-mib=0.0625,issuer=cpu,kernel=k6,placement=cpu,type=aa,update=stadd",k6,cpu,0.0625,stadd,,8537,0.0,all,8537,1.0,110,220,380
+"spe/footprint-mib=0.0625,issuer=cpu,kernel=k6,placement=cpu,type=aa,update=stadd",k6,cpu,0.0625,stadd,,8537,0.0,input STORE N/A,8537,1.0,110,220,380
+"spe/footprint-mib=0.0625,issuer=cpu,kernel=k6,placement=hbm,type=aa,update=atomic",k6,hbm,0.0625,atomic,,8334,0.0,all,8334,1.0,224,228,232
+"spe/footprint-mib=0.0625,issuer=cpu,kernel=k6,placement=hbm,type=aa,update=atomic",k6,hbm,0.0625,atomic,,8334,0.0,input LOAD L1 hit,8334,1.0,224,228,232
+"spe/footprint-mib=0.0625,issuer=cpu,kernel=k6,placement=hbm,type=aa,update=plain",k6,hbm,0.0625,plain,,32403,0.0,all,32403,1.0,15,19,22
+"spe/footprint-mib=0.0625,issuer=cpu,kernel=k6,placement=hbm,type=aa,update=plain",k6,hbm,0.0625,plain,,32403,0.0,input STORE N/A,16256,0.5016819430299664,14,17,19
+"spe/footprint-mib=0.0625,issuer=cpu,kernel=k6,placement=hbm,type=aa,update=plain",k6,hbm,0.0625,plain,,32403,0.0,input LOAD L1 hit,16147,0.4983180569700336,17,20,23
+"spe/footprint-mib=0.0625,issuer=cpu,kernel=k6,placement=hbm,type=aa,update=returned",k6,hbm,0.0625,returned,,1718,0.0,all,1718,1.0,177,362,4095
+"spe/footprint-mib=0.0625,issuer=cpu,kernel=k6,placement=hbm,type=aa,update=returned",k6,hbm,0.0625,returned,,1718,0.0,input LOAD L1 hit,1718,1.0,177,362,4095
+"spe/footprint-mib=0.0625,issuer=cpu,kernel=k6,placement=hbm,type=aa,update=stadd",k6,hbm,0.0625,stadd,,8533,0.0,all,8533,1.0,103,226,353
+"spe/footprint-mib=0.0625,issuer=cpu,kernel=k6,placement=hbm,type=aa,update=stadd",k6,hbm,0.0625,stadd,,8533,0.0,input STORE N/A,8533,1.0,103,226,353
+"spe/footprint-mib=1,issuer=cpu,kernel=k6,placement=cpu,type=aa,update=atomic",k6,cpu,1,atomic,,8482,0.0,all,8482,1.0,225,228,230
+"spe/footprint-mib=1,issuer=cpu,kernel=k6,placement=cpu,type=aa,update=atomic",k6,cpu,1,atomic,,8482,0.0,input LOAD L1 hit,8482,1.0,225,228,230
+"spe/footprint-mib=1,issuer=cpu,kernel=k6,placement=cpu,type=aa,update=plain",k6,cpu,1,plain,,32414,0.0,all,32414,1.0,16,20,23
+"spe/footprint-mib=1,issuer=cpu,kernel=k6,placement=cpu,type=aa,update=plain",k6,cpu,1,plain,,32414,0.0,input STORE N/A,16257,0.501542543345468,15,17,20
+"spe/footprint-mib=1,issuer=cpu,kernel=k6,placement=cpu,type=aa,update=plain",k6,cpu,1,plain,,32414,0.0,input LOAD L1 hit,16151,0.49827235145307586,18,21,24
+"spe/footprint-mib=1,issuer=cpu,kernel=k6,placement=cpu,type=aa,update=plain",k6,cpu,1,plain,,32414,0.0,input LOAD L1 miss,6,0.00018510520145616091,27,31,31
+"spe/footprint-mib=1,issuer=cpu,kernel=k6,placement=cpu,type=aa,update=returned",k6,cpu,1,returned,,1873,0.0,all,1873,1.0,177,239,4095
+"spe/footprint-mib=1,issuer=cpu,kernel=k6,placement=cpu,type=aa,update=returned",k6,cpu,1,returned,,1873,0.0,input LOAD L1 hit,1873,1.0,177,239,4095
+"spe/footprint-mib=1,issuer=cpu,kernel=k6,placement=cpu,type=aa,update=stadd",k6,cpu,1,stadd,,8483,0.0,all,8483,1.0,108,224,376
+"spe/footprint-mib=1,issuer=cpu,kernel=k6,placement=cpu,type=aa,update=stadd",k6,cpu,1,stadd,,8483,0.0,input STORE N/A,8483,1.0,108,224,376
+"spe/footprint-mib=1,issuer=cpu,kernel=k6,placement=hbm,type=aa,update=atomic",k6,hbm,1,atomic,,8368,0.0,all,8368,1.0,225,228,229
+"spe/footprint-mib=1,issuer=cpu,kernel=k6,placement=hbm,type=aa,update=atomic",k6,hbm,1,atomic,,8368,0.0,input LOAD L1 hit,8368,1.0,225,228,229
+"spe/footprint-mib=1,issuer=cpu,kernel=k6,placement=hbm,type=aa,update=plain",k6,hbm,1,plain,,32634,0.0,all,32634,1.0,16,20,24
+"spe/footprint-mib=1,issuer=cpu,kernel=k6,placement=hbm,type=aa,update=plain",k6,hbm,1,plain,,32634,0.0,input LOAD L1 hit,16334,0.5005209290923577,17,21,25
+"spe/footprint-mib=1,issuer=cpu,kernel=k6,placement=hbm,type=aa,update=plain",k6,hbm,1,plain,,32634,0.0,input STORE N/A,16294,0.4992952135809279,15,17,20
+"spe/footprint-mib=1,issuer=cpu,kernel=k6,placement=hbm,type=aa,update=plain",k6,hbm,1,plain,,32634,0.0,input LOAD L1 miss,6,0.00018385732671446958,24,28,28
+"spe/footprint-mib=1,issuer=cpu,kernel=k6,placement=hbm,type=aa,update=returned",k6,hbm,1,returned,,1810,0.0,all,1810,1.0,177,180,4095
+"spe/footprint-mib=1,issuer=cpu,kernel=k6,placement=hbm,type=aa,update=returned",k6,hbm,1,returned,,1810,0.0,input LOAD L1 hit,1810,1.0,177,180,4095
+"spe/footprint-mib=1,issuer=cpu,kernel=k6,placement=hbm,type=aa,update=stadd",k6,hbm,1,stadd,,8413,0.0,all,8413,1.0,109,230,371
+"spe/footprint-mib=1,issuer=cpu,kernel=k6,placement=hbm,type=aa,update=stadd",k6,hbm,1,stadd,,8413,0.0,input STORE N/A,8413,1.0,109,230,371
+"spe/footprint-mib=1024,generator=uniform,host=reads,kernel=k4,placement=cpu,sharing=shared,type=aa",k4,cpu,1024,,reads,26,0.0,all,26,1.0,16,96,178
+"spe/footprint-mib=1024,generator=uniform,host=reads,kernel=k4,placement=cpu,sharing=shared,type=aa",k4,cpu,1024,,reads,26,0.0,output LOAD L1 hit,26,1.0,16,96,178
+"spe/footprint-mib=1024,generator=uniform,host=reads,kernel=k4,placement=hbm,sharing=shared,type=aa",k4,hbm,1024,,reads,1451,0.0,all,1451,1.0,64,641,1002
+"spe/footprint-mib=1024,generator=uniform,host=reads,kernel=k4,placement=hbm,sharing=shared,type=aa",k4,hbm,1024,,reads,1451,0.0,output LOAD L1 hit,1451,1.0,64,641,1002
+"spe/footprint-mib=16,issuer=cpu,kernel=k6,placement=cpu,type=aa,update=atomic",k6,cpu,16,atomic,,8348,0.0,all,8348,1.0,226,229,383
+"spe/footprint-mib=16,issuer=cpu,kernel=k6,placement=cpu,type=aa,update=atomic",k6,cpu,16,atomic,,8348,0.0,input LOAD L1 hit,8348,1.0,226,229,383
+"spe/footprint-mib=16,issuer=cpu,kernel=k6,placement=cpu,type=aa,update=plain",k6,cpu,16,plain,,32796,0.0,all,32796,1.0,17,22,27
+"spe/footprint-mib=16,issuer=cpu,kernel=k6,placement=cpu,type=aa,update=plain",k6,cpu,16,plain,,32796,0.0,input LOAD L1 hit,16444,0.5014026100743993,19,23,28
+"spe/footprint-mib=16,issuer=cpu,kernel=k6,placement=cpu,type=aa,update=plain",k6,cpu,16,plain,,32796,0.0,input STORE N/A,16343,0.4983229662153921,15,19,22
+"spe/footprint-mib=16,issuer=cpu,kernel=k6,placement=cpu,type=aa,update=plain",k6,cpu,16,plain,,32796,0.0,input LOAD L1 miss,9,0.00027442371020856203,25,195,195
+"spe/footprint-mib=16,issuer=cpu,kernel=k6,placement=cpu,type=aa,update=returned",k6,cpu,16,returned,,4432,0.0,all,4432,1.0,177,361,4095
+"spe/footprint-mib=16,issuer=cpu,kernel=k6,placement=cpu,type=aa,update=returned",k6,cpu,16,returned,,4432,0.0,input LOAD L1 hit,4432,1.0,177,361,4095
+"spe/footprint-mib=16,issuer=cpu,kernel=k6,placement=cpu,type=aa,update=stadd",k6,cpu,16,stadd,,8479,0.0,all,8479,1.0,109,225,372
+"spe/footprint-mib=16,issuer=cpu,kernel=k6,placement=cpu,type=aa,update=stadd",k6,cpu,16,stadd,,8479,0.0,input STORE N/A,8479,1.0,109,225,372
+"spe/footprint-mib=16,issuer=cpu,kernel=k6,placement=hbm,type=aa,update=atomic",k6,hbm,16,atomic,,8273,0.0,all,8273,1.0,226,228,374
+"spe/footprint-mib=16,issuer=cpu,kernel=k6,placement=hbm,type=aa,update=atomic",k6,hbm,16,atomic,,8273,0.0,input LOAD L1 hit,8273,1.0,226,228,374
+"spe/footprint-mib=16,issuer=cpu,kernel=k6,placement=hbm,type=aa,update=plain",k6,hbm,16,plain,,32454,0.0,all,32454,1.0,17,21,25
+"spe/footprint-mib=16,issuer=cpu,kernel=k6,placement=hbm,type=aa,update=plain",k6,hbm,16,plain,,32454,0.0,input STORE N/A,16362,0.5041597337770383,15,18,21
+"spe/footprint-mib=16,issuer=cpu,kernel=k6,placement=hbm,type=aa,update=plain",k6,hbm,16,plain,,32454,0.0,input LOAD L1 hit,16081,0.4955013249522401,19,22,27
+"spe/footprint-mib=16,issuer=cpu,kernel=k6,placement=hbm,type=aa,update=plain",k6,hbm,16,plain,,32454,0.0,input LOAD L1 miss,11,0.0003389412707216368,26,31,33
+"spe/footprint-mib=16,issuer=cpu,kernel=k6,placement=hbm,type=aa,update=returned",k6,hbm,16,returned,,4376,0.0,all,4376,1.0,177,421,4095
+"spe/footprint-mib=16,issuer=cpu,kernel=k6,placement=hbm,type=aa,update=returned",k6,hbm,16,returned,,4376,0.0,input LOAD L1 hit,4376,1.0,177,421,4095
+"spe/footprint-mib=16,issuer=cpu,kernel=k6,placement=hbm,type=aa,update=stadd",k6,hbm,16,stadd,,8359,0.0,all,8359,1.0,110,227,374
+"spe/footprint-mib=16,issuer=cpu,kernel=k6,placement=hbm,type=aa,update=stadd",k6,hbm,16,stadd,,8359,0.0,input STORE N/A,8359,1.0,110,227,374
+"spe/footprint-mib=256,issuer=cpu,kernel=k6,placement=cpu,type=aa,update=atomic",k6,cpu,256,atomic,,8344,0.0,all,8344,1.0,226,344,924
+"spe/footprint-mib=256,issuer=cpu,kernel=k6,placement=cpu,type=aa,update=atomic",k6,cpu,256,atomic,,8344,0.0,input LOAD L1 hit,8344,1.0,226,344,924
+"spe/footprint-mib=256,issuer=cpu,kernel=k6,placement=cpu,type=aa,update=plain",k6,cpu,256,plain,,32535,0.0,all,32535,1.0,17,21,27
+"spe/footprint-mib=256,issuer=cpu,kernel=k6,placement=cpu,type=aa,update=plain",k6,cpu,256,plain,,32535,0.0,input STORE N/A,16386,0.5036422314430613,15,18,21
+"spe/footprint-mib=256,issuer=cpu,kernel=k6,placement=cpu,type=aa,update=plain",k6,cpu,256,plain,,32535,0.0,input LOAD L1 hit,16148,0.49632703242661746,18,22,47
+"spe/footprint-mib=256,issuer=cpu,kernel=k6,placement=cpu,type=aa,update=plain",k6,cpu,256,plain,,32535,0.0,input LOAD L1 miss,1,3.073613032119256e-05,29,29,29
+"spe/footprint-mib=256,issuer=cpu,kernel=k6,placement=cpu,type=aa,update=returned",k6,cpu,256,returned,,4265,0.0,all,4265,1.0,177,1490,4095
+"spe/footprint-mib=256,issuer=cpu,kernel=k6,placement=cpu,type=aa,update=returned",k6,cpu,256,returned,,4265,0.0,input LOAD L1 hit,4265,1.0,177,1490,4095
+"spe/footprint-mib=256,issuer=cpu,kernel=k6,placement=cpu,type=aa,update=stadd",k6,cpu,256,stadd,,8474,0.0,all,8474,1.0,120,262,566
+"spe/footprint-mib=256,issuer=cpu,kernel=k6,placement=cpu,type=aa,update=stadd",k6,cpu,256,stadd,,8474,0.0,input STORE N/A,8474,1.0,120,262,566
+"spe/footprint-mib=256,issuer=cpu,kernel=k6,placement=hbm,type=aa,update=atomic",k6,hbm,256,atomic,,8370,0.0,all,8370,1.0,226,744,2040
+"spe/footprint-mib=256,issuer=cpu,kernel=k6,placement=hbm,type=aa,update=atomic",k6,hbm,256,atomic,,8370,0.0,input LOAD L1 hit,8370,1.0,226,744,2040
+"spe/footprint-mib=256,issuer=cpu,kernel=k6,placement=hbm,type=aa,update=plain",k6,hbm,256,plain,,32556,0.0,all,32556,1.0,17,22,171
+"spe/footprint-mib=256,issuer=cpu,kernel=k6,placement=hbm,type=aa,update=plain",k6,hbm,256,plain,,32556,0.0,input LOAD L1 hit,16280,0.5000614326084285,19,25,305
+"spe/footprint-mib=256,issuer=cpu,kernel=k6,placement=hbm,type=aa,update=plain",k6,hbm,256,plain,,32556,0.0,input STORE N/A,16276,0.49993856739157144,15,19,22
+"spe/footprint-mib=256,issuer=cpu,kernel=k6,placement=hbm,type=aa,update=returned",k6,hbm,256,returned,,4398,0.0,all,4398,1.0,177,1790,4095
+"spe/footprint-mib=256,issuer=cpu,kernel=k6,placement=hbm,type=aa,update=returned",k6,hbm,256,returned,,4398,0.0,input LOAD L1 hit,4398,1.0,177,1790,4095
+"spe/footprint-mib=256,issuer=cpu,kernel=k6,placement=hbm,type=aa,update=stadd",k6,hbm,256,stadd,,8309,0.0,all,8309,1.0,124,334,1571
+"spe/footprint-mib=256,issuer=cpu,kernel=k6,placement=hbm,type=aa,update=stadd",k6,hbm,256,stadd,,8309,0.0,input STORE N/A,8309,1.0,124,334,1571
+"spe/footprint-mib=512,host=reads,kernel=k5,placement=cpu,sharing=shared,sweeps=8,tiling=tiles,type=aa",k5,cpu,512,,reads,1744,0.0,all,1744,1.0,12,110,227
+"spe/footprint-mib=512,host=reads,kernel=k5,placement=cpu,sharing=shared,sweeps=8,tiling=tiles,type=aa",k5,cpu,512,,reads,1744,0.0,output LOAD L1 hit,1744,1.0,12,110,227
+"spe/footprint-mib=512,host=reads,kernel=k5,placement=hbm,sharing=shared,sweeps=8,tiling=tiles,type=aa",k5,hbm,512,,reads,25169,0.0,all,25169,1.0,57,591,1070
+"spe/footprint-mib=512,host=reads,kernel=k5,placement=hbm,sharing=shared,sweeps=8,tiling=tiles,type=aa",k5,hbm,512,,reads,25169,0.0,output LOAD L1 hit,25167,0.9999205371687393,57,591,1070
+"spe/footprint-mib=512,host=reads,kernel=k5,placement=hbm,sharing=shared,sweeps=8,tiling=tiles,type=aa",k5,hbm,512,,reads,25169,0.0,output LOAD L1 miss,2,7.946283126067782e-05,290,290,290

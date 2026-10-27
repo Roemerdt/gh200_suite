@@ -1,0 +1,141 @@
+cell,kernel,placement,footprint_mib,update,host,samples,tlb_miss_share,source,count,share,p50_cycles,p90_cycles,p99_cycles
+"spe/footprint-mib=0.0625,issuer=cpu,kernel=k6,placement=cpu,type=aa,update=atomic",k6,cpu,0.0625,atomic,,151334,0.0,all,151334,1.0,8,217,228
+"spe/footprint-mib=0.0625,issuer=cpu,kernel=k6,placement=cpu,type=aa,update=atomic",k6,cpu,0.0625,atomic,,151334,0.0,LOAD L1 hit,151334,1.0,8,217,228
+"spe/footprint-mib=0.0625,issuer=cpu,kernel=k6,placement=cpu,type=aa,update=plain",k6,cpu,0.0625,plain,,292342,3.420651155153895e-06,all,292342,1.0,14,18,21
+"spe/footprint-mib=0.0625,issuer=cpu,kernel=k6,placement=cpu,type=aa,update=plain",k6,cpu,0.0625,plain,,292342,3.420651155153895e-06,LOAD L1 hit,259742,0.888486772341983,14,18,21
+"spe/footprint-mib=0.0625,issuer=cpu,kernel=k6,placement=cpu,type=aa,update=plain",k6,cpu,0.0625,plain,,292342,3.420651155153895e-06,STORE N/A,32600,0.11151322765801698,14,17,19
+"spe/footprint-mib=0.0625,issuer=cpu,kernel=k6,placement=cpu,type=aa,update=returned",k6,cpu,0.0625,returned,,39240,0.0,all,39240,1.0,8,168,4095
+"spe/footprint-mib=0.0625,issuer=cpu,kernel=k6,placement=cpu,type=aa,update=returned",k6,cpu,0.0625,returned,,39240,0.0,LOAD L1 hit,35695,0.9096585117227319,8,174,4095
+"spe/footprint-mib=0.0625,issuer=cpu,kernel=k6,placement=cpu,type=aa,update=returned",k6,cpu,0.0625,returned,,39240,0.0,STORE N/A,3513,0.08952599388379205,9,10,12
+"spe/footprint-mib=0.0625,issuer=cpu,kernel=k6,placement=cpu,type=aa,update=returned",k6,cpu,0.0625,returned,,39240,0.0,LOAD L3 miss,32,0.0008154943934760449,166,2410,4095
+"spe/footprint-mib=0.0625,issuer=cpu,kernel=k6,placement=cpu,type=aa,update=stadd",k6,cpu,0.0625,stadd,,151352,0.0,all,151352,1.0,46,162,273
+"spe/footprint-mib=0.0625,issuer=cpu,kernel=k6,placement=cpu,type=aa,update=stadd",k6,cpu,0.0625,stadd,,151352,0.0,LOAD L1 hit,134622,0.8894629737301126,40,150,258
+"spe/footprint-mib=0.0625,issuer=cpu,kernel=k6,placement=cpu,type=aa,update=stadd",k6,cpu,0.0625,stadd,,151352,0.0,STORE N/A,16730,0.11053702626988741,104,216,358
+"spe/footprint-mib=0.0625,issuer=cpu,kernel=k6,placement=hbm,type=aa,update=atomic",k6,hbm,0.0625,atomic,,151812,0.0,all,151812,1.0,8,217,228
+"spe/footprint-mib=0.0625,issuer=cpu,kernel=k6,placement=hbm,type=aa,update=atomic",k6,hbm,0.0625,atomic,,151812,0.0,LOAD L1 hit,151812,1.0,8,217,228
+"spe/footprint-mib=0.0625,issuer=cpu,kernel=k6,placement=hbm,type=aa,update=plain",k6,hbm,0.0625,plain,,292902,0.0,all,292902,1.0,14,18,22
+"spe/footprint-mib=0.0625,issuer=cpu,kernel=k6,placement=hbm,type=aa,update=plain",k6,hbm,0.0625,plain,,292902,0.0,LOAD L1 hit,260418,0.889096011635291,14,18,22
+"spe/footprint-mib=0.0625,issuer=cpu,kernel=k6,placement=hbm,type=aa,update=plain",k6,hbm,0.0625,plain,,292902,0.0,STORE N/A,32484,0.11090398836470902,14,17,20
+"spe/footprint-mib=0.0625,issuer=cpu,kernel=k6,placement=hbm,type=aa,update=returned",k6,hbm,0.0625,returned,,39377,0.0,all,39377,1.0,8,169,3351
+"spe/footprint-mib=0.0625,issuer=cpu,kernel=k6,placement=hbm,type=aa,update=returned",k6,hbm,0.0625,returned,,39377,0.0,LOAD L1 hit,35865,0.9108108794473931,8,174,4095
+"spe/footprint-mib=0.0625,issuer=cpu,kernel=k6,placement=hbm,type=aa,update=returned",k6,hbm,0.0625,returned,,39377,0.0,STORE N/A,3491,0.08865581430784468,9,10,11
+"spe/footprint-mib=0.0625,issuer=cpu,kernel=k6,placement=hbm,type=aa,update=returned",k6,hbm,0.0625,returned,,39377,0.0,LOAD L3 miss,21,0.0005333062447621708,168,4095,4095
+"spe/footprint-mib=0.0625,issuer=cpu,kernel=k6,placement=hbm,type=aa,update=stadd",k6,hbm,0.0625,stadd,,151012,0.0,all,151012,1.0,45,166,288
+"spe/footprint-mib=0.0625,issuer=cpu,kernel=k6,placement=hbm,type=aa,update=stadd",k6,hbm,0.0625,stadd,,151012,0.0,LOAD L1 hit,134249,0.888995576510476,39,155,269
+"spe/footprint-mib=0.0625,issuer=cpu,kernel=k6,placement=hbm,type=aa,update=stadd",k6,hbm,0.0625,stadd,,151012,0.0,STORE N/A,16763,0.11100442348952401,102,223,358
+"spe/footprint-mib=1,issuer=cpu,kernel=k6,placement=cpu,type=aa,update=atomic",k6,cpu,1,atomic,,151980,0.0,all,151980,1.0,8,218,228
+"spe/footprint-mib=1,issuer=cpu,kernel=k6,placement=cpu,type=aa,update=atomic",k6,cpu,1,atomic,,151980,0.0,LOAD L1 hit,151977,0.9999802605606001,8,218,228
+"spe/footprint-mib=1,issuer=cpu,kernel=k6,placement=cpu,type=aa,update=atomic",k6,cpu,1,atomic,,151980,0.0,LOAD L1 miss,3,1.9739439399921042e-05,17,19,19
+"spe/footprint-mib=1,issuer=cpu,kernel=k6,placement=cpu,type=aa,update=plain",k6,cpu,1,plain,,328478,0.0,all,328478,1.0,15,19,23
+"spe/footprint-mib=1,issuer=cpu,kernel=k6,placement=cpu,type=aa,update=plain",k6,cpu,1,plain,,328478,0.0,LOAD L1 hit,292118,0.8893076553072048,15,19,23
+"spe/footprint-mib=1,issuer=cpu,kernel=k6,placement=cpu,type=aa,update=plain",k6,cpu,1,plain,,328478,0.0,STORE N/A,36343,0.11064059084626672,15,18,20
+"spe/footprint-mib=1,issuer=cpu,kernel=k6,placement=cpu,type=aa,update=plain",k6,cpu,1,plain,,328478,0.0,LOAD L1 miss,17,5.175384652853464e-05,23,29,31
+"spe/footprint-mib=1,issuer=cpu,kernel=k6,placement=cpu,type=aa,update=returned",k6,cpu,1,returned,,94962,0.0,all,94962,1.0,8,169,4095
+"spe/footprint-mib=1,issuer=cpu,kernel=k6,placement=cpu,type=aa,update=returned",k6,cpu,1,returned,,94962,0.0,LOAD L1 hit,86174,0.9074577199300773,8,174,4095
+"spe/footprint-mib=1,issuer=cpu,kernel=k6,placement=cpu,type=aa,update=returned",k6,cpu,1,returned,,94962,0.0,STORE N/A,8708,0.09169983782986879,9,10,11
+"spe/footprint-mib=1,issuer=cpu,kernel=k6,placement=cpu,type=aa,update=returned",k6,cpu,1,returned,,94962,0.0,LOAD L3 miss,76,0.0008003201280512205,167,4095,4095
+"spe/footprint-mib=1,issuer=cpu,kernel=k6,placement=cpu,type=aa,update=returned",k6,cpu,1,returned,,94962,0.0,LOAD L1 miss,4,4.2122112002695815e-05,13,26,26
+"spe/footprint-mib=1,issuer=cpu,kernel=k6,placement=cpu,type=aa,update=stadd",k6,cpu,1,stadd,,151868,0.0,all,151868,1.0,48,166,284
+"spe/footprint-mib=1,issuer=cpu,kernel=k6,placement=cpu,type=aa,update=stadd",k6,cpu,1,stadd,,151868,0.0,LOAD L1 hit,135208,0.8902994705928833,42,154,265
+"spe/footprint-mib=1,issuer=cpu,kernel=k6,placement=cpu,type=aa,update=stadd",k6,cpu,1,stadd,,151868,0.0,STORE N/A,16660,0.1097005294071167,109,226,373
+"spe/footprint-mib=1,issuer=cpu,kernel=k6,placement=hbm,type=aa,update=atomic",k6,hbm,1,atomic,,151854,0.0,all,151854,1.0,8,218,228
+"spe/footprint-mib=1,issuer=cpu,kernel=k6,placement=hbm,type=aa,update=atomic",k6,hbm,1,atomic,,151854,0.0,LOAD L1 hit,151854,1.0,8,218,228
+"spe/footprint-mib=1,issuer=cpu,kernel=k6,placement=hbm,type=aa,update=plain",k6,hbm,1,plain,,293490,3.4072711165627448e-06,all,293490,1.0,14,18,22
+"spe/footprint-mib=1,issuer=cpu,kernel=k6,placement=hbm,type=aa,update=plain",k6,hbm,1,plain,,293490,3.4072711165627448e-06,LOAD L1 hit,260762,0.8884868308971345,14,18,22
+"spe/footprint-mib=1,issuer=cpu,kernel=k6,placement=hbm,type=aa,update=plain",k6,hbm,1,plain,,293490,3.4072711165627448e-06,STORE N/A,32708,0.11144502368053426,14,17,20
+"spe/footprint-mib=1,issuer=cpu,kernel=k6,placement=hbm,type=aa,update=plain",k6,hbm,1,plain,,293490,3.4072711165627448e-06,LOAD L1 miss,20,6.81454223312549e-05,24,30,32
+"spe/footprint-mib=1,issuer=cpu,kernel=k6,placement=hbm,type=aa,update=returned",k6,hbm,1,returned,,39192,0.0,all,39192,1.0,8,169,4095
+"spe/footprint-mib=1,issuer=cpu,kernel=k6,placement=hbm,type=aa,update=returned",k6,hbm,1,returned,,39192,0.0,LOAD L1 hit,35487,0.9054654011022658,8,175,4095
+"spe/footprint-mib=1,issuer=cpu,kernel=k6,placement=hbm,type=aa,update=returned",k6,hbm,1,returned,,39192,0.0,STORE N/A,3678,0.09384568279240661,9,10,11
+"spe/footprint-mib=1,issuer=cpu,kernel=k6,placement=hbm,type=aa,update=returned",k6,hbm,1,returned,,39192,0.0,LOAD L3 miss,26,0.0006634006940191876,2026,4095,4095
+"spe/footprint-mib=1,issuer=cpu,kernel=k6,placement=hbm,type=aa,update=returned",k6,hbm,1,returned,,39192,0.0,LOAD L1 miss,1,2.5515411308430293e-05,13,13,13
+"spe/footprint-mib=1,issuer=cpu,kernel=k6,placement=hbm,type=aa,update=stadd",k6,hbm,1,stadd,,152215,0.0,all,152215,1.0,48,168,287
+"spe/footprint-mib=1,issuer=cpu,kernel=k6,placement=hbm,type=aa,update=stadd",k6,hbm,1,stadd,,152215,0.0,LOAD L1 hit,135223,0.8883684262392011,41,155,269
+"spe/footprint-mib=1,issuer=cpu,kernel=k6,placement=hbm,type=aa,update=stadd",k6,hbm,1,stadd,,152215,0.0,STORE N/A,16992,0.11163157376079887,108,226,367
+"spe/footprint-mib=1024,generator=uniform,host=reads,kernel=k4,placement=cpu,sharing=shared,type=aa",k4,cpu,1024,,reads,3808,0.0013130252100840337,all,3808,1.0,9,160,305
+"spe/footprint-mib=1024,generator=uniform,host=reads,kernel=k4,placement=cpu,sharing=shared,type=aa",k4,cpu,1024,,reads,3808,0.0013130252100840337,LOAD L1 hit,2328,0.6113445378151261,8,19,96
+"spe/footprint-mib=1024,generator=uniform,host=reads,kernel=k4,placement=cpu,sharing=shared,type=aa",k4,cpu,1024,,reads,3808,0.0013130252100840337,STORE N/A,997,0.2618172268907563,11,23,29
+"spe/footprint-mib=1024,generator=uniform,host=reads,kernel=k4,placement=cpu,sharing=shared,type=aa",k4,cpu,1024,,reads,3808,0.0013130252100840337,LOAD L3 miss,261,0.06853991596638656,246,324,620
+"spe/footprint-mib=1024,generator=uniform,host=reads,kernel=k4,placement=cpu,sharing=shared,type=aa",k4,cpu,1024,,reads,3808,0.0013130252100840337,LOAD L3 hit,204,0.05357142857142857,165,245,297
+"spe/footprint-mib=1024,generator=uniform,host=reads,kernel=k4,placement=cpu,sharing=shared,type=aa",k4,cpu,1024,,reads,3808,0.0013130252100840337,LOAD L1 miss,18,0.004726890756302521,37,99,104
+"spe/footprint-mib=1024,generator=uniform,host=reads,kernel=k4,placement=hbm,sharing=shared,type=aa",k4,hbm,1024,,reads,8776,0.0,all,8776,1.0,16,368,1040
+"spe/footprint-mib=1024,generator=uniform,host=reads,kernel=k4,placement=hbm,sharing=shared,type=aa",k4,hbm,1024,,reads,8776,0.0,LOAD L1 hit,7299,0.8317000911577028,14,449,1012
+"spe/footprint-mib=1024,generator=uniform,host=reads,kernel=k4,placement=hbm,sharing=shared,type=aa",k4,hbm,1024,,reads,8776,0.0,STORE N/A,983,0.11201002734731084,7,21,26
+"spe/footprint-mib=1024,generator=uniform,host=reads,kernel=k4,placement=hbm,sharing=shared,type=aa",k4,hbm,1024,,reads,8776,0.0,LOAD L3 miss,269,0.030651777575205104,240,1129,2126
+"spe/footprint-mib=1024,generator=uniform,host=reads,kernel=k4,placement=hbm,sharing=shared,type=aa",k4,hbm,1024,,reads,8776,0.0,LOAD L3 hit,215,0.02449863263445761,150,233,364
+"spe/footprint-mib=1024,generator=uniform,host=reads,kernel=k4,placement=hbm,sharing=shared,type=aa",k4,hbm,1024,,reads,8776,0.0,LOAD L1 miss,10,0.0011394712853236098,31,802,802
+"spe/footprint-mib=16,issuer=cpu,kernel=k6,placement=cpu,type=aa,update=atomic",k6,cpu,16,atomic,,151621,0.0,all,151621,1.0,8,218,229
+"spe/footprint-mib=16,issuer=cpu,kernel=k6,placement=cpu,type=aa,update=atomic",k6,cpu,16,atomic,,151621,0.0,LOAD L1 hit,151612,0.9999406414678705,8,218,229
+"spe/footprint-mib=16,issuer=cpu,kernel=k6,placement=cpu,type=aa,update=atomic",k6,cpu,16,atomic,,151621,0.0,LOAD L1 miss,6,3.9572354752969574e-05,17,30,30
+"spe/footprint-mib=16,issuer=cpu,kernel=k6,placement=cpu,type=aa,update=atomic",k6,cpu,16,atomic,,151621,0.0,STORE N/A,3,1.9786177376484787e-05,19,25,25
+"spe/footprint-mib=16,issuer=cpu,kernel=k6,placement=cpu,type=aa,update=plain",k6,cpu,16,plain,,295050,0.0,all,295050,1.0,15,19,24
+"spe/footprint-mib=16,issuer=cpu,kernel=k6,placement=cpu,type=aa,update=plain",k6,cpu,16,plain,,295050,0.0,LOAD L1 hit,262513,0.8897237756312489,15,20,24
+"spe/footprint-mib=16,issuer=cpu,kernel=k6,placement=cpu,type=aa,update=plain",k6,cpu,16,plain,,295050,0.0,STORE N/A,32537,0.11027622436875106,15,18,21
+"spe/footprint-mib=16,issuer=cpu,kernel=k6,placement=cpu,type=aa,update=returned",k6,cpu,16,returned,,95809,0.0,all,95809,1.0,8,172,4095
+"spe/footprint-mib=16,issuer=cpu,kernel=k6,placement=cpu,type=aa,update=returned",k6,cpu,16,returned,,95809,0.0,LOAD L1 hit,87136,0.909476145247315,8,175,4095
+"spe/footprint-mib=16,issuer=cpu,kernel=k6,placement=cpu,type=aa,update=returned",k6,cpu,16,returned,,95809,0.0,STORE N/A,8603,0.0897932344560532,9,10,12
+"spe/footprint-mib=16,issuer=cpu,kernel=k6,placement=cpu,type=aa,update=returned",k6,cpu,16,returned,,95809,0.0,LOAD L3 miss,67,0.0006993079982047616,166,4095,4095
+"spe/footprint-mib=16,issuer=cpu,kernel=k6,placement=cpu,type=aa,update=returned",k6,cpu,16,returned,,95809,0.0,LOAD L1 miss,3,3.1312298427078874e-05,22,29,29
+"spe/footprint-mib=16,issuer=cpu,kernel=k6,placement=cpu,type=aa,update=stadd",k6,cpu,16,stadd,,151991,0.0,all,151991,1.0,48,164,277
+"spe/footprint-mib=16,issuer=cpu,kernel=k6,placement=cpu,type=aa,update=stadd",k6,cpu,16,stadd,,151991,0.0,LOAD L1 hit,135007,0.8882565415057471,41,152,259
+"spe/footprint-mib=16,issuer=cpu,kernel=k6,placement=cpu,type=aa,update=stadd",k6,cpu,16,stadd,,151991,0.0,STORE N/A,16984,0.11174345849425295,107,224,350
+"spe/footprint-mib=16,issuer=cpu,kernel=k6,placement=hbm,type=aa,update=atomic",k6,hbm,16,atomic,,151881,0.0,all,151881,1.0,8,218,229
+"spe/footprint-mib=16,issuer=cpu,kernel=k6,placement=hbm,type=aa,update=atomic",k6,hbm,16,atomic,,151881,0.0,LOAD L1 hit,151873,0.999947327183782,8,218,229
+"spe/footprint-mib=16,issuer=cpu,kernel=k6,placement=hbm,type=aa,update=atomic",k6,hbm,16,atomic,,151881,0.0,STORE N/A,5,3.292051013622507e-05,24,25,25
+"spe/footprint-mib=16,issuer=cpu,kernel=k6,placement=hbm,type=aa,update=atomic",k6,hbm,16,atomic,,151881,0.0,LOAD L1 miss,2,1.3168204054490029e-05,17,17,17
+"spe/footprint-mib=16,issuer=cpu,kernel=k6,placement=hbm,type=aa,update=atomic",k6,hbm,16,atomic,,151881,0.0,LOAD L3 hit,1,6.5841020272450145e-06,156,156,156
+"spe/footprint-mib=16,issuer=cpu,kernel=k6,placement=hbm,type=aa,update=plain",k6,hbm,16,plain,,295332,0.0,all,295332,1.0,15,20,24
+"spe/footprint-mib=16,issuer=cpu,kernel=k6,placement=hbm,type=aa,update=plain",k6,hbm,16,plain,,295332,0.0,LOAD L1 hit,262148,0.887638318908889,15,20,24
+"spe/footprint-mib=16,issuer=cpu,kernel=k6,placement=hbm,type=aa,update=plain",k6,hbm,16,plain,,295332,0.0,STORE N/A,33183,0.11235829507130958,15,18,21
+"spe/footprint-mib=16,issuer=cpu,kernel=k6,placement=hbm,type=aa,update=plain",k6,hbm,16,plain,,295332,0.0,LOAD L1 miss,1,3.3860198014437987e-06,30,30,30
+"spe/footprint-mib=16,issuer=cpu,kernel=k6,placement=hbm,type=aa,update=returned",k6,hbm,16,returned,,39380,0.0,all,39380,1.0,8,174,2755
+"spe/footprint-mib=16,issuer=cpu,kernel=k6,placement=hbm,type=aa,update=returned",k6,hbm,16,returned,,39380,0.0,LOAD L1 hit,35734,0.9074149314372778,8,175,2988
+"spe/footprint-mib=16,issuer=cpu,kernel=k6,placement=hbm,type=aa,update=returned",k6,hbm,16,returned,,39380,0.0,STORE N/A,3621,0.09195022854240731,9,10,12
+"spe/footprint-mib=16,issuer=cpu,kernel=k6,placement=hbm,type=aa,update=returned",k6,hbm,16,returned,,39380,0.0,LOAD L3 miss,18,0.0004570848146267141,167,4095,4095
+"spe/footprint-mib=16,issuer=cpu,kernel=k6,placement=hbm,type=aa,update=returned",k6,hbm,16,returned,,39380,0.0,LOAD L1 miss,7,0.0001777552056881666,14,19,19
+"spe/footprint-mib=16,issuer=cpu,kernel=k6,placement=hbm,type=aa,update=stadd",k6,hbm,16,stadd,,151798,0.0,all,151798,1.0,47,166,286
+"spe/footprint-mib=16,issuer=cpu,kernel=k6,placement=hbm,type=aa,update=stadd",k6,hbm,16,stadd,,151798,0.0,LOAD L1 hit,134919,0.8888061766294681,41,155,268
+"spe/footprint-mib=16,issuer=cpu,kernel=k6,placement=hbm,type=aa,update=stadd",k6,hbm,16,stadd,,151798,0.0,STORE N/A,16878,0.11118723566845413,107,223,365
+"spe/footprint-mib=16,issuer=cpu,kernel=k6,placement=hbm,type=aa,update=stadd",k6,hbm,16,stadd,,151798,0.0,LOAD L1 miss,1,6.5877020777612356e-06,16,16,16
+"spe/footprint-mib=256,issuer=cpu,kernel=k6,placement=cpu,type=aa,update=atomic",k6,cpu,256,atomic,,155744,0.0,all,155744,1.0,8,217,500
+"spe/footprint-mib=256,issuer=cpu,kernel=k6,placement=cpu,type=aa,update=atomic",k6,cpu,256,atomic,,155744,0.0,LOAD L1 hit,155528,0.9986131086911856,8,217,501
+"spe/footprint-mib=256,issuer=cpu,kernel=k6,placement=cpu,type=aa,update=atomic",k6,cpu,256,atomic,,155744,0.0,STORE N/A,215,0.0013804705157181014,20,23,29
+"spe/footprint-mib=256,issuer=cpu,kernel=k6,placement=cpu,type=aa,update=atomic",k6,cpu,256,atomic,,155744,0.0,LOAD L1 miss,1,6.420793096363263e-06,373,373,373
+"spe/footprint-mib=256,issuer=cpu,kernel=k6,placement=cpu,type=aa,update=plain",k6,cpu,256,plain,,298858,0.0,all,298858,1.0,15,19,25
+"spe/footprint-mib=256,issuer=cpu,kernel=k6,placement=cpu,type=aa,update=plain",k6,cpu,256,plain,,298858,0.0,LOAD L1 hit,265868,0.8896131273046062,15,20,25
+"spe/footprint-mib=256,issuer=cpu,kernel=k6,placement=cpu,type=aa,update=plain",k6,cpu,256,plain,,298858,0.0,STORE N/A,32988,0.11038018055397547,15,18,21
+"spe/footprint-mib=256,issuer=cpu,kernel=k6,placement=cpu,type=aa,update=plain",k6,cpu,256,plain,,298858,0.0,LOAD L1 miss,2,6.692141418332452e-06,32,32,32
+"spe/footprint-mib=256,issuer=cpu,kernel=k6,placement=cpu,type=aa,update=returned",k6,cpu,256,returned,,99787,0.0,all,99787,1.0,8,174,4095
+"spe/footprint-mib=256,issuer=cpu,kernel=k6,placement=cpu,type=aa,update=returned",k6,cpu,256,returned,,99787,0.0,LOAD L1 hit,90749,0.9094270796797178,8,175,4095
+"spe/footprint-mib=256,issuer=cpu,kernel=k6,placement=cpu,type=aa,update=returned",k6,cpu,256,returned,,99787,0.0,STORE N/A,8947,0.08966097788289056,9,11,21
+"spe/footprint-mib=256,issuer=cpu,kernel=k6,placement=cpu,type=aa,update=returned",k6,cpu,256,returned,,99787,0.0,LOAD L3 miss,87,0.0008718570555282752,281,4095,4095
+"spe/footprint-mib=256,issuer=cpu,kernel=k6,placement=cpu,type=aa,update=returned",k6,cpu,256,returned,,99787,0.0,LOAD L1 miss,4,4.0085381863368976e-05,20,27,27
+"spe/footprint-mib=256,issuer=cpu,kernel=k6,placement=cpu,type=aa,update=stadd",k6,cpu,256,stadd,,155849,0.0,all,155849,1.0,50,185,366
+"spe/footprint-mib=256,issuer=cpu,kernel=k6,placement=cpu,type=aa,update=stadd",k6,cpu,256,stadd,,155849,0.0,LOAD L1 hit,138722,0.89010516589776,43,173,336
+"spe/footprint-mib=256,issuer=cpu,kernel=k6,placement=cpu,type=aa,update=stadd",k6,cpu,256,stadd,,155849,0.0,STORE N/A,17127,0.10989483410223999,115,255,511
+"spe/footprint-mib=256,issuer=cpu,kernel=k6,placement=hbm,type=aa,update=atomic",k6,hbm,256,atomic,,116291,0.0,all,116291,1.0,8,218,1237
+"spe/footprint-mib=256,issuer=cpu,kernel=k6,placement=hbm,type=aa,update=atomic",k6,hbm,256,atomic,,116291,0.0,LOAD L1 hit,116064,0.9980480002751718,8,218,1239
+"spe/footprint-mib=256,issuer=cpu,kernel=k6,placement=hbm,type=aa,update=atomic",k6,hbm,256,atomic,,116291,0.0,STORE N/A,222,0.0019090041361756285,20,23,26
+"spe/footprint-mib=256,issuer=cpu,kernel=k6,placement=hbm,type=aa,update=atomic",k6,hbm,256,atomic,,116291,0.0,LOAD L1 miss,5,4.2995588652604245e-05,16,17,17
+"spe/footprint-mib=256,issuer=cpu,kernel=k6,placement=hbm,type=aa,update=plain",k6,hbm,256,plain,,299561,0.0,all,299561,1.0,15,20,60
+"spe/footprint-mib=256,issuer=cpu,kernel=k6,placement=hbm,type=aa,update=plain",k6,hbm,256,plain,,299561,0.0,LOAD L1 hit,266489,0.8895984457255784,15,20,83
+"spe/footprint-mib=256,issuer=cpu,kernel=k6,placement=hbm,type=aa,update=plain",k6,hbm,256,plain,,299561,0.0,STORE N/A,33072,0.11040155427442157,15,18,22
+"spe/footprint-mib=256,issuer=cpu,kernel=k6,placement=hbm,type=aa,update=returned",k6,hbm,256,returned,,99535,0.0,all,99535,1.0,8,175,4095
+"spe/footprint-mib=256,issuer=cpu,kernel=k6,placement=hbm,type=aa,update=returned",k6,hbm,256,returned,,99535,0.0,LOAD L1 hit,90426,0.9084844527050786,8,176,4095
+"spe/footprint-mib=256,issuer=cpu,kernel=k6,placement=hbm,type=aa,update=returned",k6,hbm,256,returned,,99535,0.0,STORE N/A,9013,0.09055106244034762,9,11,21
+"spe/footprint-mib=256,issuer=cpu,kernel=k6,placement=hbm,type=aa,update=returned",k6,hbm,256,returned,,99535,0.0,LOAD L3 miss,91,0.0009142512683980509,1695,4095,4095
+"spe/footprint-mib=256,issuer=cpu,kernel=k6,placement=hbm,type=aa,update=returned",k6,hbm,256,returned,,99535,0.0,LOAD L1 miss,5,5.023358617571708e-05,18,462,462
+"spe/footprint-mib=256,issuer=cpu,kernel=k6,placement=hbm,type=aa,update=stadd",k6,hbm,256,stadd,,154709,0.0,all,154709,1.0,53,227,1190
+"spe/footprint-mib=256,issuer=cpu,kernel=k6,placement=hbm,type=aa,update=stadd",k6,hbm,256,stadd,,154709,0.0,LOAD L1 hit,137840,0.8909630338247937,45,211,1125
+"spe/footprint-mib=256,issuer=cpu,kernel=k6,placement=hbm,type=aa,update=stadd",k6,hbm,256,stadd,,154709,0.0,STORE N/A,16868,0.1090305024271374,120,330,1550
+"spe/footprint-mib=256,issuer=cpu,kernel=k6,placement=hbm,type=aa,update=stadd",k6,hbm,256,stadd,,154709,0.0,LOAD L1 miss,1,6.463748068955264e-06,113,113,113
+"spe/footprint-mib=512,host=reads,kernel=k5,placement=cpu,sharing=shared,sweeps=8,tiling=tiles,type=aa",k5,cpu,512,,reads,32105,0.0,all,32105,1.0,9,16,306
+"spe/footprint-mib=512,host=reads,kernel=k5,placement=cpu,sharing=shared,sweeps=8,tiling=tiles,type=aa",k5,cpu,512,,reads,32105,0.0,LOAD L1 hit,26431,0.8232674038311789,9,16,343
+"spe/footprint-mib=512,host=reads,kernel=k5,placement=cpu,sharing=shared,sweeps=8,tiling=tiles,type=aa",k5,cpu,512,,reads,32105,0.0,STORE N/A,4648,0.1447749571717801,5,6,15
+"spe/footprint-mib=512,host=reads,kernel=k5,placement=cpu,sharing=shared,sweeps=8,tiling=tiles,type=aa",k5,cpu,512,,reads,32105,0.0,LOAD L1 miss,1026,0.03195763899704096,15,19,22
+"spe/footprint-mib=512,host=reads,kernel=k5,placement=hbm,sharing=shared,sweeps=8,tiling=tiles,type=aa",k5,hbm,512,,reads,83271,0.0,all,83271,1.0,12,429,1005
+"spe/footprint-mib=512,host=reads,kernel=k5,placement=hbm,sharing=shared,sweeps=8,tiling=tiles,type=aa",k5,hbm,512,,reads,83271,0.0,LOAD L1 hit,77589,0.9317649601902223,13,464,1018
+"spe/footprint-mib=512,host=reads,kernel=k5,placement=hbm,sharing=shared,sweeps=8,tiling=tiles,type=aa",k5,hbm,512,,reads,83271,0.0,STORE N/A,4621,0.05549350914484034,5,7,16
+"spe/footprint-mib=512,host=reads,kernel=k5,placement=hbm,sharing=shared,sweeps=8,tiling=tiles,type=aa",k5,hbm,512,,reads,83271,0.0,LOAD L1 miss,1059,0.012717512699499226,15,19,24
+"spe/footprint-mib=512,host=reads,kernel=k5,placement=hbm,sharing=shared,sweeps=8,tiling=tiles,type=aa",k5,hbm,512,,reads,83271,0.0,LOAD L3 miss,1,1.2008982719073867e-05,606,606,606
+"spe/footprint-mib=512,host=reads,kernel=k5,placement=hbm,sharing=shared,sweeps=8,tiling=tiles,type=aa",k5,hbm,512,,reads,83271,0.0,LOAD L3 hit,1,1.2008982719073867e-05,140,140,140

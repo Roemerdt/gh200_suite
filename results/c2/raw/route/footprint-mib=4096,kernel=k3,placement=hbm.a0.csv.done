@@ -1,0 +1,1 @@
+cell=route/footprint-mib=4096,kernel=k3,placement=hbm attempts=20 warmups=10 discards=0 nA=10 medA=5.12651e+06 loA=5.12462e+06 hiA=5.12954e+06 targetA=1 nB=10 medB=3.02765e+06 loB=3.02365e+06 hiB=3.03795e+06 targetB=1 nD=10 medD=2.09967e+06 loD=2.08849e+06 hiD=2.10276e+06 targetD=1 npos=10 nneg=0 sign_p=0.00195 cap_hit=0 stopped_on_target=1 paired=1 ahp_kb_end_A=0 ahp_kb_end_B=0

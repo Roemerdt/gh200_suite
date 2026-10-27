@@ -1,0 +1,1 @@
+transient rounds=15 levels=14 runs=10 checksum_failures=0 quiet_ms_max=150 cpus_allowed=72

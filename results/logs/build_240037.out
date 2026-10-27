@@ -1,0 +1,23 @@
+build on j21n14 2026-10-07T22:21:43+02:00
+rm -rf bin build_flags.txt
+nvcc -O2 -std=c++17 -arch=sm_90 -Isrc -Xcompiler -pthread -Xcompiler -march=armv9-a -lineinfo -DSUITE_SMMU_PMU=\"smmuv3_pmcg_16002\"  -o bin/shakedown src/tools/shakedown.cu -ldl
+nvcc -O2 -std=c++17 -arch=sm_90 -Isrc -Xcompiler -pthread -Xcompiler -march=armv9-a -lineinfo -DSUITE_SMMU_PMU=\"smmuv3_pmcg_16002\"  -Isrc/route -o bin/route src/route/copy.cu src/route/gpu_read.cu src/route/kernels.cu src/route/route.cu src/route/kernels/k1_stream.cu src/route/kernels/k3_gather.cu src/route/kernels/k3p_page_sparse.cu -ldl
+NVCC BUILD OK
+nvc++ -cuda -gpu=cc90 -O2 -std=c++17 -Isrc -tp=neoverse-v2 --diag_suppress=cuda_compile -DSUITE_SMMU_PMU=\"smmuv3_pmcg_16002\"  -o bin/shakedown_nvcpp src/tools/shakedown.cu -ldl
+NVCPP BUILD rc=0
+total 2732
+drwx------ 2 rblom rblom      75 Oct  7 22:22 .
+drwxr-xr-x 7 rblom rblom    4096 Oct  7 22:21 ..
+-rwx------ 1 rblom rblom 1702272 Oct  7 22:22 route
+-rwx------ 1 rblom rblom  981328 Oct  7 22:21 shakedown
+-rwx------ 1 rblom rblom  104424 Oct  7 22:22 shakedown_nvcpp
+NVCC=nvcc
+NVCCFLAGS=-O2 -std=c++17 -arch=sm_90 -Isrc -Xcompiler -pthread -Xcompiler -march=armv9-a -lineinfo -DSUITE_SMMU_PMU="smmuv3_pmcg_16002" 
+NVCPP=nvc++
+NVCPPFLAGS=-cuda -gpu=cc90 -O2 -std=c++17 -Isrc -tp=neoverse-v2 --diag_suppress=cuda_compile -DSUITE_SMMU_PMU="smmuv3_pmcg_16002" 
+Cuda compilation tools, release 13.0, V13.0.48
+Build cuda_13.0.r13.0/compiler.36260728_0
+
+nvc++ 25.9-0 linuxarm64 target on aarch64 Linux -tp neoverse-v2 
+gcc (Debian 12.2.0-14+deb12u1) 12.2.0
+BUILD DONE

@@ -1,0 +1,233 @@
+spin on 1 blocks occupies 1 distinct SMs
+spin on 4224 blocks occupies 132 distinct SMs
+spin: 0.5056 ms per 1e6 cycles; reader: 1.738 ms per pass over 4 GiB of device memory (2472 GB/s)
+
+=== part 1: overlap of chunked H2D copies (stream C) with a kernel (stream K)
+memory,chunk_mib,kernel,order,run,Tc_alone_ms,host_issue_alone_ms,GBps_alone,Tk_alone_ms,k_start,k_end,c_start,c_end,span_ms,overlap_ms,hidden_over_Tc,host_issue_ms,minor_faults
+pageable,4,one_sm,kernel_first,0,19.389,19.387,222,19.384,0.010,19.386,0.015,19.491,19.481,19.371,1.00,19.474,0
+pageable,4,one_sm,kernel_first,1,19.371,19.369,222,19.356,0.003,19.360,0.008,19.410,19.407,19.353,1.00,19.401,128
+pageable,4,one_sm,kernel_first,2,19.388,19.387,222,19.373,0.001,19.373,0.006,19.449,19.448,19.368,1.00,19.442,128
+pageable,4,one_sm,kernel_first,3,19.307,19.306,222,19.292,0.002,19.293,0.006,19.410,19.409,19.287,1.00,19.403,128
+pageable,4,one_sm,kernel_first,4,19.709,19.708,218,19.694,0.001,19.696,0.008,19.520,19.694,19.511,0.99,19.511,0
+pageable,4,one_sm,copy_first,0,19.464,19.463,221,19.452,19.392,38.840,0.004,19.391,38.836,0.000,0.00,19.386,0
+pageable,4,one_sm,copy_first,1,19.319,19.317,222,19.303,19.442,38.745,0.003,19.441,38.742,0.000,0.00,19.437,128
+pageable,4,one_sm,copy_first,2,19.350,19.349,222,19.335,19.356,38.690,0.003,19.354,38.686,0.000,0.00,19.350,128
+pageable,4,one_sm,copy_first,3,19.352,19.351,222,19.337,19.730,39.067,0.004,19.729,39.063,0.000,0.00,19.724,0
+pageable,4,one_sm,copy_first,4,19.454,19.453,221,19.438,19.598,39.036,0.003,19.597,39.033,0.000,0.00,19.593,128
+pageable,4,all_sms,kernel_first,0,19.392,19.391,221,19.411,0.002,19.412,0.007,19.366,19.410,19.359,1.00,19.357,128
+pageable,4,all_sms,kernel_first,1,19.401,19.399,221,19.419,0.001,19.417,0.006,19.374,19.416,19.367,1.00,19.366,128
+pageable,4,all_sms,kernel_first,2,19.343,19.342,222,19.361,0.001,19.363,0.006,19.371,19.369,19.357,1.00,19.363,0
+pageable,4,all_sms,kernel_first,3,19.629,19.628,219,19.646,0.002,19.650,0.007,19.418,19.648,19.411,0.99,19.410,0
+pageable,4,all_sms,kernel_first,4,19.492,19.491,220,19.509,0.002,19.512,0.007,19.455,19.510,19.448,1.00,19.447,128
+pageable,4,all_sms,copy_first,0,19.325,19.324,222,19.344,19.445,38.788,0.003,19.444,38.785,0.000,0.00,19.440,128
+pageable,4,all_sms,copy_first,1,19.418,19.417,221,19.437,19.399,38.834,0.004,19.397,38.830,0.000,0.00,19.392,128
+pageable,4,all_sms,copy_first,2,19.345,19.343,222,19.363,19.630,38.991,0.003,19.629,38.988,0.000,0.00,19.625,128
+pageable,4,all_sms,copy_first,3,19.398,19.397,221,19.415,19.626,39.042,0.004,19.625,39.038,0.000,0.00,19.620,128
+pageable,4,all_sms,copy_first,4,19.388,19.388,222,19.404,19.345,38.749,0.003,19.344,38.746,0.000,0.00,19.340,0
+pageable,4,reader,kernel_first,0,19.423,19.422,221,19.161,0.001,20.759,0.006,19.771,20.757,19.765,1.02,19.763,256
+pageable,4,reader,kernel_first,1,19.320,19.319,222,19.137,0.001,20.762,0.008,19.647,20.761,19.639,1.02,19.638,0
+pageable,4,reader,kernel_first,2,19.606,19.605,219,19.151,0.002,20.778,0.006,19.696,20.777,19.690,1.00,19.690,128
+pageable,4,reader,kernel_first,3,19.459,19.458,221,19.128,0.002,20.795,0.006,19.602,20.792,19.597,1.01,19.595,128
+pageable,4,reader,kernel_first,4,19.334,19.333,222,19.125,0.001,20.807,0.007,19.709,20.806,19.702,1.02,19.701,0
+pageable,4,reader,copy_first,0,19.373,19.372,222,19.139,19.343,38.504,0.004,19.342,38.500,0.000,0.00,19.338,0
+pageable,4,reader,copy_first,1,19.389,19.388,222,19.135,19.672,38.760,0.004,19.671,38.756,0.000,0.00,19.666,128
+pageable,4,reader,copy_first,2,19.426,19.426,221,19.123,19.485,38.608,0.004,19.484,38.604,0.000,0.00,19.480,0
+pageable,4,reader,copy_first,3,19.548,19.547,220,19.128,19.394,38.506,0.004,19.393,38.503,0.000,0.00,19.388,128
+pageable,4,reader,copy_first,4,19.429,19.428,221,19.148,19.387,38.509,0.003,19.386,38.506,0.000,0.00,19.382,128
+pageable,64,one_sm,kernel_first,0,11.132,11.130,386,11.124,0.001,11.126,0.006,11.131,11.130,11.120,1.00,11.124,0
+pageable,64,one_sm,kernel_first,1,11.123,11.122,386,11.116,0.002,11.120,0.007,11.131,11.129,11.112,1.00,11.123,0
+pageable,64,one_sm,kernel_first,2,11.125,11.124,386,11.118,0.001,11.120,0.005,11.132,11.130,11.115,1.00,11.126,0
+pageable,64,one_sm,kernel_first,3,11.120,11.119,386,11.112,0.002,11.115,0.005,11.475,11.473,11.110,1.00,11.468,2048
+pageable,64,one_sm,kernel_first,4,11.127,11.126,386,11.119,0.003,11.124,0.007,11.134,11.131,11.117,1.00,11.126,0
+pageable,64,one_sm,copy_first,0,11.123,11.122,386,11.115,11.294,22.410,0.003,11.293,22.407,0.000,0.00,11.290,2048
+pageable,64,one_sm,copy_first,1,11.124,11.123,386,11.117,11.301,22.417,0.005,11.300,22.412,0.000,0.00,11.294,2048
+pageable,64,one_sm,copy_first,2,11.299,11.298,380,11.292,11.294,22.585,0.002,11.293,22.583,0.000,0.00,11.290,2048
+pageable,64,one_sm,copy_first,3,11.120,11.119,386,11.111,11.286,22.398,0.003,11.285,22.395,0.000,0.00,11.281,2048
+pageable,64,one_sm,copy_first,4,11.279,11.278,381,11.272,11.291,22.562,0.003,11.290,22.559,0.000,0.00,11.286,2048
+pageable,64,all_sms,kernel_first,0,11.288,11.287,380,11.313,0.001,11.316,0.006,11.286,11.314,11.280,1.00,11.278,2048
+pageable,64,all_sms,kernel_first,1,11.123,11.122,386,11.148,0.002,11.151,0.007,11.131,11.149,11.124,1.00,11.123,0
+pageable,64,all_sms,kernel_first,2,11.288,11.286,381,11.314,0.002,11.314,0.006,11.285,11.312,11.279,1.00,11.278,2048
+pageable,64,all_sms,kernel_first,3,11.122,11.121,386,11.148,0.002,11.149,0.007,11.129,11.147,11.123,1.00,11.122,0
+pageable,64,all_sms,kernel_first,4,11.120,11.119,386,11.143,0.001,11.148,0.005,11.294,11.293,11.143,1.00,11.288,2048
+pageable,64,all_sms,copy_first,0,11.121,11.120,386,11.146,11.128,22.274,0.003,11.127,22.271,0.000,0.00,11.123,0
+pageable,64,all_sms,copy_first,1,11.123,11.122,386,11.149,11.127,22.275,0.003,11.126,22.272,0.000,0.00,11.123,0
+pageable,64,all_sms,copy_first,2,11.283,11.282,381,11.308,11.127,22.435,0.003,11.126,22.432,0.000,0.00,11.123,0
+pageable,64,all_sms,copy_first,3,11.288,11.287,380,11.314,11.123,22.435,0.004,11.122,22.431,0.000,0.00,11.117,0
+pageable,64,all_sms,copy_first,4,11.287,11.286,381,11.313,11.281,22.593,0.002,11.280,22.590,0.000,0.00,11.277,2048
+pageable,64,reader,kernel_first,0,11.290,11.289,380,10.416,0.001,11.969,0.006,11.146,11.968,11.139,0.99,11.138,0
+pageable,64,reader,kernel_first,1,11.284,11.283,381,10.405,0.001,11.957,0.008,11.302,11.955,11.294,1.00,11.293,2048
+pageable,64,reader,kernel_first,2,11.278,11.277,381,10.412,0.002,11.956,0.005,11.301,11.954,11.296,1.00,11.296,2048
+pageable,64,reader,kernel_first,3,11.277,11.276,381,10.405,0.001,11.968,0.007,11.153,11.967,11.146,0.99,11.146,0
+pageable,64,reader,kernel_first,4,11.281,11.280,381,10.412,0.002,11.947,0.006,11.143,11.945,11.137,0.99,11.136,0
+pageable,64,reader,copy_first,0,11.126,11.125,386,10.426,11.294,21.713,0.003,11.293,21.710,0.000,0.00,11.289,2048
+pageable,64,reader,copy_first,1,11.122,11.121,386,10.426,11.133,21.551,0.004,11.132,21.546,0.000,0.00,11.128,0
+pageable,64,reader,copy_first,2,11.130,11.129,386,10.420,11.285,21.712,0.003,11.284,21.708,0.000,0.00,11.280,2048
+pageable,64,reader,copy_first,3,11.124,11.123,386,10.414,11.288,21.703,0.003,11.287,21.700,0.000,0.00,11.284,2048
+pageable,64,reader,copy_first,4,11.279,11.278,381,10.420,11.453,21.876,0.002,11.452,21.874,0.000,0.00,11.449,4096
+pageable,4096,one_sm,kernel_first,0,10.554,10.553,407,10.550,0.002,10.551,0.007,10.560,10.557,10.544,1.00,10.551,0
+pageable,4096,one_sm,kernel_first,1,10.550,10.550,407,10.543,0.001,10.546,0.005,20.580,20.578,10.541,1.00,20.574,131072
+pageable,4096,one_sm,kernel_first,2,10.554,10.552,407,10.548,0.002,10.549,0.006,10.558,10.556,10.544,1.00,10.551,0
+pageable,4096,one_sm,kernel_first,3,10.553,10.552,407,10.545,0.002,10.549,0.007,20.672,20.670,10.542,1.00,20.664,131072
+pageable,4096,one_sm,kernel_first,4,10.553,10.551,407,10.546,0.002,10.549,0.006,10.559,10.557,10.543,1.00,10.552,0
+pageable,4096,one_sm,copy_first,0,10.553,10.552,407,10.546,10.556,21.102,0.003,10.555,21.099,0.000,0.00,10.551,0
+pageable,4096,one_sm,copy_first,1,10.553,10.552,407,10.546,10.557,21.103,0.004,10.556,21.098,0.000,0.00,10.551,0
+pageable,4096,one_sm,copy_first,2,10.553,10.551,407,10.545,20.694,31.239,0.004,20.692,31.236,0.000,0.00,20.687,131072
+pageable,4096,one_sm,copy_first,3,10.556,10.555,407,10.548,20.668,31.217,0.003,20.667,31.214,0.000,0.00,20.663,131072
+pageable,4096,one_sm,copy_first,4,10.555,10.554,407,10.548,20.193,30.742,0.003,20.192,30.739,0.000,0.00,20.187,131072
+pageable,4096,all_sms,kernel_first,0,10.554,10.554,407,10.579,0.002,10.583,0.006,10.558,10.581,10.552,1.00,10.551,0
+pageable,4096,all_sms,kernel_first,1,10.551,10.551,407,10.578,0.001,10.581,0.006,20.089,20.087,10.575,1.00,20.081,131072
+pageable,4096,all_sms,kernel_first,2,10.554,10.553,407,10.582,0.001,10.582,0.007,10.560,10.581,10.553,1.00,10.553,0
+pageable,4096,all_sms,kernel_first,3,10.553,10.552,407,10.579,0.001,10.581,0.006,20.084,20.082,10.574,1.00,20.075,131072
+pageable,4096,all_sms,kernel_first,4,10.555,10.554,407,10.583,0.002,10.582,0.006,10.558,10.580,10.552,1.00,10.550,0
+pageable,4096,all_sms,copy_first,0,10.551,10.551,407,10.578,10.557,21.135,0.003,10.556,21.132,0.000,0.00,10.552,0
+pageable,4096,all_sms,copy_first,1,10.553,10.551,407,10.578,20.062,30.641,0.003,20.061,30.638,0.000,0.00,20.056,131072
+pageable,4096,all_sms,copy_first,2,20.110,20.109,214,20.128,20.089,40.216,0.004,20.088,40.212,0.000,0.00,20.082,131072
+pageable,4096,all_sms,copy_first,3,10.553,10.552,407,10.580,20.072,30.652,0.003,20.071,30.650,0.000,0.00,20.067,131072
+pageable,4096,all_sms,copy_first,4,10.554,10.553,407,10.580,20.089,30.668,0.003,20.087,30.666,0.000,0.00,20.084,131072
+pageable,4096,reader,kernel_first,0,10.552,10.551,407,10.422,0.001,11.948,0.007,10.560,11.946,10.553,1.00,10.552,0
+pageable,4096,reader,kernel_first,1,20.089,20.089,214,20.878,0.002,22.420,0.007,10.561,22.418,10.553,0.53,10.552,0
+pageable,4096,reader,kernel_first,2,20.106,20.106,214,20.906,0.002,22.407,0.006,10.560,22.404,10.553,0.52,10.552,0
+pageable,4096,reader,kernel_first,3,20.104,20.103,214,20.910,0.002,22.433,0.007,20.117,22.432,20.110,1.00,20.109,131072
+pageable,4096,reader,kernel_first,4,10.553,10.553,407,10.421,0.001,11.945,0.006,10.560,11.944,10.554,1.00,10.553,0
+pageable,4096,reader,copy_first,0,10.554,10.553,407,10.420,20.181,30.602,0.004,20.179,30.598,0.000,0.00,20.174,131072
+pageable,4096,reader,copy_first,1,10.553,10.552,407,10.418,20.125,30.561,0.003,20.124,30.558,0.000,0.00,20.119,131072
+pageable,4096,reader,copy_first,2,10.553,10.552,407,10.441,20.143,30.571,0.003,20.142,30.568,0.000,0.00,20.138,131072
+pageable,4096,reader,copy_first,3,20.079,20.077,214,20.921,20.186,41.097,0.004,20.185,41.093,0.000,0.00,20.180,131072
+pageable,4096,reader,copy_first,4,20.093,20.092,214,20.874,20.123,41.023,0.004,20.123,41.019,0.000,0.00,20.117,131072
+registered,4,one_sm,kernel_first,0,14.229,0.819,302,14.233,0.008,14.227,0.013,14.047,14.219,14.034,0.99,0.804,0
+registered,4,one_sm,kernel_first,1,14.027,0.814,306,14.017,0.002,14.018,0.007,13.962,14.016,13.955,0.99,0.809,0
+registered,4,one_sm,kernel_first,2,13.912,0.808,309,13.902,0.002,13.906,0.008,13.980,13.978,13.898,1.00,0.817,0
+registered,4,one_sm,kernel_first,3,14.022,0.827,306,14.012,0.001,14.013,0.006,13.984,14.012,13.979,1.00,0.818,0
+registered,4,one_sm,kernel_first,4,13.896,0.900,309,13.887,0.002,13.889,0.007,14.229,14.227,13.882,1.00,0.806,0
+registered,4,one_sm,copy_first,0,14.045,0.807,306,14.035,0.816,14.853,0.004,14.020,14.849,13.204,0.94,0.807,0
+registered,4,one_sm,copy_first,1,13.950,0.896,308,13.939,0.812,14.753,0.005,13.915,14.749,13.103,0.94,0.804,0
+registered,4,one_sm,copy_first,2,13.983,0.923,307,13.972,0.818,14.792,0.005,14.026,14.787,13.209,0.94,0.810,0
+registered,4,one_sm,copy_first,3,13.968,0.902,307,13.958,0.835,14.795,0.004,13.908,14.791,13.073,0.94,0.826,0
+registered,4,one_sm,copy_first,4,14.227,0.807,302,14.216,0.811,15.027,0.003,14.039,15.024,13.228,0.93,0.803,0
+registered,4,all_sms,kernel_first,0,14.022,0.819,306,14.043,0.001,14.044,0.006,13.971,14.043,13.965,1.00,0.816,0
+registered,4,all_sms,kernel_first,1,13.901,0.911,309,13.923,0.001,13.927,0.007,13.974,13.972,13.920,1.00,0.829,0
+registered,4,all_sms,kernel_first,2,14.035,0.811,306,14.058,0.002,14.058,0.006,13.978,14.056,13.972,1.00,0.818,0
+registered,4,all_sms,kernel_first,3,13.896,0.826,309,13.917,0.002,13.921,0.007,14.233,14.231,13.915,1.00,0.812,0
+registered,4,all_sms,kernel_first,4,14.040,0.812,306,14.062,0.002,14.064,0.007,14.022,14.062,14.015,1.00,0.807,0
+registered,4,all_sms,copy_first,0,13.942,0.897,308,13.964,0.811,14.778,0.003,13.910,14.775,13.099,0.94,0.805,0
+registered,4,all_sms,copy_first,1,13.973,0.923,307,13.996,0.808,14.803,0.003,14.026,14.800,13.218,0.95,0.801,0
+registered,4,all_sms,copy_first,2,13.977,0.880,307,14.001,0.806,14.805,0.003,13.906,14.802,13.100,0.94,0.799,0
+registered,4,all_sms,copy_first,3,14.217,0.895,302,14.239,0.812,15.052,0.005,14.049,15.047,13.237,0.93,0.804,0
+registered,4,all_sms,copy_first,4,14.021,0.888,306,14.043,0.822,14.865,0.004,13.959,14.862,13.136,0.94,0.814,0
+registered,4,reader,kernel_first,0,13.904,0.892,309,13.902,0.002,15.525,0.006,14.077,15.523,14.071,1.01,0.807,0
+registered,4,reader,kernel_first,1,14.024,0.808,306,13.897,0.001,15.542,0.007,14.078,15.541,14.070,1.00,0.811,0
+registered,4,reader,kernel_first,2,13.902,0.894,309,13.899,0.001,15.568,0.007,14.325,15.567,14.318,1.03,0.810,0
+registered,4,reader,kernel_first,3,14.040,0.818,306,13.899,0.002,15.551,0.006,14.121,15.549,14.115,1.01,0.816,0
+registered,4,reader,kernel_first,4,13.959,0.824,308,13.914,0.002,15.546,0.007,14.016,15.545,14.009,1.00,0.810,0
+registered,4,reader,copy_first,0,13.967,0.823,308,13.892,0.811,16.288,0.004,14.128,16.284,13.317,0.95,0.806,0
+registered,4,reader,copy_first,1,13.985,0.892,307,13.916,0.809,16.248,0.005,13.999,16.243,13.190,0.94,0.801,0
+registered,4,reader,copy_first,2,14.225,0.897,302,13.898,0.810,16.294,0.003,14.137,16.291,13.327,0.94,0.804,0
+registered,4,reader,copy_first,3,14.011,0.901,307,13.910,0.807,16.262,0.003,14.046,16.258,13.239,0.94,0.802,0
+registered,4,reader,copy_first,4,13.922,0.927,309,13.895,0.812,16.242,0.005,14.060,16.237,13.248,0.95,0.804,0
+registered,64,one_sm,kernel_first,0,10.779,0.073,398,10.772,0.001,10.776,0.007,10.782,10.781,10.768,1.00,0.070,0
+registered,64,one_sm,kernel_first,1,10.777,0.074,399,10.770,0.001,10.775,0.008,10.787,10.785,10.767,1.00,0.073,0
+registered,64,one_sm,kernel_first,2,10.775,0.065,399,10.768,0.002,10.772,0.007,10.784,10.782,10.765,1.00,0.068,0
+registered,64,one_sm,kernel_first,3,10.781,0.068,398,10.773,0.001,10.777,0.007,10.781,10.780,10.771,1.00,0.067,0
+registered,64,one_sm,kernel_first,4,10.774,0.070,399,10.766,0.002,10.769,0.006,10.786,10.784,10.763,1.00,0.066,0
+registered,64,one_sm,copy_first,0,10.775,0.065,399,10.767,0.070,10.839,0.002,10.777,10.837,10.707,0.99,0.063,0
+registered,64,one_sm,copy_first,1,10.781,0.064,398,10.774,0.069,10.845,0.004,10.779,10.841,10.710,0.99,0.061,0
+registered,64,one_sm,copy_first,2,10.774,0.066,399,10.766,0.070,10.838,0.003,10.788,10.834,10.718,0.99,0.063,0
+registered,64,one_sm,copy_first,3,10.774,0.062,399,10.767,0.067,10.835,0.003,10.782,10.832,10.716,0.99,0.060,0
+registered,64,one_sm,copy_first,4,10.783,0.063,398,10.776,0.067,10.845,0.003,10.779,10.841,10.712,0.99,0.059,0
+registered,64,all_sms,kernel_first,0,10.775,0.062,399,10.802,0.002,10.803,0.007,10.786,10.801,10.779,1.00,0.061,0
+registered,64,all_sms,kernel_first,1,10.774,0.058,399,10.799,0.002,10.802,0.006,10.783,10.800,10.777,1.00,0.063,0
+registered,64,all_sms,kernel_first,2,10.781,0.064,398,10.806,0.001,10.807,0.006,10.782,10.806,10.776,1.00,0.063,0
+registered,64,all_sms,kernel_first,3,10.775,0.064,399,10.802,0.001,10.802,0.006,10.786,10.801,10.780,1.00,0.060,0
+registered,64,all_sms,kernel_first,4,10.773,0.057,399,10.799,0.002,10.800,0.006,10.782,10.798,10.776,1.00,0.059,0
+registered,64,all_sms,copy_first,0,10.784,0.063,398,10.808,0.070,10.881,0.003,10.779,10.878,10.709,0.99,0.062,0
+registered,64,all_sms,copy_first,1,10.776,0.062,399,10.802,0.075,10.878,0.003,10.782,10.875,10.707,0.99,0.068,0
+registered,64,all_sms,copy_first,2,10.771,0.066,399,10.795,0.073,10.871,0.004,10.781,10.868,10.708,0.99,0.065,0
+registered,64,all_sms,copy_first,3,10.779,0.062,398,10.806,0.068,10.875,0.003,10.778,10.872,10.711,0.99,0.059,0
+registered,64,all_sms,copy_first,4,10.777,0.061,399,10.804,0.068,10.872,0.003,10.785,10.868,10.717,0.99,0.061,0
+registered,64,reader,kernel_first,0,10.773,0.061,399,10.419,0.001,11.953,0.006,10.787,11.952,10.782,1.00,0.070,0
+registered,64,reader,kernel_first,1,10.778,0.063,398,10.418,0.001,11.946,0.006,10.787,11.944,10.781,1.00,0.066,0
+registered,64,reader,kernel_first,2,10.775,0.065,399,10.422,0.002,11.959,0.005,10.794,11.957,10.789,1.00,0.066,0
+registered,64,reader,kernel_first,3,10.776,0.066,399,10.413,0.002,11.955,0.006,10.789,11.952,10.783,1.00,0.061,0
+registered,64,reader,kernel_first,4,10.778,0.063,399,10.423,0.002,11.961,0.006,10.787,11.959,10.781,1.00,0.063,0
+registered,64,reader,copy_first,0,10.775,0.062,399,10.419,0.069,12.027,0.003,10.791,12.024,10.721,0.99,0.061,0
+registered,64,reader,copy_first,1,10.776,0.065,399,10.411,0.073,12.001,0.003,10.785,11.998,10.712,0.99,0.064,0
+registered,64,reader,copy_first,2,10.783,0.066,398,10.420,0.074,12.017,0.003,10.785,12.014,10.711,0.99,0.066,0
+registered,64,reader,copy_first,3,10.775,0.060,399,10.407,0.068,12.005,0.003,10.791,12.001,10.722,1.00,0.060,0
+registered,64,reader,copy_first,4,10.774,0.059,399,10.419,0.076,12.022,0.003,10.783,12.019,10.707,0.99,0.068,0
+registered,4096,one_sm,kernel_first,0,10.551,0.001,407,10.583,0.001,10.585,0.007,10.556,10.584,10.549,1.00,0.001,0
+registered,4096,one_sm,kernel_first,1,10.547,0.001,407,10.580,0.002,10.583,0.007,10.555,10.581,10.549,1.00,0.002,0
+registered,4096,one_sm,kernel_first,2,10.548,0.001,407,10.540,0.002,10.544,0.005,10.553,10.551,10.538,1.00,0.002,0
+registered,4096,one_sm,kernel_first,3,10.549,0.001,407,10.543,0.002,10.546,0.007,10.555,10.553,10.539,1.00,0.001,0
+registered,4096,one_sm,kernel_first,4,10.548,0.001,407,10.541,0.002,10.544,0.006,10.554,10.552,10.538,1.00,0.001,0
+registered,4096,one_sm,copy_first,0,10.549,0.001,407,10.541,0.004,10.548,0.003,10.552,10.549,10.544,1.00,0.001,0
+registered,4096,one_sm,copy_first,1,10.548,0.001,407,10.541,0.008,10.551,0.003,10.550,10.548,10.542,1.00,0.001,0
+registered,4096,one_sm,copy_first,2,10.547,0.001,407,10.539,0.005,10.548,0.003,10.551,10.549,10.544,1.00,0.001,0
+registered,4096,one_sm,copy_first,3,10.548,0.001,407,10.540,0.009,10.550,0.003,10.552,10.549,10.542,1.00,0.001,0
+registered,4096,one_sm,copy_first,4,10.549,0.001,407,10.542,0.009,10.553,0.003,10.552,10.550,10.543,1.00,0.001,0
+registered,4096,all_sms,kernel_first,0,10.548,0.001,407,10.575,0.002,10.576,0.006,10.555,10.574,10.549,1.00,0.001,0
+registered,4096,all_sms,kernel_first,1,10.549,0.001,407,10.574,0.002,10.577,0.006,10.553,10.575,10.547,1.00,0.001,0
+registered,4096,all_sms,kernel_first,2,10.547,0.001,407,10.571,0.001,10.573,0.005,10.553,10.572,10.547,1.00,0.001,0
+registered,4096,all_sms,kernel_first,3,10.549,0.001,407,10.575,0.002,10.577,0.006,10.554,10.575,10.548,1.00,0.001,0
+registered,4096,all_sms,kernel_first,4,10.550,0.001,407,10.576,0.002,10.577,0.006,10.555,10.575,10.549,1.00,0.001,0
+registered,4096,all_sms,copy_first,0,10.548,0.001,407,10.574,0.005,10.582,0.003,10.551,10.580,10.546,1.00,0.001,0
+registered,4096,all_sms,copy_first,1,10.547,0.001,407,10.573,0.009,10.583,0.003,10.551,10.580,10.543,1.00,0.001,0
+registered,4096,all_sms,copy_first,2,10.548,0.001,407,10.574,0.009,10.583,0.002,10.552,10.580,10.543,1.00,0.001,0
+registered,4096,all_sms,copy_first,3,10.547,0.001,407,10.574,0.009,10.584,0.003,10.554,10.581,10.544,1.00,0.001,0
+registered,4096,all_sms,copy_first,4,10.548,0.001,407,10.572,0.009,10.585,0.003,10.551,10.582,10.542,1.00,0.001,0
+registered,4096,reader,kernel_first,0,10.548,0.001,407,10.417,0.002,11.948,0.006,10.556,11.946,10.550,1.00,0.001,0
+registered,4096,reader,kernel_first,1,10.549,0.001,407,10.406,0.002,11.935,0.006,10.557,11.933,10.551,1.00,0.001,0
+registered,4096,reader,kernel_first,2,10.548,0.001,407,10.421,0.001,11.950,0.006,10.555,11.949,10.549,1.00,0.001,0
+registered,4096,reader,kernel_first,3,10.548,0.002,407,10.413,0.002,11.949,0.006,10.555,11.948,10.549,1.00,0.001,0
+registered,4096,reader,kernel_first,4,10.548,0.001,407,10.414,0.002,11.936,0.006,10.556,11.934,10.550,1.00,0.001,0
+registered,4096,reader,copy_first,0,10.549,0.001,407,10.417,0.005,11.944,0.003,10.551,11.941,10.546,1.00,0.001,0
+registered,4096,reader,copy_first,1,10.550,0.001,407,10.427,0.009,11.946,0.003,10.553,11.943,10.544,1.00,0.001,0
+registered,4096,reader,copy_first,2,10.549,0.001,407,10.407,0.005,11.971,0.003,10.551,11.968,10.546,1.00,0.001,0
+registered,4096,reader,copy_first,3,10.548,0.001,407,10.414,0.005,11.938,0.003,10.553,11.935,10.548,1.00,0.001,0
+registered,4096,reader,copy_first,4,10.548,0.001,407,10.417,0.009,11.950,0.003,10.554,11.947,10.544,1.00,0.001,0
+
+medians of 5 runs: hidden = overlap / copy time alone; span = time of both together / sum of both alone;
+copy stretch = copy time beside the kernel / copy time alone
+pageable   chunk    4 MiB  one_sm  kernel_first | copy alone  222 GB/s | hidden 1.00 | span 0.50 | copy stretch 1.00 | host issue   19.442 ms | minor faults 128
+pageable   chunk    4 MiB  one_sm  copy_first   | copy alone  222 GB/s | hidden 0.00 | span 1.00 | copy stretch 1.01 | host issue   19.437 ms | minor faults 128
+pageable   chunk    4 MiB  all_sms kernel_first | copy alone  221 GB/s | hidden 1.00 | span 0.50 | copy stretch 1.00 | host issue   19.366 ms | minor faults 128
+pageable   chunk    4 MiB  all_sms copy_first   | copy alone  222 GB/s | hidden 0.00 | span 1.00 | copy stretch 1.01 | host issue   19.440 ms | minor faults 128
+pageable   chunk    4 MiB  reader  kernel_first | copy alone  221 GB/s | hidden 1.02 | span 0.54 | copy stretch 1.02 | host issue   19.690 ms | minor faults 128
+pageable   chunk    4 MiB  reader  copy_first   | copy alone  221 GB/s | hidden 0.00 | span 1.00 | copy stretch 1.00 | host issue   19.388 ms | minor faults 128
+pageable   chunk   64 MiB  one_sm  kernel_first | copy alone  386 GB/s | hidden 1.00 | span 0.50 | copy stretch 1.00 | host issue   11.126 ms | minor faults 0
+pageable   chunk   64 MiB  one_sm  copy_first   | copy alone  386 GB/s | hidden 0.00 | span 1.01 | copy stretch 1.01 | host issue   11.290 ms | minor faults 2048
+pageable   chunk   64 MiB  all_sms kernel_first | copy alone  386 GB/s | hidden 1.00 | span 0.50 | copy stretch 1.00 | host issue   11.278 ms | minor faults 2048
+pageable   chunk   64 MiB  all_sms copy_first   | copy alone  381 GB/s | hidden 0.00 | span 1.00 | copy stretch 1.00 | host issue   11.123 ms | minor faults 0
+pageable   chunk   64 MiB  reader  kernel_first | copy alone  381 GB/s | hidden 0.99 | span 0.55 | copy stretch 0.99 | host issue   11.146 ms | minor faults 0
+pageable   chunk   64 MiB  reader  copy_first   | copy alone  386 GB/s | hidden 0.00 | span 1.01 | copy stretch 1.01 | host issue   11.284 ms | minor faults 2048
+pageable   chunk 4096 MiB  one_sm  kernel_first | copy alone  407 GB/s | hidden 1.00 | span 0.50 | copy stretch 1.00 | host issue   10.552 ms | minor faults 0
+pageable   chunk 4096 MiB  one_sm  copy_first   | copy alone  407 GB/s | hidden 0.00 | span 1.46 | copy stretch 1.91 | host issue   20.187 ms | minor faults 131072
+pageable   chunk 4096 MiB  all_sms kernel_first | copy alone  407 GB/s | hidden 1.00 | span 0.50 | copy stretch 1.00 | host issue   10.553 ms | minor faults 0
+pageable   chunk 4096 MiB  all_sms copy_first   | copy alone  407 GB/s | hidden 0.00 | span 1.45 | copy stretch 1.90 | host issue   20.067 ms | minor faults 131072
+pageable   chunk 4096 MiB  reader  kernel_first | copy alone  214 GB/s | hidden 1.00 | span 0.55 | copy stretch 1.00 | host issue   10.552 ms | minor faults 0
+pageable   chunk 4096 MiB  reader  copy_first   | copy alone  407 GB/s | hidden 0.00 | span 1.46 | copy stretch 1.91 | host issue   20.138 ms | minor faults 131072
+registered chunk    4 MiB  one_sm  kernel_first | copy alone  306 GB/s | hidden 1.00 | span 0.50 | copy stretch 1.00 | host issue    0.809 ms | minor faults 0
+registered chunk    4 MiB  one_sm  copy_first   | copy alone  307 GB/s | hidden 0.94 | span 0.53 | copy stretch 1.00 | host issue    0.807 ms | minor faults 0
+registered chunk    4 MiB  all_sms kernel_first | copy alone  306 GB/s | hidden 1.00 | span 0.50 | copy stretch 1.00 | host issue    0.816 ms | minor faults 0
+registered chunk    4 MiB  all_sms copy_first   | copy alone  307 GB/s | hidden 0.94 | span 0.53 | copy stretch 1.00 | host issue    0.804 ms | minor faults 0
+registered chunk    4 MiB  reader  kernel_first | copy alone  308 GB/s | hidden 1.01 | span 0.56 | copy stretch 1.01 | host issue    0.810 ms | minor faults 0
+registered chunk    4 MiB  reader  copy_first   | copy alone  307 GB/s | hidden 0.94 | span 0.58 | copy stretch 1.00 | host issue    0.804 ms | minor faults 0
+registered chunk   64 MiB  one_sm  kernel_first | copy alone  399 GB/s | hidden 1.00 | span 0.50 | copy stretch 1.00 | host issue    0.068 ms | minor faults 0
+registered chunk   64 MiB  one_sm  copy_first   | copy alone  399 GB/s | hidden 0.99 | span 0.50 | copy stretch 1.00 | host issue    0.061 ms | minor faults 0
+registered chunk   64 MiB  all_sms kernel_first | copy alone  399 GB/s | hidden 1.00 | span 0.50 | copy stretch 1.00 | host issue    0.061 ms | minor faults 0
+registered chunk   64 MiB  all_sms copy_first   | copy alone  399 GB/s | hidden 0.99 | span 0.50 | copy stretch 1.00 | host issue    0.062 ms | minor faults 0
+registered chunk   64 MiB  reader  kernel_first | copy alone  399 GB/s | hidden 1.00 | span 0.56 | copy stretch 1.00 | host issue    0.066 ms | minor faults 0
+registered chunk   64 MiB  reader  copy_first   | copy alone  399 GB/s | hidden 0.99 | span 0.57 | copy stretch 1.00 | host issue    0.064 ms | minor faults 0
+registered chunk 4096 MiB  one_sm  kernel_first | copy alone  407 GB/s | hidden 1.00 | span 0.50 | copy stretch 1.00 | host issue    0.001 ms | minor faults 0
+registered chunk 4096 MiB  one_sm  copy_first   | copy alone  407 GB/s | hidden 1.00 | span 0.50 | copy stretch 1.00 | host issue    0.001 ms | minor faults 0
+registered chunk 4096 MiB  all_sms kernel_first | copy alone  407 GB/s | hidden 1.00 | span 0.50 | copy stretch 1.00 | host issue    0.001 ms | minor faults 0
+registered chunk 4096 MiB  all_sms copy_first   | copy alone  407 GB/s | hidden 1.00 | span 0.50 | copy stretch 1.00 | host issue    0.001 ms | minor faults 0
+registered chunk 4096 MiB  reader  kernel_first | copy alone  407 GB/s | hidden 1.00 | span 0.57 | copy stretch 1.00 | host issue    0.001 ms | minor faults 0
+registered chunk 4096 MiB  reader  copy_first   | copy alone  407 GB/s | hidden 1.00 | span 0.57 | copy stretch 1.00 | host issue    0.001 ms | minor faults 0
+
+=== part 2: 4 GiB H2D split over 1, 2 and 4 streams
+pageable   streams=1 wall median 10.553 ms (407 GB/s), min 10.552 max 10.556; host issue median 10.553 ms
+pageable   streams=2 wall median 10.563 ms (407 GB/s), min 10.563 max 10.564; host issue median 10.563 ms
+pageable   streams=4 wall median 10.585 ms (406 GB/s), min 10.583 max 10.587; host issue median 10.584 ms
+registered streams=1 wall median 10.552 ms (407 GB/s), min 10.551 max 10.554; host issue median 0.001 ms
+registered streams=2 wall median 10.558 ms (407 GB/s), min 10.557 max 10.558; host issue median 0.002 ms
+registered streams=4 wall median 10.566 ms (406 GB/s), min 10.566 max 10.567; host issue median 0.005 ms

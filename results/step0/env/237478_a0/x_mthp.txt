@@ -1,0 +1,7 @@
+defrag
+enabled
+hpage_pmd_size
+khugepaged
+shmem_enabled
+use_zero_page
+/sys/kernel/mm/transparent_hugepage/hugepages-*: cat: '/sys/kernel/mm/transparent_hugepage/hugepages-*/enabled': No such file or directory

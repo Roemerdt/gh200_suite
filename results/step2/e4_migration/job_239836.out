@@ -1,0 +1,16 @@
+job=239836 node=j21n14 start=2026-10-07T19:31:18+02:00 numa_balancing=0 migration_param=-1
+In file included from src/common/common.h:16,
+                 from results/step2/e4_migration/migpace.cu:13:
+src/common/counters.h:47:2: error: #error "SUITE_SMMU_PMU is not defined: build with the Makefile, which takes it from harness/site.env"
+   47 | #error \
+      |  ^~~~~
+build rc=1
+rc=0
+SMs=132, reuse kernel: 1 block per SM
+RESULT kernel=stream series=0 populate_s=0.40 frac_before=0.000 passes_to_50=11 gpu_s_to_50=2.79 passes_to_99=18 gpu_s_to_99=4.60 last_pass_ms=3.76 time_cap=0 numa_pte_updates=+0 numa_hint_faults=+0 numa_pages_migrated=+0 pgmigrate_success=+0
+RESULT kernel=reuse_k1 series=0 populate_s=0.40 frac_before=0.000 passes_to_50=16 gpu_s_to_50=1.60 passes_to_99=27 gpu_s_to_99=2.74 last_pass_ms=2.51 time_cap=0 numa_pte_updates=+0 numa_hint_faults=+0 numa_pages_migrated=+0 pgmigrate_success=+0
+RESULT kernel=reuse_k16 series=0 populate_s=0.40 frac_before=0.000 passes_to_50=6 gpu_s_to_50=3.05 passes_to_99=10 gpu_s_to_99=4.20 last_pass_ms=39.90 time_cap=0 numa_pte_updates=+0 numa_hint_faults=+0 numa_pages_migrated=+0 pgmigrate_success=+0
+RESULT kernel=stream series=1 populate_s=0.40 frac_before=0.000 passes_to_50=10 gpu_s_to_50=2.56 passes_to_99=18 gpu_s_to_99=4.51 last_pass_ms=3.78 time_cap=0 numa_pte_updates=+0 numa_hint_faults=+0 numa_pages_migrated=+0 pgmigrate_success=+0
+RESULT kernel=reuse_k1 series=1 populate_s=0.40 frac_before=0.000 passes_to_50=18 gpu_s_to_50=1.76 passes_to_99=27 gpu_s_to_99=2.76 last_pass_ms=2.52 time_cap=0 numa_pte_updates=+0 numa_hint_faults=+0 numa_pages_migrated=+0 pgmigrate_success=+0
+RESULT kernel=reuse_k16 series=1 populate_s=0.40 frac_before=0.000 passes_to_50=6 gpu_s_to_50=3.04 passes_to_99=10 gpu_s_to_99=4.20 last_pass_ms=39.91 time_cap=0 numa_pte_updates=+0 numa_hint_faults=+0 numa_pages_migrated=+0 pgmigrate_success=+0
+JOB DONE 2026-10-07T19:31:50+02:00

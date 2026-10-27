@@ -1,0 +1,9 @@
+/sys/class/dmi/id/bios_version:3A11
+/sys/class/dmi/id/bios_date:12/06/2023
+/sys/class/dmi/id/bios_release:5.31
+/sys/class/dmi/id/bios_vendor:American Megatrends International, LLC.
+/sys/class/dmi/id/ec_firmware_release:3.83
+/sys/class/dmi/id/product_name:QuantaGrid S74G-2U 1S7GZ9Z0000
+/sys/class/dmi/id/product_version:---
+/sys/class/dmi/id/board_name:S7G MB (CG1)
+/sys/class/dmi/id/board_version:31S7GMB0000

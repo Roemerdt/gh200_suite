@@ -1,0 +1,4 @@
+/sys/kernel/mm/transparent_hugepage/hpage_pmd_size:536870912
+/sys/kernel/mm/transparent_hugepage/khugepaged/defrag:1
+/sys/kernel/mm/transparent_hugepage/use_zero_page:1
+/sys/kernel/mm/transparent_hugepage/shmem_enabled:always within_size advise [never] deny force

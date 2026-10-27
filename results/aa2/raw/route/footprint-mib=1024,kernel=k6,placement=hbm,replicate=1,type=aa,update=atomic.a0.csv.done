@@ -1,0 +1,1 @@
+cell=route/footprint-mib=1024,kernel=k6,placement=hbm,replicate=1,type=aa,update=atomic attempts=110 warmups=10 discards=0 nA=100 medA=815711 loA=815498 hiA=815880 targetA=1 nB=100 medB=815805 loB=815525 hiB=815926 targetB=1 nD=100 medD=-177.307 loD=-473.633 hiD=94.6808 targetD=0 npos=44 nneg=56 sign_p=0.271 cap_hit=1 stopped_on_target=0 paired=1 ahp_kb_end_A=0 ahp_kb_end_B=0

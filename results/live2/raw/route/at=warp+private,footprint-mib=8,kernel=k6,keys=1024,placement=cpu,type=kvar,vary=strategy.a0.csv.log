@@ -1,0 +1,6 @@
+capacity: the cell needs 384 MiB of GPU-node memory (512 MB-page buffers counted twice), 96723 MiB are free, 2048 MiB must stay free
+calib variant=A route=direct level=home one repetition=12.482 ms -> passes=2
+calib variant=B route=direct level=warp one repetition=12.322 ms -> passes=2
+calib variant=C route=direct level=private one repetition=0.128 ms -> passes=157
+calib variant=C fastest repetition in warm-up=0.126 ms -> passes=159
+cell=route/at=warp+private,footprint-mib=8,kernel=k6,keys=1024,placement=cpu,type=kvar,vary=strategy rounds=12 warmups=2 discards=0 k=3 floor_ns=0 nA=10 medA=1.24822e+07 loA=1.24787e+07 hiA=1.24879e+07 targetA=1 nB=10 medB=1.23224e+07 loB=1.23165e+07 hiB=1.23273e+07 targetB=1 nC=10 medC=126314 loC=126229 hiC=126382 targetC=1 c1=B-A n1=10 med1=-161752 lo1=-164559 hi1=-151904 target1=1 c2=C-A n2=10 med2=-1.23558e+07 lo2=-1.23617e+07 hi2=-1.23523e+07 target2=1 cap_hit=0 stopped_on_target=1 ahp_kb_end_A=0 ahp_kb_end_B=0 ahp_kb_end_C=0

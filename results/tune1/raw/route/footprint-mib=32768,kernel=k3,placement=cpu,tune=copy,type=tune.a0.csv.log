@@ -1,0 +1,32 @@
+capacity: the cell needs 38528 MiB of GPU-node memory (512 MB-page buffers counted twice), 96722 MiB are free, 2048 MiB must stay free
+calib variant=A route=copy level=ce-pageable-1-whole-none-whole one repetition=85.729 ms -> passes=1
+calib variant=B route=copy level=ce-pageable-1-4m-none-whole one repetition=154.249 ms -> passes=1
+calib variant=C route=copy level=ce-pageable-1-16m-none-whole one repetition=103.892 ms -> passes=1
+calib variant=D route=copy level=ce-pageable-1-64m-none-whole one repetition=90.247 ms -> passes=1
+calib variant=E route=copy level=ce-pageable-1-256m-none-whole one repetition=86.809 ms -> passes=1
+calib variant=F route=copy level=ce-registered-1-whole-none-whole one repetition=84.798 ms -> passes=1
+calib variant=G route=copy level=ce-registered-1-4m-none-whole one repetition=109.524 ms -> passes=1
+calib variant=H route=copy level=ce-registered-1-16m-none-whole one repetition=91.962 ms -> passes=1
+calib variant=I route=copy level=ce-registered-1-64m-none-whole one repetition=86.711 ms -> passes=1
+calib variant=J route=copy level=ce-registered-1-256m-none-whole one repetition=85.167 ms -> passes=1
+calib variant=K route=copy level=ce-registered-2-whole-none-whole one repetition=84.706 ms -> passes=1
+calib variant=L route=copy level=ce-registered-2-4m-none-whole one repetition=115.117 ms -> passes=1
+calib variant=M route=copy level=ce-registered-2-16m-none-whole one repetition=93.603 ms -> passes=1
+calib variant=N route=copy level=ce-registered-2-64m-none-whole one repetition=86.956 ms -> passes=1
+calib variant=O route=copy level=ce-registered-2-256m-none-whole one repetition=85.277 ms -> passes=1
+calib variant=P route=copy level=ce-registered-4-whole-none-whole one repetition=84.712 ms -> passes=1
+calib variant=Q route=copy level=ce-registered-4-4m-none-whole one repetition=115.115 ms -> passes=1
+calib variant=R route=copy level=ce-registered-4-16m-none-whole one repetition=93.599 ms -> passes=1
+calib variant=S route=copy level=ce-registered-4-64m-none-whole one repetition=86.963 ms -> passes=1
+calib variant=T route=copy level=ce-registered-4-256m-none-whole one repetition=85.261 ms -> passes=1
+calib variant=U route=copy level=kernel-pageable-1-whole-none-whole one repetition=90.937 ms -> passes=1
+calib variant=V route=copy level=kernel-pageable-1-4m-none-whole one repetition=124.395 ms -> passes=1
+calib variant=W route=copy level=kernel-pageable-1-16m-none-whole one repetition=96.558 ms -> passes=1
+calib variant=X route=copy level=kernel-pageable-1-64m-none-whole one repetition=90.598 ms -> passes=1
+calib variant=Y route=copy level=kernel-pageable-1-256m-none-whole one repetition=89.428 ms -> passes=1
+calib variant=Z route=copy level=kernel-registered-1-whole-none-whole one repetition=87.882 ms -> passes=1
+calib variant=v26 route=copy level=kernel-registered-1-4m-none-whole one repetition=123.452 ms -> passes=1
+calib variant=v27 route=copy level=kernel-registered-1-16m-none-whole one repetition=95.672 ms -> passes=1
+calib variant=v28 route=copy level=kernel-registered-1-64m-none-whole one repetition=89.513 ms -> passes=1
+calib variant=v29 route=copy level=kernel-registered-1-256m-none-whole one repetition=87.859 ms -> passes=1
+cell=route/footprint-mib=32768,kernel=k3,placement=cpu,tune=copy,type=tune rounds=20 warmups=10 discards=0 k=30 floor_ns=0 nA=10 medA=8.5718e+07 loA=8.57137e+07 hiA=8.57267e+07 targetA=1 nB=10 medB=1.54788e+08 loB=1.54211e+08 hiB=1.55215e+08 targetB=1 nC=10 medC=1.04032e+08 loC=1.03949e+08 hiC=1.04293e+08 targetC=1 nD=10 medD=9.03063e+07 loD=9.02889e+07 hiD=9.03531e+07 targetD=1 nE=10 medE=8.68677e+07 loE=8.68343e+07 hiE=8.68925e+07 targetE=1 nF=10 medF=8.47159e+07 loF=8.47083e+07 hiF=8.47191e+07 targetF=1 nG=10 medG=1.09511e+08 loG=1.09498e+08 hiG=1.09616e+08 targetG=1 nH=10 medH=9.1958e+07 loH=9.19429e+07 hiH=9.19629e+07 targetH=1 nI=10 medI=8.65428e+07 loI=8.65388e+07 hiI=8.65495e+07 targetI=1 nJ=10 medJ=8.51987e+07 loJ=8.51701e+07 hiJ=8.52164e+07 targetJ=1 nK=10 medK=8.47172e+07 loK=8.47039e+07 hiK=8.47788e+07 targetK=1 nL=10 medL=1.15147e+08 loL=1.15094e+08 hiL=1.15879e+08 targetL=1 nM=10 medM=9.3599e+07 loM=9.35848e+07 hiM=9.36049e+07 targetM=1 nN=10 medN=8.69573e+07 loN=8.69543e+07 hiN=8.69612e+07 targetN=1 nO=10 medO=8.5292e+07 loO=8.5266e+07 hiO=8.53199e+07 targetO=1 nP=10 medP=8.47124e+07 loP=8.4706e+07 hiP=8.47316e+07 targetP=1 nQ=10 medQ=1.15184e+08 loQ=1.15129e+08 hiQ=1.15918e+08 targetQ=1 nR=10 medR=9.36089e+07 loR=9.36022e+07 hiR=9.36137e+07 targetR=1 nS=10 medS=8.69628e+07 loS=8.69531e+07 hiS=8.69677e+07 targetS=1 nT=10 medT=8.5279e+07 loT=8.5275e+07 hiT=8.53162e+07 targetT=1 nU=10 medU=9.09471e+07 loU=9.09259e+07 hiU=9.09854e+07 targetU=1 nV=10 medV=1.24308e+08 loV=1.2429e+08 hiV=1.24368e+08 targetV=1 nW=10 medW=9.6556e+07 loW=9.65446e+07 hiW=9.65913e+07 targetW=1 nX=10 medX=9.06494e+07 loX=9.05513e+07 hiX=9.06645e+07 targetX=1 nY=10 medY=8.95548e+07 loY=8.94471e+07 hiY=8.95979e+07 targetY=1 nZ=10 medZ=8.78827e+07 loZ=8.78593e+07 hiZ=8.79481e+07 targetZ=1 nv26=10 medv26=1.23417e+08 lov26=1.2336e+08 hiv26=1.23453e+08 targetv26=1 nv27=10 medv27=9.55583e+07 lov27=9.55348e+07 hiv27=9.56489e+07 targetv27=1 nv28=10 medv28=8.95154e+07 lov28=8.94766e+07 hiv28=8.95668e+07 targetv28=1 nv29=10 medv29=8.79892e+07 lov29=8.79399e+07 hiv29=8.80422e+07 targetv29=1 cap_hit=0 stopped_on_target=1 ahp_kb_end_A=0 ahp_kb_end_B=0 ahp_kb_end_C=0 ahp_kb_end_D=0 ahp_kb_end_E=0 ahp_kb_end_F=0 ahp_kb_end_G=0 ahp_kb_end_H=0 ahp_kb_end_I=0 ahp_kb_end_J=0 ahp_kb_end_K=0 ahp_kb_end_L=0 ahp_kb_end_M=0 ahp_kb_end_N=0 ahp_kb_end_O=0 ahp_kb_end_P=0 ahp_kb_end_Q=0 ahp_kb_end_R=0 ahp_kb_end_S=0 ahp_kb_end_T=0 ahp_kb_end_U=0 ahp_kb_end_V=0 ahp_kb_end_W=0 ahp_kb_end_X=0 ahp_kb_end_Y=0 ahp_kb_end_Z=0 ahp_kb_end_v26=0 ahp_kb_end_v27=0 ahp_kb_end_v28=0 ahp_kb_end_v29=0

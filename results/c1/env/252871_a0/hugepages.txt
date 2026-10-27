@@ -1,0 +1,6 @@
+/sys/kernel/mm/hugepages/hugepages-16777216kB/nr_hugepages:0
+/sys/kernel/mm/hugepages/hugepages-2048kB/nr_hugepages:0
+/sys/kernel/mm/hugepages/hugepages-524288kB/nr_hugepages:0
+/sys/kernel/mm/hugepages/hugepages-16777216kB/free_hugepages:0
+/sys/kernel/mm/hugepages/hugepages-2048kB/free_hugepages:0
+/sys/kernel/mm/hugepages/hugepages-524288kB/free_hugepages:0

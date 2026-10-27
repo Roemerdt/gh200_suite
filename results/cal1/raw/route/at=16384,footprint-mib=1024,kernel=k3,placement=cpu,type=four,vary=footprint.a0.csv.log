@@ -1,0 +1,6 @@
+calib variant=A route=direct level=home one repetition=5.375 ms -> passes=4
+calib variant=B route=copy level=home one repetition=6.977 ms -> passes=3
+calib variant=C route=direct level=16384 one repetition=433.154 ms -> passes=1
+calib variant=D route=copy level=16384 one repetition=42.618 ms -> passes=1
+calib variant=B fastest repetition in warm-up=3.409 ms -> passes=6
+cell=route/at=16384,footprint-mib=1024,kernel=k3,placement=cpu,type=four,vary=footprint rounds=20 warmups=10 discards=0 k=4 floor_ns=0 nA=10 medA=5.38824e+06 loA=5.3727e+06 hiA=5.38855e+06 targetA=1 nB=10 medB=3.40995e+06 loB=3.40806e+06 hiB=3.41165e+06 targetB=1 nC=10 medC=4.33343e+08 loC=4.3319e+08 hiC=4.33485e+08 targetC=1 nD=10 medD=4.26416e+07 loD=4.26245e+07 hiD=4.26447e+07 targetD=1 c1=A-B n1=10 med1=1.97758e+06 lo1=1.96532e+06 hi1=1.97953e+06 target1=1 c2=C-D n2=10 med2=3.90708e+08 lo2=3.90548e+08 hi2=3.90845e+08 target2=1 c3=(C-D)-(A-B) n3=10 med3=3.88738e+08 lo3=3.88571e+08 hi3=3.88867e+08 target3=1 cap_hit=0 stopped_on_target=1 ahp_kb_end_A=0 ahp_kb_end_B=0 ahp_kb_end_C=0 ahp_kb_end_D=0

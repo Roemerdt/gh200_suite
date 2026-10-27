@@ -1,0 +1,10 @@
+capacity: the cell needs 2 MiB of GPU-node memory (512 MB-page buffers counted twice), 96721 MiB are free, 2048 MiB must stay free
+calib variant=A route=direct level=home one repetition=0.024 ms -> passes=50
+state check variant=0 state:dirty:word:control: 28.6 ns per sampled load, threshold 110 ns: as prepared
+calib variant=B route=copy level=home one repetition=0.050 ms -> passes=50
+state check variant=1 state:dirty:word:control: 41.4 ns per sampled load, threshold 110 ns: as prepared
+calib variant=C route=direct level=shared one repetition=0.025 ms -> passes=50
+state check variant=2 state:dirty:word:shared: 40.0 ns per sampled load, threshold 110 ns: as prepared
+calib variant=D route=copy level=shared one repetition=0.051 ms -> passes=50
+state check variant=3 state:dirty:word:shared: 42.8 ns per sampled load, threshold 110 ns: as prepared
+cell=route/at=shared,f-den=1,f-num=1,footprint-mib=2,host=state,kernel=k1,pattern=word,placement=cpu,state=dirty,type=four,vary=sharing rounds=30 warmups=10 discards=0 k=4 floor_ns=231647 nA=20 medA=22483.2 loA=22407 hiA=22561.9 targetA=1 nB=20 medB=40963.2 loB=40816.6 hiB=41395.2 targetB=1 nC=20 medC=24647 loC=24562.6 hiC=24821.8 targetC=1 nD=20 medD=44626.2 loD=44410.9 hiD=44822.4 targetD=1 c1=A-B n1=20 med1=-18458.2 lo1=-18811.5 hi1=-18302.7 target1=1 c2=C-D n2=20 med2=-19896 lo2=-20121.6 hi2=-19708.2 target2=1 c3=(C-D)-(A-B) n3=20 med3=-1284.8 lo3=-1721.6 hi3=-1020.16 target3=1 cap_hit=0 stopped_on_target=1 ahp_kb_end_A=0 ahp_kb_end_B=0 ahp_kb_end_C=0 ahp_kb_end_D=0

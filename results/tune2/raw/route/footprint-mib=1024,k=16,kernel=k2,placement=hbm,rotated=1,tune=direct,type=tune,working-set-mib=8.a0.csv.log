@@ -1,0 +1,15 @@
+capacity: the cell needs 1024 MiB of GPU-node memory (512 MB-page buffers counted twice), 96723 MiB are free, 2048 MiB must stay free
+calib variant=A route=direct level=132x32x8 one repetition=0.886 ms -> passes=23
+calib variant=B route=direct level=132x32x16 one repetition=0.363 ms -> passes=56
+calib variant=C route=direct level=132x64x8 one repetition=0.346 ms -> passes=58
+calib variant=D route=direct level=132x64x16 one repetition=0.186 ms -> passes=108
+calib variant=E route=direct level=132x128x8 one repetition=0.177 ms -> passes=113
+calib variant=F route=direct level=132x128x16 one repetition=0.098 ms -> passes=205
+calib variant=G route=direct level=132x256x8 one repetition=0.094 ms -> passes=212
+calib variant=H route=direct level=132x256x16 one repetition=0.056 ms -> passes=358
+calib variant=I route=direct level=132x512x8 one repetition=0.055 ms -> passes=364
+calib variant=J route=direct level=132x512x16 one repetition=0.036 ms -> passes=563
+calib variant=K route=direct level=132x1024x8 one repetition=0.037 ms -> passes=537
+calib variant=L route=direct level=132x1024x16 one repetition=0.030 ms -> passes=663
+calib variant=L fastest repetition in warm-up=0.030 ms -> passes=666
+cell=route/footprint-mib=1024,k=16,kernel=k2,placement=hbm,rotated=1,tune=direct,type=tune,working-set-mib=8 rounds=20 warmups=10 discards=0 k=12 floor_ns=0 nA=10 medA=881588 loA=881283 hiA=881926 targetA=1 nB=10 medB=460882 loB=460561 hiB=461179 targetB=1 nC=10 medC=443722 loC=443542 hiC=443913 targetC=1 nD=10 medD=233466 loD=233392 hiD=233629 targetD=1 nE=10 medE=225097 loE=225085 hiE=225125 targetE=1 nF=10 medF=120034 loF=120004 hiF=120124 targetF=1 nG=10 medG=116584 loG=116553 hiG=116608 targetG=1 nH=10 medH=65872.7 loH=65866.9 hiH=65932.3 targetH=1 nI=10 medI=65305.5 loI=65286.9 hiI=65316.9 targetI=1 nJ=10 medJ=39027.1 loJ=39015 hiJ=39051 targetJ=1 nK=10 medK=41581.5 loK=41564.2 hiK=41591.1 targetK=1 nL=10 medL=30097.5 loL=30089.2 hiL=30106.9 targetL=1 cap_hit=0 stopped_on_target=1 ahp_kb_end_A=0 ahp_kb_end_B=0 ahp_kb_end_C=0 ahp_kb_end_D=0 ahp_kb_end_E=0 ahp_kb_end_F=0 ahp_kb_end_G=0 ahp_kb_end_H=0 ahp_kb_end_I=0 ahp_kb_end_J=0 ahp_kb_end_K=0 ahp_kb_end_L=0

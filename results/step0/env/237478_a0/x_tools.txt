@@ -1,0 +1,10 @@
+/opt/nvidia/hpc_sdk/Linux_aarch64/25.9/compilers/bin/ncu
+/opt/nvidia/hpc_sdk/Linux_aarch64/25.9/compilers/bin/nsys
+/usr/bin/perf
+/opt/nvidia/hpc_sdk/Linux_aarch64/25.9/compilers/bin/cuobjdump
+/usr/bin/numactl
+/usr/bin/objdump
+perf version 6.1.187
+NVIDIA (R) Nsight Compute Command Line Profiler
+Copyright (c) 2018-2025 NVIDIA Corporation
+Version 2025.3.0.0 (build 36273991) (public-release)

@@ -1,0 +1,7 @@
+fsweep job=237500 node=j21n14 start=2026-10-05T16:31:27+02:00 paranoid=0 numa_balancing=1
+cell=probe/f-num=1,f-den=100 attempts=20 warmups=10 discards=0 nA=10 medA=35336.7 loA=35330.6 hiA=35463.2 targetA=1 nB=10 medB=2.84001e+06 loB=2.83948e+06 hiB=2.84148e+06 targetB=1 nD=10 medD=-2.80467e+06 loD=-2.80589e+06 hiD=-2.80413e+06 targetD=1 npos=0 nneg
+cell=probe/f-num=1,f-den=10 attempts=20 warmups=10 discards=0 nA=10 medA=309272 loA=309148 hiA=309351 targetA=1 nB=10 medB=2.892e+06 loB=2.89142e+06 hiB=2.89393e+06 targetB=1 nD=10 medD=-2.58273e+06 loD=-2.58466e+06 hiD=-2.58207e+06 targetD=1 npos=0 nneg=10 si
+cell=probe/f-num=1,f-den=4 attempts=50 warmups=10 discards=0 nA=40 medA=762126 loA=762054 hiA=762197 targetA=1 nB=40 medB=3.91327e+06 loB=3.44746e+06 hiB=3.92172e+06 targetB=0 nD=40 medD=-3.1512e+06 loD=-3.15952e+06 hiD=-2.68542e+06 targetD=1 npos=0 nneg=40 si
+cell=probe/f-num=3,f-den=4 attempts=50 warmups=10 discards=0 nA=40 medA=2.28703e+06 loA=2.28681e+06 hiA=2.28732e+06 targetA=1 nB=40 medB=3.7763e+06 loB=3.51089e+06 hiB=3.83358e+06 targetB=0 nD=40 medD=-1.48842e+06 loD=-1.54609e+06 hiD=-1.22332e+06 targetD=0 np
+cell=probe/f-num=9,f-den=10 attempts=20 warmups=10 discards=0 nA=10 medA=2.73225e+06 loA=2.73139e+06 hiA=2.73386e+06 targetA=1 nB=10 medB=3.28149e+06 loB=3.28075e+06 hiB=3.28292e+06 targetB=1 nD=10 medD=-548910 loD=-551149 hiD=-548375 targetD=1 npos=0 nneg=10 
+FSWEEP DONE 2026-10-05T16:31:48+02:00

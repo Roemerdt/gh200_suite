@@ -1,0 +1,8 @@
+/proc/sys/vm/zone_reclaim_mode:0
+/proc/sys/vm/overcommit_memory:2
+/proc/sys/vm/compaction_proactiveness:20
+/proc/sys/vm/watermark_scale_factor:10
+/proc/sys/kernel/numa_balancing:1
+/proc/sys/kernel/perf_event_paranoid:0
+/proc/sys/kernel/kptr_restrict:0
+/proc/sys/kernel/randomize_va_space:2

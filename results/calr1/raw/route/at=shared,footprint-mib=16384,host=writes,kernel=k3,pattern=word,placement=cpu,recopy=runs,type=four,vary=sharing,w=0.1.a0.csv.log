@@ -1,0 +1,9 @@
+capacity: the cell needs 33536 MiB of GPU-node memory (512 MB-page buffers counted twice), 96723 MiB are free, 2048 MiB must stay free
+calib variant=A route=direct level=home one repetition=432.743 ms -> passes=10
+state check variant=0 writes:w=0.100000:word:control: 327.4 ns per sampled load (recorded)
+calib variant=B route=copy level=home one repetition=0.547 ms -> passes=37
+state check variant=1 writes:w=0.100000:word:control: 316.8 ns per sampled load (recorded)
+calib variant=C route=direct level=shared one repetition=432.861 ms -> passes=10
+state check variant=2 writes:w=0.100000:word:shared: 317.0 ns per sampled load (recorded)
+calib variant=D route=copy level=shared one repetition=11947.214 ms -> passes=10
+state check variant=3 writes:w=0.100000:word:shared: 275.5 ns per sampled load (recorded)

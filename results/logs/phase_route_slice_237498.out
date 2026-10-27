@@ -1,0 +1,12 @@
+job=237498 attempt=0 node=j21n14 campaign=shake2 start=2026-10-05T16:30:01+02:00
+PLACEMENT GATE: node0=355.3 GB/s node1=3725 GB/s factor=2
+prologue done 2026-10-05T16:30:33+02:00
+[2026-10-05 16:30:33] phase=route_slice cells=2 jobid=237498 attempt=0 campaign=shake2 warmup=10
+[2026-10-05 16:30:33] RUN route/f-den=1,f-num=1,footprint-mib=1024,kernel=k1,placement=cpu  (slice: K1 route cell, f = 1/1)
+[2026-10-05 16:30:33]     bin/route run --kernel k1 --placement cpu --footprint-mib 1024 --f-num 1 --f-den 1 --out results/shake2/raw/route/f-den=1,f-num=1,footprint-mib=1024,kernel=k1,placement=cpu.a0.csv --cell route/f-den=1,f-num=1,footprint-mib=1024,kernel=k1,placement=cpu --campaign shake2 --jobid 237498 --attempt 0 --warmup 10 --n0 10 --step 10 --cap 100 --target-ms 20.0 --events nvidia_nvlink_c2c0_pmu_0/rd_req_loc/,nvidia_nvlink_c2c0_pmu_0/rd_bytes_loc/,nvidia_nvlink_c2c0_pmu_0/wr_req_loc/,nvidia_nvlink_c2c0_pmu_0/wr_bytes_loc/,smmuv3_pmcg_16002/pcie_ats_trans_rq/ --first B --seed 20261007
+[2026-10-05 16:30:39] OK  route/f-den=1,f-num=1,footprint-mib=1024,kernel=k1,placement=cpu in 6 s (est 60)
+[2026-10-05 16:30:39] RUN route/f-den=2,f-num=1,footprint-mib=1024,kernel=k1,placement=cpu  (slice: K1 route cell, f = 1/2)
+[2026-10-05 16:30:39]     bin/route run --kernel k1 --placement cpu --footprint-mib 1024 --f-num 1 --f-den 2 --out results/shake2/raw/route/f-den=2,f-num=1,footprint-mib=1024,kernel=k1,placement=cpu.a0.csv --cell route/f-den=2,f-num=1,footprint-mib=1024,kernel=k1,placement=cpu --campaign shake2 --jobid 237498 --attempt 0 --warmup 10 --n0 10 --step 10 --cap 100 --target-ms 20.0 --events nvidia_nvlink_c2c0_pmu_0/rd_req_loc/,nvidia_nvlink_c2c0_pmu_0/rd_bytes_loc/,nvidia_nvlink_c2c0_pmu_0/wr_req_loc/,nvidia_nvlink_c2c0_pmu_0/wr_bytes_loc/,smmuv3_pmcg_16002/pcie_ats_trans_rq/ --first A --seed 20261007
+[2026-10-05 16:30:42] OK  route/f-den=2,f-num=1,footprint-mib=1024,kernel=k1,placement=cpu in 3 s (est 60)
+[2026-10-05 16:30:42] phase route_slice finished: done=2 skipped=0 failed=0
+phase job done 2026-10-05T16:30:42+02:00

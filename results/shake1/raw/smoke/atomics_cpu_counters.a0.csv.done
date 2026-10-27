@@ -1,0 +1,1 @@
+cell=smoke/atomics_cpu_counters attempts=22 warmups=2 discards=0 nA=20 medA=2.14771 loA=2.14764 hiA=2.14776 targetA=1 nB=20 medB=2.14787 loB=2.14768 hiB=2.14801 targetB=1 nD=20 medD=-0.00018624 loD=-0.000305434 hiD=0.00017879 targetD=0 npos=6 nneg=13 sign_p=0.167 cap_hit=1 stopped_on_target=0 paired=1
